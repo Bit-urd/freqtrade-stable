@@ -16,7 +16,19 @@
 - 1–2 GB swap
 - On-Demand 实例，不使用 Spot
 
-0.5 GB RAM 可以勉强运行轻量 dry-run，但不适合十年无人值守运行。不要在这台机器上同时运行回测、hyperopt、FreqAI 或 Jupyter。长期运行更建议 2 GB 以上内存。
+如果服务器只运行真实交易，不运行回测、hyperopt、FreqAI 或 Jupyter，0.5 GB RAM **可以尝试**运行这个日线策略，但它几乎没有内存余量。2 GB 以上不是硬性要求，而是为了给 Docker、操作系统、Python/CCXT、行情 DataFrame 和重连时的瞬时内存峰值留下余量。
+
+0.5 GB 机器的建议限制：
+
+- 只运行一个 Freqtrade 容器
+- 使用 `1d`，不要增加 4h、1h 等周期
+- 交易对控制在 5–11 个
+- 关闭 API/UI、FreqAI、Jupyter 和回测任务
+- 保留 1–2 GB swap
+- 不要在交易容器运行期间下载大量历史数据
+- 持续监控 `free -h`、`docker stats` 和 OOM 日志
+
+如果只运行当前 11 个交易对的日线实盘，0.5 GB 可能长期稳定；但不能在没有监控的情况下承诺十年不发生 OOM。出现 OOM、容器频繁重启或 swap 持续增长时，应升级到 2 GB 以上，而不是继续压缩配置。
 
 ## 2. AWS 和系统安全
 
