@@ -19,9 +19,16 @@ services:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
     restart: unless-stopped
+    init: true
+    stop_grace_period: 30s
     container_name: freqtrade
     volumes:
       - "./user_data:/freqtrade/user_data"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
     # Expose api on port 8080 (localhost only)
     # Please read the https://www.freqtrade.io/en/stable/rest-api/ documentation
     # for more information.
@@ -31,6 +38,6 @@ services:
     command: >
       trade
       --logfile /freqtrade/user_data/logs/freqtrade.log
-      --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
+      --db-url sqlite:////freqtrade/user_data/tradesv3.dryrun.sqlite
       --config /freqtrade/user_data/config.json
-      --strategy SampleStrategy
+      --strategy Ma200BtcRegimeWeeklySizedPortfolioStrategy
