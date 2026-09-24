@@ -499,3 +499,139 @@ df -h
 - [Freqtrade Updating](https://www.freqtrade.io/en/stable/updating/)
 - [AWS EBS Snapshots](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html)
 - [AWS EBS CloudWatch Metrics](https://docs.aws.amazon.com/ebs/latest/userguide/using_cloudwatch_ebs.html)
+
+## 18. 快速测试版：实盘一周后与回测对账
+
+`Ma200BtcRegimeFullCycleFastTestStrategy` 继承正式版 `Ma200BtcRegimeFullCyclePortfolioStrategy`，只把周期改成 15m / 1h、熊市分档缩小到 -0.4%～-2.0%，让开仓、加减仓、交接、退出这些代码路径一周内都能走到。它**不是用来赚钱的**，只用来验证实盘成交和回测能不能逐笔对上；手续费会慢慢磨掉余额，请用小额资金。
+
+两个策略文件都要在 `user_data/strategies/` 里，快速测试版会 import 正式版：
+
+```bash
+ls user_data/strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py \
+   user_data/strategies/ma200_btc_regime_full_cycle_fast_test_strategy.py
+```
+
+### 18.1 代理
+
+AWS 等海外服务器能直连 Binance 时，**所有代理配置都要删掉**，包括：
+
+```json
+"httpsProxy": "...",
+"proxies": {"http": "...", "https": "..."},
+"aiohttp_proxy": "..."
+```
+
+先在服务器上确认能直连：
+
+```bash
+curl -m 10 https://api.binance.com/api/v3/ping
+```
+
+返回 `{}` 就说明不需要代理。返回 `451` 或提示 restricted location，说明 Binance 不对这个地区的 IP 提供服务（例如美国区域），这时应该换区域（东京、新加坡等），不要再绕代理。
+
+### 18.2 配置
+
+```bash
+cp config_examples/config_fast_test_live.example.json user_data/config_fast_test_live.json
+cp config_examples/config_fast_test_backtest.example.json user_data/config_fast_test_backtest.json
+chmod 600 user_data/config_fast_test_live.json
+nano user_data/config_fast_test_live.json      # 填 key / secret
+```
+
+| 文件 | 作用 |
+|---|---|
+| `config_fast_test_live.json` | 实盘：`dry_run: false`，15m，BTC/ETH/SOL，`max_open_trades: 3` |
+| `config_fast_test_backtest.json` | 回测：用 `add_config_files` 继承实盘配置，只覆盖 `dry_run`、`dry_run_wallet`、`fee` |
+
+回测继承实盘配置，币对、槽位数、周期、下单方式自动一致。**需要手动对齐的只有三项**（在回测配置里改）：
+
+1. `dry_run_wallet`：实盘启动时账户里**实际可用的 USDT**。仓位按"账户市值 / 3"计算，初始资金不同，每一笔的金额都会不同。
+2. `fee`：实盘的实际费率。如果开了 BNB 抵扣手续费，实盘成交数量不扣手续费，回测会扣，数量会有细微差别。测试期间最好关掉 BNB 抵扣。
+3. 时间范围：见 18.4。
+
+测试账户里不要有别的机器人或手动交易动用同一份 USDT，否则实盘的仓位计算会和回测不一样。
+
+### 18.3 启动实盘
+
+在 `docker-compose.yml` 里加一个独立服务，不要和 dry-run 共用数据库：
+
+```yaml
+  freqtrade-fast-test:
+    image: freqtradeorg/freqtrade:stable
+    container_name: freqtrade-fast-test
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 30s
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: >
+      trade
+      --config /freqtrade/user_data/config_fast_test_live.json
+      --datadir /freqtrade/user_data/data
+      --db-url sqlite:////freqtrade/user_data/tradesv3_fast_test.sqlite
+      --logfile /freqtrade/user_data/logs/fast_test.log
+```
+
+把 `initial_state` 改成 `running` 后启动，并**记下启动时间（UTC）**：
+
+```bash
+docker compose up -d freqtrade-fast-test
+date -u
+docker compose logs -f freqtrade-fast-test
+```
+
+0.5 GB 内存的机器同时跑两个容器会很紧张，建议测试期间先停掉 dry-run，或者升级内存。
+
+### 18.4 一周后回测
+
+```bash
+# 1. 实盘起止时间（UTC，换成 Unix 秒）。起点向下取整到 15 分钟整点。
+#    启动时间也可以在 user_data/logs/fast_test.log 里找 "Changing state to: RUNNING"。
+START=$(date -u -d "2026-09-25 12:00" +%s)
+END=$(date -u -d "2026-10-02 12:00" +%s)
+
+# 2. 下载 15m 和 1h 数据，起点往前多下 30 天（MA200 = 200 根 15m，1h EMA50 要预热）
+docker compose run --rm freqtrade \
+  download-data \
+  --config /freqtrade/user_data/config_fast_test_backtest.json \
+  --datadir /freqtrade/user_data/data \
+  --timeframes 15m 1h \
+  --timerange "$(date -u -d "@$((START - 30*86400))" +%Y%m%d)-"
+
+# 3. 回测，时间范围和实盘一致
+docker compose run --rm freqtrade \
+  backtesting \
+  --config /freqtrade/user_data/config_fast_test_backtest.json \
+  --datadir /freqtrade/user_data/data \
+  --timerange "${START}-${END}" \
+  --export trades \
+  --backtest-filename /freqtrade/user_data/backtest_results/fast_test_vs_live.json
+
+# 4. 导出实盘交易
+docker compose run --rm freqtrade \
+  show-trades \
+  --db-url sqlite:////freqtrade/user_data/tradesv3_fast_test.sqlite \
+  --print-json > user_data/backtest_results/fast_test_live_trades.json
+```
+
+`--timerange` 支持 10 位 Unix 秒（`起点-终点`），精度可以到 15 分钟那根 K 线。不要在低内存机器上一边跑实盘一边跑回测；必要时把数据库拷回本地再回测。
+
+### 18.5 怎么判断一致
+
+应该**完全一致**：
+
+- 每笔交易的币、开仓标签（`bull_*` / `bear_accumulate`）、开仓 K 线、平仓 K 线、退出原因
+- 加减仓的次数和发生在哪根 K 线（满槽位 ↔ 半槽位、熊市分档补仓）
+
+有**小偏差是正常的**：
+
+- 成交价：回测按 K 线开盘价成交，实盘市价单在开盘后几秒成交，还有滑点，所以数量和金额会差千分之几，并且会逐笔累积到后面的仓位上。
+- 第一笔：实盘启动那一刻就会按上一根收盘的信号开仓，回测要到起点那根 K 线开盘才开。
+- 结束时：回测会把没平的仓位按 `force_exit` 平掉，实盘的仓位还开着，这部分只对比开仓。
+
+**需要查原因的情况**：某笔交易只出现在一边；同一笔差了一根以上 K 线；加减仓方向不同；仓位大小差超过 1% 左右。先看 `fast_test.log` 里当时有没有下单失败、网络断开或容器重启。
