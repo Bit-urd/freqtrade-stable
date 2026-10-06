@@ -18,7 +18,9 @@
     "secret": "",
     "pair_whitelist": ["BTC/USDT", "ETH/USDT", "SOL/USDT"],
     "pair_blacklist": [],
-    "ccxt_config": {"options": {"defaultType": "spot"}}
+    "ccxt_config": {
+      "httpsProxy": "http://localhost:5326",
+      "options": {"defaultType": "spot"}}
   },
   "pairlists": [{"method": "StaticPairList"}],
   "order_types": {

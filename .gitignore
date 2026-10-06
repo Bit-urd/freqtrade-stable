@@ -6,6 +6,9 @@ config*.json
 logfile.txt
 user_data/*
 !user_data/strategy/sample_strategy.py
+!user_data/strategies/
+user_data/strategies/*
+!user_data/strategies/ma200_btc_regime_full_cycle_core_hold_strategy.py
 !user_data/notebooks
 !user_data/models
 !user_data/freqaimodels
