@@ -1,0 +1,13 @@
+{
+  "training_window": "bull_2023_2024",
+  "target_max_hold_gap_pp": 200,
+  "training_drawdown_below_hold": true,
+  "ranking": "return_pct - 2 * wallet_drawdown_pct among target-qualified candidates; otherwise highest same score, report missed target",
+  "validation_windows": [
+    "bear_2022",
+    "bull_to_bear_2021",
+    "since_last_september"
+  ],
+  "promotion_requires": "lower drawdown than Growth in pure bear and bull-to-bear; disclose any recent-window return regression; no permanent position floor",
+  "note": "These historical windows were previously examined. Validation is cross-regime robustness, not pristine unseen out-of-sample."
+}

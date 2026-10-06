@@ -1,0 +1,200 @@
+[
+  {
+    "file": "AAVE_USDT-1d.feather",
+    "rows": 2182,
+    "first": "2020-10-15 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "AAVE_USDT-1w.feather",
+    "rows": 312,
+    "first": "2020-10-12 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "ADA_USDT-1d.feather",
+    "rows": 3094,
+    "first": "2018-04-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "ADA_USDT-1w.feather",
+    "rows": 442,
+    "first": "2018-04-16 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "BNB_USDT-1d.feather",
+    "rows": 3256,
+    "first": "2017-11-06 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "BNB_USDT-1w.feather",
+    "rows": 465,
+    "first": "2017-11-06 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "BTC_USDT-1d.feather",
+    "rows": 3337,
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "BTC_USDT-1w.feather",
+    "rows": 477,
+    "first": "2017-08-14 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "ETH_USDT-1d.feather",
+    "rows": 3337,
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "ETH_USDT-1w.feather",
+    "rows": 477,
+    "first": "2017-08-14 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "PEPE_USDT-1d.feather",
+    "rows": 1250,
+    "first": "2023-05-05 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "PEPE_USDT-1w.feather",
+    "rows": 179,
+    "first": "2023-05-01 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "PUMP_USDT-1d.feather",
+    "rows": 390,
+    "first": "2025-09-11 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "PUMP_USDT-1w.feather",
+    "rows": 56,
+    "first": "2025-09-08 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "SOL_USDT-1d.feather",
+    "rows": 2247,
+    "first": "2020-08-11 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "SOL_USDT-1w.feather",
+    "rows": 321,
+    "first": "2020-08-10 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "SUI_USDT-1d.feather",
+    "rows": 1252,
+    "first": "2023-05-03 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "SUI_USDT-1w.feather",
+    "rows": 179,
+    "first": "2023-05-01 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "UNI_USDT-1d.feather",
+    "rows": 2210,
+    "first": "2020-09-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "UNI_USDT-1w.feather",
+    "rows": 316,
+    "first": "2020-09-14 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "XRP_USDT-1d.feather",
+    "rows": 3077,
+    "first": "2018-05-04 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  },
+  {
+    "file": "XRP_USDT-1w.feather",
+    "rows": 440,
+    "first": "2018-04-30 00:00:00+00:00",
+    "last": "2026-09-28 00:00:00+00:00",
+    "duplicates": 0,
+    "gaps": [],
+    "nonpositive_close": 0
+  }
+]

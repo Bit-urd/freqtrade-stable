@@ -1,0 +1,367 @@
+{
+  "retained": [
+    "Original Portfolio baseline",
+    "Old CoreHold baseline",
+    "Growth current default",
+    "Recovery long-window aggressive alternative",
+    "BtcTrendFullCycleDefensiveStrategy defensive benchmark",
+    "BtcTrendRecoveryCooldownStrategy high-bull-return research",
+    "BtcTrendPhasedStrategy selected ongoing optimization candidate"
+  ],
+  "removed_active_class_count": 60,
+  "inventory": [
+    {
+      "class": "CoreHold_alignment_25_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_25_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_25_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_50_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_50_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_50_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_75_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_75_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_alignment_75_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_25_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_25_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_25_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_50_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_50_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_50_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_75_1d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_75_2d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHold_early_75_3d",
+      "source": "sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "PortfolioHandoverTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreHandoverTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "Core75HandoverTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "Core75HandoverTopUpEarly",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreNoWeeklyTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "Core75NoWeeklyTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreRestoreTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreUnifiedRestoreTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "CoreUnified75RestoreTopUp",
+      "source": "improvement_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure200",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure150",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_duplicate_alias_public_profile_retained",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure100",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure200Buffer",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure200Five",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure200Recovery",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure150Recovery",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendExposure100Recovery",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve200",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve100",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150Early50",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150Early20",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeveEma50",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeveEma20",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150Early10",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_duplicate_alias_public_profile_retained",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve200Early10",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150Early10Three",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendSleeve150Early10Stop",
+      "source": "trend_exposure_sweep.py",
+      "status": "removed_active_trial_or_duplicate",
+      "source_backup": "original results/*.zip contains exported Python sources"
+    },
+    {
+      "class": "TrendMomentum30_50",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendMomentum30_60",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendMomentum30_70",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendMomentum60_60",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendMomentum60_70",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendMomentum30_60Guard",
+      "source": "trend_momentum_sweep.py",
+      "status": "removed_after_bull_return_or_risk_failure",
+      "result": "trend_momentum/summary.csv"
+    },
+    {
+      "class": "TrendCooldownProtected25",
+      "status": "removed_failed_bull_goal",
+      "source": "trend_protected_sweep.py"
+    },
+    {
+      "class": "TrendCooldownProtected35",
+      "status": "removed_failed_bull_goal",
+      "source": "trend_protected_sweep.py"
+    },
+    {
+      "class": "TrendPhased50Protected35",
+      "status": "removed_failed_bull_goal",
+      "source": "trend_phased_sweep.py"
+    },
+    {
+      "class": "TrendRecoveryCooldown14",
+      "source": "trend_cooldown_sweep.py",
+      "status": "removed_duplicate_or_failed_candidate_public_profile_retained_when_useful"
+    },
+    {
+      "class": "TrendRecoveryCooldown30",
+      "source": "trend_cooldown_sweep.py",
+      "status": "removed_duplicate_or_failed_candidate_public_profile_retained_when_useful"
+    },
+    {
+      "class": "TrendRecoveryCooldown60",
+      "source": "trend_cooldown_sweep.py",
+      "status": "removed_duplicate_or_failed_candidate_public_profile_retained_when_useful"
+    },
+    {
+      "class": "TrendPhased75",
+      "source": "trend_phased_sweep.py",
+      "status": "removed_duplicate_or_failed_candidate_public_profile_retained_when_useful"
+    },
+    {
+      "class": "TrendPhased50",
+      "source": "trend_phased_sweep.py",
+      "status": "removed_bull_target_miss_no_material_drawdown_advantage"
+    }
+  ],
+  "implementation_base_not_standalone_recommendation": "BtcTrendFullCycleStrategy remains as the shared implementation parent for cooldown and phased profiles."
+}

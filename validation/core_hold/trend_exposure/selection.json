@@ -1,0 +1,11 @@
+{
+  "selected": "TrendSleeve150Early10",
+  "target_met_training": false,
+  "training_return_pct": 565.7260909227905,
+  "training_gap_pp": 247.87359602108438,
+  "training_drawdown_pct": 30.804399818569916,
+  "ranking": "优先落后持有≤200个百分点且回撤低于持有；未达标时按收益－2×回撤排序，平分保留较简单规则。",
+  "candidate_count": 19,
+  "frozen_before_validation": true,
+  "public_class": "BtcTrendFullCycleStrategy"
+}

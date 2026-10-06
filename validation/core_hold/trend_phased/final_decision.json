@@ -1,0 +1,38 @@
+{
+  "selected_public_profile": "BtcTrendPhasedStrategy",
+  "training_goal_met": true,
+  "training_gap_pp": 208.95215374364432,
+  "risk_checks": {
+    "bear_2022": {
+      "actual_drawdown_pct": 41.150405179374005,
+      "ceiling_pct": 35,
+      "passed": false
+    },
+    "bull_to_bear_2021": {
+      "actual_drawdown_pct": 57.26257660954198,
+      "ceiling_pct": 50,
+      "passed": false
+    },
+    "requested_long": {
+      "actual_drawdown_pct": 54.17477149173708,
+      "ceiling_pct": 45.53,
+      "passed": false
+    },
+    "since_last_september": {
+      "actual_drawdown_pct": 40.266909720068746,
+      "ceiling_pct": 35,
+      "passed": false
+    }
+  },
+  "promoted_to_growth_default": false,
+  "reason": "Promoted as the official BTC/SOL/ETH profile by explicit user decision. Historical cross-regime risk checks remain failed; Growth remains an unchanged legacy comparison.",
+  "tests_status": "34 项全部通过（11 项原 CoreHold / Growth 回归 + 23 项趋势、冷却与分阶段资金检查）",
+  "cleanup_manifest": "../trial_cleanup.json",
+  "checks_passed": 34,
+  "official_version": true,
+  "official_strategy": "BtcTrendPhasedStrategy",
+  "promotion_date": "2026-10-06",
+  "promotion_basis": "User explicitly approved promotion after reviewing returns and drawdowns against equal-weight holding.",
+  "official_config": "user_data/config_trend_btc_sol_eth.json",
+  "live_service_changed": false
+}

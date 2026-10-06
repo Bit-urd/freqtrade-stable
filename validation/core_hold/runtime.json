@@ -1,0 +1,11 @@
+{
+  "image_digest": "freqtradeorg/freqtrade@sha256:7031bca43ed7668ebf421725dd5016acade6ef88b0771db3e08c96e6d19a42db",
+  "freqtrade": "2026.8",
+  "ccxt": "4.5.76",
+  "python": "3.14",
+  "pandas": "3.0.5",
+  "fee_each_way": 0.001,
+  "initial_capital_usdt": 1000,
+  "data_source": "Binance spot OHLCV via Freqtrade/CCXT",
+  "latest_complete_daily_candle": "2026-10-05"
+}

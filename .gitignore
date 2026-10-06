@@ -125,3 +125,6 @@ target/
 !config_examples/config_freqai.example.json
 
 docker-compose-*.yml
+
+# Official BTC/SOL/ETH phased strategy configuration (no credentials)
+!user_data/config_trend_btc_sol_eth.json

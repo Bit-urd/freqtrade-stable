@@ -1,0 +1,19 @@
+{
+  "training_window": "bull_2023_2024",
+  "max_hold_gap_pp": 250,
+  "max_training_drawdown_pct": 34.56,
+  "rank": "return_pct - 2 * wallet_drawdown_pct among target-qualified candidates; otherwise same score and disclose target miss",
+  "validation_windows": [
+    "bear_2022",
+    "bull_to_bear_2021",
+    "since_last_september",
+    "requested_long"
+  ],
+  "risk_checks": {
+    "bear_max_drawdown_pct": 35,
+    "transition_max_drawdown_pct": 50,
+    "long_max_drawdown_pct": 45.53,
+    "recent_max_drawdown_pct": 35
+  },
+  "important": "Adaptive search after previous validation; no claim of pristine out-of-sample performance."
+}

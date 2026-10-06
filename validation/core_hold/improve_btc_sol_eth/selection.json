@@ -1,0 +1,21 @@
+{
+  "highest_return": "CoreUnifiedRestoreTopUp",
+  "return_minus_2dd": "CoreUnifiedRestoreTopUp",
+  "recommended_profile": "Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy",
+  "default_settings": {
+    "HANDOVER_TOP_UP": true,
+    "BULL_WEEKLY_SIZING": false,
+    "CORE_RETAIN_FRACTION": 0.5,
+    "BTC_BEAR_CONFIRM_DAYS": 2,
+    "CORE_RESTORE_ON_RECOVERY": false,
+    "HANDOVER_CORE_HOLD": false
+  },
+  "public_profiles": {
+    "CoreNoWeeklyTopUp": "Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy",
+    "CoreUnifiedRestoreTopUp": "Ma200BtcRegimeFullCycleCoreHoldRecoveryStrategy"
+  },
+  "validation_candidates": [
+    "CoreNoWeeklyTopUp",
+    "CoreUnifiedRestoreTopUp"
+  ]
+}

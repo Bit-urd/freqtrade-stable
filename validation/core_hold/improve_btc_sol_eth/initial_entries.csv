@@ -1,0 +1,7 @@
+strategy,pair,first_entry,first_price,first_notional,tag
+Ma200BtcRegimeFullCyclePortfolioStrategy,BTC/USDT,2022-11-22 00:00:00+00:00,15781.29,133.1940876,bear_accumulate
+Ma200BtcRegimeFullCyclePortfolioStrategy,SOL/USDT,2022-11-22 00:00:00+00:00,11.83,133.3241,bear_accumulate
+Ma200BtcRegimeFullCyclePortfolioStrategy,ETH/USDT,2022-11-22 00:00:00+00:00,1107.34,133.323736,bear_accumulate
+Ma200BtcRegimeFullCycleCoreHoldStrategy,BTC/USDT,2022-11-22 00:00:00+00:00,15781.29,133.1940876,bear_accumulate
+Ma200BtcRegimeFullCycleCoreHoldStrategy,SOL/USDT,2022-11-22 00:00:00+00:00,11.83,133.3241,bear_accumulate
+Ma200BtcRegimeFullCycleCoreHoldStrategy,ETH/USDT,2022-11-22 00:00:00+00:00,1107.34,133.323736,bear_accumulate

@@ -1,0 +1,10 @@
+{
+  "selected": "TrendPhased75",
+  "public_class": "BtcTrendPhasedStrategy",
+  "training_goal_met": true,
+  "training_return_pct": 604.6475332002306,
+  "training_gap_pp": 208.95215374364432,
+  "training_drawdown_pct": 30.344842148765938,
+  "parameters": "14-day cooldown; 75% exposure below MA150; full exposure above; exit after MA150 and EMA10 both weak for two days; fill-based adjustments",
+  "frozen_before_validation": true
+}

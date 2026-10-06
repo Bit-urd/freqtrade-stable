@@ -1,3 +1,16 @@
+## BTC / SOL / ETH 正式版本（2026-10-06）
+
+当前正式配置为 `user_data/config_trend_btc_sol_eth.json`，策略类为
+`BtcTrendPhasedStrategy`，实现位于 `ma200_btc_regime_full_cycle_core_hold_strategy.py`。
+配置仅包含 BTC/USDT、SOL/USDT、ETH/USDT，三个槽位，默认模拟交易。
+
+BTC MA150 下方早期恢复投入 75%，站上 MA150 后补足；趋势同时失效连续两天退出，
+长均线下退出后冷却 14 天。参数和交易算法沿用已回测版本。
+五区间中四个区间回撤低于持有，2023–2024 上涨收益差距 208.95 个百分点；
+长区间回撤 54.17%，略高于持有的 52.50%，历史风险阈值仍未全部通过。
+详见 [正式版本回测报告](../../validation/core_hold/trend_phased/REPORT.md)。
+旧 Growth / Recovery 和其他策略保留作对照。本次提升正式版本不切换已有交易服务。
+
 # 策略状态与交易规则
 
 `strategies/` 只放经过验证、目前值得用的策略，以及一个标明"验证未通过、仅研究用"的杠杆版本。四个策略都基于同一套 MA200+EMA 日线规则 + 周线仓位。

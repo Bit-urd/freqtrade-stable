@@ -1,0 +1,27 @@
+[
+  {
+    "label": "requested_long",
+    "title": "此前长上涨区间",
+    "timerange": "20221121-20251007"
+  },
+  {
+    "label": "since_last_september",
+    "title": "去年9月至今",
+    "timerange": "20250901-20261006"
+  },
+  {
+    "label": "bear_2022",
+    "title": "2022年下跌熊市",
+    "timerange": "20220101-20221121"
+  },
+  {
+    "label": "bull_to_bear_2021",
+    "title": "2021年牛市转2022年熊市",
+    "timerange": "20210701-20221121"
+  },
+  {
+    "label": "bull_2023_2024",
+    "title": "2023–2024年上涨周期",
+    "timerange": "20230101-20241231"
+  }
+]

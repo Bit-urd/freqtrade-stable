@@ -1,0 +1,10 @@
+{
+  "selected": "TrendRecoveryCooldown14",
+  "public_class": "BtcTrendRecoveryCooldownStrategy",
+  "training_goal_met": true,
+  "training_return_pct": 695.4901947653404,
+  "training_gap_pp": 118.10949217853442,
+  "training_drawdown_pct": 30.600199932914364,
+  "frozen_before_validation": true,
+  "parameters": "MA150 / EMA10; 14 calendar-day sub-MA150 reentry cooldown; full exits; per-coin capital"
+}

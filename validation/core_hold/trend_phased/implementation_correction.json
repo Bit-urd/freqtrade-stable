@@ -1,0 +1,7 @@
+{
+  "before_new_selection": true,
+  "correction": "Freeze initial capital; get_starting_balance includes open-trade partial realized P/L, so subtract it once before caching to avoid redistributing or double-counting per-coin profits. New exports supersede first-round phase metrics.",
+  "superseded_exports": [
+    "backtest-result-2026-10-06_12-32-53.zip"
+  ]
+}

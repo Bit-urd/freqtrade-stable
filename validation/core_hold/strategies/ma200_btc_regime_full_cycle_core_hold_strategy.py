@@ -1,9 +1,7 @@
 """Full-cycle core-hold strategy with configurable research settings.
 
-Defaults retain the original entry rules, 50% core and two-day BTC exit,
-with a full-slot bull handover and no weekly half-slot sizing. These growth
-settings were compared against the previous defaults on BTC/SOL/ETH.
-Core recovery and unified handover rules remain optional research settings.
+Defaults retain the original entry rules, 50% core and two-day BTC exit.
+Early entries and alternative parameters require out-of-sample validation.
 """
 
 from __future__ import annotations
@@ -49,7 +47,7 @@ class Ma200BtcRegimeFullCycleCoreHoldStrategy(IStrategy):
     # Optional growth experiments: restore trimmed exposure after coin recovery,
     # and let handed-over bear positions use the same core rules as bull entries.
     CORE_RESTORE_ON_RECOVERY = False
-    BULL_WEEKLY_SIZING = False
+    BULL_WEEKLY_SIZING = True
     HANDOVER_CORE_HOLD = False
     CORE_RESTORE_TAG = "bull_core_restore"
     HANDOVER_TOP_UP_TAG = "handover_top_up"
@@ -77,11 +75,11 @@ class Ma200BtcRegimeFullCycleCoreHoldStrategy(IStrategy):
     # True：交接给牛市部分之后，这个币的 EMA20 > EMA50 出现过一次之前，只在 BTC 转熊时卖，
     # 不看它自己的死叉。BTC 刚站回 MA200 时很多山寨币还没转强，不加这条会在交接第二天卖掉。
     HANDOVER_GRACE = False
-    # True：交接时把熊市仓位补到满槽位；后续周线调仓由 BULL_WEEKLY_SIZING 控制。
+    # True：交接时把熊市仓位补到满槽位（跟牛市部分新开仓一样大），之后按周线调仓。
     # 不补的话，熊市仓位（比如 60% 那档）一直占着这个币唯一的持仓位置，牛市部分没法再开满仓。
-    HANDOVER_TOP_UP = True
+    HANDOVER_TOP_UP = False
     HANDOVER_KEY = "handover_topped_up"
-    # True：牛市开仓直接满槽位；开启 BULL_WEEKLY_SIZING 时，周线曾转多之后转空才减半。
+    # True：牛市开仓直接满槽位；持仓期间周线出现过一次多头之后，周线转空才减到半槽位。
     BULL_ENTRY_FULL = True
     WEEKLY_SEEN_KEY = "weekly_bull_seen"
 
@@ -605,8 +603,7 @@ class BtcTrendPhasedStrategy(BtcTrendRecoveryCooldownStrategy):
     """75% trend-recovery exposure below MA150, full exposure above.
 
     Reduce risk when the long trend fails; restore it after confirmation.
-    Official BTC/SOL/ETH profile, approved 2026-10-06. No permanent core.
-    Validation and known drawdowns: validation/core_hold/trend_phased/REPORT.md.
+    No permanent core. Research results: validation/core_hold/trend_phased/REPORT.md.
     """
     EARLY_EXPOSURE = 0.75
     PHASE_KEY = 'trend_filled_exposure'
