@@ -1,0 +1,85 @@
+{
+  "final_engine_runs": 10,
+  "windows_per_candidate": 5,
+  "rule_checks_passed": 13,
+  "sources_match": true,
+  "hold_references_match": true,
+  "max_abs_fill_ledger_error": 3.370860213181004e-08,
+  "max_abs_prior_closed_equity_error": 3.1897570806904696e-08,
+  "intermediate_results_excluded": true,
+  "reported_drawdown_uses_original_account_peak": true,
+  "official_portfolio_changed": false,
+  "live_service_changed": false,
+  "target_assessment": [
+    {
+      "window": "ref_bull_2023_2024",
+      "strategy": "BtcCoinGuardEquityRiskStrategy",
+      "return_fraction_of_hold": 0.6078339017039286,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": false
+    },
+    {
+      "window": "ref_bull_2023_2024",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "return_fraction_of_hold": 0.6487079380553517,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": false
+    },
+    {
+      "window": "ref_bull_to_bear_2021",
+      "strategy": "BtcCoinGuardEquityRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_bull_to_bear_2021",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_bear_2022",
+      "strategy": "BtcCoinGuardEquityRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_bear_2022",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_since_last_september",
+      "strategy": "BtcCoinGuardEquityRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_since_last_september",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": null
+    },
+    {
+      "window": "ref_requested_long",
+      "strategy": "BtcCoinGuardEquityRiskStrategy",
+      "return_fraction_of_hold": 0.4682521239465136,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": false
+    },
+    {
+      "window": "ref_requested_long",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "return_fraction_of_hold": 0.5682780889881389,
+      "drawdown_better_than_hold": true,
+      "strict_joint_target": false
+    }
+  ]
+}

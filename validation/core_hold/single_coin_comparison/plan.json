@@ -1,0 +1,25 @@
+{
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "BNB/USDT",
+    "SOL/USDT",
+    "XRP/USDT",
+    "ADA/USDT",
+    "DOGE/USDT",
+    "LINK/USDT",
+    "AVAX/USDT",
+    "AAVE/USDT"
+  ],
+  "strategies": [
+    "BtcTrendPhasedStrategy",
+    "BtcTrendFastExitStrategy",
+    "Ma200BtcRegimeFullCyclePortfolioStrategy"
+  ],
+  "timerange": "20221121-20251007",
+  "initial_capital_per_group": 1000,
+  "max_open_trades": 1,
+  "fee_per_side": 0.001,
+  "btc_signal_not_extra_position": true,
+  "fixed_parameters": true
+}

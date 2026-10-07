@@ -1,0 +1,536 @@
+[
+  {
+    "label": "ref_bull_2023_2024",
+    "cohort": "reference",
+    "timerange": "20230101-20241231",
+    "reference_label": "bull_2023_2024"
+  },
+  {
+    "label": "ref_bull_to_bear_2021",
+    "cohort": "reference",
+    "timerange": "20210701-20221121",
+    "reference_label": "bull_to_bear_2021"
+  },
+  {
+    "label": "ref_bear_2022",
+    "cohort": "reference",
+    "timerange": "20220101-20221121",
+    "reference_label": "bear_2022"
+  },
+  {
+    "label": "ref_since_last_september",
+    "cohort": "reference",
+    "timerange": "20250901-20261006",
+    "reference_label": "since_last_september"
+  },
+  {
+    "label": "ref_requested_long",
+    "cohort": "reference",
+    "timerange": "20221121-20251007",
+    "reference_label": "requested_long"
+  },
+  {
+    "label": "annual_202011",
+    "cohort": "rolling_12_month",
+    "start": "2020-11-01",
+    "end": "2021-10-31",
+    "timerange": "20201101-20211031"
+  },
+  {
+    "label": "annual_202012",
+    "cohort": "rolling_12_month",
+    "start": "2020-12-01",
+    "end": "2021-11-30",
+    "timerange": "20201201-20211130"
+  },
+  {
+    "label": "annual_202101",
+    "cohort": "rolling_12_month",
+    "start": "2021-01-01",
+    "end": "2021-12-31",
+    "timerange": "20210101-20211231"
+  },
+  {
+    "label": "annual_202102",
+    "cohort": "rolling_12_month",
+    "start": "2021-02-01",
+    "end": "2022-01-31",
+    "timerange": "20210201-20220131"
+  },
+  {
+    "label": "annual_202103",
+    "cohort": "rolling_12_month",
+    "start": "2021-03-01",
+    "end": "2022-02-28",
+    "timerange": "20210301-20220228"
+  },
+  {
+    "label": "annual_202104",
+    "cohort": "rolling_12_month",
+    "start": "2021-04-01",
+    "end": "2022-03-31",
+    "timerange": "20210401-20220331"
+  },
+  {
+    "label": "annual_202105",
+    "cohort": "rolling_12_month",
+    "start": "2021-05-01",
+    "end": "2022-04-30",
+    "timerange": "20210501-20220430"
+  },
+  {
+    "label": "annual_202106",
+    "cohort": "rolling_12_month",
+    "start": "2021-06-01",
+    "end": "2022-05-31",
+    "timerange": "20210601-20220531"
+  },
+  {
+    "label": "annual_202107",
+    "cohort": "rolling_12_month",
+    "start": "2021-07-01",
+    "end": "2022-06-30",
+    "timerange": "20210701-20220630"
+  },
+  {
+    "label": "annual_202108",
+    "cohort": "rolling_12_month",
+    "start": "2021-08-01",
+    "end": "2022-07-31",
+    "timerange": "20210801-20220731"
+  },
+  {
+    "label": "annual_202109",
+    "cohort": "rolling_12_month",
+    "start": "2021-09-01",
+    "end": "2022-08-31",
+    "timerange": "20210901-20220831"
+  },
+  {
+    "label": "annual_202110",
+    "cohort": "rolling_12_month",
+    "start": "2021-10-01",
+    "end": "2022-09-30",
+    "timerange": "20211001-20220930"
+  },
+  {
+    "label": "annual_202111",
+    "cohort": "rolling_12_month",
+    "start": "2021-11-01",
+    "end": "2022-10-31",
+    "timerange": "20211101-20221031"
+  },
+  {
+    "label": "annual_202112",
+    "cohort": "rolling_12_month",
+    "start": "2021-12-01",
+    "end": "2022-11-30",
+    "timerange": "20211201-20221130"
+  },
+  {
+    "label": "annual_202201",
+    "cohort": "rolling_12_month",
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231"
+  },
+  {
+    "label": "annual_202202",
+    "cohort": "rolling_12_month",
+    "start": "2022-02-01",
+    "end": "2023-01-31",
+    "timerange": "20220201-20230131"
+  },
+  {
+    "label": "annual_202203",
+    "cohort": "rolling_12_month",
+    "start": "2022-03-01",
+    "end": "2023-02-28",
+    "timerange": "20220301-20230228"
+  },
+  {
+    "label": "annual_202204",
+    "cohort": "rolling_12_month",
+    "start": "2022-04-01",
+    "end": "2023-03-31",
+    "timerange": "20220401-20230331"
+  },
+  {
+    "label": "annual_202205",
+    "cohort": "rolling_12_month",
+    "start": "2022-05-01",
+    "end": "2023-04-30",
+    "timerange": "20220501-20230430"
+  },
+  {
+    "label": "annual_202206",
+    "cohort": "rolling_12_month",
+    "start": "2022-06-01",
+    "end": "2023-05-31",
+    "timerange": "20220601-20230531"
+  },
+  {
+    "label": "annual_202207",
+    "cohort": "rolling_12_month",
+    "start": "2022-07-01",
+    "end": "2023-06-30",
+    "timerange": "20220701-20230630"
+  },
+  {
+    "label": "annual_202208",
+    "cohort": "rolling_12_month",
+    "start": "2022-08-01",
+    "end": "2023-07-31",
+    "timerange": "20220801-20230731"
+  },
+  {
+    "label": "annual_202209",
+    "cohort": "rolling_12_month",
+    "start": "2022-09-01",
+    "end": "2023-08-31",
+    "timerange": "20220901-20230831"
+  },
+  {
+    "label": "annual_202210",
+    "cohort": "rolling_12_month",
+    "start": "2022-10-01",
+    "end": "2023-09-30",
+    "timerange": "20221001-20230930"
+  },
+  {
+    "label": "annual_202211",
+    "cohort": "rolling_12_month",
+    "start": "2022-11-01",
+    "end": "2023-10-31",
+    "timerange": "20221101-20231031"
+  },
+  {
+    "label": "annual_202212",
+    "cohort": "rolling_12_month",
+    "start": "2022-12-01",
+    "end": "2023-11-30",
+    "timerange": "20221201-20231130"
+  },
+  {
+    "label": "annual_202301",
+    "cohort": "rolling_12_month",
+    "start": "2023-01-01",
+    "end": "2023-12-31",
+    "timerange": "20230101-20231231"
+  },
+  {
+    "label": "annual_202302",
+    "cohort": "rolling_12_month",
+    "start": "2023-02-01",
+    "end": "2024-01-31",
+    "timerange": "20230201-20240131"
+  },
+  {
+    "label": "annual_202303",
+    "cohort": "rolling_12_month",
+    "start": "2023-03-01",
+    "end": "2024-02-29",
+    "timerange": "20230301-20240229"
+  },
+  {
+    "label": "annual_202304",
+    "cohort": "rolling_12_month",
+    "start": "2023-04-01",
+    "end": "2024-03-31",
+    "timerange": "20230401-20240331"
+  },
+  {
+    "label": "annual_202305",
+    "cohort": "rolling_12_month",
+    "start": "2023-05-01",
+    "end": "2024-04-30",
+    "timerange": "20230501-20240430"
+  },
+  {
+    "label": "annual_202306",
+    "cohort": "rolling_12_month",
+    "start": "2023-06-01",
+    "end": "2024-05-31",
+    "timerange": "20230601-20240531"
+  },
+  {
+    "label": "annual_202307",
+    "cohort": "rolling_12_month",
+    "start": "2023-07-01",
+    "end": "2024-06-30",
+    "timerange": "20230701-20240630"
+  },
+  {
+    "label": "annual_202308",
+    "cohort": "rolling_12_month",
+    "start": "2023-08-01",
+    "end": "2024-07-31",
+    "timerange": "20230801-20240731"
+  },
+  {
+    "label": "annual_202309",
+    "cohort": "rolling_12_month",
+    "start": "2023-09-01",
+    "end": "2024-08-31",
+    "timerange": "20230901-20240831"
+  },
+  {
+    "label": "annual_202310",
+    "cohort": "rolling_12_month",
+    "start": "2023-10-01",
+    "end": "2024-09-30",
+    "timerange": "20231001-20240930"
+  },
+  {
+    "label": "annual_202311",
+    "cohort": "rolling_12_month",
+    "start": "2023-11-01",
+    "end": "2024-10-31",
+    "timerange": "20231101-20241031"
+  },
+  {
+    "label": "annual_202312",
+    "cohort": "rolling_12_month",
+    "start": "2023-12-01",
+    "end": "2024-11-30",
+    "timerange": "20231201-20241130"
+  },
+  {
+    "label": "annual_202401",
+    "cohort": "rolling_12_month",
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "timerange": "20240101-20241231"
+  },
+  {
+    "label": "annual_202402",
+    "cohort": "rolling_12_month",
+    "start": "2024-02-01",
+    "end": "2025-01-31",
+    "timerange": "20240201-20250131"
+  },
+  {
+    "label": "annual_202403",
+    "cohort": "rolling_12_month",
+    "start": "2024-03-01",
+    "end": "2025-02-28",
+    "timerange": "20240301-20250228"
+  },
+  {
+    "label": "annual_202404",
+    "cohort": "rolling_12_month",
+    "start": "2024-04-01",
+    "end": "2025-03-31",
+    "timerange": "20240401-20250331"
+  },
+  {
+    "label": "annual_202405",
+    "cohort": "rolling_12_month",
+    "start": "2024-05-01",
+    "end": "2025-04-30",
+    "timerange": "20240501-20250430"
+  },
+  {
+    "label": "annual_202406",
+    "cohort": "rolling_12_month",
+    "start": "2024-06-01",
+    "end": "2025-05-31",
+    "timerange": "20240601-20250531"
+  },
+  {
+    "label": "annual_202407",
+    "cohort": "rolling_12_month",
+    "start": "2024-07-01",
+    "end": "2025-06-30",
+    "timerange": "20240701-20250630"
+  },
+  {
+    "label": "annual_202408",
+    "cohort": "rolling_12_month",
+    "start": "2024-08-01",
+    "end": "2025-07-31",
+    "timerange": "20240801-20250731"
+  },
+  {
+    "label": "annual_202409",
+    "cohort": "rolling_12_month",
+    "start": "2024-09-01",
+    "end": "2025-08-31",
+    "timerange": "20240901-20250831"
+  },
+  {
+    "label": "annual_202410",
+    "cohort": "rolling_12_month",
+    "start": "2024-10-01",
+    "end": "2025-09-30",
+    "timerange": "20241001-20250930"
+  },
+  {
+    "label": "annual_202411",
+    "cohort": "rolling_12_month",
+    "start": "2024-11-01",
+    "end": "2025-10-31",
+    "timerange": "20241101-20251031"
+  },
+  {
+    "label": "annual_202412",
+    "cohort": "rolling_12_month",
+    "start": "2024-12-01",
+    "end": "2025-11-30",
+    "timerange": "20241201-20251130"
+  },
+  {
+    "label": "annual_202501",
+    "cohort": "rolling_12_month",
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231"
+  },
+  {
+    "label": "annual_202502",
+    "cohort": "rolling_12_month",
+    "start": "2025-02-01",
+    "end": "2026-01-31",
+    "timerange": "20250201-20260131"
+  },
+  {
+    "label": "annual_202503",
+    "cohort": "rolling_12_month",
+    "start": "2025-03-01",
+    "end": "2026-02-28",
+    "timerange": "20250301-20260228"
+  },
+  {
+    "label": "annual_202504",
+    "cohort": "rolling_12_month",
+    "start": "2025-04-01",
+    "end": "2026-03-31",
+    "timerange": "20250401-20260331"
+  },
+  {
+    "label": "annual_202505",
+    "cohort": "rolling_12_month",
+    "start": "2025-05-01",
+    "end": "2026-04-30",
+    "timerange": "20250501-20260430"
+  },
+  {
+    "label": "annual_202506",
+    "cohort": "rolling_12_month",
+    "start": "2025-06-01",
+    "end": "2026-05-31",
+    "timerange": "20250601-20260531"
+  },
+  {
+    "label": "annual_202507",
+    "cohort": "rolling_12_month",
+    "start": "2025-07-01",
+    "end": "2026-06-30",
+    "timerange": "20250701-20260630"
+  },
+  {
+    "label": "annual_202508",
+    "cohort": "rolling_12_month",
+    "start": "2025-08-01",
+    "end": "2026-07-31",
+    "timerange": "20250801-20260731"
+  },
+  {
+    "label": "annual_202509",
+    "cohort": "rolling_12_month",
+    "start": "2025-09-01",
+    "end": "2026-08-31",
+    "timerange": "20250901-20260831"
+  },
+  {
+    "label": "annual_202510",
+    "cohort": "rolling_12_month",
+    "start": "2025-10-01",
+    "end": "2026-09-30",
+    "timerange": "20251001-20260930"
+  },
+  {
+    "label": "common_202211",
+    "cohort": "common_end",
+    "start": "2022-11-01",
+    "end": "2026-10-05",
+    "timerange": "20221101-20261006"
+  },
+  {
+    "label": "common_202302",
+    "cohort": "common_end",
+    "start": "2023-02-01",
+    "end": "2026-10-05",
+    "timerange": "20230201-20261006"
+  },
+  {
+    "label": "common_202305",
+    "cohort": "common_end",
+    "start": "2023-05-01",
+    "end": "2026-10-05",
+    "timerange": "20230501-20261006"
+  },
+  {
+    "label": "common_202308",
+    "cohort": "common_end",
+    "start": "2023-08-01",
+    "end": "2026-10-05",
+    "timerange": "20230801-20261006"
+  },
+  {
+    "label": "common_202311",
+    "cohort": "common_end",
+    "start": "2023-11-01",
+    "end": "2026-10-05",
+    "timerange": "20231101-20261006"
+  },
+  {
+    "label": "common_202402",
+    "cohort": "common_end",
+    "start": "2024-02-01",
+    "end": "2026-10-05",
+    "timerange": "20240201-20261006"
+  },
+  {
+    "label": "common_202405",
+    "cohort": "common_end",
+    "start": "2024-05-01",
+    "end": "2026-10-05",
+    "timerange": "20240501-20261006"
+  },
+  {
+    "label": "common_202408",
+    "cohort": "common_end",
+    "start": "2024-08-01",
+    "end": "2026-10-05",
+    "timerange": "20240801-20261006"
+  },
+  {
+    "label": "common_202411",
+    "cohort": "common_end",
+    "start": "2024-11-01",
+    "end": "2026-10-05",
+    "timerange": "20241101-20261006"
+  },
+  {
+    "label": "common_202502",
+    "cohort": "common_end",
+    "start": "2025-02-01",
+    "end": "2026-10-05",
+    "timerange": "20250201-20261006"
+  },
+  {
+    "label": "common_202505",
+    "cohort": "common_end",
+    "start": "2025-05-01",
+    "end": "2026-10-05",
+    "timerange": "20250501-20261006"
+  },
+  {
+    "label": "common_202508",
+    "cohort": "common_end",
+    "start": "2025-08-01",
+    "end": "2026-10-05",
+    "timerange": "20250801-20261006"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "strategy": "PhasedFastExit100",
+  "windows_complete": true,
+  "all_drawdowns_better_than_hold": true,
+  "all_positive_windows_two_thirds": false,
+  "windows": [
+    {
+      "window": "requested_long",
+      "return_pct": 551.5699825882707,
+      "drawdown_pct": 50.27669304170144,
+      "return_fraction_of_hold": 0.6301284429048247,
+      "drawdown_better_than_hold": true,
+      "drawdown_change_vs_v1_pp": -3.8980784500356407,
+      "return_change_vs_v1_pp": 18.59207447624999,
+      "ledger_error": 5.5051714298315355e-09
+    },
+    {
+      "window": "since_last_september",
+      "return_pct": -23.123534568229807,
+      "drawdown_pct": 46.808502416254186,
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "drawdown_change_vs_v1_pp": 6.54159269618544,
+      "return_change_vs_v1_pp": -10.007300999929946,
+      "ledger_error": -2.2984067982179113e-09
+    },
+    {
+      "window": "bear_2022",
+      "return_pct": -32.72505188327982,
+      "drawdown_pct": 37.7148953220343,
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "drawdown_change_vs_v1_pp": -3.435509857339703,
+      "return_change_vs_v1_pp": 1.7777706553400492,
+      "ledger_error": -2.2798531063017435e-08
+    },
+    {
+      "window": "bull_to_bear_2021",
+      "return_pct": 44.67296646246049,
+      "drawdown_pct": 54.72310660643757,
+      "return_fraction_of_hold": null,
+      "drawdown_better_than_hold": true,
+      "drawdown_change_vs_v1_pp": -2.5394700031044124,
+      "return_change_vs_v1_pp": -25.57613823981979,
+      "ledger_error": -5.395804691943341e-09
+    },
+    {
+      "window": "bull_2023_2024",
+      "return_pct": 639.4901512966105,
+      "drawdown_pct": 30.5708267215695,
+      "return_fraction_of_hold": 0.7860009800381412,
+      "drawdown_better_than_hold": true,
+      "drawdown_change_vs_v1_pp": 0.22598457280356143,
+      "return_change_vs_v1_pp": 34.842618096379965,
+      "ledger_error": 8.602910384070128e-09
+    }
+  ],
+  "public_strategy": "BtcTrendFastExitStrategy",
+  "parent_official_baseline": "BtcTrendPhasedStrategy",
+  "official_baseline_unchanged": true,
+  "strict_two_thirds_met": false,
+  "note": "Long positive window achieves 63.01% of holding return; bull window achieves 78.60%. Approximately, not strictly, two thirds. Recent window drawdown worsens versus v1, but remains below holding.",
+  "config": "user_data/config_trend_fast_exit_btc_sol_eth.json",
+  "trial_class_ast_matches_public": true,
+  "public_source_sha256": "4777c273917aeb7def17d9033aadcce47209be40ac788fba8f44048f02eb4316",
+  "checks_passed": 38,
+  "tests_status": "38 checks passed",
+  "discarded_trials_archived": "trials/phased_drawdown_trials.py"
+}

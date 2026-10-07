@@ -1,0 +1,21 @@
+{
+  "frozen_guard_regime_runs": 5,
+  "public_guard_regime_runs": 5,
+  "guard_single_coin_runs": 10,
+  "growth_control_engine_runs": 4,
+  "handover_trial_engine_runs": 10,
+  "new_rule_checks": 5,
+  "public_frozen_equity_match": true,
+  "hold_references_match": true,
+  "live_service_changed": false,
+  "candidate_status": "btc_sol_eth_research_only",
+  "joint_target_bull_met": true,
+  "joint_target_long_met": false,
+  "single_coin_aggregate": {
+    "median_return_pct": 235.486543220501,
+    "median_drawdown_pct": 62.02201662141251,
+    "worst_drawdown_pct": 84.27539000978167,
+    "joint_passes": 3
+  },
+  "max_abs_ledger_error": 2.200386006734334e-08
+}

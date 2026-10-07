@@ -1,0 +1,13 @@
+{
+  "groups": 10,
+  "native_backtests": 30,
+  "hold_baselines": 10,
+  "same_interval": true,
+  "one_coin_only": true,
+  "max_open_trades": 1,
+  "capital_per_strategy_group": 1000,
+  "source_checksums_match": true,
+  "max_abs_ledger_error": 1.6997546481434256e-08,
+  "parameter_tuning": false,
+  "live_service_changed": false
+}

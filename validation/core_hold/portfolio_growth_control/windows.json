@@ -1,0 +1,14 @@
+[
+  {
+    "label": "ref_bull_2023_2024",
+    "cohort": "reference",
+    "timerange": "20230101-20241231",
+    "reference_label": "bull_2023_2024"
+  },
+  {
+    "label": "ref_requested_long",
+    "cohort": "reference",
+    "timerange": "20221121-20251007",
+    "reference_label": "requested_long"
+  }
+]

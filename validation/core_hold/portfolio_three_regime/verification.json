@@ -1,0 +1,13 @@
+{
+  "final_engine_runs": 15,
+  "windows_per_candidate": 5,
+  "rule_checks_passed": 13,
+  "frozen_sources_match": true,
+  "hold_references_match": true,
+  "max_abs_ledger_error": 3.909951828973135e-08,
+  "intermediate_results_excluded": true,
+  "official_portfolio_changed": false,
+  "live_service_changed": false,
+  "hold_two_thirds_return_target_met": false,
+  "status": "research_candidates_only"
+}

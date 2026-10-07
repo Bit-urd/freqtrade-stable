@@ -673,3 +673,16 @@ class BtcTrendPhasedStrategy(BtcTrendRecoveryCooldownStrategy):
                 trade.set_custom_data(self.PHASE_KEY, 1.0 if trade.enter_tag == 'phase_full_entry' else self.EARLY_EXPOSURE)
         elif order.ft_order_side == trade.exit_side and tag == self.PHASE_DOWN_TAG:
             trade.set_custom_data(self.PHASE_KEY, self.EARLY_EXPOSURE)
+
+
+class BtcTrendFastExitStrategy(BtcTrendPhasedStrategy):
+    """Return-preserving drawdown revision of the official phased baseline.
+
+    Full early exposure and exit after one completed weak BTC day. The 14-day
+    cooldown and per-coin cash accounting are inherited without modification.
+    This full-exposure profile does not trim from 100% to 75% at MA150 changes.
+    Comparison: validation/core_hold/drawdown_revision/REPORT.md.
+    """
+
+    EARLY_EXPOSURE = 1.0
+    TREND_EXIT_DAYS = 1

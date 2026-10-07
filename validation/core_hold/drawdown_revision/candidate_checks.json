@@ -1,0 +1,698 @@
+[
+  {
+    "strategy": "PhasedAlignedGuard100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": true,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 508.3942488000504,
+        "drawdown_pct": 49.64141128510102,
+        "return_fraction_of_hold": 0.5808033186919774,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -4.533360206636061,
+        "return_change_vs_v1_pp": -24.583659311970337,
+        "ledger_error": -1.3495991879608482e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -11.120298455229891,
+        "drawdown_pct": 38.61804314928307,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -1.6488665707856782,
+        "return_change_vs_v1_pp": 1.9959351130699705,
+        "ledger_error": -1.929902282427065e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -36.297241332219954,
+        "drawdown_pct": 42.49422004565781,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 1.3438148662838074,
+        "return_change_vs_v1_pp": -1.7944187936000873,
+        "ledger_error": -2.1993855625623837e-09
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 58.72295670932017,
+        "drawdown_pct": 60.45549367903308,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 3.192917069491102,
+        "return_change_vs_v1_pp": -11.526147992960105,
+        "ledger_error": 3.2014213502407074e-09
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 497.7754321483603,
+        "drawdown_pct": 30.409836771073063,
+        "return_fraction_of_hold": 0.6118186131783735,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.06499462230712538,
+        "return_change_vs_v1_pp": -106.87210105187023,
+        "ledger_error": -1.4894794730935246e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedAlignedGuard75",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": true,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 472.69852110861024,
+        "drawdown_pct": 48.89385654105273,
+        "return_fraction_of_hold": 0.540023555436891,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -5.280914950684355,
+        "return_change_vs_v1_pp": -60.27938700341048,
+        "ledger_error": -3.1296622182708234e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -9.255062490759869,
+        "drawdown_pct": 37.364124465197165,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -2.9027852548715813,
+        "return_change_vs_v1_pp": 3.861171077539993,
+        "ledger_error": 4.0074610296869645e-10
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -29.01614530234996,
+        "drawdown_pct": 34.943756670216416,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -6.2066485091575885,
+        "return_change_vs_v1_pp": 5.486677236269909,
+        "ledger_error": -3.499280865071341e-09
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 66.60625130639033,
+        "drawdown_pct": 53.32690632429187,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -3.9356702852501115,
+        "return_change_vs_v1_pp": -3.6428533958899436,
+        "ledger_error": -1.6097601474029943e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 467.18026009322034,
+        "drawdown_pct": 30.189289145499345,
+        "return_fraction_of_hold": 0.5742139132920391,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -0.1555530032665935,
+        "return_change_vs_v1_pp": -137.46727310701021,
+        "ledger_error": -3.7953213904984295e-09
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedCloseGuard100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 215.36854389552423,
+        "drawdown_pct": 42.59307211185936,
+        "return_fraction_of_hold": 0.24604284043656727,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -11.581699379877726,
+        "return_change_vs_v1_pp": -317.6093642164965,
+        "ledger_error": 1.6437752492493022e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": 3.043708429630265,
+        "drawdown_pct": 31.98614877812541,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.280760941943335,
+        "return_change_vs_v1_pp": 16.159941997930126,
+        "ledger_error": -1.0696567187551409e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -33.4578574603698,
+        "drawdown_pct": 39.877979487221296,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -1.2724256921527086,
+        "return_change_vs_v1_pp": 1.0449650782500655,
+        "ledger_error": -1.3698127077077515e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 53.64888646806059,
+        "drawdown_pct": 53.08362529399211,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -4.178951315549874,
+        "return_change_vs_v1_pp": -16.60021823421969,
+        "ledger_error": -2.9394868761301044e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 203.98241923984264,
+        "drawdown_pct": 42.36132250484741,
+        "return_fraction_of_hold": 0.2507159509931253,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 12.01648035608147,
+        "return_change_vs_v1_pp": -400.6651139603879,
+        "ledger_error": 1.692751538939774e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedFastExit100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": true,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 551.5699825882707,
+        "drawdown_pct": 50.27669304170144,
+        "return_fraction_of_hold": 0.6301284429048247,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -3.8980784500356407,
+        "return_change_vs_v1_pp": 18.59207447624999,
+        "ledger_error": 5.5051714298315355e-09
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -23.123534568229807,
+        "drawdown_pct": 46.808502416254186,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 6.54159269618544,
+        "return_change_vs_v1_pp": -10.007300999929946,
+        "ledger_error": -2.2984067982179113e-09
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -32.72505188327982,
+        "drawdown_pct": 37.7148953220343,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -3.435509857339703,
+        "return_change_vs_v1_pp": 1.7777706553400492,
+        "ledger_error": -2.2798531063017435e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 44.67296646246049,
+        "drawdown_pct": 54.72310660643757,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -2.5394700031044124,
+        "return_change_vs_v1_pp": -25.57613823981979,
+        "ledger_error": -5.395804691943341e-09
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 639.4901512966105,
+        "drawdown_pct": 30.5708267215695,
+        "return_fraction_of_hold": 0.7860009800381412,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.22598457280356143,
+        "return_change_vs_v1_pp": 34.842618096379965,
+        "ledger_error": 8.602910384070128e-09
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedFastExit75",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": true,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 505.1521567044307,
+        "drawdown_pct": 49.37387921575536,
+        "return_fraction_of_hold": 0.5770994651313099,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -4.800892275981724,
+        "return_change_vs_v1_pp": -27.82575140759002,
+        "ledger_error": 1.8105311028193682e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -18.660016318319872,
+        "drawdown_pct": 43.77059397658535,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 3.503684256516607,
+        "return_change_vs_v1_pp": -5.543782750020011,
+        "ledger_error": 1.5801674635440577e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -26.22947401560993,
+        "drawdown_pct": 31.184968395310086,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -9.965436784063918,
+        "return_change_vs_v1_pp": 8.273348523009936,
+        "ledger_error": -6.099071470089257e-09
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 54.87886774285033,
+        "drawdown_pct": 48.37129551944138,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.891281090100598,
+        "return_change_vs_v1_pp": -15.370236959429946,
+        "ledger_error": -3.149557414872106e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 566.7503574396304,
+        "drawdown_pct": 30.32245405364814,
+        "return_fraction_of_hold": 0.6965960859308037,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -0.02238809511779749,
+        "return_change_vs_v1_pp": -37.897175760600135,
+        "ledger_error": -1.0199073585681617e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedFastExit85",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": true,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 523.5285240483804,
+        "drawdown_pct": 49.73833535600822,
+        "return_fraction_of_hold": 0.598093123427131,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -4.4364361357288615,
+        "return_change_vs_v1_pp": -9.44938406364031,
+        "ledger_error": -2.2594576876144856e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -20.4634520669299,
+        "drawdown_pct": 44.99904917951733,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 4.732139459448582,
+        "return_change_vs_v1_pp": -7.347218498630038,
+        "ledger_error": 4.701746547652874e-09
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -28.88067118978984,
+        "drawdown_pct": 33.870780383344446,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -7.279624796029559,
+        "return_change_vs_v1_pp": 5.622151348830027,
+        "ledger_error": -7.89816567703383e-09
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 50.84676997892048,
+        "drawdown_pct": 50.98773704689332,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -6.274839562648658,
+        "return_change_vs_v1_pp": -19.4023347233598,
+        "ledger_error": -3.0795263228355914e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 595.1631560074804,
+        "drawdown_pct": 30.424653352499455,
+        "return_fraction_of_hold": 0.7315184181585569,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.07981120373351658,
+        "return_change_vs_v1_pp": -9.484377192750117,
+        "ledger_error": -9.193172445520759e-09
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedGuard100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 282.8138986610928,
+        "drawdown_pct": 37.988190773733535,
+        "return_fraction_of_hold": 0.32309423503959006,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -16.186580718003547,
+        "return_change_vs_v1_pp": -250.1640094509279,
+        "ledger_error": -6.267055141506718e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": 3.398573116880188,
+        "drawdown_pct": 31.833145786203666,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.43376393386508,
+        "return_change_vs_v1_pp": 16.514806685180048,
+        "ledger_error": -9.197947292705068e-09
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -33.7097041183698,
+        "drawdown_pct": 40.10552746449498,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -1.0448777148790214,
+        "return_change_vs_v1_pp": 0.7931184202500674,
+        "ledger_error": -1.3698127077077515e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 48.27766278807051,
+        "drawdown_pct": 55.463131771441866,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -1.799444838100115,
+        "return_change_vs_v1_pp": -21.97144191420977,
+        "ledger_error": 1.0703843145165592e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 227.8042739800615,
+        "drawdown_pct": 37.92514244650438,
+        "return_fraction_of_hold": 0.27999552806585126,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 7.580300297738443,
+        "return_change_vs_v1_pp": -376.84325922016905,
+        "ledger_error": -1.388070813845843e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedGuard75",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 280.36494064679266,
+        "drawdown_pct": 38.39929031347344,
+        "return_fraction_of_hold": 0.32029647927150257,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -15.77548117826364,
+        "return_change_vs_v1_pp": -252.61296746522805,
+        "ledger_error": 4.527919372776523e-09
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": 1.441010557220168,
+        "drawdown_pct": 32.10539491994388,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.161514800124863,
+        "return_change_vs_v1_pp": 14.557244125520029,
+        "ledger_error": -1.779710601113038e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -27.003998585629866,
+        "drawdown_pct": 33.00767958889104,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.142725590482968,
+        "return_change_vs_v1_pp": 7.498823952990001,
+        "ledger_error": 1.3701537682209164e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 56.5837463608204,
+        "drawdown_pct": 48.819525779677,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -8.44305082986498,
+        "return_change_vs_v1_pp": -13.665358341459878,
+        "ledger_error": -1.7960246623260902e-09
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 224.97265196746145,
+        "drawdown_pct": 38.35640833330027,
+        "return_fraction_of_hold": 0.2765151653542621,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 8.011566184534335,
+        "return_change_vs_v1_pp": -379.6748812327691,
+        "ledger_error": -4.838557288167067e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedGuardSlow100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 252.89531047274247,
+        "drawdown_pct": 41.82037721579896,
+        "return_fraction_of_hold": 0.2889144319608052,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -12.35439427593812,
+        "return_change_vs_v1_pp": -280.0825976392782,
+        "ledger_error": -4.656885721487925e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -3.267810420659867,
+        "drawdown_pct": 39.611220397979295,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -0.6556893220894509,
+        "return_change_vs_v1_pp": 9.848423147639995,
+        "ledger_error": 1.4019860827829687e-09
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -32.1943692130098,
+        "drawdown_pct": 38.980125478726805,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -2.1702797006471997,
+        "return_change_vs_v1_pp": 2.308453325610067,
+        "ledger_error": -2.0097900232940453e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 45.43831854285041,
+        "drawdown_pct": 52.18524144467034,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -5.077335164871641,
+        "return_change_vs_v1_pp": -24.810786159429867,
+        "ledger_error": 2.8504928195616234e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 201.43365157524153,
+        "drawdown_pct": 41.694786623236205,
+        "return_fraction_of_hold": 0.247583246168502,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 11.349944474470266,
+        "return_change_vs_v1_pp": -403.213881624989,
+        "ledger_error": -6.584286893485114e-09
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedRecoveryConfirm100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 502.6717011435805,
+        "drawdown_pct": 57.84099498504386,
+        "return_fraction_of_hold": 0.5742657257154725,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 3.6662234933067737,
+        "return_change_vs_v1_pp": -30.30620696844022,
+        "ledger_error": 1.7207639757543802e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -18.674125408789845,
+        "drawdown_pct": 44.181367548829165,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 3.914457828760419,
+        "return_change_vs_v1_pp": -5.557891840489983,
+        "ledger_error": 1.5102045836101752e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -45.91883601686989,
+        "drawdown_pct": 49.37879425496408,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 8.228389075590073,
+        "return_change_vs_v1_pp": -11.416013478250022,
+        "ledger_error": 1.3005774235352874e-09
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": 41.77920551116034,
+        "drawdown_pct": 68.14248430392837,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 10.87990769438639,
+        "return_change_vs_v1_pp": -28.469899191119936,
+        "ledger_error": -8.395772965741344e-09
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 596.1750773687705,
+        "drawdown_pct": 30.169784836336778,
+        "return_fraction_of_hold": 0.7327621764558236,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -0.17505731242916056,
+        "return_change_vs_v1_pp": -8.472455831460024,
+        "ledger_error": -2.964952727779746e-10
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedSlowRecovery100",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 425.6201224808405,
+        "drawdown_pct": 54.98492254480318,
+        "return_fraction_of_hold": 0.4862399215223647,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": 0.8101510530661002,
+        "return_change_vs_v1_pp": -107.3577856311802,
+        "ledger_error": -1.3795215636491776e-08
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -1.5456499641898658,
+        "drawdown_pct": 40.70192996490086,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.435020244832117,
+        "return_change_vs_v1_pp": 11.570583604109995,
+        "ledger_error": -2.3898905965324964e-08
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -59.67433374692994,
+        "drawdown_pct": 61.70178925289651,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 20.551384073522506,
+        "return_change_vs_v1_pp": -25.171511208310072,
+        "ledger_error": 7.008793545537626e-10
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": -15.132172777879694,
+        "drawdown_pct": 80.26813066943004,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 23.005554059888055,
+        "return_change_vs_v1_pp": -85.38127748015997,
+        "ledger_error": -1.8796413314703383e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 492.1528121777503,
+        "drawdown_pct": 30.985223928609752,
+        "return_fraction_of_hold": 0.6049078190116128,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.6403817798438141,
+        "return_change_vs_v1_pp": -112.49472102248023,
+        "ledger_error": 1.3504177331924438e-08
+      }
+    ]
+  },
+  {
+    "strategy": "PhasedSlowRecovery85",
+    "windows_complete": true,
+    "all_drawdowns_better_than_hold": false,
+    "all_positive_windows_two_thirds": false,
+    "windows": [
+      {
+        "window": "requested_long",
+        "return_pct": 420.5910556752304,
+        "drawdown_pct": 53.81773871671398,
+        "return_fraction_of_hold": 0.4804945797968906,
+        "drawdown_better_than_hold": false,
+        "drawdown_change_vs_v1_pp": -0.35703277502310016,
+        "return_change_vs_v1_pp": -112.38685243679032,
+        "ledger_error": 5.903530109208077e-09
+      },
+      {
+        "window": "since_last_september",
+        "return_pct": -1.7867111942299507,
+        "drawdown_pct": 39.66492448490631,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": -0.601985235162438,
+        "return_change_vs_v1_pp": 11.32952237406991,
+        "ledger_error": -1.299326868320349e-09
+      },
+      {
+        "window": "bear_2022",
+        "return_pct": -53.55754513524993,
+        "drawdown_pct": 55.55707064539204,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 14.406665466018033,
+        "return_change_vs_v1_pp": -19.054722596630064,
+        "ledger_error": -1.2499299373303074e-08
+      },
+      {
+        "window": "bull_to_bear_2021",
+        "return_pct": -1.7620489522997218,
+        "drawdown_pct": 75.30947022239047,
+        "return_fraction_of_hold": null,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 18.046893612848493,
+        "return_change_vs_v1_pp": -72.01115365458,
+        "ledger_error": 2.700335244298913e-08
+      },
+      {
+        "window": "bull_2023_2024",
+        "return_pct": 476.2439772049501,
+        "drawdown_pct": 30.58314025927007,
+        "return_fraction_of_hold": 0.5853541795153163,
+        "drawdown_better_than_hold": true,
+        "drawdown_change_vs_v1_pp": 0.2382981105041324,
+        "return_change_vs_v1_pp": -128.40355599528044,
+        "ledger_error": -5.496985977515578e-09
+      }
+    ]
+  }
+]

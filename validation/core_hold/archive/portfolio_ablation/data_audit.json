@@ -1,0 +1,92 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 3337,
+    "window_missing_days": 0,
+    "warmup_days": 1922,
+    "weekly_sha256": "9e3b8e6e51b70532340b98620bb3c60bec3fa710dc8ba710396dbc49158310c1"
+  },
+  {
+    "pair": "ETH/USDT",
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 3337,
+    "window_missing_days": 0,
+    "warmup_days": 1922,
+    "weekly_sha256": "c5aaf30ca23c4e6d5d9769b9ddb28fb9d84fc23ce6c5dec4503587d31425ddac"
+  },
+  {
+    "pair": "BNB/USDT",
+    "first": "2017-11-06 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 3256,
+    "window_missing_days": 0,
+    "warmup_days": 1841,
+    "weekly_sha256": "fd867e015d2a8bc3389d91654953cdcf680b2235a65a162a794c6e7744ae839a"
+  },
+  {
+    "pair": "SOL/USDT",
+    "first": "2020-08-11 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 2247,
+    "window_missing_days": 0,
+    "warmup_days": 832,
+    "weekly_sha256": "6ba090e1f2bbd99bbd7fe5e145d314f3df06a499908da0889e82d89be816d4bf"
+  },
+  {
+    "pair": "XRP/USDT",
+    "first": "2018-05-04 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 3077,
+    "window_missing_days": 0,
+    "warmup_days": 1662,
+    "weekly_sha256": "52e159921aaa374163562d0dff96fb9c5b8a5144ef3d9a7c21dc861550c2198c"
+  },
+  {
+    "pair": "ADA/USDT",
+    "first": "2018-04-17 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 3094,
+    "window_missing_days": 0,
+    "warmup_days": 1679,
+    "weekly_sha256": "49537ac296790da9904a49a5ba59bd412ef0c0211fff51a07d856fba9dbd793b"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "first": "2019-07-05 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 2650,
+    "window_missing_days": 0,
+    "warmup_days": 1235,
+    "weekly_sha256": "f6a3d4d9e16248b58cf18cca5bd69b05860743cbac3f4ace6cc8aaebfced1b56"
+  },
+  {
+    "pair": "LINK/USDT",
+    "first": "2019-01-16 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 2820,
+    "window_missing_days": 0,
+    "warmup_days": 1405,
+    "weekly_sha256": "83009d45f37a35ff507673bb1e4b3a888a5127929837f8d093b5c5872d86c7e5"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "first": "2020-09-22 00:00:00+00:00",
+    "last": "2026-03-13 00:00:00+00:00",
+    "rows": 1999,
+    "window_missing_days": 0,
+    "warmup_days": 790,
+    "weekly_sha256": "5732540d8aee63477b4d950b9bb859f51c11eeb330f1a8e0c65ef25d20636fa1"
+  },
+  {
+    "pair": "AAVE/USDT",
+    "first": "2020-10-15 00:00:00+00:00",
+    "last": "2026-10-05 00:00:00+00:00",
+    "rows": 2182,
+    "window_missing_days": 0,
+    "warmup_days": 767,
+    "weekly_sha256": "1b850170c6f0a6599ce0a04badf83efe72ba6e957c4231a3cc66c28426d58195"
+  }
+]

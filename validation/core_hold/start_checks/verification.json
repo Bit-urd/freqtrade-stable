@@ -1,0 +1,17 @@
+{
+  "windows": 77,
+  "engine_backtests": 231,
+  "benchmark_windows": 77,
+  "summary_rows": 308,
+  "cohorts": {
+    "rolling_12_month": 60,
+    "common_end": 12,
+    "reference": 5
+  },
+  "same_dates_all_strategies": true,
+  "fresh_strategy_and_cash_start": true,
+  "sources_match_frozen_manifest": true,
+  "reference_measurements_match": true,
+  "max_abs_ledger_error_usdt": 4.850789991905913e-08,
+  "trading_service_changed": false
+}

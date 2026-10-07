@@ -1,0 +1,14 @@
+{
+  "reference_window": "20230101-20241231",
+  "original_mean_idle_cash_pct": 44.22371399306486,
+  "first_entry_date": "2023-01-02",
+  "first_stakes_usdt": {
+    "BTC": 66.6348517,
+    "SOL": 66.66327,
+    "ETH": 66.618315
+  },
+  "first_trade_no_topup": true,
+  "reason": "bear positions occupy coin slots without bull handover top-up; original HANDOVER_TOP_UP=False",
+  "limits": "idle cash is not a complete causal attribution; changes in exits and reentry also affect return",
+  "trial_single_change": "HANDOVER_TOP_UP=True, original built-in immediate handover and weekly sizing"
+}

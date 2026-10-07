@@ -1,0 +1,20 @@
+{
+  "status": "official_selected",
+  "approved_date": "2026-10-07",
+  "strategy": "BtcCoinGuardCycleRiskStrategy",
+  "revision": "corrected_v2",
+  "scope": [
+    "BTC/USDT",
+    "SOL/USDT",
+    "ETH/USDT"
+  ],
+  "previous_official": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+  "running_service_changed": false,
+  "live_restart_persistence_implemented": false,
+  "files": {
+    "strategies/cycle_risk_strategy.py": "d861b4b4f106072d7b41653daadda3095a5080052a9943e51d9aa13a7d8840be",
+    "strategies/equity_risk_strategy.py": "3f4c5c467d7de7090c373180f4fbbff1294e5f1b59bf13eb29d7126887063965",
+    "strategies/btc_trend_coin_guard_strategy.py": "d40452c00f8028a7b6fb0e30a1a156519b502cd919a79a044c292e27bb9b051b",
+    "strategies/ma200_btc_regime_full_cycle_core_hold_strategy.py": "93b71f85ae2e131c62e3ed9788fc7dd342652a429abc2e66a5585046be691b49"
+  }
+}

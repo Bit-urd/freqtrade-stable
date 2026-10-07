@@ -1,0 +1,82 @@
+[
+  {
+    "pair": "SOL/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 157.63,
+    "restore_cost": 3619.6482321999997,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 145.12,
+    "trade_profit_pct": -3.9512815727705353
+  },
+  {
+    "pair": "BNB/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 606.9,
+    "restore_cost": 1949.4896420999996,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 547.2,
+    "trade_profit_pct": -6.692114804736632
+  },
+  {
+    "pair": "DOGE/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 0.12352,
+    "restore_cost": 839.78678784,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 0.10686,
+    "trade_profit_pct": -8.49337387802212
+  },
+  {
+    "pair": "AAVE/USDT",
+    "trade_open_date": "2024-08-06 00:00:00+00:00",
+    "restore_date": "2024-08-25T00:00:00+00:00",
+    "restore_price": 137.08,
+    "restore_cost": 599.91307376,
+    "trade_exit_date": "2024-08-28 00:00:00+00:00",
+    "trade_exit_price": 120.0,
+    "trade_profit_pct": -5.0682239746085616
+  },
+  {
+    "pair": "AAVE/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 170.38,
+    "restore_cost": 569.46771882,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 144.8,
+    "trade_profit_pct": -8.184166748891627
+  },
+  {
+    "pair": "XRP/USDT",
+    "trade_open_date": "2024-08-06 00:00:00+00:00",
+    "restore_date": "2024-08-26T00:00:00+00:00",
+    "restore_price": 0.6,
+    "restore_cost": 303.6033,
+    "trade_exit_date": "2024-08-28 00:00:00+00:00",
+    "trade_exit_price": 0.5667,
+    "trade_profit_pct": -1.4522703709223534
+  },
+  {
+    "pair": "XRP/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 0.5889,
+    "restore_cost": 299.22456564,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 0.5968,
+    "trade_profit_pct": 2.6854108084923474
+  },
+  {
+    "pair": "BTC/USDT",
+    "trade_open_date": "2024-09-02 00:00:00+00:00",
+    "restore_date": "2024-09-28T00:00:00+00:00",
+    "restore_price": 65769.95,
+    "restore_cost": 1593.2244227899996,
+    "trade_exit_date": "2024-10-02 00:00:00+00:00",
+    "trade_exit_price": 60804.92,
+    "trade_profit_pct": -5.00488426814062
+  }
+]

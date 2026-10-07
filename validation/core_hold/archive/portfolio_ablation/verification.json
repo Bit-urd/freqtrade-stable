@@ -1,0 +1,10 @@
+{
+  "single_coin_engine_runs": 20,
+  "three_coin_regime_runs": 6,
+  "rule_checks_passed": 6,
+  "sources_match": true,
+  "hold_references_match": true,
+  "max_abs_ledger_error": 1.6997546481434256e-08,
+  "official_algorithm_unchanged": true,
+  "live_service_changed": false
+}

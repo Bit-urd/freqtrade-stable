@@ -1,0 +1,11 @@
+{
+  "engine_runs": 10,
+  "hold_baselines": 10,
+  "rule_checks_passed": 6,
+  "reference_profiles": 3,
+  "max_abs_ledger_error": 8.002643880899996e-09,
+  "source_checksums_match": true,
+  "official_original_unchanged": true,
+  "candidate_status": "research_only",
+  "live_service_changed": false
+}

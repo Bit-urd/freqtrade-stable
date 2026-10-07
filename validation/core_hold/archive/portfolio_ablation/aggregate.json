@@ -1,0 +1,48 @@
+{
+  "Ma200BtcRegimeFullCyclePortfolioStrategy": {
+    "median_return_pct": 204.2296155966502,
+    "median_drawdown_pct": 50.044103687738556,
+    "worst_drawdown_pct": 65.20214997352892,
+    "joint_passes": 5
+  },
+  "BtcTrendPhasedStrategy": {
+    "median_return_pct": 212.47823463350016,
+    "median_drawdown_pct": 63.318500600713456,
+    "worst_drawdown_pct": 78.64673682249953,
+    "joint_passes": 1
+  },
+  "BtcTrendFastExitStrategy": {
+    "median_return_pct": 249.25032042950022,
+    "median_drawdown_pct": 60.79053688056644,
+    "worst_drawdown_pct": 79.68015572538998,
+    "joint_passes": 2
+  },
+  "BtcPortfolioRecoveryTopUpStrategy": {
+    "median_return_pct": 194.09591414665016,
+    "median_drawdown_pct": 50.396698380471584,
+    "worst_drawdown_pct": 69.44102516972627,
+    "joint_passes": 5,
+    "versus_official": {
+      "return_better": 0,
+      "drawdown_better": 0,
+      "both_better": 0
+    }
+  },
+  "BtcPortfolioPullbackTrimStrategy": {
+    "median_return_pct": 150.78331002600015,
+    "median_drawdown_pct": 52.31219572512845,
+    "worst_drawdown_pct": 67.45254132125325,
+    "joint_passes": 3,
+    "versus_official": {
+      "return_better": 2,
+      "drawdown_better": 4,
+      "both_better": 2
+    }
+  },
+  "BuyAndHold": {
+    "median_return_pct": 340.8009641384759,
+    "median_drawdown_pct": 61.21042458891853,
+    "worst_drawdown_pct": 73.55317394888705,
+    "joint_passes": null
+  }
+}

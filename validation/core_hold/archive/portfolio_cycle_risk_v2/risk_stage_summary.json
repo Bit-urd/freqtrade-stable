@@ -1,0 +1,92 @@
+[
+  {
+    "window": "ref_bull_2023_2024",
+    "strategy": "BtcCoinGuardEquityRiskStrategy",
+    "days": 730,
+    "full_days": 626,
+    "three_quarters_days": 104,
+    "half_days": 0,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_bull_to_bear_2021",
+    "strategy": "BtcCoinGuardEquityRiskStrategy",
+    "days": 508,
+    "full_days": 147,
+    "three_quarters_days": 165,
+    "half_days": 196,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_bear_2022",
+    "strategy": "BtcCoinGuardEquityRiskStrategy",
+    "days": 324,
+    "full_days": 255,
+    "three_quarters_days": 69,
+    "half_days": 0,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_since_last_september",
+    "strategy": "BtcCoinGuardEquityRiskStrategy",
+    "days": 399,
+    "full_days": 44,
+    "three_quarters_days": 149,
+    "half_days": 206,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_requested_long",
+    "strategy": "BtcCoinGuardEquityRiskStrategy",
+    "days": 1051,
+    "full_days": 732,
+    "three_quarters_days": 180,
+    "half_days": 139,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_bull_2023_2024",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "days": 730,
+    "full_days": 670,
+    "three_quarters_days": 60,
+    "half_days": 0,
+    "risk_epoch_resets": 1
+  },
+  {
+    "window": "ref_bull_to_bear_2021",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "days": 508,
+    "full_days": 165,
+    "three_quarters_days": 147,
+    "half_days": 196,
+    "risk_epoch_resets": 1
+  },
+  {
+    "window": "ref_bear_2022",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "days": 324,
+    "full_days": 255,
+    "three_quarters_days": 69,
+    "half_days": 0,
+    "risk_epoch_resets": 0
+  },
+  {
+    "window": "ref_since_last_september",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "days": 399,
+    "full_days": 394,
+    "three_quarters_days": 5,
+    "half_days": 0,
+    "risk_epoch_resets": 1
+  },
+  {
+    "window": "ref_requested_long",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "days": 1051,
+    "full_days": 972,
+    "three_quarters_days": 67,
+    "half_days": 12,
+    "risk_epoch_resets": 2
+  }
+]

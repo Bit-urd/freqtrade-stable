@@ -1,0 +1,5 @@
+strategy,groups,median_return_pct,median_drawdown_pct,worst_return_pct,worst_drawdown_pct,profitable_groups,return_better_than_hold_groups,drawdown_better_than_hold_groups,positive_hold_groups,two_thirds_return_groups,joint_target_groups
+BtcTrendPhasedStrategy,10,212.47823463350016,63.318500600713456,55.66049046300028,78.64673682249953,10,1,2,10,2,1
+BtcTrendFastExitStrategy,10,249.25032042950022,60.79053688056644,37.990828034000245,79.68015572538998,10,1,5,10,4,2
+Ma200BtcRegimeFullCyclePortfolioStrategy,10,204.2296155966502,50.044103687738556,28.07436562000014,65.20214997352892,10,3,8,10,5,5
+BuyAndHold,10,340.8009641384759,61.21042458891853,128.89333799916244,73.55317394888705,10,,,10,,

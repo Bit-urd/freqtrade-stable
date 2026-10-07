@@ -1,6 +1,12 @@
-## BTC / SOL / ETH 正式版本（2026-10-06）
+## 当前正式版本（2026-10-07）
 
-当前正式配置为 `user_data/config_trend_btc_sol_eth.json`，策略类为
+用户确认 **BtcCoinGuardCycleRiskStrategy（新周期恢复修正版 v2）** 为 BTC/SOL/ETH 正式选定版本。冻结源码与依赖位于 `validation/core_hold/archive/portfolio_cycle_risk_v2/strategies/`，版本哈希见 [OFFICIAL.json](../../validation/core_hold/archive/portfolio_cycle_risk_v2/OFFICIAL.json)，收益、回撤及持有比较见 [报告](../../validation/core_hold/archive/portfolio_cycle_risk_v2/REPORT.md)。原 Portfolio 作为历史正式对照，算法与模拟配置保持不变。
+
+正式选择不自动切换运行服务。此版实盘重启状态持久化尚未实现，当前仅提供已验证源码及回测复现入口，不提供上线配置。失败试验保留在 [归档总览](../../validation/core_hold/archive/README.md)。下文历史选择以本节当前状态为准。
+
+## 历史正式版本（2026-10-06，已被 Portfolio 替代）
+
+当时正式配置为 `user_data/config_trend_btc_sol_eth.json`，策略类为
 `BtcTrendPhasedStrategy`，实现位于 `ma200_btc_regime_full_cycle_core_hold_strategy.py`。
 配置仅包含 BTC/USDT、SOL/USDT、ETH/USDT，三个槽位，默认模拟交易。
 
@@ -10,6 +16,8 @@ BTC MA150 下方早期恢复投入 75%，站上 MA150 后补足；趋势同时�
 长区间回撤 54.17%，略高于持有的 52.50%，历史风险阈值仍未全部通过。
 详见 [正式版本回测报告](../../validation/core_hold/trend_phased/REPORT.md)。
 旧 Growth / Recovery 和其他策略保留作对照。本次提升正式版本不切换已有交易服务。
+
+独立回撤优化方案 `BtcTrendFastExitStrategy` 将早期投入改为 100%、BTC 弱势退出确认改为 1 天。配置为 `user_data/config_trend_fast_exit_btc_sol_eth.json`，原正式配置保留。三策略起点对比见 [起点检查](../../validation/core_hold/start_checks/REPORT.md)。
 
 # 策略状态与交易规则
 
@@ -89,3 +97,15 @@ BTC 日线门控的多资产适配器位于 `user_data/archive/validation/btc_re
 另一个实验曾在 **4H 突破时先买 50%**，失败即快速退出。那不是这里的日线 50% 趋势状态；它换手显著增加，最长区间只有 2/6 山寨跑赢持有，已归档。[4H 试仓结果](../archive/validation/daily_trend_4h_breakout_20260922/REPORT.md)。
 
 `Ma200TrendStrategy` 的完整交易规则（信号、状态机、仓位配置、手续费口径）已随代码一起搬到 [归档说明](../archive/README.md)。
+
+## 上涨参与度优化（2026-10-07）
+
+正式 Portfolio 保持不变。`Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy` 已复核上涨和长区间：收益/回撤分别 287.06%/34.56%、423.59%/34.56%，配置 `user_data/config_core_growth_btc_sol_eth.json`。
+
+独立进攻研究候选 `BtcTrendCoinGuardStrategy`，文件 `btc_trend_coin_guard_strategy.py`，配置 `user_data/config_trend_coin_guard_btc_sol_eth.json`：同时看 BTC 和个币 MA150/EMA10，BTC 弱一天或个币弱两天退出。2023–2024 收益 559.13%、回撤 30.00%，达到持有收益 68.72%；长区间 488.41%/44.49%，近期 -18.65%/43.68%，均有相对 Portfolio 的回撤退步。十币联合达标仅 3/10，ADA/AVAX 明显恶化，不推广为通用策略。
+
+五阶段、十币、公开源码复现和五项规则检查见 [完整报告](../../validation/core_hold/portfolio_coin_guard/REPORT.md)。模拟配置不自动切换服务或正式策略。
+
+## 切换版现金防守研究（2026-10-07）
+
+原 Portfolio 保持正式版。仅关闭熊市抄底使旧切换版牛转熊回撤从 64.67% 降至 27.25%，2022 熊市零交易，近期回撤 26.07%；代价是上涨/长区间收益下降。半仓恢复版上涨 461.85%/29.70%，熊市 -22.86%/22.86%，长区间 479.09%/42.78%，仍未达持有约 2/3 收益目标。两个方案仅保留研究，不进入活动配置。三状态额外震荡交易未采用。见 [五阶段完整比较](../../validation/core_hold/portfolio_three_regime/REPORT.md)。

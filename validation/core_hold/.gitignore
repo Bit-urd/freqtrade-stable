@@ -1,0 +1,6 @@
+__pycache__/
+*.log
+results/**/*.log
+results/**/*.zip
+results/**/.last_result.json
+results/**/*.meta.json

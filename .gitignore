@@ -128,3 +128,10 @@ docker-compose-*.yml
 
 # Official BTC/SOL/ETH phased strategy configuration (no credentials)
 !user_data/config_trend_btc_sol_eth.json
+!user_data/config_trend_fast_exit_btc_sol_eth.json
+
+!user_data/config_portfolio_btc_sol_eth.json
+
+!user_data/config_trend_coin_guard_btc_sol_eth.json
+!user_data/config_core_growth_btc_sol_eth.json
+!user_data/strategies/btc_trend_coin_guard_strategy.py

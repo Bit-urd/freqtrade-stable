@@ -1,0 +1,58 @@
+[
+  {
+    "strategy": "BtcTrendPhasedStrategy",
+    "groups": 10,
+    "median_return_pct": 212.47823463350016,
+    "median_drawdown_pct": 63.318500600713456,
+    "worst_return_pct": 55.66049046300028,
+    "worst_drawdown_pct": 78.64673682249953,
+    "profitable_groups": 10,
+    "return_better_than_hold_groups": 1,
+    "drawdown_better_than_hold_groups": 2,
+    "positive_hold_groups": 10,
+    "two_thirds_return_groups": 2,
+    "joint_target_groups": 1
+  },
+  {
+    "strategy": "BtcTrendFastExitStrategy",
+    "groups": 10,
+    "median_return_pct": 249.25032042950022,
+    "median_drawdown_pct": 60.79053688056644,
+    "worst_return_pct": 37.990828034000245,
+    "worst_drawdown_pct": 79.68015572538998,
+    "profitable_groups": 10,
+    "return_better_than_hold_groups": 1,
+    "drawdown_better_than_hold_groups": 5,
+    "positive_hold_groups": 10,
+    "two_thirds_return_groups": 4,
+    "joint_target_groups": 2
+  },
+  {
+    "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "groups": 10,
+    "median_return_pct": 204.2296155966502,
+    "median_drawdown_pct": 50.044103687738556,
+    "worst_return_pct": 28.07436562000014,
+    "worst_drawdown_pct": 65.20214997352892,
+    "profitable_groups": 10,
+    "return_better_than_hold_groups": 3,
+    "drawdown_better_than_hold_groups": 8,
+    "positive_hold_groups": 10,
+    "two_thirds_return_groups": 5,
+    "joint_target_groups": 5
+  },
+  {
+    "strategy": "BuyAndHold",
+    "groups": 10,
+    "median_return_pct": 340.8009641384759,
+    "median_drawdown_pct": 61.21042458891853,
+    "worst_return_pct": 128.89333799916244,
+    "worst_drawdown_pct": 73.55317394888705,
+    "profitable_groups": 10,
+    "return_better_than_hold_groups": null,
+    "drawdown_better_than_hold_groups": null,
+    "positive_hold_groups": 10,
+    "two_thirds_return_groups": null,
+    "joint_target_groups": null
+  }
+]

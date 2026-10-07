@@ -1,0 +1,44 @@
+{
+  "goal": "Positive holding returns: approximately two thirds of buy-and-hold return; daily equity drawdown strictly below hold in every tested regime. Negative holding returns: compare absolute losses and drawdown.",
+  "baseline": "BtcTrendPhasedStrategy",
+  "variants": {
+    "PhasedGuard75": {
+      "base": "PhasedCoinGuardBase"
+    },
+    "PhasedGuard100": {
+      "base": "PhasedCoinGuardBase",
+      "EARLY_EXPOSURE": 1.0
+    },
+    "PhasedCloseGuard100": {
+      "base": "PhasedCoinGuardBase",
+      "EARLY_EXPOSURE": 1.0,
+      "GUARD_MODE": "close"
+    },
+    "PhasedFastExit100": {
+      "base": "BtcTrendPhasedStrategy",
+      "EARLY_EXPOSURE": 1.0,
+      "TREND_EXIT_DAYS": 1
+    },
+    "PhasedSlowRecovery100": {
+      "base": "BtcTrendPhasedStrategy",
+      "EARLY_EXPOSURE": 1.0,
+      "RECOVERY_EMA_DAYS": 20
+    },
+    "PhasedSlowRecovery85": {
+      "base": "BtcTrendPhasedStrategy",
+      "EARLY_EXPOSURE": 0.85,
+      "RECOVERY_EMA_DAYS": 20
+    },
+    "PhasedGuardSlow100": {
+      "base": "PhasedCoinGuardBase",
+      "EARLY_EXPOSURE": 1.0,
+      "RECOVERY_EMA_DAYS": 20
+    },
+    "PhasedRecoveryConfirm100": {
+      "base": "BtcTrendPhasedStrategy",
+      "EARLY_EXPOSURE": 1.0,
+      "CONFIRM_RECOVERY": true
+    }
+  },
+  "official_unchanged": true
+}

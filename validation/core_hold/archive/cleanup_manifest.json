@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-07",
+  "reason": "user_requested_stop_and_archive",
+  "archived_classes": [
+    "BtcPortfolioImprovedStrategy",
+    "BtcPortfolioRecoveryTopUpStrategy",
+    "BtcPortfolioPullbackTrimStrategy"
+  ],
+  "official_class": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+  "completed_single_coin_engine_runs": 30,
+  "completed_three_coin_engine_runs": 6,
+  "completed_regime_windows": 3,
+  "planned_regime_windows": 5,
+  "uncompleted_windows": [
+    "ref_since_last_september",
+    "ref_requested_long"
+  ],
+  "live_service_changed": false,
+  "official_source_sha256": "766a74d0ae9a148625c6f52f22c191bc30ff712a6bf1ba195924693d69905955"
+}

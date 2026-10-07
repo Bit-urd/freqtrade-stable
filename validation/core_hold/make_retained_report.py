@@ -51,3 +51,6 @@ lines+=['','全部回撤按每日收盘总权益计算，并非盘中极值。�
 (selected/'REPORT.md').write_text('\n'.join(lines))
 (root/'STRATEGIES.md').write_text('# Active strategy profiles\n\nSee [current retained comparison and optimization](trend_phased/REPORT.md).\n\n'+'\n'.join('- '+n+': '+label for n,label in names.items() if n!='BuyAndHold')+'\n\nOriginal Portfolio / old CoreHold remain historical baselines; Recovery remains the earlier higher-return research alternative. Removed generated strategies are listed in trial_cleanup.json; raw source backups remain in result ZIPs.\n')
 print(selected/'REPORT.md')
+
+with (root/'STRATEGIES.md').open('a') as output:
+    output.write('\n- BtcTrendFastExitStrategy: 独立快速退出优化方案；原正式版配置保持不变。见 [回撤优化](drawdown_revision/REPORT.md) 与 [三策略起点检查](start_checks/REPORT.md)。\n')

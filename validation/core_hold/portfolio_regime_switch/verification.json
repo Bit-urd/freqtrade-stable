@@ -1,0 +1,13 @@
+{
+  "completed_windows": 5,
+  "engine_runs": 5,
+  "rule_checks_passed": 7,
+  "source_checksums_match": true,
+  "hold_references_match": true,
+  "max_abs_ledger_error": 1.8900664144894108e-08,
+  "live_service_changed": false,
+  "official_portfolio_changed": false,
+  "status": "research_only",
+  "bull_return_fraction_of_hold": 0.5322753411538546,
+  "long_return_fraction_of_hold": 0.6368481823544229
+}

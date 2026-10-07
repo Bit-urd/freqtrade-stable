@@ -1,0 +1,32 @@
+[
+  {
+    "label": "ref_bull_2023_2024",
+    "cohort": "reference",
+    "timerange": "20230101-20241231",
+    "reference_label": "bull_2023_2024"
+  },
+  {
+    "label": "ref_bull_to_bear_2021",
+    "cohort": "reference",
+    "timerange": "20210701-20221121",
+    "reference_label": "bull_to_bear_2021"
+  },
+  {
+    "label": "ref_bear_2022",
+    "cohort": "reference",
+    "timerange": "20220101-20221121",
+    "reference_label": "bear_2022"
+  },
+  {
+    "label": "ref_since_last_september",
+    "cohort": "reference",
+    "timerange": "20250901-20261006",
+    "reference_label": "since_last_september"
+  },
+  {
+    "label": "ref_requested_long",
+    "cohort": "reference",
+    "timerange": "20221121-20251007",
+    "reference_label": "requested_long"
+  }
+]
