@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "tests_run": 21,
+  "new_loss_cooldown_checks": 8,
+  "existing_risk_checks": 13
+}

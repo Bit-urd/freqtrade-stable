@@ -1,0 +1,15 @@
+{
+  "btc_trend_coin_guard_strategy.py": "bfbde33d557e60e9a56e66af22d4ddc2389cf222a5649bae59ef23ce0706078e",
+  "cycle_risk_strategy.py": "36d3fcfb205c44e8742eaebc831342e38fcecaf33f1d279c898f99384f188f77",
+  "defensive_entry_strategy.py": "889a1dcd60e87fab142b8cea70ed2ca5a0260a5d09fe8d59d9bfd0ca9f9c43e7",
+  "equity_risk_strategy.py": "ebc5e40c523dfc855b93eee94edd370cc292f9879e78605531de7a745a6a543d",
+  "ma200_btc_regime_full_cycle_core_hold_strategy.py": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d",
+  "ma200_btc_regime_full_cycle_fast_test_strategy.py": "dcc11e6ec4fe47138c9b4e05ddc7edffb9dd74275d4e8ca66e2b4368a4ed44da",
+  "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+  "ma200_btc_regime_weekly_sized_portfolio_strategy.py": "a0d46086752302626c6332546d6ec959455e0a90a3b513e8d0c1919f042d56de",
+  "ma200_ema_alignment_weekly_sized_portfolio_strategy.py": "7bdf9c2c4c41e9568dcd5650279664dc18211bdf2bfb3b2488c3c5cf79a02e54",
+  "recovery_refinement_strategy.py": "51111889ffe740a435c673516b0f10a697f5a376a95fa2bacbd9ff63891ea216",
+  "selective_coin_exit_strategy.py": "4d79b8f0261228bdadc61f371ab00210e43c744884e4a4be0b728a4514772d4a",
+  "trend_aware_risk_strategy.py": "345dcf32854e3372fb3b191be7f6d143c439a1899a419556ac413b8d646627e7",
+  "trend_priority_risk_strategy.py": "e64c013c52d661c3c90c949b26373e95eb7c6f6e0415dcf1b0faf3431b65edeb"
+}

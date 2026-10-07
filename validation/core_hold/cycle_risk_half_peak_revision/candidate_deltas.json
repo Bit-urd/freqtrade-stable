@@ -1,0 +1,44 @@
+[
+  {
+    "window": "ref_bull_2023_2024",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "return_fraction_of_formal": 1.0,
+    "return_fraction_of_hold": 0.6487079380553517
+  },
+  {
+    "window": "ref_bull_to_bear_2021",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "return_fraction_of_formal": 1.0,
+    "return_fraction_of_hold": null
+  },
+  {
+    "window": "ref_bear_2022",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "return_fraction_of_formal": null,
+    "return_fraction_of_hold": null
+  },
+  {
+    "window": "ref_since_last_september",
+    "return_change_pp": 2.409568339079957,
+    "drawdown_change_pp": -2.1629169631932825,
+    "return_fraction_of_formal": null,
+    "return_fraction_of_hold": null
+  },
+  {
+    "window": "ref_requested_long",
+    "return_change_pp": -0.9438319154198211,
+    "drawdown_change_pp": -0.5902875470908597,
+    "return_fraction_of_formal": 0.9981025855322434,
+    "return_fraction_of_hold": 0.5671998299203838
+  },
+  {
+    "window": "continuous_2023_latest",
+    "return_change_pp": 16.094575537180106,
+    "drawdown_change_pp": -1.9282966792270813,
+    "return_fraction_of_formal": 1.0385846486968278,
+    "return_fraction_of_hold": 0.7869667431821374
+  }
+]

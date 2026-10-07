@@ -1,0 +1,7 @@
+{
+  "btc_trend_coin_guard_strategy.py": "bfbde33d557e60e9a56e66af22d4ddc2389cf222a5649bae59ef23ce0706078e",
+  "cycle_risk_strategy.py": "36d3fcfb205c44e8742eaebc831342e38fcecaf33f1d279c898f99384f188f77",
+  "equity_risk_strategy.py": "ebc5e40c523dfc855b93eee94edd370cc292f9879e78605531de7a745a6a543d",
+  "half_peak_rearm_strategy.py": "8409c33c52baa6a2a2322cb01a5c9cecdf9ab536ea46fba1f127f3dafa19d7f3",
+  "ma200_btc_regime_full_cycle_core_hold_strategy.py": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d"
+}

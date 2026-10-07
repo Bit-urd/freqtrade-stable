@@ -1,0 +1,60 @@
+{
+  "strategies": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "BtcCoinGuardConfirmedBtcEntryStrategy",
+    "BtcCoinGuardSelectiveRecoveryEntryStrategy"
+  ],
+  "pairs": [
+    "BTC/USDT",
+    "SOL/USDT",
+    "ETH/USDT"
+  ],
+  "windows": [
+    {
+      "label": "ref_bull_2023_2024",
+      "cohort": "defense_fixed",
+      "timerange": "20230101-20241231",
+      "reference_label": "bull_2023_2024"
+    },
+    {
+      "label": "ref_bull_to_bear_2021",
+      "cohort": "defense_fixed",
+      "timerange": "20210701-20221121",
+      "reference_label": "bull_to_bear_2021"
+    },
+    {
+      "label": "ref_bear_2022",
+      "cohort": "defense_fixed",
+      "timerange": "20220101-20221121",
+      "reference_label": "bear_2022"
+    },
+    {
+      "label": "ref_since_last_september",
+      "cohort": "defense_fixed",
+      "timerange": "20250901-20261006",
+      "reference_label": "since_last_september",
+      "start": "2025-09-01",
+      "end": "2026-10-06"
+    },
+    {
+      "label": "ref_requested_long",
+      "cohort": "defense_fixed",
+      "timerange": "20221121-20251007",
+      "reference_label": "requested_long"
+    },
+    {
+      "label": "continuous_2023_latest",
+      "cohort": "new",
+      "timerange": "20230101-20261006",
+      "start": "2023-01-01",
+      "end": "2026-10-06"
+    }
+  ],
+  "frozen": true,
+  "experiment": "Two fixed entry filters; no new account state, no changes to exits or risk recovery; no parameter sweep",
+  "wallet": 1000,
+  "fee": 0.001,
+  "max_open_trades": 3,
+  "data_snapshot": "production_comparison_2023_latest/data",
+  "criterion": "降低回撤、弱趋势交易损失，明确报告上涨参与代价，不要求每个阶段全面优于基准"
+}

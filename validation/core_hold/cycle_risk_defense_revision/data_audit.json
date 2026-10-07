@@ -1,0 +1,32 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "source_daily_sha256": "11b63fda22d96330e3978205559300b54dc2eed6834bcbba1dcab39d1e480289",
+    "daily_sha256": "5ce68d468a431e08180d26076662c29d237e97d4b61bb43e8149291bff9165be",
+    "weekly_sha256": "9e3b8e6e51b70532340b98620bb3c60bec3fa710dc8ba710396dbc49158310c1",
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-06 00:00:00+00:00",
+    "last_completed": "2026-10-06 00:00:00+00:00",
+    "boundary_incomplete_excluded": true
+  },
+  {
+    "pair": "SOL/USDT",
+    "source_daily_sha256": "be2683dc823dec978b26436237548fa0422460440711c7e66f914ed05600b4c7",
+    "daily_sha256": "b233be79ed0f70a68a917bc19be4c32c6bc643e4c575565af7c9aee74c62df14",
+    "weekly_sha256": "6ba090e1f2bbd99bbd7fe5e145d314f3df06a499908da0889e82d89be816d4bf",
+    "first": "2020-08-11 00:00:00+00:00",
+    "last": "2026-10-06 00:00:00+00:00",
+    "last_completed": "2026-10-06 00:00:00+00:00",
+    "boundary_incomplete_excluded": true
+  },
+  {
+    "pair": "ETH/USDT",
+    "source_daily_sha256": "a04954457ea0a3362a1e5db5d8541d28661c3e3a0ecf5f49904f16dd675f2640",
+    "daily_sha256": "86ecce4db0aeb3ec44e3b38b8162ab752d44d646eb5ee9d2d495887be3586fe2",
+    "weekly_sha256": "c5aaf30ca23c4e6d5d9769b9ddb28fb9d84fc23ce6c5dec4503587d31425ddac",
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2026-10-06 00:00:00+00:00",
+    "last_completed": "2026-10-06 00:00:00+00:00",
+    "boundary_incomplete_excluded": true
+  }
+]

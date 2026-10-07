@@ -1,0 +1,9 @@
+{
+  "status": "research_not_adopted",
+  "strategies": [
+    "BtcCoinGuardLossCooldownStrategy"
+  ],
+  "reason": "减少弱势交易有局部防守效果，但上涨及长期收益代价过大；亏损冷却连续账户收益和回撤均退步",
+  "official_changed": false,
+  "live_changed": false
+}

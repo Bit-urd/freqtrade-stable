@@ -53,3 +53,8 @@ BtcCoinGuardCycleRiskStrategy (corrected v2) is the current official selected pr
 ## 2026-10-07 选择性延迟退出：新的优先研究方向
 
 `BtcCoinGuardRisingMediumExitStrategy` 仅在个币 EMA20>EMA50 且 EMA50 仍上升时延迟原个币退出，BTC 退出不延迟。相比趋势恢复版，三币长期收益增加 20.51 个百分点、最大回撤不变（532.52%/40.93%）；近期略改善，其余三个主要阶段不变。18 个单币案例 2 个共同改善、16 个不变。优先保留该方向，不自动替换正式版本；上一轮更激进 SOL 候选保留局部研究价值。源码冻结于 `selective_coin_exit_revision/strategies/selective_coin_exit_strategy.py`，完整比较见同目录上级 `REPORT.md`。第二个 BTC MA200 门控候选不列为优先。
+
+
+## 2026-10-07 防守候选：半峰值恢复
+
+优先保留 `BtcCoinGuardHalfPeakRearmStrategy` 为防守研究方向，源码冻结于 `cycle_risk_half_peak_revision/strategies/half_peak_rearm_strategy.py`。BTC风险恢复时仍恢复原仓位，但内部峰值取旧峰值与当前权益中点，保留部分损失记忆；不增加账户状态、不修改入场退出或原阈值。2023至今433.22%/47.78%，正式版417.12%/49.71%；长周期496.49%/40.24%，正式版497.43%/40.83%；近期收益与回撤略改善，其余三个主要阶段相同。2025年度收益略差，改善有限，尚未生产部署。前三项入场防守规则不采用，完整代价见 `cycle_risk_half_peak_revision/CONCLUSIONS.md`。正式版仍为CycleRisk，运行服务不变。
