@@ -138,3 +138,9 @@ Details: [Retained strategies and final phased comparison](validation/core_hold/
 - [x] Replace all-window dominance with substantial overall improvement versus original Portfolio; explicitly disclose sacrificed periods.
 - [x] Retain corrected BtcCoinGuardCycleRiskStrategy as an improvement research candidate: returns improve in 4/5 measured windows, drawdown improves in 3/5. Strong bull and bear benefits compensate for modest long-window drawdown increase; recent weakness remains material. Results/source stay at the existing archive path for reproducibility; candidate is not classified as failed. Official/live strategy unchanged.
 - [ ] Long-window return near 2/3 of holding remains unmet (56.83%); no claim of independent out-of-sample validation.
+
+## Representative assets and regimes (2026-10-07)
+
+- [x] Freeze five major profiles and compare BTC/ETH/BNB/SOL/XRP/ADA/DOGE/LINK/AVAX/AAVE/SUI/PEPE with holding over six regimes; complete 64 eligible single-coin cases (320 native runs), explicitly skip eight unavailable listing/history cases.
+- [x] Update missing AVAX candles; use 2026-10-05 common recent endpoint; reconcile final balances and every-day controller equity (<3e-8 USDT); reproduce 50 historical anchor rows.
+- [x] Record per-window/per-asset results, tradeoffs, source/data hashes and standalone comparison viewer. No parameter tuning, official scope expansion or live service changes.

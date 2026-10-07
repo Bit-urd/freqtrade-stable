@@ -1,0 +1,98 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "windows": 6,
+    "return_wins": 5,
+    "drawdown_wins": 5,
+    "joint_improvements": 5,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "ETH/USDT",
+    "windows": 6,
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "BNB/USDT",
+    "windows": 6,
+    "return_wins": 3,
+    "drawdown_wins": 4,
+    "joint_improvements": 2,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "SOL/USDT",
+    "windows": 6,
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "XRP/USDT",
+    "windows": 6,
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "ADA/USDT",
+    "windows": 6,
+    "return_wins": 3,
+    "drawdown_wins": 1,
+    "joint_improvements": 1,
+    "joint_regressions": 3
+  },
+  {
+    "pair": "DOGE/USDT",
+    "windows": 6,
+    "return_wins": 4,
+    "drawdown_wins": 4,
+    "joint_improvements": 3,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "LINK/USDT",
+    "windows": 6,
+    "return_wins": 1,
+    "drawdown_wins": 0,
+    "joint_improvements": 0,
+    "joint_regressions": 5
+  },
+  {
+    "pair": "AVAX/USDT",
+    "windows": 6,
+    "return_wins": 1,
+    "drawdown_wins": 2,
+    "joint_improvements": 1,
+    "joint_regressions": 4
+  },
+  {
+    "pair": "AAVE/USDT",
+    "windows": 6,
+    "return_wins": 5,
+    "drawdown_wins": 5,
+    "joint_improvements": 5,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "SUI/USDT",
+    "windows": 2,
+    "return_wins": 1,
+    "drawdown_wins": 0,
+    "joint_improvements": 0,
+    "joint_regressions": 1
+  },
+  {
+    "pair": "PEPE/USDT",
+    "windows": 2,
+    "return_wins": 2,
+    "drawdown_wins": 2,
+    "joint_improvements": 2,
+    "joint_regressions": 0
+  }
+]

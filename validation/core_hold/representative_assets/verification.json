@@ -1,0 +1,13 @@
+{
+  "completed_cases": 64,
+  "native_backtests": 320,
+  "hold_cases": 64,
+  "max_cash_ledger_error": 2.8901354198751505e-08,
+  "max_daily_risk_equity_error": 2.5901840672304388e-08,
+  "frozen_sources_unchanged": true,
+  "single_coin_one_slot": true,
+  "fee_per_side": 0.001,
+  "initial_capital": 1000,
+  "skipped_cases": 8,
+  "historical_long_window_anchor_rows": 50
+}

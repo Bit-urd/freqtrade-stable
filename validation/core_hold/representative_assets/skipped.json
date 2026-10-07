@@ -1,0 +1,42 @@
+[
+  {
+    "pair": "SUI/USDT",
+    "window": "ref_bull_2023_2024",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "SUI/USDT",
+    "window": "ref_bull_to_bear_2021",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "SUI/USDT",
+    "window": "ref_bear_2022",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "SUI/USDT",
+    "window": "ref_requested_long",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "PEPE/USDT",
+    "window": "ref_bull_2023_2024",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "PEPE/USDT",
+    "window": "ref_bull_to_bear_2021",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "PEPE/USDT",
+    "window": "ref_bear_2022",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  },
+  {
+    "pair": "PEPE/USDT",
+    "window": "ref_requested_long",
+    "reason": "Not listed or insufficient 210-day pre-start history; do not change start."
+  }
+]
