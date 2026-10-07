@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.freqtrade.io/schema.json",
-  "bot_name": "btc_sol_eth_phased",
-  "strategy": "BtcTrendPhasedStrategy",
+  "bot_name": "cycle_risk_defense_revision",
+  "strategy": "BtcCoinGuardCycleRiskStrategy",
   "initial_state": "running",
   "dry_run": true,
   "dry_run_wallet": 1000,
@@ -56,6 +56,5 @@
   "internals": {
     "process_throttle_secs": 5
   },
-  "fee": 0.001,
-  "db_url": "sqlite:///user_data/trades_trend_phased_dryrun.sqlite"
+  "datadir": "/research/production_comparison_2023_latest/data"
 }

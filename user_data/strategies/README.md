@@ -1,33 +1,24 @@
-# 当前策略：只保留必要方向（2026-10-07）
+# 当前活动策略
 
-## 保留的探索方向
+正式版为 `BtcCoinGuardCycleRiskStrategy`，位于 `cycle_risk_strategy.py`。它直接继承 Freqtrade 的 `IStrategy`，不再引用其他自定义策略文件。旧版四文件、八策略类的实现已经冻结归档。
 
-| 方向 | 策略 | 保留理由 |
-|---|---|---|
-| 正式版：收益与熊市防守折中 | `BtcCoinGuardCycleRiskStrategy`，`cycle_risk_strategy.py` | 用户确认正式版本；上涨与两类熊市改善，近期和部分标的仍有弱点 |
-| 关键对照：原 Portfolio | `Ma200BtcRegimeFullCyclePortfolioStrategy` | 近期更稳，ADA/LINK/AVAX 等标的有独立优势，不能删除 |
-| 上涨参与：分阶段 / 快速退出 | `BtcTrendPhasedStrategy` / `BtcTrendFastExitStrategy` | 分阶段上涨表现更强；快速退出保留作退出速度对照，两者共享 CoreHold 文件 |
-| 温和核心仓 | `Ma200BtcRegimeFullCycleCoreHoldStrategy` | 保留不同于趋势清仓的核心仓逻辑；就是既有 Growth 默认规则，去掉重复别名 |
-| 个币独立趋势、不依赖 BTC | `Ma200EmaAlignmentWeeklySizedPortfolioStrategy` | 研究币自身行情与 BTC 脱钩的独立方向；单币使用时槽位设为 1 |
+| 文件 | 用途 |
+|---|---|
+| `cycle_risk_strategy.py` | 当前正式版，日线BTC与个币趋势保护、独立复利预算、账户回撤降仓及BTC恢复时风险重启 |
+| `ma200_btc_regime_full_cycle_portfolio_strategy.py` | 原Portfolio对照，以及FastTest运行策略的父类 |
+| `ma200_btc_regime_full_cycle_fast_test_strategy.py` | 当前运行服务依赖的短周期执行验证版 |
+| `ma200_btc_regime_weekly_sized_portfolio_strategy.py` | 现有Compose引用的兼容策略 |
 
-正式版本范围仍为 BTC/SOL/ETH；[跨标的对比](../../validation/core_hold/representative_assets/REPORT.md)显示并非通用最优。正式版交易逻辑与[冻结版本](../../validation/core_hold/archive/portfolio_cycle_risk_v2/OFFICIAL.json)一致，注释和说明已统一中文。实盘重启状态持久化尚未实现，正式选定不代表已完成上线验证，本次没有提供上线配置或切换服务。
+正式版只需要一个自定义Python文件。整个活动目录保留四个文件，是因为还要支持原Portfolio对照、运行服务和现有配置；后三个文件均不是CycleRisk的依赖。
 
-## 必要依赖与兼容实现
+## 归档的研究方向
 
-- `equity_risk_strategy.py`：正式版权益控制父类，不作为新的独立研究候选。
-- `btc_trend_coin_guard_strategy.py`：正式版信号父类及风控消融对照，不另开优化主线。
-- `ma200_btc_regime_full_cycle_core_hold_strategy.py` 中 FullCycle、Cooldown 等类为继承基础；FullCycle → Cooldown → Phased → FastExit 是正式版的继承链，保留；无活动配置、运行引用或子类依赖的严格 MA150 分支已从本文件删除。其余类的可执行 AST 未变，历史冻结源码仍在研究目录。
-- `Ma200BtcRegimeFullCycleFastTestStrategy`：正在运行的 `freqtrade-fast-test` 服务依赖，保留以支持运行及重启；不是新增研究方向。
-- `Ma200BtcRegimeWeeklySizedPortfolioStrategy`：现有 Docker Compose 的兼容引用，保留以免破坏用户配置；不是当前正式版。
+CoreHold、FullCycle、冷却、分阶段、FastExit、CoinGuard、EquityRisk，以及个币独立趋势实现，保存在 [归档目录](../archive/cycle_risk_flatten_20261007/README.md)。对应研究配置已移动至同目录下的 `configs/`，并设置归档策略路径。原文件名和类名保留，便于复现。
 
-## 配置
+此前失败的EMA20过滤、单币仓位上限、亏损预算等试验仍在 `validation/core_hold` 研究目录，没有纳入正式版。历史冻结研究源文件不修改。
 
-`config_portfolio_btc_sol_eth.json`、`config_trend_btc_sol_eth.json`、`config_trend_fast_exit_btc_sol_eth.json` 保留对应对照配置。`config_core_growth_btc_sol_eth.json` 现指向相同默认逻辑的 CoreHold 类，文件名保留方便已有引用；旧别名配置已随源码归档。个币保护配置保留作正式版信号对照。
+## 行为核对
 
-## 已归档
+[迁移报告](../../validation/core_hold/cycle_risk_flatten_verification/REPORT.md)核对了六个既有周期的收益、最大回撤、逐日权益、完整交易订单及风险轨迹，并检查缺失数据、冷却边界、退出优先级和已收盘数据因果性。
 
-失败杠杆版、旧单币周线版、Growth/Recovery 重复包装版已移至 [清理归档](../archive/strategy_cleanup_20261007/README.md)。源码、配置、哈希和旧说明均保留；以前的回测研究目录不改动。
-
-## 第二次清理（2026-10-07）
-
-删除 `BtcTrendFullCycleDefensiveStrategy` 历史分支及过期 `__pycache__`。活动目录仍为8个Python文件：每个都有正式依赖、有效对照、独立探索或运行/Compose引用。最新失败的EMA20、单币上限、亏损预算实验只存研究目录，不加入活动策略。清理核对见 [记录](../../validation/core_hold/strategy_cleanup_20261007_second/audit.json)。
+本次只整理代码结构，不调整交易规则或参数，不切换、重启运行服务。正式版账户风控状态的重启持久化缺口仍存在。

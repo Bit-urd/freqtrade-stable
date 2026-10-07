@@ -1,10 +1,14 @@
 """Causal timing and independent capital checks for the selected revision."""
+from pathlib import Path
 import sys, unittest
 from datetime import timedelta
 from types import SimpleNamespace
 from unittest.mock import Mock, patch
 import pandas as pd
-sys.path.insert(0, '/freqtrade/user_data/strategies')
+strategy_path = Path('/freqtrade/user_data/strategies')
+if not (strategy_path/'ma200_btc_regime_full_cycle_core_hold_strategy.py').exists():
+    strategy_path = Path('/freqtrade/user_data/archive/cycle_risk_flatten_20261007/strategies')
+sys.path.insert(0, str(strategy_path))
 import ma200_btc_regime_full_cycle_core_hold_strategy as module
 
 class FastExitChecks(unittest.TestCase):

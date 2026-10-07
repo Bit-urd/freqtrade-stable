@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.freqtrade.io/schema.json",
-  "bot_name": "btc_sol_eth_fast_exit",
-  "strategy": "BtcTrendFastExitStrategy",
+  "bot_name": "trend_coin_guard_btc_sol_eth",
+  "strategy": "BtcTrendCoinGuardStrategy",
   "initial_state": "running",
   "dry_run": true,
   "dry_run_wallet": 1000,
@@ -57,5 +57,6 @@
     "process_throttle_secs": 5
   },
   "fee": 0.001,
-  "db_url": "sqlite:///user_data/trades_trend_fast_exit_dryrun.sqlite"
+  "db_url": "sqlite:///user_data/trades_trend_coin_guard_btc_sol_eth_dryrun.sqlite",
+  "strategy_path": "user_data/archive/cycle_risk_flatten_20261007/strategies"
 }

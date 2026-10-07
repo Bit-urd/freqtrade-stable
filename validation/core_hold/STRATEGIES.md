@@ -72,3 +72,7 @@ BtcCoinGuardCycleRiskStrategy (corrected v2) is the current official selected pr
 ### 活动目录再次清理（2026-10-07）
 
 删除无依赖、无活动配置引用的严格MA150历史类BtcTrendFullCycleDefensiveStrategy及旧字节码缓存。保留8个Python文件，正式版及其继承链、原Portfolio、温和CoreHold、独立趋势、运行与Compose兼容类均有用途；最新失败实验没有进入活动目录。其余核心类AST与清理前一致，冻结研究数据与源码不变。
+
+### 正式版单文件迁移（2026-10-07）
+
+当前CycleRisk直接继承IStrategy，只需cycle_risk_strategy.py一个自定义文件、一个策略类；不再依赖CoreHold/Phased/FastExit/CoinGuard/EquityRisk。原八文件和四个研究配置冻结于user_data/archive/cycle_risk_flatten_20261007；研究方向仍可用归档策略路径复现。活动目录保留四个文件，其余三个用于原Portfolio对照、现有运行服务及Compose兼容。六个原生周期、逐日权益、全部交易订单与风险轨迹均与迁移前核对；规则不变、运行服务未切换。详见cycle_risk_flatten_verification/REPORT.md。

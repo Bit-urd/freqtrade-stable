@@ -215,3 +215,9 @@ Details: [Retained strategies and final phased comparison](validation/core_hold/
 - [x] 核对八个活动策略文件的继承关系、活动JSON配置和Compose引用；删除无配置、运行或子类引用的严格MA150历史类BtcTrendFullCycleDefensiveStrategy及过期字节码缓存。
 - [x] 保留正式版依赖链、原Portfolio、CoreHold、分阶段/快速退出、独立趋势及运行/Compose兼容策略；最新失败实验仍仅在研究目录，历史冻结代码与报告未删除。
 - [x] 删除前后其余核心类可执行AST一致；离线加载与既有回归检查记录于validation/core_hold/strategy_cleanup_20261007_second/verification.json。
+
+## 正式版调用链缩短及研究入口归档（2026-10-07）
+
+- [x] 冻结迁移前八个活动文件与哈希；将CoreHold/Phased/FastExit/CoinGuard/EquityRisk/独立趋势及四个研究配置移至user_data/archive/cycle_risk_flatten_20261007，配置更新归档策略路径。
+- [x] CycleRisk从四个文件、八个自定义类的继承链改为单文件直接继承IStrategy；保留真实生效的进退出、冷却、独立复利预算、成交档位、账户风控及BTC风险重启，删除未用于决策的周线/熊市/核心仓指标。
+- [x] 六次原生回测与迁移前对比逐日权益、完整交易订单和风险轨迹；14项因果性、缺失行情、冷却边界、资金调整及风险重启规则检查通过。运行Portfolio/FastTest及Compose兼容策略保留，未部署或重启服务。

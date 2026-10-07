@@ -142,3 +142,11 @@ docker-compose-*.yml
 !user_data/archive/
 user_data/archive/*
 !user_data/archive/strategy_cleanup_20261007/
+
+# CycleRisk historical chain and research configurations
+!user_data/archive/cycle_risk_flatten_20261007/
+!user_data/archive/cycle_risk_flatten_20261007/configs/*.json
+!user_data/strategies/README.md
+!user_data/strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py
+!user_data/strategies/ma200_btc_regime_full_cycle_fast_test_strategy.py
+!user_data/strategies/ma200_btc_regime_weekly_sized_portfolio_strategy.py

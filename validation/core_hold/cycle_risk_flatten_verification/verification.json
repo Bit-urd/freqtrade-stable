@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "native_runs": 6,
+  "matching_summary_rows": 12,
+  "compared_strategy_days": 4393,
+  "compared_trades_including_terminal_force_exit": 376,
+  "compared_orders_including_terminal_force_exit": 822,
+  "max_numeric_difference": 0.0,
+  "daily_equity_matches": true,
+  "all_fills_match": true,
+  "risk_traces_match": true,
+  "rule_checks": {
+    "passed": true,
+    "tests_run": 14
+  },
+  "loading_checks": {
+    "passed": true,
+    "active_python_files": 4,
+    "archive_configs_loaded": 4,
+    "loaded": [
+      {
+        "strategy": "BtcCoinGuardCycleRiskStrategy",
+        "location": "active"
+      },
+      {
+        "strategy": "Ma200BtcRegimeFullCycleFastTestStrategy",
+        "location": "active"
+      },
+      {
+        "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+        "location": "active"
+      },
+      {
+        "strategy": "Ma200BtcRegimeWeeklySizedPortfolioStrategy",
+        "location": "active"
+      },
+      {
+        "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+        "config": "config_core_growth_btc_sol_eth.json",
+        "location": "archive"
+      },
+      {
+        "strategy": "BtcTrendPhasedStrategy",
+        "config": "config_trend_btc_sol_eth.json",
+        "location": "archive"
+      },
+      {
+        "strategy": "BtcTrendCoinGuardStrategy",
+        "config": "config_trend_coin_guard_btc_sol_eth.json",
+        "location": "archive"
+      },
+      {
+        "strategy": "BtcTrendFastExitStrategy",
+        "config": "config_trend_fast_exit_btc_sol_eth.json",
+        "location": "archive"
+      }
+    ]
+  },
+  "archived_entrypoint_checks": {
+    "passed": true,
+    "tests_run": 20
+  },
+  "archive_hashes_match": true,
+  "active_source_matches_replayed_source": true,
+  "custom_files_before": 4,
+  "custom_files_after": 1,
+  "custom_classes_before": 8,
+  "custom_classes_after": 1
+}

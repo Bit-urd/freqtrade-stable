@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "active_python_files": 4,
+  "archive_configs_loaded": 4,
+  "loaded": [
+    {
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "location": "active"
+    },
+    {
+      "strategy": "Ma200BtcRegimeFullCycleFastTestStrategy",
+      "location": "active"
+    },
+    {
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "location": "active"
+    },
+    {
+      "strategy": "Ma200BtcRegimeWeeklySizedPortfolioStrategy",
+      "location": "active"
+    },
+    {
+      "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+      "config": "config_core_growth_btc_sol_eth.json",
+      "location": "archive"
+    },
+    {
+      "strategy": "BtcTrendPhasedStrategy",
+      "config": "config_trend_btc_sol_eth.json",
+      "location": "archive"
+    },
+    {
+      "strategy": "BtcTrendCoinGuardStrategy",
+      "config": "config_trend_coin_guard_btc_sol_eth.json",
+      "location": "archive"
+    },
+    {
+      "strategy": "BtcTrendFastExitStrategy",
+      "config": "config_trend_fast_exit_btc_sol_eth.json",
+      "location": "archive"
+    }
+  ]
+}
