@@ -5,6 +5,9 @@ parser=argparse.ArgumentParser();parser.add_argument('--folder',default='cycle_r
 R=Path(__file__).parent;D=R/args.folder;BASE='BtcCoinGuardCycleRiskStrategy'
 plan=json.loads((D/'plan.json').read_text())
 NAMES={BASE:'CycleRisk 正式版','BtcCoinGuardConfirmedBtcEntryStrategy':'BTC MA200 确认入场','BtcCoinGuardSelectiveRecoveryEntryStrategy':'个币强势修复例外','BuyAndHold':'持有','BtcCoinGuardLossCooldownStrategy':'亏损后弱 BTC 冷却','BtcCoinGuardHalfPeakRearmStrategy':'风险恢复保留一半峰值记忆'}
+NAMES.update({'BtcCoinGuardCoinMomentumEntryStrategy':'EMA20 确认入场','BtcCoinGuardCoinMomentumExitStrategy':'EMA20 对称入退场','BtcCoinGuardAllocationCapStrategy':'单币新增资金上限50%','BtcCoinGuardPositionCapStrategy':'单币持仓上限50%'})
+NAMES.update({'BtcCoinGuardLossBudgetStrategy':'亏损序列预算75%/50%','BtcCoinGuardTrendRestoreBudgetStrategy':'亏损预算＋个币趋势恢复'})
+NAMES['BtcCoinGuardLatchedBudgetStrategy']='亏损预算＋趋势恢复保持至该笔结束'
 rows=list(csv.DictReader((D/'summary.csv').open()));assert len(rows)==len(plan['windows'])*(len(plan['strategies'])+1)
 old=list(csv.DictReader((R/'archive/portfolio_cycle_risk_v2/summary.csv').open()))+list(csv.DictReader((R/'production_comparison_2023_latest/summary.csv').open()))
 anchors=0;annual=[];maxtrace=0.
@@ -13,6 +16,14 @@ if 'BtcCoinGuardLossCooldownStrategy' in plan['strategies']:
  lines[2]='第三项固定规则：首次参与不变；上一笔同币交易亏损且 BTC 尚未连续两天站上 MA200 时，再入场等待原有14天冷却；盈利退出及 BTC 已确认阶段不追加限制。退出、权益风控、峰值重置、仓位与成交核算不变，无新参数或账户状态。'
 if 'BtcCoinGuardHalfPeakRearmStrategy' in plan['strategies']:
  lines[2]='第四项且最后一项固定规则：BTC 恢复事件与满风险恢复不变；重置内部权益峰值时，改为旧峰值与当前已收盘权益的中点。保留部分亏损记忆；入场、退出和风险阈值均不变，不增加账户状态，不进行参数搜索。报告回撤仍然使用全历史实际账户峰值。'
+if 'BtcCoinGuardCoinMomentumEntryStrategy' in plan['strategies']:
+ lines[2]='回撤归因后的两项固定试验：个币连续两天站上既有 EMA20 才允许原入场；第二项再增加连续两天跌破 EMA20 退出。保留全部窗口和收益代价，不搜索参数。'
+if 'BtcCoinGuardAllocationCapStrategy' in plan['strategies']:
+ lines[2]='回撤集中度归因后的两项固定试验：任何币新增资金与加仓不超过前一日账户权益50%；第二项另减去持仓超额部分并保留现金。原入退场与账户风控不变。50%是决策时目标，价格波动后并非全天硬上限，不搜索阈值。'
+if 'BtcCoinGuardLossBudgetStrategy' in plan['strategies']:
+ lines[2]='个币上一笔亏损后风险目标75%，连续两笔或更多亏损后50%；与账户目标取较小值，盈利平仓解除。第二项允许个币close>EMA20>EMA50且EMA50上升时解除个币约束，原账户限制仍有效。档位复用已有75%/50%，不搜索阈值，成交后才记录实际风险指令。'
+if 'BtcCoinGuardLatchedBudgetStrategy' in plan['strategies']:
+ lines[2]='上一笔亏损后75%、连续两笔亏损后50%；个币中期趋势确认后解除该笔交易的预算约束，后续普通回调不重新限制，下一笔亏损再限制。新增一项可持久化的每交易趋势确认标记，与真实成交风险档位分开；账户风险目标仍然取上限。不搜索参数。'
 for label in dict.fromkeys(x['window'] for x in rows):
  group=[x for x in rows if x['window']==label]
  lines += [f'## {label}','','| 策略 | 收益率 | 最大回撤 | 新开仓 | 正常平仓 | 正常成交笔数 |','|---|---:|---:|---:|---:|---:|']

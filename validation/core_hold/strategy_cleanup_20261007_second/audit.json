@@ -1,0 +1,29 @@
+{
+  "removed_classes": [
+    "BtcTrendFullCycleDefensiveStrategy"
+  ],
+  "removed_cache_files": [
+    "ma200_btc_regime_full_cycle_core_hold_strategy.cpython-312.pyc",
+    "ma200_btc_regime_full_cycle_core_hold_growth_strategy.cpython-312.pyc"
+  ],
+  "retained_core_classes_ast_unchanged": [
+    "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "BtcTrendFullCycleStrategy",
+    "BtcTrendRecoveryCooldownStrategy",
+    "BtcTrendPhasedStrategy",
+    "BtcTrendFastExitStrategy"
+  ],
+  "core_source_before_sha256": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d",
+  "core_source_after_sha256": "5e58a350b12f2b8b025106746f5c12f63f2ba6023e67f788ab0632b1a88a3adf",
+  "active_python_files": [
+    "btc_trend_coin_guard_strategy.py",
+    "cycle_risk_strategy.py",
+    "equity_risk_strategy.py",
+    "ma200_btc_regime_full_cycle_core_hold_strategy.py",
+    "ma200_btc_regime_full_cycle_fast_test_strategy.py",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py",
+    "ma200_btc_regime_weekly_sized_portfolio_strategy.py",
+    "ma200_ema_alignment_weekly_sized_portfolio_strategy.py"
+  ],
+  "historical_frozen_sources_unchanged": true
+}

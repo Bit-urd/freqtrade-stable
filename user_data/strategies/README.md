@@ -16,7 +16,7 @@
 
 - `equity_risk_strategy.py`：正式版权益控制父类，不作为新的独立研究候选。
 - `btc_trend_coin_guard_strategy.py`：正式版信号父类及风控消融对照，不另开优化主线。
-- `ma200_btc_regime_full_cycle_core_hold_strategy.py` 中 FullCycle、Cooldown 等类为继承基础；严格 MA150 分支仅保留历史对照，不作为优先探索方向。为保持正式依赖源码不变，本轮不拆分这些类。
+- `ma200_btc_regime_full_cycle_core_hold_strategy.py` 中 FullCycle、Cooldown 等类为继承基础；FullCycle → Cooldown → Phased → FastExit 是正式版的继承链，保留；无活动配置、运行引用或子类依赖的严格 MA150 分支已从本文件删除。其余类的可执行 AST 未变，历史冻结源码仍在研究目录。
 - `Ma200BtcRegimeFullCycleFastTestStrategy`：正在运行的 `freqtrade-fast-test` 服务依赖，保留以支持运行及重启；不是新增研究方向。
 - `Ma200BtcRegimeWeeklySizedPortfolioStrategy`：现有 Docker Compose 的兼容引用，保留以免破坏用户配置；不是当前正式版。
 
@@ -27,3 +27,7 @@
 ## 已归档
 
 失败杠杆版、旧单币周线版、Growth/Recovery 重复包装版已移至 [清理归档](../archive/strategy_cleanup_20261007/README.md)。源码、配置、哈希和旧说明均保留；以前的回测研究目录不改动。
+
+## 第二次清理（2026-10-07）
+
+删除 `BtcTrendFullCycleDefensiveStrategy` 历史分支及过期 `__pycache__`。活动目录仍为8个Python文件：每个都有正式依赖、有效对照、独立探索或运行/Compose引用。最新失败的EMA20、单币上限、亏损预算实验只存研究目录，不加入活动策略。清理核对见 [记录](../../validation/core_hold/strategy_cleanup_20261007_second/audit.json)。

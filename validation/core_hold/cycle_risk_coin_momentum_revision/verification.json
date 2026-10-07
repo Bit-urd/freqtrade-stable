@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "native_runs": 18,
+  "matching_formal_hold_anchor_rows": 10,
+  "rule_checks": {
+    "passed": true,
+    "tests_run": 21
+  },
+  "max_ledger_error_usdt": 4.078628990100697e-08,
+  "max_daily_risk_equity_error_usdt": 4.078719939570874e-08,
+  "frozen_source_hashes_match": true,
+  "live_unchanged": true
+}

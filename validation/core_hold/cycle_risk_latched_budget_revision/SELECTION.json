@@ -1,0 +1,10 @@
+{
+  "status": "research_not_adopted",
+  "formal_unchanged": true,
+  "reason": "熊市与近期改善，但上涨/指定长周期收益代价过大；连续窗口回撤45.71%仍高，仅降约4个百分点，不满足通用显著改进要求。",
+  "profiles": [
+    "BtcCoinGuardLossBudgetStrategy",
+    "BtcCoinGuardTrendRestoreBudgetStrategy",
+    "BtcCoinGuardLatchedBudgetStrategy"
+  ]
+}

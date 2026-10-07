@@ -1,5 +1,5 @@
 {
-  "status": "retained_defense_research_candidate",
+  "status": "research_not_adopted",
   "strategy": "BtcCoinGuardHalfPeakRearmStrategy",
   "base": "BtcCoinGuardCycleRiskStrategy",
   "scope": [
@@ -7,7 +7,7 @@
     "SOL/USDT",
     "ETH/USDT"
   ],
-  "reason": "上涨等三段不变，近期收益回撤改善，长周期只少赚约0.94个百分点，连续2023至今收益提高16.10个百分点且回撤降低1.93个百分点",
+  "reason": "用户明确认为回撤改善幅度不足；只保留实验记录，不作为正式升级或优先方向",
   "official_changed": false,
   "live_changed": false,
   "new_durable_account_state": false,

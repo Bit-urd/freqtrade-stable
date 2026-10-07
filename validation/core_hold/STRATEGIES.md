@@ -2,12 +2,12 @@
 
 当前清单以 [策略目录说明](../../user_data/strategies/README.md) 为准：新正式版、原 Portfolio、分阶段/快速退出、温和 CoreHold、个币独立趋势。旧 Growth/Recovery 包装和旧单币周线版停止单独维护，失败杠杆版归档。依赖及运行/配置兼容类单列，不视为独立探索方向；下文为历史研究状态。
 
-# Active strategy profiles
+# 历史策略研究清单
 
 See [current retained comparison and optimization](trend_phased/REPORT.md).
 
 - Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy: Growth（保留对照）
-- BtcTrendFullCycleDefensiveStrategy: 严格 MA150
+- BtcTrendFullCycleDefensiveStrategy: 严格 MA150（已从活动文件删除，仅保留历史冻结记录）
 - BtcTrendRecoveryCooldownStrategy: 14 天冷却全仓
 - BtcTrendPhasedStrategy: 75% 分阶段版（历史正式版，现为对照）
 
@@ -58,3 +58,17 @@ BtcCoinGuardCycleRiskStrategy (corrected v2) is the current official selected pr
 ## 2026-10-07 防守候选：半峰值恢复
 
 优先保留 `BtcCoinGuardHalfPeakRearmStrategy` 为防守研究方向，源码冻结于 `cycle_risk_half_peak_revision/strategies/half_peak_rearm_strategy.py`。BTC风险恢复时仍恢复原仓位，但内部峰值取旧峰值与当前权益中点，保留部分损失记忆；不增加账户状态、不修改入场退出或原阈值。2023至今433.22%/47.78%，正式版417.12%/49.71%；长周期496.49%/40.24%，正式版497.43%/40.83%；近期收益与回撤略改善，其余三个主要阶段相同。2025年度收益略差，改善有限，尚未生产部署。前三项入场防守规则不采用，完整代价见 `cycle_risk_half_peak_revision/CONCLUSIONS.md`。正式版仍为CycleRisk，运行服务不变。
+
+半峰值恢复取舍更新：用户明确否定其回撤改善幅度，不列为优先候选，仅保留实验记录；正式版不变。
+
+### 回撤归因后验证（2026-10-07）
+
+最大回撤主要由SOL老仓回吐与后续反复入场共同造成。EMA20确认/退出、50%单币新增/持仓约束四项固定假设已跑完六窗口并对比持有；均未达到明显降低完整周期回撤且保留大部分收益的要求，不推广至strategies根目录。正式版保持CycleRisk。归因与全部折中记录见cycle_risk_drawdown_diagnosis/REPORT.md和cycle_risk_weight_cap_revision/CONCLUSIONS.md。
+
+### 个币亏损预算后续验证（2026-10-07）
+
+盈利平仓恢复、动态趋势恢复、恢复保持至该笔结束三种预算结构已完成六窗口比较。熊市和近期改善，但上涨与指定长周期收益损失偏大；最后一版2023至今368.56%/45.71%，约持有收益66.95%，仍不足以成为通用显著改进。全部只留在研究目录，不增加正式strategies文件，不升级、不列新通用优先候选。完整取舍见cycle_risk_latched_budget_revision/CONCLUSIONS.md。
+
+### 活动目录再次清理（2026-10-07）
+
+删除无依赖、无活动配置引用的严格MA150历史类BtcTrendFullCycleDefensiveStrategy及旧字节码缓存。保留8个Python文件，正式版及其继承链、原Portfolio、温和CoreHold、独立趋势、运行与Compose兼容类均有用途；最新失败实验没有进入活动目录。其余核心类AST与清理前一致，冻结研究数据与源码不变。

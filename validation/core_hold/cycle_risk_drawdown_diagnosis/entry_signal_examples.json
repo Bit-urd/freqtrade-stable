@@ -1,0 +1,122 @@
+[
+  {
+    "pair": "SOL_USDT",
+    "signal_date": "2023-01-04",
+    "close": 13.43,
+    "ema20": 11.779687036707822,
+    "one_day": true,
+    "two_days": true
+  },
+  {
+    "pair": "SOL_USDT",
+    "signal_date": "2025-03-02",
+    "close": 178.71,
+    "ema20": 168.12022202276026,
+    "one_day": true,
+    "two_days": false
+  },
+  {
+    "pair": "SOL_USDT",
+    "signal_date": "2025-09-28",
+    "close": 210.83,
+    "ema20": 217.6097313495618,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "SOL_USDT",
+    "signal_date": "2025-01-18",
+    "close": 261.97,
+    "ema20": 206.43110422435885,
+    "one_day": true,
+    "two_days": true
+  },
+  {
+    "pair": "SOL_USDT",
+    "signal_date": "2025-02-07",
+    "close": 191.99,
+    "ema20": 215.96171949335087,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "BTC_USDT",
+    "signal_date": "2023-01-04",
+    "close": 16850.36,
+    "ema20": 16770.882696914487,
+    "one_day": true,
+    "two_days": false
+  },
+  {
+    "pair": "BTC_USDT",
+    "signal_date": "2025-03-02",
+    "close": 94270.0,
+    "ema20": 92517.68431303233,
+    "one_day": true,
+    "two_days": false
+  },
+  {
+    "pair": "BTC_USDT",
+    "signal_date": "2025-09-28",
+    "close": 112163.95,
+    "ema20": 112829.51200892117,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "BTC_USDT",
+    "signal_date": "2025-01-18",
+    "close": 104556.23,
+    "ema20": 98173.07738333265,
+    "one_day": true,
+    "two_days": true
+  },
+  {
+    "pair": "BTC_USDT",
+    "signal_date": "2025-02-07",
+    "close": 96506.8,
+    "ema20": 99888.6754001047,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "ETH_USDT",
+    "signal_date": "2023-01-04",
+    "close": 1256.9,
+    "ema20": 1219.2587633647772,
+    "one_day": true,
+    "two_days": false
+  },
+  {
+    "pair": "ETH_USDT",
+    "signal_date": "2025-03-02",
+    "close": 2518.11,
+    "ema20": 2570.77983092252,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "ETH_USDT",
+    "signal_date": "2025-09-28",
+    "close": 4142.16,
+    "ema20": 4272.028902625217,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "ETH_USDT",
+    "signal_date": "2025-01-18",
+    "close": 3307.71,
+    "ema20": 3378.242994641894,
+    "one_day": false,
+    "two_days": false
+  },
+  {
+    "pair": "ETH_USDT",
+    "signal_date": "2025-02-07",
+    "close": 2622.1,
+    "ema20": 3028.5621183593835,
+    "one_day": false,
+    "two_days": false
+  }
+]

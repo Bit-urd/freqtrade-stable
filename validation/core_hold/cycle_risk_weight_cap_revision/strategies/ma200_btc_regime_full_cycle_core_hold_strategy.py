@@ -532,6 +532,36 @@ class BtcTrendFullCycleStrategy(Ma200BtcRegimeFullCycleCoreHoldStrategy):
         return stake if stake >= (min_stake or 0.) else 0.
 
 
+class BtcTrendFullCycleDefensiveStrategy(BtcTrendFullCycleStrategy):
+    """严格 MA150 趋势与现金切换的历史对照，不参与均线下方反弹。
+
+    不替代温和核心仓主线；全周期收益和风险取舍见研究报告。
+    """
+
+    def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
+        dataframe = Ma200BtcRegimeFullCycleCoreHoldStrategy.populate_indicators(
+            self, dataframe, metadata
+        )
+        if dataframe.empty:
+            return dataframe
+        btc = self._history(self.BTC_PAIR, self.timeframe)[["date", "close"]].copy()
+        trend = btc["close"].rolling(self.TREND_MA_DAYS).mean()
+        btc["exposure_entry"] = btc["close"] > trend
+        weak = btc["close"] < trend
+        btc["exposure_exit"] = weak.rolling(self.TREND_EXIT_DAYS).sum() == self.TREND_EXIT_DAYS
+        return dataframe.merge(
+            btc[["date", "exposure_entry", "exposure_exit"]], on="date", how="left"
+        )
+
+    def custom_stake_amount(
+        self, pair: str, current_time: datetime, current_rate: float,
+        proposed_stake: float, min_stake: float | None, max_stake: float,
+        leverage: float, entry_tag: str | None, side: str, **kwargs,
+    ) -> float:
+        return Ma200BtcRegimeFullCycleCoreHoldStrategy.custom_stake_amount(
+            self, pair, current_time, current_rate, proposed_stake, min_stake,
+            max_stake, leverage, entry_tag, side, **kwargs
+        )
 
 
 class BtcTrendRecoveryCooldownStrategy(BtcTrendFullCycleStrategy):

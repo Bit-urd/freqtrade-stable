@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "tests_run": 24,
+  "loaded_strategy_classes": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "BtcCoinGuardEquityRiskStrategy",
+    "BtcTrendCoinGuardStrategy",
+    "BtcTrendFastExitStrategy",
+    "BtcTrendFullCycleStrategy",
+    "BtcTrendPhasedStrategy",
+    "BtcTrendRecoveryCooldownStrategy",
+    "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "Ma200BtcRegimeFullCycleFastTestStrategy",
+    "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "Ma200BtcRegimeWeeklySizedPortfolioStrategy",
+    "Ma200EmaAlignmentWeeklySizedPortfolioStrategy"
+  ],
+  "active_config_references_resolve": [
+    {
+      "file": "config.json",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy"
+    },
+    {
+      "file": "config_trend_btc_sol_eth.json",
+      "strategy": "BtcTrendPhasedStrategy"
+    },
+    {
+      "file": "config_core_growth_btc_sol_eth.json",
+      "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy"
+    },
+    {
+      "file": "config_trend_fast_exit_btc_sol_eth.json",
+      "strategy": "BtcTrendFastExitStrategy"
+    },
+    {
+      "file": "config_trend_coin_guard_btc_sol_eth.json",
+      "strategy": "BtcTrendCoinGuardStrategy"
+    },
+    {
+      "file": "config_portfolio_btc_sol_eth.json",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy"
+    },
+    {
+      "file": "config_fast_test_live.json",
+      "strategy": "Ma200BtcRegimeFullCycleFastTestStrategy"
+    }
+  ],
+  "live_service_restarted": false
+}
