@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "file": "btc_trend_coin_guard_strategy.py",
+      "before_sha256": "d40452c00f8028a7b6fb0e30a1a156519b502cd919a79a044c292e27bb9b051b",
+      "after_sha256": "bfbde33d557e60e9a56e66af22d4ddc2389cf222a5649bae59ef23ce0706078e",
+      "translated_blocks": 1,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "cycle_risk_strategy.py",
+      "before_sha256": "d861b4b4f106072d7b41653daadda3095a5080052a9943e51d9aa13a7d8840be",
+      "after_sha256": "36d3fcfb205c44e8742eaebc831342e38fcecaf33f1d279c898f99384f188f77",
+      "translated_blocks": 1,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "equity_risk_strategy.py",
+      "before_sha256": "3f4c5c467d7de7090c373180f4fbbff1294e5f1b59bf13eb29d7126887063965",
+      "after_sha256": "ebc5e40c523dfc855b93eee94edd370cc292f9879e78605531de7a745a6a543d",
+      "translated_blocks": 3,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "ma200_btc_regime_full_cycle_core_hold_strategy.py",
+      "before_sha256": "93b71f85ae2e131c62e3ed9788fc7dd342652a429abc2e66a5585046be691b49",
+      "after_sha256": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d",
+      "translated_blocks": 16,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "ma200_btc_regime_full_cycle_fast_test_strategy.py",
+      "before_sha256": "4fcc23cc058cdd26d8f32da822dbec5b996343cdb4b647967c0a16cf2488057b",
+      "after_sha256": "dcc11e6ec4fe47138c9b4e05ddc7edffb9dd74275d4e8ca66e2b4368a4ed44da",
+      "translated_blocks": 0,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "ma200_btc_regime_full_cycle_portfolio_strategy.py",
+      "before_sha256": "766a74d0ae9a148625c6f52f22c191bc30ff712a6bf1ba195924693d69905955",
+      "after_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "translated_blocks": 0,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "ma200_btc_regime_weekly_sized_portfolio_strategy.py",
+      "before_sha256": "be212cb2cb849b53ea0a8d1cc19b695460777380dc3554186005d2be3d4a2519",
+      "after_sha256": "a0d46086752302626c6332546d6ec959455e0a90a3b513e8d0c1919f042d56de",
+      "translated_blocks": 0,
+      "non_docstring_ast_unchanged": true
+    },
+    {
+      "file": "ma200_ema_alignment_weekly_sized_portfolio_strategy.py",
+      "before_sha256": "0573aa9f1add47860885b9ee231f18b8f97e2deabdc6db4d1592490b7804eb3b",
+      "after_sha256": "7bdf9c2c4c41e9568dcd5650279664dc18211bdf2bfb3b2488c3c5cf79a02e54",
+      "translated_blocks": 0,
+      "non_docstring_ast_unchanged": true
+    }
+  ],
+  "all_trading_logic_unchanged": true
+}

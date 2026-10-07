@@ -1,0 +1,164 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 5,
+    "joint_improvements": 5,
+    "hold_joint_hits": 2,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "BTC/USDT",
+    "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "return_wins": 0,
+    "drawdown_wins": 0,
+    "joint_improvements": 0,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "BTC/USDT",
+    "strategy": "BtcTrendPhasedStrategy",
+    "return_wins": 6,
+    "drawdown_wins": 5,
+    "joint_improvements": 5,
+    "hold_joint_hits": 2,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "BTC/USDT",
+    "strategy": "BtcTrendFastExitStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 5,
+    "joint_improvements": 5,
+    "hold_joint_hits": 2,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "BTC/USDT",
+    "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "return_wins": 3,
+    "drawdown_wins": 4,
+    "joint_improvements": 3,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "BTC/USDT",
+    "strategy": "Ma200EmaAlignmentWeeklySizedPortfolioStrategy",
+    "return_wins": 3,
+    "drawdown_wins": 3,
+    "joint_improvements": 3,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "hold_joint_hits": 3,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "return_wins": 0,
+    "drawdown_wins": 0,
+    "joint_improvements": 0,
+    "hold_joint_hits": 1,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "BtcTrendPhasedStrategy",
+    "return_wins": 4,
+    "drawdown_wins": 4,
+    "joint_improvements": 3,
+    "hold_joint_hits": 3,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "BtcTrendFastExitStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "hold_joint_hits": 3,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "return_wins": 4,
+    "drawdown_wins": 3,
+    "joint_improvements": 3,
+    "hold_joint_hits": 2,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "ETH/USDT",
+    "strategy": "Ma200EmaAlignmentWeeklySizedPortfolioStrategy",
+    "return_wins": 3,
+    "drawdown_wins": 3,
+    "joint_improvements": 3,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "BtcCoinGuardCycleRiskStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "hold_joint_hits": 1,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "return_wins": 0,
+    "drawdown_wins": 0,
+    "joint_improvements": 0,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "BtcTrendPhasedStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "hold_joint_hits": 2,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "BtcTrendFastExitStrategy",
+    "return_wins": 5,
+    "drawdown_wins": 4,
+    "joint_improvements": 4,
+    "hold_joint_hits": 1,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "return_wins": 3,
+    "drawdown_wins": 4,
+    "joint_improvements": 3,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  },
+  {
+    "pair": "SOL/USDT",
+    "strategy": "Ma200EmaAlignmentWeeklySizedPortfolioStrategy",
+    "return_wins": 3,
+    "drawdown_wins": 3,
+    "joint_improvements": 3,
+    "hold_joint_hits": 0,
+    "positive_hold_cases": 3
+  }
+]

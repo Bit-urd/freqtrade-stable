@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "policy_tests": 13,
+  "active_strategy_classes_loaded": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "BtcTrendPhasedStrategy",
+    "BtcTrendFastExitStrategy",
+    "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "Ma200EmaAlignmentWeeklySizedPortfolioStrategy",
+    "Ma200BtcRegimeFullCycleFastTestStrategy",
+    "Ma200BtcRegimeWeeklySizedPortfolioStrategy",
+    "BtcTrendCoinGuardStrategy"
+  ],
+  "archived_source_hashes_match": true,
+  "official_frozen_hashes_match": true,
+  "official_active_logic_matches_frozen": true,
+  "all_eight_files_comment_only_changes": true,
+  "all_existing_config_strategy_names_resolve": true,
+  "growth_alias_defaults_preserved": true
+}

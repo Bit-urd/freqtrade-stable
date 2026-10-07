@@ -1,0 +1,59 @@
+{
+  "pairs": [
+    "SOL/USDT"
+  ],
+  "asset_types": {
+    "BTC/USDT": "BTC 基准",
+    "ETH/USDT": "智能合约平台",
+    "SOL/USDT": "高波动公链"
+  },
+  "strategies": [
+    "BtcCoinGuardTrendAwareRiskStrategy",
+    "BtcCoinGuardTrendRecoveryRiskStrategy"
+  ],
+  "windows": [
+    {
+      "label": "ref_bull_2023_2024",
+      "cohort": "reference",
+      "timerange": "20230101-20241231",
+      "reference_label": "bull_2023_2024"
+    },
+    {
+      "label": "ref_bull_to_bear_2021",
+      "cohort": "reference",
+      "timerange": "20210701-20221121",
+      "reference_label": "bull_to_bear_2021"
+    },
+    {
+      "label": "ref_bear_2022",
+      "cohort": "reference",
+      "timerange": "20220101-20221121",
+      "reference_label": "bear_2022"
+    },
+    {
+      "label": "ref_since_last_september",
+      "cohort": "reference",
+      "timerange": "20250901-20261005",
+      "reference_label": "since_last_september"
+    },
+    {
+      "label": "ref_requested_long",
+      "cohort": "reference",
+      "timerange": "20221121-20251007",
+      "reference_label": "requested_long"
+    },
+    {
+      "label": "bull_2024",
+      "cohort": "new_asset_common",
+      "timerange": "20240101-20241231",
+      "description": "2024 common bull window allows SUI and PEPE with >=210 prior daily rows."
+    }
+  ],
+  "initial_capital": 1000,
+  "max_open_trades": 1,
+  "fee_per_side": 0.001,
+  "parameters_frozen": true,
+  "minimum_pre_start_daily_rows": 210,
+  "reuse_source": "representative_assets/summary.csv",
+  "experiment": "Two fixed structural changes, no parameter sweep."
+}

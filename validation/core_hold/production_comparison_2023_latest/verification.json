@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "native_runs": 7,
+  "days": 1375,
+  "start": "2023-01-01",
+  "end": "2026-10-06",
+  "max_cash_ledger_error_usdt": 4.078628990100697e-08,
+  "annual_compounding_reconciles": true,
+  "trade_count_categories_reconcile": true,
+  "source_hashes_match": true,
+  "daily_risk_equity_reconciled_in_runner": true,
+  "terminal_force_exits_excluded_from_frequency": true,
+  "explicit_isolated_datadir": true,
+  "incomplete_current_day_filtered_before_snapshot": true,
+  "aborted_initial_attempts_excluded": 3
+}

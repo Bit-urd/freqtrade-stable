@@ -135,3 +135,10 @@ docker-compose-*.yml
 !user_data/config_trend_coin_guard_btc_sol_eth.json
 !user_data/config_core_growth_btc_sol_eth.json
 !user_data/strategies/btc_trend_coin_guard_strategy.py
+
+# Selected official implementation and strategy-cleanup audit
+!user_data/strategies/cycle_risk_strategy.py
+!user_data/strategies/equity_risk_strategy.py
+!user_data/archive/
+user_data/archive/*
+!user_data/archive/strategy_cleanup_20261007/

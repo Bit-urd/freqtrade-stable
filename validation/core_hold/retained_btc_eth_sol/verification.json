@@ -1,0 +1,12 @@
+{
+  "fresh_native_backtests": 36,
+  "reused_native_backtests": 72,
+  "fresh_hold_cases": 18,
+  "comparison_rows": 126,
+  "all_strategy_dates_match_hold": true,
+  "reused_sources_logic_unchanged": true,
+  "reused_three_coin_data_hashes_match": true,
+  "frozen_sources_unchanged": true,
+  "max_ledger_error": 2.8901354198751505e-08,
+  "hold_anchor_rows": 18
+}

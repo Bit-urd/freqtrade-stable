@@ -1,0 +1,23 @@
+{
+  "strategies": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "BtcTrendPhasedStrategy",
+    "BtcTrendFastExitStrategy",
+    "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "BtcCoinGuardTrendRecoveryRiskStrategy",
+    "BtcCoinGuardRisingMediumExitStrategy"
+  ],
+  "pairs": [
+    "BTC/USDT",
+    "SOL/USDT",
+    "ETH/USDT"
+  ],
+  "start": "2023-01-01",
+  "end": "2026-10-06",
+  "annual_metrics": "连续账户，不按年重置；2026为截至10月6日",
+  "fee": 0.001,
+  "wallet": 1000,
+  "slots": 3,
+  "download": "仅追加已收盘 2026-10-06 日线到隔离数据快照；不修改运行服务数据"
+}

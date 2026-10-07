@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "native_runs": 69,
+  "single_coin_cases": 18,
+  "portfolio_cases": 5,
+  "matching_recovery_hold_anchor_rows": 46,
+  "max_final_ledger_error_usdt": 2.5901726985466667e-08,
+  "rule_checks": {
+    "passed": true,
+    "tests_run": 5
+  },
+  "frozen_source_hashes_match": true
+}

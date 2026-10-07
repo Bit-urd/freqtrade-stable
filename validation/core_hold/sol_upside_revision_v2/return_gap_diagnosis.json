@@ -1,0 +1,200 @@
+{
+  "hold_return_pct": 1796.899489677825,
+  "first_entry_lag_pp": 488.70232570999815,
+  "fast_exit_vs_same_entry_hold_pp": 8.83456184282636,
+  "coin_guard_delta_pp": 194.1838052109997,
+  "equity_risk_delta_pp": 287.44720875899986,
+  "total_return_gap_pp": 979.1679015228241,
+  "risk_stage_days": {
+    "1.0": 387,
+    "0.75": 201,
+    "0.5": 142
+  },
+  "risk_changes": [
+    {
+      "execution_date": "2023-01-02 00:00:00+00:00",
+      "prior_closed_equity": 1000.0,
+      "peak": 1000.0,
+      "drawdown": 0.0,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-03-05 00:00:00+00:00",
+      "prior_closed_equity": 1433.4047484700002,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.26083720687686673,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-03-16 00:00:00+00:00",
+      "prior_closed_equity": 1253.59167583,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.3535612843954484,
+      "risk_fraction": 0.5,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-04-17 00:00:00+00:00",
+      "prior_closed_equity": 1375.74321625,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.29057148762135876,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-04-21 00:00:00+00:00",
+      "prior_closed_equity": 1247.63405617,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.35663344582992906,
+      "risk_fraction": 0.5,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-07-08 00:00:00+00:00",
+      "prior_closed_equity": 1391.4586757000002,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.28246750797801334,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-07-14 00:00:00+00:00",
+      "prior_closed_equity": 1609.9116399300003,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.16981802542353708,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-07-25 00:00:00+00:00",
+      "prior_closed_equity": 1446.19556229,
+      "peak": 1939.2274094500003,
+      "drawdown": 0.2542413771368016,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2023-10-18 00:00:00+00:00",
+      "prior_closed_equity": 1299.3383575500002,
+      "peak": 1299.3383575500002,
+      "drawdown": 0.0,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": true
+    },
+    {
+      "execution_date": "2024-01-08 00:00:00+00:00",
+      "prior_closed_equity": 4854.62943599,
+      "peak": 6562.75809599,
+      "drawdown": 0.2602760356265007,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-01-10 00:00:00+00:00",
+      "prior_closed_equity": 5257.249104626666,
+      "peak": 6562.75809599,
+      "drawdown": 0.198926879867937,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-01-13 00:00:00+00:00",
+      "prior_closed_equity": 4873.056485586666,
+      "peak": 6562.75809599,
+      "drawdown": 0.25746821468793457,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-01-18 00:00:00+00:00",
+      "prior_closed_equity": 5268.059078362693,
+      "peak": 6562.75809599,
+      "drawdown": 0.1972797105562063,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-01-19 00:00:00+00:00",
+      "prior_closed_equity": 4869.638567362695,
+      "peak": 6562.75809599,
+      "drawdown": 0.2579890198393632,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-02-10 00:00:00+00:00",
+      "prior_closed_equity": 5353.452413922737,
+      "peak": 6562.75809599,
+      "drawdown": 0.1842679044967659,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-04-14 00:00:00+00:00",
+      "prior_closed_equity": 6930.251122462738,
+      "peak": 10132.322162462737,
+      "drawdown": 0.3160253877302409,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-05-01 00:00:00+00:00",
+      "prior_closed_equity": 6489.335824291151,
+      "peak": 10132.322162462737,
+      "drawdown": 0.3595411081250234,
+      "risk_fraction": 0.5,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-05-07 00:00:00+00:00",
+      "prior_closed_equity": 7154.478573130151,
+      "peak": 10132.322162462737,
+      "drawdown": 0.29389547051362197,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-05-21 00:00:00+00:00",
+      "prior_closed_equity": 8342.41051846015,
+      "peak": 10132.322162462737,
+      "drawdown": 0.1766536451667201,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-05-25 00:00:00+00:00",
+      "prior_closed_equity": 7491.913418470151,
+      "peak": 10132.322162462737,
+      "drawdown": 0.2605926560225771,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-06-19 00:00:00+00:00",
+      "prior_closed_equity": 6475.143804869054,
+      "peak": 10132.322162462737,
+      "drawdown": 0.3609417761253634,
+      "risk_fraction": 0.5,
+      "risk_epoch_reset": false
+    },
+    {
+      "execution_date": "2024-07-15 00:00:00+00:00",
+      "prior_closed_equity": 6598.73683499,
+      "peak": 6598.73683499,
+      "drawdown": 0.0,
+      "risk_fraction": 1.0,
+      "risk_epoch_reset": true
+    },
+    {
+      "execution_date": "2024-12-22 00:00:00+00:00",
+      "prior_closed_equity": 8890.56878362,
+      "peak": 12587.39243362,
+      "drawdown": 0.2936925713165227,
+      "risk_fraction": 0.75,
+      "risk_epoch_reset": false
+    }
+  ],
+  "caveat": "Arithmetic layer comparisons include compounding interactions; delayed-entry holding is diagnostic only and does not replace the original benchmark."
+}

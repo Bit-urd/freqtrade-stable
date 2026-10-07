@@ -1,3 +1,7 @@
+## 当前目录筛选（2026-10-07）
+
+当前清单以 [策略目录说明](../../user_data/strategies/README.md) 为准：新正式版、原 Portfolio、分阶段/快速退出、温和 CoreHold、个币独立趋势。旧 Growth/Recovery 包装和旧单币周线版停止单独维护，失败杠杆版归档。依赖及运行/配置兼容类单列，不视为独立探索方向；下文为历史研究状态。
+
 # Active strategy profiles
 
 See [current retained comparison and optimization](trend_phased/REPORT.md).
@@ -31,3 +35,21 @@ BtcCoinGuardCycleRiskStrategy (corrected v2) is the current official selected pr
 ## 代表性标的跨周期验证（2026-10-07）
 
 正式版、原 Portfolio、分阶段、快速退出、全天个币保护与持有：12 币、6 窗口，64 有效单币案例、320 原生回测；新币上市前 8 组跳过。上涨、牛转熊、纯熊市横截面较原版改善，长周期收益中位数 280.66% 对 204.23%，回撤中位数 57.45% 对 50.04%；近期正式版收益中位数 -18.04%/回撤中位数 51.66%，原版 -9.15%/44.99%。LINK、AVAX、ADA 迁移弱，不扩大既定 BTC/SOL/ETH 正式范围。统计为单币分布，不能当作组合收益或独立样本。见 [完整对比](representative_assets/REPORT.md) 与 [交互查看](representative_assets/comparison.html)。
+
+## 保留方向三币独立账户复核
+
+六版本分别测试 BTC、ETH、SOL 的六个窗口；新正式版 BTC/ETH 折中较好，但 SOL 长周期收益仅持有的约 32%，近期温和 CoreHold 与个币独立趋势有不同优势。完整表格见 [三币逐版本报告](retained_btc_eth_sol/REPORT.md)，交互查看见 [对比页面](retained_btc_eth_sol/comparison.html)。组合与单币账户结果不混用。
+
+## SOL 上涨方向的固定结构优化
+
+`BtcCoinGuardTrendRecoveryRiskStrategy` 保留为 SOL 单币研究候选，源码仅在 `sol_upside_revision_v2/strategies/`，不新增活动策略方向。上涨收益/回撤 1029.45%/43.92%，长周期 736.56%/57.22%，仍不足持有约 2/3；三币组合改善很小，当前正式版不替换。强趋势优先对照未采用。见 [诊断与完整回测](sol_upside_revision_v2/REPORT.md)。
+
+
+## 2026-10-07 趋势恢复版第二轮研究
+
+中期确认个币退出 `BtcCoinGuardConfirmedCoinExitStrategy` 保留为 SOL 趋势参与候选，源代码冻结于 `trend_recovery_revision/strategies/recovery_refinement_strategy.py`。SOL 长周期 825.02%/53.44%，上涨期 1047.40%/43.45%；ETH 部分窗口退步，三币长周期 519.05%/42.74%、近期 -20.91%/44.76%。这是局部收益/风险改进，不是三币无条件正式升级。继续优先保留趋势恢复版为通用改进方向。冷却补恢复未触发增益，本轮不采用。完整比较及基准见 `trend_recovery_revision/REPORT.md`。
+
+
+## 2026-10-07 选择性延迟退出：新的优先研究方向
+
+`BtcCoinGuardRisingMediumExitStrategy` 仅在个币 EMA20>EMA50 且 EMA50 仍上升时延迟原个币退出，BTC 退出不延迟。相比趋势恢复版，三币长期收益增加 20.51 个百分点、最大回撤不变（532.52%/40.93%）；近期略改善，其余三个主要阶段不变。18 个单币案例 2 个共同改善、16 个不变。优先保留该方向，不自动替换正式版本；上一轮更激进 SOL 候选保留局部研究价值。源码冻结于 `selective_coin_exit_revision/strategies/selective_coin_exit_strategy.py`，完整比较见同目录上级 `REPORT.md`。第二个 BTC MA200 门控候选不列为优先。

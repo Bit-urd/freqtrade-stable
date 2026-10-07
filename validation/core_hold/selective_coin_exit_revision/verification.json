@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "native_runs": 69,
+  "matching_previous_candidate_hold_anchors": 46,
+  "rule_checks": {
+    "passed": true,
+    "tests_run": 6
+  },
+  "frozen_source_hashes_match": true,
+  "data_hashes_match_previous": true,
+  "max_ledger_error_usdt": 2.5901726985466667e-08,
+  "max_single_daily_risk_equity_error_usdt": 2.5901840672304388e-08,
+  "portfolio_daily_risk_equity_reconciled_in_runner": true
+}

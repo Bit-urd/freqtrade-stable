@@ -1,0 +1,11 @@
+{
+  "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+  "ma200_ema_alignment_weekly_sized_portfolio_strategy.py": "7bdf9c2c4c41e9568dcd5650279664dc18211bdf2bfb3b2488c3c5cf79a02e54",
+  "ma200_btc_regime_full_cycle_fast_test_strategy.py": "dcc11e6ec4fe47138c9b4e05ddc7edffb9dd74275d4e8ca66e2b4368a4ed44da",
+  "ma200_btc_regime_full_cycle_core_hold_strategy.py": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d",
+  "btc_trend_coin_guard_strategy.py": "bfbde33d557e60e9a56e66af22d4ddc2389cf222a5649bae59ef23ce0706078e",
+  "equity_risk_strategy.py": "ebc5e40c523dfc855b93eee94edd370cc292f9879e78605531de7a745a6a543d",
+  "cycle_risk_strategy.py": "36d3fcfb205c44e8742eaebc831342e38fcecaf33f1d279c898f99384f188f77",
+  "ma200_btc_regime_weekly_sized_portfolio_strategy.py": "a0d46086752302626c6332546d6ec959455e0a90a3b513e8d0c1919f042d56de",
+  "trend_aware_risk_strategy.py": "345dcf32854e3372fb3b191be7f6d143c439a1899a419556ac413b8d646627e7"
+}

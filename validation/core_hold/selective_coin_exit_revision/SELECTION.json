@@ -1,0 +1,10 @@
+{
+  "priority_candidate": "BtcCoinGuardRisingMediumExitStrategy",
+  "status": "保留为新的优先研究候选；暂不自动替换正式版本",
+  "scope": "BTC/SOL/ETH，规则对所有标的一致",
+  "previous_candidate": "BtcCoinGuardTrendRecoveryRiskStrategy",
+  "secondary_candidate": "BtcCoinGuardBtcConfirmedExitStrategy",
+  "secondary_status": "非优先：修复近期但仍保留 ETH 损失及更大长期组合回撤",
+  "official_changed": false,
+  "live_changed": false
+}

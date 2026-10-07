@@ -1,0 +1,12 @@
+{
+  "preliminary_native_runs": 12,
+  "final_single_coin_native_runs": 54,
+  "final_portfolio_native_runs": 15,
+  "rule_tests": 21,
+  "all_checks_passed": true,
+  "formal_and_hold_anchor_rows": 46,
+  "sources_match_frozen_manifests": true,
+  "max_cash_ledger_error": 3.370860213181004e-08,
+  "max_single_daily_risk_equity_error": 2.5901840672304388e-08,
+  "reported_drawdown_uses_original_peak": true
+}

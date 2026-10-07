@@ -1,0 +1,32 @@
+[
+  {
+    "window": "ref_bull_2023_2024",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "hold_return_fraction": 0.648359849725716
+  },
+  {
+    "window": "ref_bull_to_bear_2021",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "hold_return_fraction": null
+  },
+  {
+    "window": "ref_bear_2022",
+    "return_change_pp": 0.0,
+    "drawdown_change_pp": 0.0,
+    "hold_return_fraction": null
+  },
+  {
+    "window": "ref_since_last_september",
+    "return_change_pp": 0.25574733050001086,
+    "drawdown_change_pp": -0.1863078878358877,
+    "hold_return_fraction": null
+  },
+  {
+    "window": "ref_requested_long",
+    "return_change_pp": 20.50697014399975,
+    "drawdown_change_pp": 0.0,
+    "hold_return_fraction": 0.6083639968885394
+  }
+]

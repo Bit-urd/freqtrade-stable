@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07",
+  "archived": [
+    {
+      "file": "ma200_ema_alignment_weekly_sized_leverage_strategy.py",
+      "sha256": "399b9fb45861cca07ad06c1cf47e6bc197cbe2f92e2182ae8cd16ca7cdb676aa",
+      "reason": "杠杆试验失败：48 组仅 11 组胜出，收益中位数下降且回撤更高。"
+    },
+    {
+      "file": "ma200_ema_alignment_weekly_sized_strategy.py",
+      "sha256": "b0e575dbadc8751c92e0764acd63cb33aa4f049ae75e7f85af9a46cdcab7881e",
+      "reason": "旧单币实现，组合版设 max_open_trades=1 可以承担单币对照；没有必要平行维护。"
+    },
+    {
+      "file": "ma200_btc_regime_full_cycle_core_hold_growth_strategy.py",
+      "sha256": "6932637b55f3c899bbf4348afb6194fd7d9541e8363b26da6457d0b83ab1886d",
+      "reason": "Growth 为现有 CoreHold 默认参数的重复包装；Recovery 已被新正式版和分阶段主线替代，不再单独探索。"
+    }
+  ],
+  "formal_strategy": "BtcCoinGuardCycleRiskStrategy",
+  "formal_source_copied_unchanged": false,
+  "retained_files": [
+    "btc_trend_coin_guard_strategy.py",
+    "cycle_risk_strategy.py",
+    "equity_risk_strategy.py",
+    "ma200_btc_regime_full_cycle_core_hold_strategy.py",
+    "ma200_btc_regime_full_cycle_fast_test_strategy.py",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py",
+    "ma200_btc_regime_weekly_sized_portfolio_strategy.py",
+    "ma200_ema_alignment_weekly_sized_portfolio_strategy.py"
+  ],
+  "running_strategy_preserved": "Ma200BtcRegimeFullCycleFastTestStrategy",
+  "compose_compatibility_preserved": "Ma200BtcRegimeWeeklySizedPortfolioStrategy",
+  "configuration_update": {
+    "file": "user_data/config_core_growth_btc_sol_eth.json",
+    "old_class": "Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy",
+    "new_class": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
+    "same_growth_defaults": true
+  },
+  "retained_source_sha256": {
+    "btc_trend_coin_guard_strategy.py": "bfbde33d557e60e9a56e66af22d4ddc2389cf222a5649bae59ef23ce0706078e",
+    "cycle_risk_strategy.py": "36d3fcfb205c44e8742eaebc831342e38fcecaf33f1d279c898f99384f188f77",
+    "equity_risk_strategy.py": "ebc5e40c523dfc855b93eee94edd370cc292f9879e78605531de7a745a6a543d",
+    "ma200_btc_regime_full_cycle_core_hold_strategy.py": "bac73ea720cbfcce69c6ffdf4b94671447fea383861886471b05b87113388f9d",
+    "ma200_btc_regime_full_cycle_fast_test_strategy.py": "dcc11e6ec4fe47138c9b4e05ddc7edffb9dd74275d4e8ca66e2b4368a4ed44da",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+    "ma200_btc_regime_weekly_sized_portfolio_strategy.py": "a0d46086752302626c6332546d6ec959455e0a90a3b513e8d0c1919f042d56de",
+    "ma200_ema_alignment_weekly_sized_portfolio_strategy.py": "7bdf9c2c4c41e9568dcd5650279664dc18211bdf2bfb3b2488c3c5cf79a02e54"
+  },
+  "formal_trading_logic_unchanged": true,
+  "active_comment_language": "Chinese"
+}

@@ -144,3 +144,47 @@ Details: [Retained strategies and final phased comparison](validation/core_hold/
 - [x] Freeze five major profiles and compare BTC/ETH/BNB/SOL/XRP/ADA/DOGE/LINK/AVAX/AAVE/SUI/PEPE with holding over six regimes; complete 64 eligible single-coin cases (320 native runs), explicitly skip eight unavailable listing/history cases.
 - [x] Update missing AVAX candles; use 2026-10-05 common recent endpoint; reconcile final balances and every-day controller equity (<3e-8 USDT); reproduce 50 historical anchor rows.
 - [x] Record per-window/per-asset results, tradeoffs, source/data hashes and standalone comparison viewer. No parameter tuning, official scope expansion or live service changes.
+
+## Active strategy cleanup (2026-10-07)
+
+- [x] Archive failed leverage, redundant single-coin weekly implementation and Growth/Recovery wrapper; retain source hashes, original config and dependency snapshot.
+- [x] Put unchanged formal cycle-risk v2 implementation and required equity parent in active directory; retain original Portfolio, phased/fast variants, moderate CoreHold and own-coin trend as distinct directions.
+- [x] Preserve running FastTest and existing Compose strategy compatibility. Growth config now references identical CoreHold defaults. No live restart or trading changes.
+
+- [x] Translate active strategy English comments/docstrings to Chinese; retain identifiers and trade tags, archive pre-translation snapshots, verify unchanged non-docstring AST for all eight files and frozen formal dependencies.
+
+## Retained profiles on BTC / ETH / SOL (2026-10-07)
+
+- [x] Compare all six retained research profiles on three isolated coins over six windows: reuse 72 unchanged native results, add 36 native CoreHold/own-trend runs and 18 matching hold estimates.
+- [x] Verify identical dates, unchanged executable strategy AST and identical daily/weekly data hashes for reused profiles; reconcile final balances (<3e-8 USDT). Record 126 comparison rows and standalone viewer.
+- [x] Document SOL single-coin long-return shortfall, recent CoreHold strengths and own-trend bear cash defense; keep formal selection and running service unchanged.
+
+## SOL upside diagnosis and fixed structural revision (2026-10-07)
+
+- [x] Decompose bull return gap: 34.70% price rise before first entry creates 488.70 pp diagnostic gap; coin guard adds 194.18 pp and equity controller 287.45 pp versus successive controls. Original hold benchmark unchanged.
+- [x] Test three fixed structural hypotheses, then replay formal and two final candidates on BTC/ETH/SOL six windows plus three-coin five-window portfolios: 81 native runs total and 21 passed rule checks; all fills and daily risk NAV reconcile, 46 formal/hold anchors match.
+- [x] Retain trend recovery as SOL-single research candidate (bull 1029.45%/43.92%, long 736.56%/57.22%); do not replace formal three-coin profile. Combo improves long only slightly (512.01%/40.93%) and bull stays essentially flat. Single-coin ~2/3 hold target remains unmet.
+
+
+## 趋势恢复版继续优化（2026-10-07）
+
+- [x] 固定测试冷却补恢复与个币中期确认退出两项改动；完成三币各六段单币回测及五段共享账户，69 次原生回测，5 项新规则检查通过，46 条趋势恢复/持有历史基准复现。
+- [x] 保留中期确认退出为 SOL 趋势参与研究候选：长周期 825.02%/53.44%，较趋势恢复版收益增加 88.46 个百分点、回撤减少 3.78 个百分点；BTC 不变，ETH 收益受损，近期略退步。
+- [x] 记录三币组合折中：上涨 533.46%/30.12%，长期 519.05%/42.74%，近期 -20.91%/44.76%；不因个别指标退步否定研究价值，但趋势恢复版仍为优先通用方向。正式/运行策略未修改。
+- [x] 冷却补恢复本轮无收益/回撤变化，标记不采用，保留源码与事件审计以复现。完整记录 validation/core_hold/trend_recovery_revision/REPORT.md。
+
+
+## 选择性延迟个币退出（2026-10-07）
+
+- [x] 固定比较 EMA50 上升确认与 BTC MA200 连续两天确认两项门控，69 次原生回测、6 项规则检查通过、46 条上一轮候选/持有基准复现，冻结来源与数据哈希一致。
+- [x] 保留 BtcCoinGuardRisingMediumExitStrategy 为新的优先研究候选：三币长期 532.52%/40.93%，较趋势恢复版多赚 20.51 个百分点且回撤不变；近期 -18.40%/43.50% 略改善，其他三个主要阶段不变。
+- [x] 记录 18 单币案例中 2 个同时改善、16 个不变；SOL 长期 778.76%/55.07%，保住部分收益提升并修复 ETH 损失。BTC 确认候选不列优先；完整取舍见 validation/core_hold/selective_coin_exit_revision/REPORT.md。
+- [x] 正式与运行策略未切换；长周期收益约为持有 60.84%，仍未完全达到 2/3 目标。
+
+
+## 2023 至最新完整日线连续账户（2026-10-07）
+
+- [x] 隔离下载 2026-10-06 三币完整日线，过滤未收盘10月7日，冻结七策略；显式锁定数据路径，完成 2023-01-01～2026-10-06 七次原生连续账户比较与持有估值，共1375日。
+- [x] 统计连续账户各年收益、年内回撤、新开仓/全平仓/加仓/部分减仓成交；不按年重置，剔除终点强平；年度复利与总收益核对、账本和每日风险权益核对通过。
+- [x] CycleRisk +417.12%/49.71%，持有 +550.49%/68.57%；收益为持有75.77%。CoreHold +401.04%/34.56% 在本区间更均衡，但2022纯熊市承受能力仍弱，不因本窗口切换正式版本。
+- [x] 记录趋势恢复本区间略逊正式版，最新 EMA50 候选 +430.06%/48.09% 小幅改善；保留全部真实结果，不将此前生产主线建议视为所有区间最优。详情 validation/core_hold/production_comparison_2023_latest/REPORT.md。

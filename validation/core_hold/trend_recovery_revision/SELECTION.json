@@ -1,0 +1,9 @@
+{
+  "retained_candidate": "BtcCoinGuardConfirmedCoinExitStrategy",
+  "status": "研究保留，SOL 长期收益与回撤均改善，三币有代价",
+  "preferred_general_candidate": "BtcCoinGuardTrendRecoveryRiskStrategy",
+  "not_adopted": "BtcCoinGuardPendingRecoveryStrategy",
+  "reason": "测试历史收益与回撤均无变化",
+  "official_changed": false,
+  "live_changed": false
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.freqtrade.io/schema.json",
   "bot_name": "core_growth_btc_sol_eth",
-  "strategy": "Ma200BtcRegimeFullCycleCoreHoldGrowthStrategy",
+  "strategy": "Ma200BtcRegimeFullCycleCoreHoldStrategy",
   "initial_state": "running",
   "dry_run": true,
   "dry_run_wallet": 1000,

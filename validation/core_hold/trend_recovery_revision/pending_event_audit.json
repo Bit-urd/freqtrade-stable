@@ -1,0 +1,110 @@
+[
+  {
+    "pair": "SOL",
+    "window": "ref_bull_2023_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "SOL",
+    "window": "ref_since_last_september",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "SOL",
+    "window": "ref_bull_to_bear_2021",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "SOL",
+    "window": "ref_bear_2022",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "SOL",
+    "window": "bull_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "SOL",
+    "window": "ref_requested_long",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "ref_bull_2023_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "ref_since_last_september",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "ref_bull_to_bear_2021",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "ref_bear_2022",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "bull_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "ETH",
+    "window": "ref_requested_long",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "ref_bull_2023_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "ref_since_last_september",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "ref_bull_to_bear_2021",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "ref_bear_2022",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "bull_2024",
+    "pending_days": 0,
+    "executions": 0
+  },
+  {
+    "pair": "BTC",
+    "window": "ref_requested_long",
+    "pending_days": 0,
+    "executions": 0
+  }
+]

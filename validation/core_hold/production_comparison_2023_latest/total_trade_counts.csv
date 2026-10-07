@@ -1,0 +1,9 @@
+strategy,opens,closes,filled_orders,terminal_force_fills
+BtcCoinGuardCycleRiskStrategy,111,108,239,3
+Ma200BtcRegimeFullCyclePortfolioStrategy,40,37,85,3
+BtcTrendPhasedStrategy,84,81,243,3
+BtcTrendFastExitStrategy,96,93,189,3
+Ma200BtcRegimeFullCycleCoreHoldStrategy,29,26,87,3
+BtcCoinGuardTrendRecoveryRiskStrategy,111,108,238,3
+BtcCoinGuardRisingMediumExitStrategy,108,105,232,3
+BuyAndHold,3,0,3,0
