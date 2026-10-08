@@ -1,0 +1,29 @@
+{
+  "original": {
+    "worst_return": -58.53972632799991,
+    "worst_case": "LINK_P4",
+    "max_dd": 63.9247110919552,
+    "max_dd_case": "LINK_P4",
+    "loss50_cases": 2,
+    "loss70_cases": 0,
+    "dd60_cases": 2
+  },
+  "two_day": {
+    "worst_return": -64.97666170799991,
+    "worst_case": "LINK_P4",
+    "max_dd": 68.70752411665582,
+    "max_dd_case": "AVAX_P4",
+    "loss50_cases": 5,
+    "loss70_cases": 0,
+    "dd60_cases": 5
+  },
+  "hold": {
+    "worst_return": -93.01542776583511,
+    "worst_case": "SOL_P4",
+    "max_dd": 95.4225352112676,
+    "max_dd_case": "SOL_P4",
+    "loss50_cases": 14,
+    "loss70_cases": 7,
+    "dd60_cases": 26
+  }
+}

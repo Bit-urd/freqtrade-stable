@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "count": 6,
+  "checks": [
+    "shared_realized_capital_divided_by_two_slots",
+    "original_account_fraction_and_fee_adjustment",
+    "wallet_max_stake_limits_new_entries",
+    "partial_realized_profit_not_double_counted",
+    "wallet_max_stake_limits_position_increases",
+    "original_exit_cooldown_and_account_risk_retained"
+  ]
+}

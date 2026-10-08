@@ -1,0 +1,18 @@
+[
+  {
+    "strategy": "EthRotationCycleRiskStrategy",
+    "count_including_overlapping_windows": 2,
+    "distinct_asset_entry_timestamps": 1,
+    "normally_closed_positions": 2,
+    "losing_normally_closed": 2,
+    "quick_loss_normally_closed": 2
+  },
+  {
+    "strategy": "EthBreadthRotationCycleRiskStrategy",
+    "count_including_overlapping_windows": 2,
+    "distinct_asset_entry_timestamps": 1,
+    "normally_closed_positions": 2,
+    "losing_normally_closed": 2,
+    "quick_loss_normally_closed": 2
+  }
+]

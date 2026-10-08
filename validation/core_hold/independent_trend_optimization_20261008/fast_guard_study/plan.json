@@ -1,0 +1,8 @@
+{
+  "reason": "Reduce false-break losses observed in first-stage DOGE/ADA results",
+  "change": "Independent exception also requires close above rising EMA10",
+  "entry_rules_unchanged": true,
+  "weak_hold_cap": 0.5,
+  "per_coin_tuning": false,
+  "strict_holdout": false
+}

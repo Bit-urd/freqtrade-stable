@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "hypothesis": "BTC two-day exit reduces transient exits without excessive bear risk",
+  "only_change": "TREND_EXIT_DAYS: 1 -> 2",
+  "windows": 19,
+  "fee_per_side": 0.001,
+  "wallet": 1000,
+  "slippage": 0,
+  "acceptance": "User removed fixed 5pp drawdown limit during run. Evaluate final return, drawdown, bear losses, cross-window tradeoffs and complexity comprehensively; no automatic promotion or numeric pass/fail.",
+  "baseline_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "data_manifest_reference": "validation/core_hold/momentum_selection_20261008/data_audit.json",
+  "acceptance_change": "User instruction received after partial core3 results; original numeric gate withdrawn, all results retained.",
+  "assessment": "comprehensive tradeoff review; no fixed numerical gate"
+}

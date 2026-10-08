@@ -1,0 +1,25 @@
+{
+  "status": "stopped_by_user",
+  "variants": [
+    2,
+    3,
+    4
+  ],
+  "atr_period": 14,
+  "trigger": "completed daily close below previous stop; next candle market execution",
+  "activation": "first actually allowed BTC-weak independent hold exception",
+  "peak": "completed closes observed during this trade, including before activation",
+  "entry_and_sizing": "unchanged IndependentHold",
+  "production_modified": false,
+  "windows": 43,
+  "fees": 0.001,
+  "slippage": 0,
+  "limitations": [
+    "Historical in-sample research; overlapping windows",
+    "No slippage",
+    "Daily close stop permits intraday losses and next-open gaps"
+  ],
+  "runtime": "freqtradeorg/freqtrade:stable Python 3.14.7",
+  "reason": "用户取消 ATR 方案，转为讨论独立行情捕获思路",
+  "completed_windows": 13
+}

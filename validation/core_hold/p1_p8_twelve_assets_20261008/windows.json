@@ -1,0 +1,998 @@
+[
+  {
+    "label": "BTC_P1",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P1",
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "reference_window": "BTC_P1"
+  },
+  {
+    "label": "ETH_P1",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P1",
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "reference_window": "ETH_P1"
+  },
+  {
+    "label": "XRP_P1",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P1",
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "reference_window": "XRP_P1"
+  },
+  {
+    "label": "DOGE_P1",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P1",
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "reference_window": "DOGE_P1"
+  },
+  {
+    "label": "LINK_P1",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P1",
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "reference_window": "LINK_P1"
+  },
+  {
+    "label": "BTC_P2",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "reference_window": "BTC_P2"
+  },
+  {
+    "label": "ETH_P2",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "reference_window": "ETH_P2"
+  },
+  {
+    "label": "SOL_P2",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-11",
+    "end": "2021-04-30",
+    "timerange": "20201011-20210430",
+    "reference_window": "SOL_P2"
+  },
+  {
+    "label": "XRP_P2",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "reference_window": "XRP_P2"
+  },
+  {
+    "label": "DOGE_P2",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "reference_window": "DOGE_P2"
+  },
+  {
+    "label": "LINK_P2",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "reference_window": "LINK_P2"
+  },
+  {
+    "label": "AVAX_P2",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-11-22",
+    "end": "2021-04-30",
+    "timerange": "20201122-20210430",
+    "reference_window": "AVAX_P2"
+  },
+  {
+    "label": "DOT_P2",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-10-18",
+    "end": "2021-04-30",
+    "timerange": "20201018-20210430",
+    "reference_window": "DOT_P2"
+  },
+  {
+    "label": "UNI_P2",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-11-17",
+    "end": "2021-04-30",
+    "timerange": "20201117-20210430",
+    "reference_window": "UNI_P2"
+  },
+  {
+    "label": "AAVE_P2",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P2",
+    "start": "2020-12-15",
+    "end": "2021-04-30",
+    "timerange": "20201215-20210430",
+    "reference_window": "AAVE_P2"
+  },
+  {
+    "label": "BTC_P3",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "BTC_P3"
+  },
+  {
+    "label": "ETH_P3",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "ETH_P3"
+  },
+  {
+    "label": "SOL_P3",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "SOL_P3"
+  },
+  {
+    "label": "XRP_P3",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "XRP_P3"
+  },
+  {
+    "label": "DOGE_P3",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "DOGE_P3"
+  },
+  {
+    "label": "LINK_P3",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "LINK_P3"
+  },
+  {
+    "label": "AVAX_P3",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "AVAX_P3"
+  },
+  {
+    "label": "DOT_P3",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "DOT_P3"
+  },
+  {
+    "label": "UNI_P3",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "UNI_P3"
+  },
+  {
+    "label": "AAVE_P3",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P3",
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "reference_window": "AAVE_P3"
+  },
+  {
+    "label": "BTC_P4",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "BTC_P4"
+  },
+  {
+    "label": "ETH_P4",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "ETH_P4"
+  },
+  {
+    "label": "SOL_P4",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "SOL_P4"
+  },
+  {
+    "label": "XRP_P4",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "XRP_P4"
+  },
+  {
+    "label": "DOGE_P4",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "DOGE_P4"
+  },
+  {
+    "label": "LINK_P4",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "LINK_P4"
+  },
+  {
+    "label": "AVAX_P4",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "AVAX_P4"
+  },
+  {
+    "label": "DOT_P4",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "DOT_P4"
+  },
+  {
+    "label": "UNI_P4",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "UNI_P4"
+  },
+  {
+    "label": "AAVE_P4",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P4",
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "reference_window": "AAVE_P4"
+  },
+  {
+    "label": "BTC_P5",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "BTC_P5"
+  },
+  {
+    "label": "ETH_P5",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "ETH_P5"
+  },
+  {
+    "label": "SOL_P5",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "SOL_P5"
+  },
+  {
+    "label": "XRP_P5",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "XRP_P5"
+  },
+  {
+    "label": "DOGE_P5",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "DOGE_P5"
+  },
+  {
+    "label": "LINK_P5",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "LINK_P5"
+  },
+  {
+    "label": "AVAX_P5",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "AVAX_P5"
+  },
+  {
+    "label": "DOT_P5",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "DOT_P5"
+  },
+  {
+    "label": "UNI_P5",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "UNI_P5"
+  },
+  {
+    "label": "AAVE_P5",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "AAVE_P5"
+  },
+  {
+    "label": "ARB_P5",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-05-23",
+    "end": "2023-09-30",
+    "timerange": "20230523-20230930",
+    "reference_window": "ARB_P5"
+  },
+  {
+    "label": "APT_P5",
+    "universe": "APT",
+    "pairs": [
+      "APT/USDT"
+    ],
+    "phase": "P5",
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "reference_window": "APT_P5"
+  },
+  {
+    "label": "BTC_P6",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "BTC_P6"
+  },
+  {
+    "label": "ETH_P6",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "ETH_P6"
+  },
+  {
+    "label": "SOL_P6",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "SOL_P6"
+  },
+  {
+    "label": "XRP_P6",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "XRP_P6"
+  },
+  {
+    "label": "DOGE_P6",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "DOGE_P6"
+  },
+  {
+    "label": "LINK_P6",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "LINK_P6"
+  },
+  {
+    "label": "AVAX_P6",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "AVAX_P6"
+  },
+  {
+    "label": "DOT_P6",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "DOT_P6"
+  },
+  {
+    "label": "UNI_P6",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "UNI_P6"
+  },
+  {
+    "label": "AAVE_P6",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "AAVE_P6"
+  },
+  {
+    "label": "ARB_P6",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "ARB_P6"
+  },
+  {
+    "label": "APT_P6",
+    "universe": "APT",
+    "pairs": [
+      "APT/USDT"
+    ],
+    "phase": "P6",
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "reference_window": "APT_P6"
+  },
+  {
+    "label": "BTC_P7",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "BTC_P7"
+  },
+  {
+    "label": "ETH_P7",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "ETH_P7"
+  },
+  {
+    "label": "SOL_P7",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "SOL_P7"
+  },
+  {
+    "label": "XRP_P7",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "XRP_P7"
+  },
+  {
+    "label": "DOGE_P7",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "DOGE_P7"
+  },
+  {
+    "label": "LINK_P7",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "LINK_P7"
+  },
+  {
+    "label": "AVAX_P7",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "AVAX_P7"
+  },
+  {
+    "label": "DOT_P7",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "DOT_P7"
+  },
+  {
+    "label": "UNI_P7",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "UNI_P7"
+  },
+  {
+    "label": "AAVE_P7",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "AAVE_P7"
+  },
+  {
+    "label": "ARB_P7",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "ARB_P7"
+  },
+  {
+    "label": "APT_P7",
+    "universe": "APT",
+    "pairs": [
+      "APT/USDT"
+    ],
+    "phase": "P7",
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "reference_window": "APT_P7"
+  },
+  {
+    "label": "BTC_P8",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "BTC_P8"
+  },
+  {
+    "label": "ETH_P8",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "ETH_P8"
+  },
+  {
+    "label": "SOL_P8",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "SOL_P8"
+  },
+  {
+    "label": "XRP_P8",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "XRP_P8"
+  },
+  {
+    "label": "DOGE_P8",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "DOGE_P8"
+  },
+  {
+    "label": "LINK_P8",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "LINK_P8"
+  },
+  {
+    "label": "AVAX_P8",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "AVAX_P8"
+  },
+  {
+    "label": "DOT_P8",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "DOT_P8"
+  },
+  {
+    "label": "UNI_P8",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "UNI_P8"
+  },
+  {
+    "label": "AAVE_P8",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "AAVE_P8"
+  },
+  {
+    "label": "ARB_P8",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "ARB_P8"
+  },
+  {
+    "label": "APT_P8",
+    "universe": "APT",
+    "pairs": [
+      "APT/USDT"
+    ],
+    "phase": "P8",
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "reference_window": "APT_P8"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "strategies": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "Ma200BtcRegimeFullCyclePortfolioStrategy",
+    "IndependentHoldCycleRiskStrategy",
+    "IndependentProbeCycleRiskStrategy",
+    "IndependentPromoteCycleRiskStrategy"
+  ],
+  "breakout_lookback": 20,
+  "confirmation_closes": 2,
+  "absolute_ema": [
+    20,
+    50
+  ],
+  "relative_ema": [
+    20,
+    50
+  ],
+  "weak_hold_cap": 0.5,
+  "weak_entry_cap": 0.25,
+  "promotion_completed_candles": 3,
+  "risk_cap_combination": "minimum",
+  "rebalance_on_fraction_change_only": true,
+  "cooldown_unchanged": true,
+  "btc_trading_unchanged": true,
+  "initial_capital": 1000,
+  "fee_each_side": 0.001,
+  "windows": 43,
+  "per_coin_tuning": false,
+  "production_modified": false
+}

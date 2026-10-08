@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "assets": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "LINK",
+    "AVAX",
+    "DOT",
+    "UNI",
+    "AAVE",
+    "ARB",
+    "APT"
+  ],
+  "requested_cases": 96,
+  "strategies": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "BtcTwoDayExitCycleRiskStrategy",
+    "BuyAndHold"
+  ],
+  "initial_wallet": 1000,
+  "fee_per_side": 0.001,
+  "slippage": 0,
+  "criteria": "Comprehensive final result; no fixed 5pp drawdown gate",
+  "coverage_policy": "Full stage if data and 60-day warmup permit; otherwise show explicitly partial effective interval or unavailable. Both strategies and hold use identical effective interval. MA150 immaturity flagged separately.",
+  "production_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "eligible_cases": 83,
+  "unavailable_cases": 13,
+  "partial_cases": 6,
+  "docker_image_digest": "freqtradeorg/freqtrade@sha256:7031bca43ed7668ebf421725dd5016acade6ef88b0771db3e08c96e6d19a42db",
+  "fresh_native_backtests_expected": 166,
+  "total_equity_curves_expected": 249,
+  "complete_and_ma150_ready_cases": 76,
+  "completed_native_backtests": 166,
+  "completed_hold_curves": 83,
+  "completed_total_curves": 249,
+  "verification_checks": 36,
+  "all_ledgers_verified": true,
+  "production_unchanged": true,
+  "user_latest_criteria": "Complete all periods before comprehensive assessment; retain value of exceptional trend participation and survival; no fixed drawdown cutoff or stage-win-rate rejection"
+}

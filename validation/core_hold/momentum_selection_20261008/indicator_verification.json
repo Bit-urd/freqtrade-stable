@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "count": 22,
+  "checks": [
+    "TrendOnlyCycleRiskStrategy:prefix:SOL/USDT",
+    "TrendOnlyCycleRiskStrategy:prefix:ETH/USDT",
+    "TrendOnlyCycleRiskStrategy:original_exit_sizing_risk_cooldown_inherited",
+    "TrendOnlyCycleRiskStrategy:no_capital_redistribution",
+    "WeeklyTop2CycleRiskStrategy:prefix:SOL/USDT",
+    "WeeklyTop2CycleRiskStrategy:prefix:ETH/USDT",
+    "WeeklyTop2CycleRiskStrategy:original_exit_sizing_risk_cooldown_inherited",
+    "WeeklyTop2CycleRiskStrategy:no_capital_redistribution",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy:prefix:SOL/USDT",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy:prefix:ETH/USDT",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy:original_exit_sizing_risk_cooldown_inherited",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy:no_capital_redistribution",
+    "top2_of_eligible_universe",
+    "sunday_signal_applies_at_monday_open",
+    "sunday_execution_keeps_previous_week_snapshot",
+    "momentum_never_bypasses_btc_gate",
+    "momentum_never_bypasses_own_coin_gate",
+    "deterministic_alphabetical_tie_break",
+    "immature_asset_excluded",
+    "trend_only_rejects_recovery_entries",
+    "WeeklyTop2CycleRiskStrategy:broad_universe_causal_top2",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy:broad_universe_causal_top2"
+  ]
+}

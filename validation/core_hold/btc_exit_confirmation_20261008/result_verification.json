@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rule_checks": 25,
+  "actual_exit_checks": 2814,
+  "baseline_and_hold_metric_matches": 114,
+  "max_ledger_error": 4.078628990100697e-08,
+  "data_hashes_unchanged": true,
+  "windows": 19
+}

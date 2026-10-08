@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "ADAUSDT",
+    "interval": "1d",
+    "count": 3095,
+    "first": 1523923200000,
+    "last": 1791244800000
+  },
+  {
+    "symbol": "ADAUSDT",
+    "interval": "1w",
+    "count": 442,
+    "first": 1523836800000,
+    "last": 1790553600000
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "interval": "1d",
+    "count": 2651,
+    "first": 1562284800000,
+    "last": 1791244800000
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "interval": "1w",
+    "count": 379,
+    "first": 1561939200000,
+    "last": 1790553600000
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "interval": "1d",
+    "count": 2206,
+    "first": 1600732800000,
+    "last": 1791244800000
+  },
+  {
+    "symbol": "AVAXUSDT",
+    "interval": "1w",
+    "count": 315,
+    "first": 1600646400000,
+    "last": 1790553600000
+  }
+]

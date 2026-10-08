@@ -1,0 +1,9 @@
+{
+  "windows": 43,
+  "strategy_runs": 258,
+  "max_ledger_error": 4.078628990100697e-08,
+  "btc_backtest_identity": true,
+  "indicator_checks_passed": true,
+  "entry_checks_passed": true,
+  "fast_guard_checks_passed": true
+}

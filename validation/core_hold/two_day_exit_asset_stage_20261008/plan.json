@@ -1,0 +1,19 @@
+{
+  "status": "superseded_by_user_phase_definition",
+  "only_change": "TREND_EXIT_DAYS 1 -> 2",
+  "assets": 8,
+  "single_asset_windows": 56,
+  "comparison": "Fresh-wallet single-coin original vs two-day BTC exit vs hold; 19 existing portfolio windows reaudited separately",
+  "fee_per_side": 0.001,
+  "initial_wallet": 1000,
+  "end": "2026-10-06",
+  "criteria": "Comprehensive final tradeoffs, no fixed 5pp drawdown limit",
+  "source_production_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "caveats": [
+    "Overlapping exploratory historical windows, survivor selection",
+    "SUI unavailable in 2022; July 2023 start has >60 candles, own MA150 matures later; identical strategy entry warmup"
+  ],
+  "additional_control": "SUI 2023-10-01 start after its MA150 warmup; compare alongside July-start legacy window",
+  "completed_old_windows": 55,
+  "superseded_by": "validation/core_hold/p1_p8_twelve_assets_20261008"
+}

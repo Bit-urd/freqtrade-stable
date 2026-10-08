@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "windows": 19,
+  "comparison_rows": 114,
+  "new_backtests": 90,
+  "reused_core3_baselines": 5,
+  "holding_benchmarks": 19,
+  "rule_and_prefix_checks": 22,
+  "concentrated_budget_checks": 6,
+  "actual_ranked_entry_checks": 2541,
+  "actual_trend_entry_checks": 1700,
+  "diagnostic_positions": 1468,
+  "max_ledger_error": 4.897810867987573e-08,
+  "max_profit_attribution_error": 5.820766091346741e-11,
+  "unchanged_source_and_data_hashes": true,
+  "cash_and_risk_trace_reconciled": true
+}

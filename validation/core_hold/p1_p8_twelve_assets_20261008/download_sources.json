@@ -1,0 +1,22 @@
+[
+  {
+    "asset": "DOT",
+    "url": "https://api.binance.com/api/v3/klines?symbol=DOTUSDT&interval=1d&startTime=1483228800000&endTime=1740787199999&limit=1000",
+    "rows": 1000
+  },
+  {
+    "asset": "DOT",
+    "url": "https://api.binance.com/api/v3/klines?symbol=DOTUSDT&interval=1d&startTime=1684108800000&endTime=1740787199999&limit=1000",
+    "rows": 656
+  },
+  {
+    "asset": "ARB",
+    "url": "https://api.binance.com/api/v3/klines?symbol=ARBUSDT&interval=1d&startTime=1483228800000&endTime=1740787199999&limit=1000",
+    "rows": 709
+  },
+  {
+    "asset": "APT",
+    "url": "https://api.binance.com/api/v3/klines?symbol=APTUSDT&interval=1d&startTime=1483228800000&endTime=1740787199999&limit=1000",
+    "rows": 864
+  }
+]

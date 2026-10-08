@@ -1,0 +1,5 @@
+{
+  "strategies/cycle_risk_strategy.py": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "strategies/momentum_selection_strategy.py": "5fb76e3fbe07f11afc561e2a56cd087485c5d66acf6329c5f4f71326c21e9505",
+  "strategies/concentrated_selection_strategy.py": "8a5c32c493afd3f5bb6e1198ec6860ca37f0dc22187dfa33f9886f227ecffb07"
+}

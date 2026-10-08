@@ -1,0 +1,5 @@
+reference,return_better,return_worse,return_same,drawdown_better,jointly_better
+BtcCoinGuardCycleRiskStrategy,13,6,0,8,7
+BtcTwoDayExitCycleRiskStrategy,10,9,0,5,5
+ShortCooldownCycleRiskStrategy,6,13,0,4,3
+BuyAndHold,10,9,0,19,10

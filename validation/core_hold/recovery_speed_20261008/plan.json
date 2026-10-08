@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "only_change": "Recovery thresholds 20/30% -> 22.5/32.5%; reduction 25/35% unchanged",
+  "parameter_choice": "Half of original recovery hysteresis gap; one fixed candidate, not a sweep",
+  "base": "Original CycleRisk; do not inherit BTC two-day exit",
+  "prior_checks": [
+    "cycle_risk_half_peak_revision",
+    "cycle_risk_latched_budget_revision"
+  ],
+  "assessment": "Comprehensive tradeoffs, no fixed 5pp rejection gate",
+  "diagnosis": "Original-path reduced-risk days overlap BTC entry permission and fixed earlier recovery thresholds; descriptive, not causal.",
+  "title": "\u4ed3\u4f4d\u6062\u590d\uff1a\u56fa\u5b9a\u534a\u5e45\u63d0\u524d\u6062\u590d",
+  "candidates": [
+    "FasterRecoveryCycleRiskStrategy"
+  ],
+  "rules": "\u964d\u4ed3\u89e6\u53d1\u7ebf 25%/35% \u4e0d\u53d8\uff1b\u4ece\u4f4e\u98ce\u9669\u6863\u6062\u590d\u7684\u56de\u64a4\u7ebf 20%/30% \u6539\u4e3a 22.5%/32.5%\uff0c\u53ea\u7f29\u77ed\u539f\u6062\u590d\u6ede\u540e\u7684\u4e00\u534a\u3002BTC MA200 \u98ce\u9669\u91cd\u542f\u3001\u8fdb\u9000\u51fa\u3001\u9884\u7b97\u3001\u51b7\u5374\u4fdd\u6301\u539f\u7248\u3002\u5386\u53f2\u534a\u5cf0\u503c\u91cd\u542f\u53ca\u4e2a\u5e01\u4e8f\u635f\u9884\u7b97\u6062\u590d\u5b9e\u9a8c\u5df2\u6709\u62a5\u544a\uff0c\u672c\u8f6e\u4e0d\u540c\u4e4b\u5904\u662f\u4ec5\u4fee\u6539\u8d26\u6237\u6062\u590d\u9608\u503c\u3002"
+}

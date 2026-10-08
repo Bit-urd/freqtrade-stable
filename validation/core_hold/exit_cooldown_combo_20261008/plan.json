@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "title": "BTC \u4e24\u5929\u9000\u51fa + \u4e03\u5929\u51b7\u5374\u7ec4\u5408\u9a8c\u8bc1",
+  "candidates": [
+    "BtcTwoDayExitCycleRiskStrategy",
+    "ShortCooldownCycleRiskStrategy",
+    "TwoDayExitSevenDayCooldownCycleRiskStrategy"
+  ],
+  "rules": "\u65b0\u7ec4\u5408\u4ec5\u53e0\u52a0 TREND_EXIT_DAYS=2 \u4e0e RECOVERY_COOLDOWN_DAYS=7\u3002\u539f\u5165\u573a\u3001\u6807\u7684\u4e24\u5929\u9000\u51fa\u3001\u8d26\u6237\u964d\u4ed3\u53ca\u6062\u590d\u3001\u98ce\u9669\u91cd\u542f14\u5929\u95f4\u9694\u3001\u5206\u5e01\u72ec\u7acb\u9884\u7b97\u548c\u69fd\u4f4d\u4fdd\u6301\u539f\u7248\u3002\u6bd4\u8f83\u539f\u7248\u3001\u4e24\u4e2a\u5355\u9879\u3001\u7ec4\u5408\u4e0e\u6301\u6709\uff0c\u68c0\u67e5\u7ec4\u5408\u662f\u5426\u6539\u5584\u5355\u9879\u800c\u4e0d\u662f\u4ec5\u6bd4\u539f\u7248\u66f4\u597d\u3002",
+  "assessment": "\u7efc\u5408\u6700\u7ec8\u6536\u76ca\u3001\u56de\u64a4\u3001\u718a\u5e02\u635f\u5931\u3001\u5468\u671f\u53d6\u820d\uff1b\u65e05pp\u786c\u95e8\u69db",
+  "source_selection": "Two retained exploratory candidates from prior 19-window study; not independent validation",
+  "production_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "assessment_result": "No clear general advantage from combining: preserve research results, prioritize BTC two-day single candidate; no production switch."
+}

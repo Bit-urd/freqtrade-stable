@@ -1,0 +1,110 @@
+[
+  {
+    "asset": "BTC",
+    "source": "/freqtrade/user_data/data/binance/BTC_USDT-1d.feather",
+    "file": "BTC_USDT-1d.feather",
+    "rows": 2753,
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "a44f87dacdcf398f17c5730d2dc18bc15c48f4de74cdd89e4c59d0f854844afc"
+  },
+  {
+    "asset": "ETH",
+    "source": "/freqtrade/user_data/data/binance/ETH_USDT-1d.feather",
+    "file": "ETH_USDT-1d.feather",
+    "rows": 2753,
+    "first": "2017-08-17 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "cad4b2c04d6d30f8e5b44bb5689777cbc048c89dac704a580371d684abd6985f"
+  },
+  {
+    "asset": "SOL",
+    "source": "/freqtrade/user_data/data/binance/SOL_USDT-1d.feather",
+    "file": "SOL_USDT-1d.feather",
+    "rows": 1663,
+    "first": "2020-08-11 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "3b29a340bba2176b5a286f46d0ab6f1a6ad80511754dc92205e76cbcc11113bf"
+  },
+  {
+    "asset": "XRP",
+    "source": "/freqtrade/user_data/data/binance/XRP_USDT-1d.feather",
+    "file": "XRP_USDT-1d.feather",
+    "rows": 2493,
+    "first": "2018-05-04 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "62dfc79446d9fec11b3b3d65c7832c148b8f28226ba5fd8e0c98d5177e9aec54"
+  },
+  {
+    "asset": "DOGE",
+    "source": "/freqtrade/user_data/data/binance/DOGE_USDT-1d.feather",
+    "file": "DOGE_USDT-1d.feather",
+    "rows": 2066,
+    "first": "2019-07-05 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "73f4ac7fa812f66cc59eaaa7f0d8997508a80918ce179973a7510d07d951a089"
+  },
+  {
+    "asset": "LINK",
+    "source": "/freqtrade/user_data/data/binance/LINK_USDT-1d.feather",
+    "file": "LINK_USDT-1d.feather",
+    "rows": 2236,
+    "first": "2019-01-16 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "ee1dcec5e738b7b938eac6ae2b125a609ad33b33188bd6607e30186f2f5d345f"
+  },
+  {
+    "asset": "AVAX",
+    "source": "/freqtrade/user_data/data/binance/AVAX_USDT-1d.feather",
+    "file": "AVAX_USDT-1d.feather",
+    "rows": 1621,
+    "first": "2020-09-22 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "62d1704bc15eff46c8614a3a6019a0b81803e126b5a48c0e1d820bfc76e2a7ac"
+  },
+  {
+    "asset": "DOT",
+    "source": "Binance public spot /api/v3/klines; download_sources.json",
+    "file": "DOT_USDT-1d.feather",
+    "rows": 1656,
+    "first": "2020-08-18 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "98acce39d17732a1016b6d082bf738892c7eadab6d1219359d1606400d3f869f"
+  },
+  {
+    "asset": "UNI",
+    "source": "/freqtrade/user_data/data/binance/UNI_USDT-1d.feather",
+    "file": "UNI_USDT-1d.feather",
+    "rows": 1626,
+    "first": "2020-09-17 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "95c968ad0630a865b17f443406ebffbbfb3d1333f695f1be12f8f6b939ece540"
+  },
+  {
+    "asset": "AAVE",
+    "source": "/freqtrade/user_data/data/binance/AAVE_USDT-1d.feather",
+    "file": "AAVE_USDT-1d.feather",
+    "rows": 1598,
+    "first": "2020-10-15 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "add99c46eda80b2762c91a1e544618452fa919a83b67e3a61c0e35df53f45fc2"
+  },
+  {
+    "asset": "ARB",
+    "source": "Binance public spot /api/v3/klines; download_sources.json",
+    "file": "ARB_USDT-1d.feather",
+    "rows": 709,
+    "first": "2023-03-23 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "0fdbc8d6c2141d0ee40e574040845159a1b75339587f5b8e15c5761c136b706e"
+  },
+  {
+    "asset": "APT",
+    "source": "Binance public spot /api/v3/klines; download_sources.json",
+    "file": "APT_USDT-1d.feather",
+    "rows": 864,
+    "first": "2022-10-19 00:00:00+00:00",
+    "last": "2025-02-28 00:00:00+00:00",
+    "sha256": "27b1134e0d2b161b1432ac24e6e71da572694074deeb0150a5db0257880e9598"
+  }
+]

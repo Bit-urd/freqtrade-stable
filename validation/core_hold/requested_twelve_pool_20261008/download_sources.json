@@ -1,0 +1,284 @@
+[
+  {
+    "asset": "BTC",
+    "mode": "spot",
+    "rows": 3338,
+    "first": "2017-08-17T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=1589328000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=1675728000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=1762128000000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ETH",
+    "mode": "spot",
+    "rows": 3338,
+    "first": "2017-08-17T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=1589328000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=1675728000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=1762128000000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "BNB",
+    "mode": "spot",
+    "rows": 3257,
+    "first": "2017-11-06T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=1596326400000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=1682726400000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=1769126400000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "LINK",
+    "mode": "spot",
+    "rows": 2821,
+    "first": "2019-01-16T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=1633996800000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=1720396800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "XRP",
+    "mode": "spot",
+    "rows": 3078,
+    "first": "2018-05-04T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=1611792000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=1698192000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=1784592000000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "UNI",
+    "mode": "spot",
+    "rows": 2211,
+    "first": "2020-09-17T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=1686700800000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=1773100800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ZEC",
+    "mode": "spot",
+    "rows": 2757,
+    "first": "2019-03-21T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=1639526400000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=1725926400000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "DOGE",
+    "mode": "spot",
+    "rows": 2651,
+    "first": "2019-07-05T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=1648684800000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=1735084800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "SOL",
+    "mode": "spot",
+    "rows": 2248,
+    "first": "2020-08-11T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=1683504000000&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=1769904000000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ARB",
+    "mode": "spot",
+    "rows": 1294,
+    "first": "2023-03-23T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=ARBUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://api.binance.com/api/v3/klines?symbol=ARBUSDT&interval=1d&limit=1000&startTime=1765929600000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "PUMP",
+    "mode": "spot",
+    "rows": 391,
+    "first": "2025-09-11T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=PUMPUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "HYPE",
+    "mode": "spot",
+    "rows": 13,
+    "first": "2026-09-24T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "BTC",
+    "mode": "futures",
+    "rows": 2586,
+    "first": "2019-09-08T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=1654300800000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1d&limit=1000&startTime=1740700800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ETH",
+    "mode": "futures",
+    "rows": 2506,
+    "first": "2019-11-27T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=1661212800000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1d&limit=1000&startTime=1747612800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "BNB",
+    "mode": "futures",
+    "rows": 2431,
+    "first": "2020-02-10T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=1667692800000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=BNBUSDT&interval=1d&limit=1000&startTime=1754092800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "LINK",
+    "mode": "futures",
+    "rows": 2455,
+    "first": "2020-01-17T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=1665619200000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=LINKUSDT&interval=1d&limit=1000&startTime=1752019200000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "XRP",
+    "mode": "futures",
+    "rows": 2466,
+    "first": "2020-01-06T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=1664668800000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=XRPUSDT&interval=1d&limit=1000&startTime=1751068800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "UNI",
+    "mode": "futures",
+    "rows": 2210,
+    "first": "2020-09-18T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=1686787200000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=UNIUSDT&interval=1d&limit=1000&startTime=1773187200000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ZEC",
+    "mode": "futures",
+    "rows": 2436,
+    "first": "2020-02-05T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=1667260800000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ZECUSDT&interval=1d&limit=1000&startTime=1753660800000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "DOGE",
+    "mode": "futures",
+    "rows": 2280,
+    "first": "2020-07-10T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=1680739200000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=DOGEUSDT&interval=1d&limit=1000&startTime=1767139200000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "SOL",
+    "mode": "futures",
+    "rows": 2214,
+    "first": "2020-09-14T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=1686441600000&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=SOLUSDT&interval=1d&limit=1000&startTime=1772841600000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "ARB",
+    "mode": "futures",
+    "rows": 1294,
+    "first": "2023-03-23T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ARBUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999",
+      "https://fapi.binance.com/fapi/v1/klines?symbol=ARBUSDT&interval=1d&limit=1000&startTime=1765929600000&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "PUMP",
+    "mode": "futures",
+    "rows": 454,
+    "first": "2025-07-10T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=PUMPUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999"
+    ]
+  },
+  {
+    "asset": "HYPE",
+    "mode": "futures",
+    "rows": 495,
+    "first": "2025-05-30T00:00:00+00:00",
+    "last": "2026-10-06T00:00:00+00:00",
+    "urls": [
+      "https://fapi.binance.com/fapi/v1/klines?symbol=HYPEUSDT&interval=1d&limit=1000&startTime=0&endTime=1791331199999"
+    ]
+  }
+]

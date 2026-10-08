@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "count": 19,
+  "checks": [
+    "BtcCoinGuardCycleRiskStrategy:boundary:1209599",
+    "BtcCoinGuardCycleRiskStrategy:boundary:1209600",
+    "BtcCoinGuardCycleRiskStrategy:boundary:1209601",
+    "BtcCoinGuardCycleRiskStrategy:strict_btc_bypass",
+    "BtcCoinGuardCycleRiskStrategy:no_closed_trade",
+    "ShortCooldownCycleRiskStrategy:boundary:604799",
+    "ShortCooldownCycleRiskStrategy:boundary:604800",
+    "ShortCooldownCycleRiskStrategy:boundary:604801",
+    "ShortCooldownCycleRiskStrategy:strict_btc_bypass",
+    "ShortCooldownCycleRiskStrategy:no_closed_trade",
+    "inherited:populate_indicators",
+    "inherited:custom_exit",
+    "inherited:confirm_trade_entry",
+    "inherited:custom_stake_amount",
+    "inherited:adjust_trade_position",
+    "inherited:order_filled",
+    "inherited:bot_loop_start",
+    "inherited:_pair_budget",
+    "inherited:next_fraction"
+  ]
+}

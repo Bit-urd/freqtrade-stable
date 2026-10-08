@@ -1,0 +1,5 @@
+{
+  "strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+  "strategies/eth_rotation_strategy.py": "58ece54173606617b436afcb61fae67d740e4e056fc71266157a4642509ab25f",
+  "strategies/cycle_risk_strategy.py": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a"
+}

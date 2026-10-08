@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "hold_variant_does_not_add_weak_market_entries",
+    "probe_entry_and_quarter_budget:IndependentProbeCycleRiskStrategy",
+    "promotion_variant_distinction:IndependentProbeCycleRiskStrategy",
+    "probe_entry_and_quarter_budget:IndependentPromoteCycleRiskStrategy",
+    "promotion_variant_distinction:IndependentPromoteCycleRiskStrategy"
+  ]
+}

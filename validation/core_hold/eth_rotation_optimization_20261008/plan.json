@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "baseline": "BtcCoinGuardCycleRiskStrategy",
+  "variants": [
+    "EthRotationCycleRiskStrategy",
+    "EthBreadthRotationCycleRiskStrategy"
+  ],
+  "eth_absolute": "close > EMA20 > EMA50, both EMAs rising",
+  "eth_relative": "synchronized ETH/USDT close divided by BTC/USDT close; same EMA20/50 condition",
+  "confirmation_days": 2,
+  "rotation_btc_five_day_floor": -0.1,
+  "breadth_pool": [
+    "SOL/USDT",
+    "ADA/USDT",
+    "DOGE/USDT",
+    "AVAX/USDT",
+    "SUI/USDT",
+    "ZEC/USDT"
+  ],
+  "exclude_traded_asset_from_breadth": true,
+  "breadth_above_ma50_min_fraction": 0.6,
+  "breadth_min_mature_peers": 3,
+  "breadth_non_declining_lookback_days": 10,
+  "weak_btc_target_fraction": 0.5,
+  "account_risk_caps_and_14_day_cooldown": "unchanged",
+  "entry_and_exit": "BTC OR ETH rotation market permission; unchanged own coin signals",
+  "btc_pairs": "original behavior",
+  "atr": "not used",
+  "windows": 43,
+  "capital": 1000,
+  "fee_each_side": 0.001,
+  "slippage": 0,
+  "data_end": "2026-10-06",
+  "parameter_selection": "Fixed before current candidate results; no grid search",
+  "limitations": [
+    "In-sample; previously examined dates",
+    "Overlapping windows",
+    "Fixed peer pool selected retrospectively; not unbiased investable universe",
+    "MA50 maturity controls newly listed peers but denominator changes with listings",
+    "Target fraction only rebalances on fraction changes; not a daily strict exposure ceiling",
+    "ETH/BTC is synthetic synchronized close ratio, not direct ETHBTC exchange candles"
+  ],
+  "production_modified": false,
+  "preflight_checks": 26
+}

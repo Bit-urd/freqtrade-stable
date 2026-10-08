@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "SUIUSDT",
+    "interval": "1d",
+    "count": 1253,
+    "first": 1683072000000,
+    "last": 1791244800000
+  },
+  {
+    "symbol": "SUIUSDT",
+    "interval": "1w",
+    "count": 179,
+    "first": 1682899200000,
+    "last": 1790553600000
+  },
+  {
+    "symbol": "ZECUSDT",
+    "interval": "1d",
+    "count": 2757,
+    "first": 1553126400000,
+    "last": 1791244800000
+  },
+  {
+    "symbol": "ZECUSDT",
+    "interval": "1w",
+    "count": 394,
+    "first": 1552867200000,
+    "last": 1790553600000
+  }
+]

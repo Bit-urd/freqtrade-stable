@@ -1,0 +1,5 @@
+candidate,strategy,return_better,return_worse,return_same,drawdown_better,jointly_better
+BTC 两天退出,BtcTwoDayExitCycleRiskStrategy,12,7,0,9,8
+提前恢复仓位,FasterRecoveryCycleRiskStrategy,6,3,10,3,2
+冷却缩至七天,ShortCooldownCycleRiskStrategy,13,6,0,14,12
+有限共享现金,LimitedSharedCashCycleRiskStrategy,5,14,0,5,5

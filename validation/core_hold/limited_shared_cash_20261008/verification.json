@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "count": 16,
+  "checks": [
+    "cash_reserve_cap_risk_minimum:{'ETH/USDT', 'SOL/USDT', 'BTC/USDT'}:1:1000",
+    "cash_reserve_cap_risk_minimum:set():1:1000",
+    "cash_reserve_cap_risk_minimum:{'ETH/USDT'}:1:1000",
+    "cash_reserve_cap_risk_minimum:set():0.5:1000",
+    "cash_reserve_cap_risk_minimum:set():1:100",
+    "cash_reserve_cap_risk_minimum:set():1:5",
+    "missing_peer_signal_conservative_half_reserve",
+    "inherited:populate_indicators",
+    "inherited:custom_exit",
+    "inherited:confirm_trade_entry",
+    "inherited:adjust_trade_position",
+    "inherited:order_filled",
+    "inherited:bot_loop_start",
+    "inherited:_pair_budget",
+    "inherited:next_fraction",
+    "peer_reservation_uses_last_completed_candle_only"
+  ]
+}

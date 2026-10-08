@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "windows": 43,
+  "new_candidate_backtests": 86,
+  "baseline_strategy_results": 86,
+  "holding_benchmarks": 43,
+  "rows": 215,
+  "rule_and_prefix_checks": 26,
+  "btc_backtests_identical": true,
+  "max_ledger_error": 4.3844920583069324e-08,
+  "strategy_and_data_hashes_unchanged": true,
+  "fresh_candidate_wallet_and_state": true,
+  "caveat": "In-sample, overlapping windows, fixed retrospectively selected breadth universe."
+}

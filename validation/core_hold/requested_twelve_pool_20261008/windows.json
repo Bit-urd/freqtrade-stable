@@ -1,0 +1,2197 @@
+[
+  {
+    "label": "BTC_P1",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P1",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P1",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P1",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P1",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P1",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P1",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P1",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P1",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "phase_pool",
+    "slots": 7,
+    "phase": "P1",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P1",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT"
+    ],
+    "start": "2020-03-01",
+    "end": "2020-04-30",
+    "timerange": "20200301-20200430",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P1",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P2",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P2",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P2",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P2",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P2",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P2",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2020-11-17",
+    "end": "2021-04-30",
+    "timerange": "20201117-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P2",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P2",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P2",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2020-10-11",
+    "end": "2021-04-30",
+    "timerange": "20201011-20210430",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P2",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P2",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "phase_pool",
+    "slots": 9,
+    "phase": "P2",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P2",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2020-10-01",
+    "end": "2021-04-30",
+    "timerange": "20201001-20210430",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P2",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P3",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P3",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P3",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P3",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P3",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P3",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P3",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P3",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P3",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P3",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P3",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "phase_pool",
+    "slots": 9,
+    "phase": "P3",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P3",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2021-05-01",
+    "end": "2021-07-31",
+    "timerange": "20210501-20210731",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P3",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P4",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P4",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P4",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P4",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P4",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P4",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P4",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P4",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P4",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P4",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P4",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "phase_pool",
+    "slots": 9,
+    "phase": "P4",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P4",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2021-11-01",
+    "end": "2022-11-30",
+    "timerange": "20211101-20221130",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P4",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P5",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P5",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P5",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P5",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P5",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P5",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P5",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P5",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P5",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "ARB_P5",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "start": "2023-05-23",
+    "end": "2023-09-30",
+    "timerange": "20230523-20230930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P5",
+    "valuation_pairs": [
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P5",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "phase_pool",
+    "slots": 10,
+    "phase": "P5",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P5",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2023-09-30",
+    "timerange": "20230101-20230930",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P5",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P6",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P6",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P6",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P6",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P6",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P6",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P6",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P6",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P6",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "ARB_P6",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P6",
+    "valuation_pairs": [
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P6",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "phase_pool",
+    "slots": 10,
+    "phase": "P6",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P6",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2024-03-31",
+    "timerange": "20231001-20240331",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P6",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P7",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P7",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P7",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P7",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P7",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P7",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P7",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P7",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P7",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "ARB_P7",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P7",
+    "valuation_pairs": [
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P7",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "phase_pool",
+    "slots": 10,
+    "phase": "P7",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P7",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2024-03-01",
+    "end": "2024-09-30",
+    "timerange": "20240301-20240930",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P7",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "BTC_P8",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "BTC/USDT"
+    ]
+  },
+  {
+    "label": "ETH_P8",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "BNB_P8",
+    "universe": "BNB",
+    "pairs": [
+      "BNB/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "BNB/USDT"
+    ]
+  },
+  {
+    "label": "LINK_P8",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "LINK/USDT"
+    ]
+  },
+  {
+    "label": "XRP_P8",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "XRP/USDT"
+    ]
+  },
+  {
+    "label": "UNI_P8",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "UNI/USDT"
+    ]
+  },
+  {
+    "label": "ZEC_P8",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "ZEC/USDT"
+    ]
+  },
+  {
+    "label": "DOGE_P8",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "DOGE/USDT"
+    ]
+  },
+  {
+    "label": "SOL_P8",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "ARB_P8",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "single",
+    "slots": 1,
+    "phase": "P8",
+    "valuation_pairs": [
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "EligiblePool_P8",
+    "universe": "EligiblePool",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "phase_pool",
+    "slots": 10,
+    "phase": "P8",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "RequestedSlots12_P8",
+    "universe": "RequestedSlots12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2024-11-01",
+    "end": "2025-02-28",
+    "timerange": "20241101-20250228",
+    "scope": "phase_pool_reserved",
+    "slots": 12,
+    "phase": "P8",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "Legacy9_full_cycle",
+    "universe": "Legacy9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2021-02-14",
+    "end": "2026-10-06",
+    "timerange": "20210214-20261006",
+    "scope": "continuous_pool",
+    "slots": 9,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "Legacy9_continuous_2023",
+    "universe": "Legacy9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "scope": "continuous_pool",
+    "slots": 9,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "Legacy9_year_2025",
+    "universe": "Legacy9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "scope": "continuous_pool",
+    "slots": 9,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "Legacy9_year_2026",
+    "universe": "Legacy9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "scope": "continuous_pool",
+    "slots": 9,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "Legacy9_recent",
+    "universe": "Legacy9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "scope": "continuous_pool",
+    "slots": 9,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT"
+    ]
+  },
+  {
+    "label": "Main10_full_cycle",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2023-08-20",
+    "end": "2026-10-06",
+    "timerange": "20230820-20261006",
+    "scope": "continuous_pool",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "Main10_year_2025",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "scope": "continuous_pool",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "Main10_year_2026",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "scope": "continuous_pool",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "Main10_recent",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "scope": "continuous_pool",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "Mature11_full_cycle",
+    "universe": "Mature11",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT"
+    ],
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "scope": "continuous_pool",
+    "slots": 11,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT"
+    ]
+  },
+  {
+    "label": "Requested12_mature11_cash",
+    "universe": "Requested12",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT"
+    ],
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "scope": "continuous_pool_reserved",
+    "slots": 12,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "PUMP/USDT",
+      "HYPE/USDT"
+    ]
+  },
+  {
+    "label": "Main10_mature11_control",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "scope": "continuous_pool_control",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  },
+  {
+    "label": "PUMP_after_ma150",
+    "universe": "PUMP",
+    "pairs": [
+      "PUMP/USDT"
+    ],
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "scope": "new_asset",
+    "slots": 1,
+    "phase": "",
+    "valuation_pairs": [
+      "PUMP/USDT"
+    ]
+  },
+  {
+    "label": "PUMP_after_warmup",
+    "universe": "PUMP",
+    "pairs": [
+      "PUMP/USDT"
+    ],
+    "start": "2025-11-11",
+    "end": "2026-10-06",
+    "timerange": "20251111-20261006",
+    "scope": "new_asset_immature",
+    "slots": 1,
+    "phase": "",
+    "valuation_pairs": [
+      "PUMP/USDT"
+    ]
+  },
+  {
+    "label": "Main10_year_2024",
+    "universe": "Main10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "timerange": "20240101-20241231",
+    "scope": "continuous_pool",
+    "slots": 10,
+    "phase": "",
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "ZEC/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ]
+  }
+]

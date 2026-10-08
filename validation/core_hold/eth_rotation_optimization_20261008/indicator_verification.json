@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "count": 26,
+  "checks": [
+    "EthRotationCycleRiskStrategy:prefix:SUI/USDT",
+    "EthRotationCycleRiskStrategy:prefix:ZEC/USDT",
+    "EthRotationCycleRiskStrategy:prefix:DOGE/USDT",
+    "EthRotationCycleRiskStrategy:prefix:ADA/USDT",
+    "EthRotationCycleRiskStrategy:btc_signals_identical",
+    "EthBreadthRotationCycleRiskStrategy:prefix:SUI/USDT",
+    "EthBreadthRotationCycleRiskStrategy:prefix:ZEC/USDT",
+    "EthBreadthRotationCycleRiskStrategy:prefix:DOGE/USDT",
+    "EthBreadthRotationCycleRiskStrategy:prefix:ADA/USDT",
+    "EthBreadthRotationCycleRiskStrategy:btc_signals_identical",
+    "relative_strength_without_absolute_uptrend_rejected",
+    "absolute_uptrend_without_relative_strength_rejected",
+    "dual_trend_confirmation_and_warmup",
+    "rotation_opens_entry_when_btc_gate_closed",
+    "rotation_does_not_bypass_own_coin_rule",
+    "btc_five_day_crash_closes_extra_channel",
+    "eth_strength_alone_cannot_pass_breadth",
+    "own_asset_excluded_from_breadth",
+    "immature_new_listing_excluded_from_denominator",
+    "insufficient_mature_peers_fail_closed",
+    "rotation_extends_alt_holding_but_never_btc_holding",
+    "own_coin_exit_retained",
+    "rotation_expiry_restores_btc_exit",
+    "rotation_respects_account_risk_cap_and_btc_sizing",
+    "btc_recovery_restores_original_target_fraction",
+    "fee_adjusted_half_stake_and_unchanged_cooldown_filled_state"
+  ]
+}

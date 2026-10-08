@@ -1,0 +1,17 @@
+cohort,strategy,windows,return_better,drawdown_better,jointly_better,median_wealth_ratio,median_drawdown_change_pp,worst_wealth_ratio,max_drawdown_increase_pp,total_probe_positions
+all_non_btc,IndependentHoldCycleRiskStrategy,36,10,6,4,1.0,0.0,0.7833850529091112,8.840927674280309,0
+all_non_btc,IndependentProbeCycleRiskStrategy,36,10,6,4,1.0,0.0,0.7833850529091112,8.840927674280309,2
+all_non_btc,IndependentPromoteCycleRiskStrategy,36,10,6,4,1.0,0.0,0.7833850529091112,8.840927674280309,2
+all_non_btc,IndependentFastGuardCycleRiskStrategy,36,3,3,1,1.0,0.0,0.7823756102782743,8.882399292835231,0
+original_altcoins,IndependentHoldCycleRiskStrategy,13,8,2,2,1.2357643199395258,0.0,0.7833850529091112,8.840927674280309,0
+original_altcoins,IndependentProbeCycleRiskStrategy,13,8,2,2,1.2357643199395258,0.0,0.7833850529091112,8.840927674280309,0
+original_altcoins,IndependentPromoteCycleRiskStrategy,13,8,2,2,1.2357643199395258,0.0,0.7833850529091112,8.840927674280309,0
+original_altcoins,IndependentFastGuardCycleRiskStrategy,13,3,2,1,1.0,0.0,0.7823756102782743,8.882399292835231,0
+additional_coins,IndependentHoldCycleRiskStrategy,18,1,1,1,1.0,0.0,0.8013718789120431,5.607341638152441,0
+additional_coins,IndependentProbeCycleRiskStrategy,18,1,1,1,1.0,0.0,0.8013718789120431,7.598071293699391,2
+additional_coins,IndependentPromoteCycleRiskStrategy,18,1,1,1,1.0,0.0,0.8013718789120431,7.598071293699391,2
+additional_coins,IndependentFastGuardCycleRiskStrategy,18,0,0,0,1.0,0.0,0.8109352652920193,0.6572622476101273,0
+portfolio,IndependentHoldCycleRiskStrategy,5,1,3,1,0.9939643603800055,-0.041159972929094124,0.9806810257569071,0.0,0
+portfolio,IndependentProbeCycleRiskStrategy,5,1,3,1,0.9939643603800055,-0.041159972929094124,0.9806810257569071,0.0,0
+portfolio,IndependentPromoteCycleRiskStrategy,5,1,3,1,0.9939643603800055,-0.041159972929094124,0.9806810257569071,0.0,0
+portfolio,IndependentFastGuardCycleRiskStrategy,5,0,1,0,1.0,0.0,0.9884175257374062,0.7658501539101721,0

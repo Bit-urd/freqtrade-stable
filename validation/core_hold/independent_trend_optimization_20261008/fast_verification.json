@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "fast_guard_prefix_invariance:SUI/USDT:2024-06-15",
+    "fast_guard_prefix_invariance:ZEC/USDT:2025-11-30",
+    "fast_guard_prefix_invariance:DOGE/USDT:2022-11-08",
+    "fast_guard_prefix_invariance:ADA/USDT:2026-09-01",
+    "btc_has_no_fast_guard_exception"
+  ]
+}

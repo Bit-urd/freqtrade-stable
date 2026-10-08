@@ -1,0 +1,4 @@
+candidate,windows,return_better,return_worse,return_same,drawdown_better,jointly_better
+BtcTwoDayExitCycleRiskStrategy,19,12,7,0,9,8
+ShortCooldownCycleRiskStrategy,19,13,6,0,14,12
+TwoDayExitSevenDayCooldownCycleRiskStrategy,19,13,6,0,8,7

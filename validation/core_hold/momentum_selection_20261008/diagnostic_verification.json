@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "windows": 43,
+  "positions": 1468,
+  "max_attribution_error": 5.820766091346741e-11,
+  "terminal_open_trades": "Valued at final daily close, exclude artificial terminal exit",
+  "partial_fills": "Attributed to initial-entry regime for the complete position lifecycle",
+  "caveat": "Overlapping windows; descriptive attribution, not causal removal effect."
+}

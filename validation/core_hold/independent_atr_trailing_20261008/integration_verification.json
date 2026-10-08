@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "prefix_invariance:SUI/USDT",
+    "prefix_invariance:ZEC/USDT",
+    "prefix_invariance:DOGE/USDT",
+    "prefix_invariance:ADA/USDT",
+    "strong_alone_does_not_activate",
+    "actually_allowed_exception_activates",
+    "btc_recovery_and_duplicate_callback_preserve_stop_exit",
+    "original_exit_keeps_precedence",
+    "btc_unchanged",
+    "btc_filter_still_exits_without_independent_exception"
+  ]
+}

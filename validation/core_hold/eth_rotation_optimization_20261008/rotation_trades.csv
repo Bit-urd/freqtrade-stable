@@ -1,0 +1,5 @@
+window,strategy,pair,open_date,close_date,exit_reason,net_trade_return_pct,profit_abs,duration_days
+DOGE_full_cycle,EthRotationCycleRiskStrategy,DOGE/USDT,2022-08-18 00:00:00+00:00,2022-08-20 00:00:00+00:00,trend_to_cash,-15.678100729839914,-1831.34968232,2.0
+DOGE_full_cycle,EthBreadthRotationCycleRiskStrategy,DOGE/USDT,2022-08-18 00:00:00+00:00,2022-08-19 00:00:00+00:00,trend_to_cash,-7.005773182060428,-818.3402258,1.0
+DOGE_bear_2022,EthRotationCycleRiskStrategy,DOGE/USDT,2022-08-18 00:00:00+00:00,2022-08-20 00:00:00+00:00,trend_to_cash,-15.678100729839914,-70.56821588,2.0
+DOGE_bear_2022,EthBreadthRotationCycleRiskStrategy,DOGE/USDT,2022-08-18 00:00:00+00:00,2022-08-19 00:00:00+00:00,trend_to_cash,-7.005773182060429,-31.5334697,1.0

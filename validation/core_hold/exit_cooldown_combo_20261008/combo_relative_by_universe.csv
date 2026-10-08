@@ -1,0 +1,13 @@
+universe,reference,windows,return_better,return_worse,drawdown_better,jointly_better
+core3,BtcCoinGuardCycleRiskStrategy,7,4,3,3,3
+broad7,BtcCoinGuardCycleRiskStrategy,7,4,3,3,2
+broad8,BtcCoinGuardCycleRiskStrategy,5,5,0,2,2
+core3,BtcTwoDayExitCycleRiskStrategy,7,2,5,1,1
+broad7,BtcTwoDayExitCycleRiskStrategy,7,3,4,1,1
+broad8,BtcTwoDayExitCycleRiskStrategy,5,5,0,3,3
+core3,ShortCooldownCycleRiskStrategy,7,5,2,3,3
+broad7,ShortCooldownCycleRiskStrategy,7,0,7,1,0
+broad8,ShortCooldownCycleRiskStrategy,5,1,4,0,0
+core3,BuyAndHold,7,6,1,7,6
+broad7,BuyAndHold,7,3,4,7,3
+broad8,BuyAndHold,5,1,4,5,1

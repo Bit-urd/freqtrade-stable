@@ -1,0 +1,7 @@
+{
+  "windows": 20,
+  "strategy_runs": 40,
+  "max_ledger_error": 1.7404090613126755e-08,
+  "one_coin_only": true,
+  "matching_dates": true
+}

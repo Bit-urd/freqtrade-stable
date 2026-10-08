@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "variants": [
+    "BtcCoinGuardCycleRiskStrategy",
+    "TrendOnlyCycleRiskStrategy",
+    "WeeklyTop2CycleRiskStrategy",
+    "WeeklyTop2TrendOnlyCycleRiskStrategy"
+  ],
+  "design": "2x2 entry-filter ablation; original exits and risk sizing unchanged",
+  "momentum_days": 60,
+  "top_n": 2,
+  "ranking_schedule": "Sunday completed close selects candidates for Monday through Sunday executions",
+  "ranking_universe": "Current study whitelist, only peers meeting original own risk-on signal and positive volume on snapshot day",
+  "ranking_ties": "Alphabetical pair order",
+  "trend_only": "Own completed signal-day close strictly above own MA150",
+  "existing_holdings": "Retained until original exits; rank downgrade alone never forces an exit; active positions can exceed 2",
+  "allocation": "Original per-pair capital/profit budgets and full universe slot count; no redistribution of unspent budgets",
+  "universe_windows": 19,
+  "new_possible_strategy_runs": 76,
+  "baseline_reuse": "Five matched core3 windows if source/data match, fresh baseline for all other windows",
+  "fees": 0.001,
+  "capital": 1000,
+  "slippage": 0,
+  "data_end": "2026-10-06",
+  "diagnostic": "Classify original positions by last completed own close/MA150 before initial entry; attribute whole trade cashflows and terminal MTM, including partial fills",
+  "limitations": [
+    "In-sample; history previously examined",
+    "Overlapping windows",
+    "Retrospectively chosen surviving asset pools",
+    "AVAX is listed before 2021 but lacks MA150 warmup until early 2021, equally for every strategy",
+    "SUI is included only in broad8 windows after 150-day maturity",
+    "More cash may explain lower drawdown; ranking does not redistribute budgets",
+    "Profit attribution is descriptive; removing a trade changes later sizing and entry paths"
+  ],
+  "production_modified": false,
+  "indicator_checks": 22,
+  "follow_up": {
+    "variant": "WeeklyTop2ConcentratedCycleRiskStrategy",
+    "reason": "Separate entry screening from concentrating actual available capital after observing idle cash",
+    "decision_timing": "Added after first core3 and broad7 screening results; retrospective follow-up",
+    "slots": 2,
+    "budget": "Starting account capital plus all closed profits plus partial realized open profits, divided by 2; unrealized profits excluded",
+    "existing_holdings": "Original exits; no forced weekly rotation",
+    "parameter_changes": "None: same 60-day top2 Sunday ranking, no new signal threshold",
+    "additional_runs": 19
+  },
+  "first_four_groups_complete": true
+}

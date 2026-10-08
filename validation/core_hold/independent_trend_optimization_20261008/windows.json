@@ -1,0 +1,371 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_full_cycle",
+    "cohort": "new",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_bear_2022",
+    "cohort": "new",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_bull_2023_2024",
+    "cohort": "new",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_continuous_2023_latest",
+    "cohort": "new",
+    "timerange": "20230101-20261006",
+    "start": "2023-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_since_maturity",
+    "cohort": "new",
+    "timerange": "20230705-20261006",
+    "start": "2023-07-05",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_early_bull",
+    "cohort": "new",
+    "timerange": "20230705-20241231",
+    "start": "2023-07-05",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2024",
+    "cohort": "new",
+    "timerange": "20240101-20241231",
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_full_cycle",
+    "cohort": "new",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_bear_2022",
+    "cohort": "new",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_bull_2023_2024",
+    "cohort": "new",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_continuous_2023_latest",
+    "cohort": "new",
+    "timerange": "20230101-20261006",
+    "start": "2023-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_full_cycle",
+    "cohort": "robustness",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_bear_2022",
+    "cohort": "robustness",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_bull_2023_2024",
+    "cohort": "robustness",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_year_2025",
+    "cohort": "robustness",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_year_2026",
+    "cohort": "robustness",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ADA/USDT",
+    "label": "ADA_recent",
+    "cohort": "robustness",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_full_cycle",
+    "cohort": "robustness",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_bear_2022",
+    "cohort": "robustness",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_bull_2023_2024",
+    "cohort": "robustness",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_year_2025",
+    "cohort": "robustness",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_year_2026",
+    "cohort": "robustness",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "DOGE/USDT",
+    "label": "DOGE_recent",
+    "cohort": "robustness",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_full_cycle",
+    "cohort": "robustness",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_bear_2022",
+    "cohort": "robustness",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_bull_2023_2024",
+    "cohort": "robustness",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_year_2025",
+    "cohort": "robustness",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_year_2026",
+    "cohort": "robustness",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "AVAX/USDT",
+    "label": "AVAX_recent",
+    "cohort": "robustness",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "label": "PORTFOLIO_full_cycle",
+    "cohort": "portfolio",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "pair": "PORTFOLIO",
+    "pairs": [
+      "BTC/USDT",
+      "SOL/USDT",
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "PORTFOLIO_bear_2022",
+    "cohort": "portfolio",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "pair": "PORTFOLIO",
+    "pairs": [
+      "BTC/USDT",
+      "SOL/USDT",
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "PORTFOLIO_bull_2023_2024",
+    "cohort": "portfolio",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "pair": "PORTFOLIO",
+    "pairs": [
+      "BTC/USDT",
+      "SOL/USDT",
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "PORTFOLIO_continuous_2023_latest",
+    "cohort": "portfolio",
+    "timerange": "20230101-20261006",
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "pair": "PORTFOLIO",
+    "pairs": [
+      "BTC/USDT",
+      "SOL/USDT",
+      "ETH/USDT"
+    ]
+  },
+  {
+    "label": "PORTFOLIO_recent",
+    "cohort": "portfolio",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "pair": "PORTFOLIO",
+    "pairs": [
+      "BTC/USDT",
+      "SOL/USDT",
+      "ETH/USDT"
+    ]
+  }
+]

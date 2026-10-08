@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "order": [
+    "BTC exit confirmation",
+    "account risk recovery",
+    "weak BTC same-pair cooldown",
+    "limited shared cash"
+  ],
+  "single_change_candidates": 4,
+  "portfolio_windows": 19,
+  "initial_wallet": 1000,
+  "fee_per_side": 0.001,
+  "end": "2026-10-06",
+  "assessment": "User explicitly removed 5pp drawdown hard gate; comprehensive review",
+  "production_source_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "source_frozen_matches_production": true,
+  "rule_checks": 89,
+  "new_backtests": 90,
+  "unique_comparison_rows": 114
+}

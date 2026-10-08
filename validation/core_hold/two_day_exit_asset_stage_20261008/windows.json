@@ -1,0 +1,618 @@
+[
+  {
+    "label": "BTC_full_cycle",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "BTC_full_cycle"
+  },
+  {
+    "label": "BTC_bear_2022",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "BTC_bear_2022"
+  },
+  {
+    "label": "BTC_bull_2023_2024",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "BTC_bull_2023_2024"
+  },
+  {
+    "label": "BTC_continuous_2023_latest",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "BTC_continuous_2023_latest"
+  },
+  {
+    "label": "BTC_year_2025",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "BTC_year_2025"
+  },
+  {
+    "label": "BTC_year_2026",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "BTC_year_2026"
+  },
+  {
+    "label": "BTC_recent",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "BTC_recent"
+  },
+  {
+    "label": "ETH_full_cycle",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "ETH_full_cycle"
+  },
+  {
+    "label": "ETH_bear_2022",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "ETH_bear_2022"
+  },
+  {
+    "label": "ETH_bull_2023_2024",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "ETH_bull_2023_2024"
+  },
+  {
+    "label": "ETH_continuous_2023_latest",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "ETH_continuous_2023_latest"
+  },
+  {
+    "label": "ETH_year_2025",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "ETH_year_2025"
+  },
+  {
+    "label": "ETH_year_2026",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "ETH_year_2026"
+  },
+  {
+    "label": "ETH_recent",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "ETH_recent"
+  },
+  {
+    "label": "SOL_full_cycle",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "SOL_full_cycle"
+  },
+  {
+    "label": "SOL_bear_2022",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "SOL_bear_2022"
+  },
+  {
+    "label": "SOL_bull_2023_2024",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "SOL_bull_2023_2024"
+  },
+  {
+    "label": "SOL_continuous_2023_latest",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "SOL_continuous_2023_latest"
+  },
+  {
+    "label": "SOL_year_2025",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "SOL_year_2025"
+  },
+  {
+    "label": "SOL_year_2026",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "SOL_year_2026"
+  },
+  {
+    "label": "SOL_recent",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "SOL_recent"
+  },
+  {
+    "label": "ADA_full_cycle",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "ADA_full_cycle"
+  },
+  {
+    "label": "ADA_bear_2022",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "ADA_bear_2022"
+  },
+  {
+    "label": "ADA_bull_2023_2024",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "ADA_bull_2023_2024"
+  },
+  {
+    "label": "ADA_continuous_2023_latest",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "ADA_continuous_2023_latest"
+  },
+  {
+    "label": "ADA_year_2025",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "ADA_year_2025"
+  },
+  {
+    "label": "ADA_year_2026",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "ADA_year_2026"
+  },
+  {
+    "label": "ADA_recent",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "ADA_recent"
+  },
+  {
+    "label": "DOGE_full_cycle",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "DOGE_full_cycle"
+  },
+  {
+    "label": "DOGE_bear_2022",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "DOGE_bear_2022"
+  },
+  {
+    "label": "DOGE_bull_2023_2024",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "DOGE_bull_2023_2024"
+  },
+  {
+    "label": "DOGE_continuous_2023_latest",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "DOGE_continuous_2023_latest"
+  },
+  {
+    "label": "DOGE_year_2025",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "DOGE_year_2025"
+  },
+  {
+    "label": "DOGE_year_2026",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "DOGE_year_2026"
+  },
+  {
+    "label": "DOGE_recent",
+    "universe": "DOGE",
+    "pairs": [
+      "DOGE/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "DOGE_recent"
+  },
+  {
+    "label": "AVAX_full_cycle",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "AVAX_full_cycle"
+  },
+  {
+    "label": "AVAX_bear_2022",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "AVAX_bear_2022"
+  },
+  {
+    "label": "AVAX_bull_2023_2024",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "AVAX_bull_2023_2024"
+  },
+  {
+    "label": "AVAX_continuous_2023_latest",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "AVAX_continuous_2023_latest"
+  },
+  {
+    "label": "AVAX_year_2025",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "AVAX_year_2025"
+  },
+  {
+    "label": "AVAX_year_2026",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "AVAX_year_2026"
+  },
+  {
+    "label": "AVAX_recent",
+    "universe": "AVAX",
+    "pairs": [
+      "AVAX/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "AVAX_recent"
+  },
+  {
+    "label": "ZEC_full_cycle",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2021-01-01",
+    "end": "2026-10-06",
+    "timerange": "20210101-20261006",
+    "reference_window": "ZEC_full_cycle"
+  },
+  {
+    "label": "ZEC_bear_2022",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2022-01-01",
+    "end": "2022-12-31",
+    "timerange": "20220101-20221231",
+    "reference_window": "ZEC_bear_2022"
+  },
+  {
+    "label": "ZEC_bull_2023_2024",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2024-12-31",
+    "timerange": "20230101-20241231",
+    "reference_window": "ZEC_bull_2023_2024"
+  },
+  {
+    "label": "ZEC_continuous_2023_latest",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2023-01-01",
+    "end": "2026-10-06",
+    "timerange": "20230101-20261006",
+    "reference_window": "ZEC_continuous_2023_latest"
+  },
+  {
+    "label": "ZEC_year_2025",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "ZEC_year_2025"
+  },
+  {
+    "label": "ZEC_year_2026",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "ZEC_year_2026"
+  },
+  {
+    "label": "ZEC_recent",
+    "universe": "ZEC",
+    "pairs": [
+      "ZEC/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "ZEC_recent"
+  },
+  {
+    "label": "SUI_since_maturity",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2023-07-05",
+    "end": "2026-10-06",
+    "timerange": "20230705-20261006",
+    "reference_window": "SUI_since_maturity"
+  },
+  {
+    "label": "SUI_early_bull",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2023-07-05",
+    "end": "2024-12-31",
+    "timerange": "20230705-20241231",
+    "reference_window": "SUI_early_bull"
+  },
+  {
+    "label": "SUI_year_2024",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "timerange": "20240101-20241231",
+    "reference_window": "SUI_year_2024"
+  },
+  {
+    "label": "SUI_year_2025",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "SUI_year_2025"
+  },
+  {
+    "label": "SUI_year_2026",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "SUI_year_2026"
+  },
+  {
+    "label": "SUI_recent",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2025-09-01",
+    "end": "2026-10-06",
+    "timerange": "20250901-20261006",
+    "reference_window": "SUI_recent"
+  },
+  {
+    "label": "SUI_after_ma150_maturity",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT"
+    ],
+    "start": "2023-10-01",
+    "end": "2026-10-06",
+    "timerange": "20231001-20261006",
+    "reference_window": "SUI_after_ma150_maturity"
+  }
+]

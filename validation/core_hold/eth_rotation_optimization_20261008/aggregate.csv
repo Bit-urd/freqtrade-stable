@@ -1,0 +1,9 @@
+group,strategy,windows,return_better,return_worse,return_same,drawdown_better,drawdown_worse,jointly_better,median_wealth_ratio,worst_wealth_ratio,max_drawdown_increase_pp,rotation_positions_with_overlapping_windows
+all_non_btc,EthRotationCycleRiskStrategy,36,6,11,19,4,10,2,1.0,0.7720986754693994,13.237545192846731,2
+all_non_btc,EthBreadthRotationCycleRiskStrategy,36,0,10,26,1,9,0,1.0,0.8897880187558511,6.4009202274572985,2
+original_altcoins,EthRotationCycleRiskStrategy,13,4,1,8,0,2,0,1.0,0.999245557188912,0.05677071758638874,0
+original_altcoins,EthBreadthRotationCycleRiskStrategy,13,0,2,11,0,2,0,1.0,0.9963395023853036,0.05677071758638874,0
+additional_coins,EthRotationCycleRiskStrategy,18,2,6,10,4,4,2,1.0,0.7720986754693994,13.237545192846731,2
+additional_coins,EthBreadthRotationCycleRiskStrategy,18,0,6,12,1,5,0,1.0,0.8897880187558511,6.4009202274572985,2
+portfolio,EthRotationCycleRiskStrategy,5,0,4,1,0,4,0,0.9900656076210742,0.9744052245435318,1.6923640215577365,0
+portfolio,EthBreadthRotationCycleRiskStrategy,5,0,2,3,0,2,0,1.0,0.9824481114453165,1.160556565571703,0

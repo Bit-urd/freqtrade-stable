@@ -1,0 +1,162 @@
+[
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_full_cycle",
+    "cohort": "new",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_bear_2022",
+    "cohort": "new",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_bull_2023_2024",
+    "cohort": "new",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_continuous_2023_latest",
+    "cohort": "new",
+    "timerange": "20230101-20261006",
+    "start": "2023-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "BTC/USDT",
+    "label": "BTC_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_since_maturity",
+    "cohort": "new",
+    "timerange": "20230705-20261006",
+    "start": "2023-07-05",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_early_bull",
+    "cohort": "new",
+    "timerange": "20230705-20241231",
+    "start": "2023-07-05",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2024",
+    "cohort": "new",
+    "timerange": "20240101-20241231",
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "SUI/USDT",
+    "label": "SUI_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_full_cycle",
+    "cohort": "new",
+    "timerange": "20210101-20261006",
+    "start": "2021-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_bear_2022",
+    "cohort": "new",
+    "timerange": "20220101-20221231",
+    "start": "2022-01-01",
+    "end": "2022-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_bull_2023_2024",
+    "cohort": "new",
+    "timerange": "20230101-20241231",
+    "start": "2023-01-01",
+    "end": "2024-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_continuous_2023_latest",
+    "cohort": "new",
+    "timerange": "20230101-20261006",
+    "start": "2023-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_year_2025",
+    "cohort": "new",
+    "timerange": "20250101-20251231",
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_year_2026",
+    "cohort": "new",
+    "timerange": "20260101-20261006",
+    "start": "2026-01-01",
+    "end": "2026-10-06"
+  },
+  {
+    "pair": "ZEC/USDT",
+    "label": "ZEC_recent",
+    "cohort": "new",
+    "timerange": "20250901-20261006",
+    "start": "2025-09-01",
+    "end": "2026-10-06"
+  }
+]

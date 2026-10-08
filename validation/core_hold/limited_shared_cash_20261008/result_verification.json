@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "windows": 19,
+  "baseline_metrics": 114,
+  "rule_checks": 16,
+  "unchanged_hashes": true,
+  "max_ledger_error": 5.976471584290266e-08
+}

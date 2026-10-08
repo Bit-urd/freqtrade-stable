@@ -1,0 +1,118 @@
+{
+  "shared_data_directory": "../independent_trend_optimization_20261008/data",
+  "unchanged_hashes_verified": true,
+  "files": [
+    {
+      "file": "AVAX_USDT-1d.feather",
+      "rows": 2206,
+      "first": "2020-09-22 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "7cb6cbba5bd8f2b3dda7e24d034e562aca277a72973af4c510fc41af76e247c0"
+    },
+    {
+      "file": "ETH_USDT-1d.feather",
+      "rows": 3338,
+      "first": "2017-08-17 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "86ecce4db0aeb3ec44e3b38b8162ab752d44d646eb5ee9d2d495887be3586fe2"
+    },
+    {
+      "file": "SOL_USDT-1w.feather",
+      "rows": 321,
+      "first": "2020-08-10 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "6ba090e1f2bbd99bbd7fe5e145d314f3df06a499908da0889e82d89be816d4bf"
+    },
+    {
+      "file": "SUI_USDT-1d.feather",
+      "rows": 1253,
+      "first": "2023-05-03 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "17a2a09c3d7823cada018a4a8ced5307b5a8876f73c8a2141c3a4af738fe29d0"
+    },
+    {
+      "file": "DOGE_USDT-1w.feather",
+      "rows": 379,
+      "first": "2019-07-01 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "cffa2f341ce7b269706a8405ffb0a91b2ad23da16539b4ebb317592917a93377"
+    },
+    {
+      "file": "ETH_USDT-1w.feather",
+      "rows": 477,
+      "first": "2017-08-14 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "c5aaf30ca23c4e6d5d9769b9ddb28fb9d84fc23ce6c5dec4503587d31425ddac"
+    },
+    {
+      "file": "BTC_USDT-1d.feather",
+      "rows": 3338,
+      "first": "2017-08-17 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "5ce68d468a431e08180d26076662c29d237e97d4b61bb43e8149291bff9165be"
+    },
+    {
+      "file": "BTC_USDT-1w.feather",
+      "rows": 477,
+      "first": "2017-08-14 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "9e3b8e6e51b70532340b98620bb3c60bec3fa710dc8ba710396dbc49158310c1"
+    },
+    {
+      "file": "ZEC_USDT-1w.feather",
+      "rows": 394,
+      "first": "2019-03-18 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "0f149ea697c69b474881e6c21887dac8d4a001298965d6c6c505c58d8942172d"
+    },
+    {
+      "file": "AVAX_USDT-1w.feather",
+      "rows": 315,
+      "first": "2020-09-21 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "d7b02a69d552e7647e689757872407374bc8d193a931fd02ea7c31b1b7426b9e"
+    },
+    {
+      "file": "ZEC_USDT-1d.feather",
+      "rows": 2757,
+      "first": "2019-03-21 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "960fb4276aa607e13643a2552d948b33faa6f7d40e45f5ce322b956b6a6feb4e"
+    },
+    {
+      "file": "SOL_USDT-1d.feather",
+      "rows": 2248,
+      "first": "2020-08-11 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "b233be79ed0f70a68a917bc19be4c32c6bc643e4c575565af7c9aee74c62df14"
+    },
+    {
+      "file": "DOGE_USDT-1d.feather",
+      "rows": 2651,
+      "first": "2019-07-05 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "49af73c3fdb5600562c3c5a48e4310110c8e587401df0163d7ab4da437f27215"
+    },
+    {
+      "file": "SUI_USDT-1w.feather",
+      "rows": 179,
+      "first": "2023-05-01 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "05c7963fd013f0689efac9ad04cc6eb1eda6bd0c2368fbf8f4ae3d30fd68c324"
+    },
+    {
+      "file": "ADA_USDT-1w.feather",
+      "rows": 442,
+      "first": "2018-04-16 00:00:00+00:00",
+      "last": "2026-09-28 00:00:00+00:00",
+      "sha256": "b9e97084edc0c0241db735d1dc6ee9e4158493251b783f4ba0036e88cc4b6ead"
+    },
+    {
+      "file": "ADA_USDT-1d.feather",
+      "rows": 3095,
+      "first": "2018-04-17 00:00:00+00:00",
+      "last": "2026-10-06 00:00:00+00:00",
+      "sha256": "8c835d7822fb9d9f745d48d25bb7e7e3c26194c1380e9e6e947bb731c8f5285f"
+    }
+  ]
+}
