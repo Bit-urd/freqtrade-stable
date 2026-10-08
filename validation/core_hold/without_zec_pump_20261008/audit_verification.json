@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "curve_checks": 18,
+  "summary_metric_checks": 54,
+  "actual_btc_exit_checks": 1117,
+  "actual_weak_btc_entry_cooldown_checks": 1066,
+  "daily_risk_equity_checks": 6816,
+  "max_equity_error": 2.7284841053187847e-12,
+  "max_cash_error": 1.6991634765872732e-08,
+  "source_and_data_hashes_unchanged": true
+}

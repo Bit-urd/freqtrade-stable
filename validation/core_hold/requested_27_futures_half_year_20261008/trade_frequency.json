@@ -1,0 +1,330 @@
+{
+  "excludes_terminal_force_exits": true,
+  "counts_filled_orders_only": true,
+  "results": [
+    {
+      "window": "Requested27",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 235,
+        "active_days": 42,
+        "mean_event_gap_days": 0.7478632478632479,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "buys": {
+        "count": 235,
+        "active_days": 42,
+        "mean_event_gap_days": 0.7478632478632479,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "sells": {
+        "count": 209,
+        "active_days": 30,
+        "mean_event_gap_days": 0.8173076923076923,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 5.862068965517241,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 22,
+        "max_orders_same_day": 24
+      },
+      "all_actual_orders": {
+        "count": 444,
+        "active_days": 69,
+        "mean_event_gap_days": 0.39503386004514673,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 2.573529411764706,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 18,
+        "max_orders_same_day": 24
+      },
+      "real_closed_positions": 209,
+      "ending_open_positions": 26,
+      "calendar_days_per_entry": 0.7787234042553192,
+      "calendar_days_per_active_order_day": 2.652173913043478,
+      "same_coin_entry_gap_mean_days": 18.114832535885167,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 5.08133971291866,
+      "real_closed_holding_min_days": 1.0
+    },
+    {
+      "window": "Requested27",
+      "strategy": "BtcTwoDayExitCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 206,
+        "active_days": 42,
+        "mean_event_gap_days": 0.8536585365853658,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "buys": {
+        "count": 206,
+        "active_days": 42,
+        "mean_event_gap_days": 0.8536585365853658,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "sells": {
+        "count": 180,
+        "active_days": 44,
+        "mean_event_gap_days": 0.9497206703910615,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 3.953488372093023,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 21,
+        "max_orders_same_day": 20
+      },
+      "all_actual_orders": {
+        "count": 386,
+        "active_days": 81,
+        "mean_event_gap_days": 0.45454545454545453,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 2.1875,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 17,
+        "max_orders_same_day": 23
+      },
+      "real_closed_positions": 180,
+      "ending_open_positions": 26,
+      "calendar_days_per_entry": 0.8883495145631068,
+      "calendar_days_per_active_order_day": 2.259259259259259,
+      "same_coin_entry_gap_mean_days": 21.022222222222222,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 8.094444444444445,
+      "real_closed_holding_min_days": 2.0
+    },
+    {
+      "window": "Mature26",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 235,
+        "active_days": 42,
+        "mean_event_gap_days": 0.7478632478632479,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "buys": {
+        "count": 235,
+        "active_days": 42,
+        "mean_event_gap_days": 0.7478632478632479,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "sells": {
+        "count": 209,
+        "active_days": 30,
+        "mean_event_gap_days": 0.8173076923076923,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 5.862068965517241,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 22,
+        "max_orders_same_day": 24
+      },
+      "all_actual_orders": {
+        "count": 444,
+        "active_days": 69,
+        "mean_event_gap_days": 0.39503386004514673,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 2.573529411764706,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 18,
+        "max_orders_same_day": 24
+      },
+      "real_closed_positions": 209,
+      "ending_open_positions": 26,
+      "calendar_days_per_entry": 0.7787234042553192,
+      "calendar_days_per_active_order_day": 2.652173913043478,
+      "same_coin_entry_gap_mean_days": 18.114832535885167,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 5.08133971291866,
+      "real_closed_holding_min_days": 1.0
+    },
+    {
+      "window": "Mature26",
+      "strategy": "BtcTwoDayExitCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 206,
+        "active_days": 42,
+        "mean_event_gap_days": 0.8536585365853658,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "buys": {
+        "count": 206,
+        "active_days": 42,
+        "mean_event_gap_days": 0.8536585365853658,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 4.2682926829268295,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 19,
+        "max_orders_same_day": 23
+      },
+      "sells": {
+        "count": 180,
+        "active_days": 44,
+        "mean_event_gap_days": 0.9497206703910615,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 3.953488372093023,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 21,
+        "max_orders_same_day": 20
+      },
+      "all_actual_orders": {
+        "count": 386,
+        "active_days": 81,
+        "mean_event_gap_days": 0.45454545454545453,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 2.1875,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 17,
+        "max_orders_same_day": 23
+      },
+      "real_closed_positions": 180,
+      "ending_open_positions": 26,
+      "calendar_days_per_entry": 0.8883495145631068,
+      "calendar_days_per_active_order_day": 2.259259259259259,
+      "same_coin_entry_gap_mean_days": 21.022222222222222,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 8.094444444444445,
+      "real_closed_holding_min_days": 2.0
+    },
+    {
+      "window": "Official9",
+      "strategy": "BtcCoinGuardCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 76,
+        "active_days": 26,
+        "mean_event_gap_days": 2.1733333333333333,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 6.52,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 20,
+        "max_orders_same_day": 8
+      },
+      "buys": {
+        "count": 76,
+        "active_days": 26,
+        "mean_event_gap_days": 2.1733333333333333,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 6.52,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 20,
+        "max_orders_same_day": 8
+      },
+      "sells": {
+        "count": 67,
+        "active_days": 19,
+        "mean_event_gap_days": 2.287878787878788,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 8.38888888888889,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 22,
+        "max_orders_same_day": 9
+      },
+      "all_actual_orders": {
+        "count": 143,
+        "active_days": 44,
+        "mean_event_gap_days": 1.147887323943662,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 3.7906976744186047,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 18,
+        "max_orders_same_day": 9
+      },
+      "real_closed_positions": 67,
+      "ending_open_positions": 9,
+      "calendar_days_per_entry": 2.4078947368421053,
+      "calendar_days_per_active_order_day": 4.159090909090909,
+      "same_coin_entry_gap_mean_days": 18.313432835820894,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 4.6716417910447765,
+      "real_closed_holding_min_days": 1.0
+    },
+    {
+      "window": "Official9",
+      "strategy": "BtcTwoDayExitCycleRiskStrategy",
+      "calendar_days": 183,
+      "entries": {
+        "count": 64,
+        "active_days": 25,
+        "mean_event_gap_days": 2.5873015873015874,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 6.791666666666667,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 20,
+        "max_orders_same_day": 7
+      },
+      "buys": {
+        "count": 64,
+        "active_days": 25,
+        "mean_event_gap_days": 2.5873015873015874,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 6.791666666666667,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 20,
+        "max_orders_same_day": 7
+      },
+      "sells": {
+        "count": 55,
+        "active_days": 24,
+        "mean_event_gap_days": 2.6666666666666665,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 6.260869565217392,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 21,
+        "max_orders_same_day": 7
+      },
+      "all_actual_orders": {
+        "count": 119,
+        "active_days": 48,
+        "mean_event_gap_days": 1.38135593220339,
+        "min_event_gap_days": 0.0,
+        "mean_active_day_gap_days": 3.4680851063829787,
+        "min_active_day_gap_days": 1,
+        "max_active_day_gap_days": 17,
+        "max_orders_same_day": 7
+      },
+      "real_closed_positions": 55,
+      "ending_open_positions": 9,
+      "calendar_days_per_entry": 2.859375,
+      "calendar_days_per_active_order_day": 3.8125,
+      "same_coin_entry_gap_mean_days": 22.272727272727273,
+      "same_coin_entry_gap_min_days": 3.0,
+      "flat_before_reentry_min_days": 1.0,
+      "real_closed_holding_mean_days": 8.709090909090909,
+      "real_closed_holding_min_days": 2.0
+    }
+  ]
+}

@@ -150,3 +150,8 @@ user_data/archive/*
 !user_data/strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py
 !user_data/strategies/ma200_btc_regime_full_cycle_fast_test_strategy.py
 !user_data/strategies/ma200_btc_regime_weekly_sized_portfolio_strategy.py
+
+# Official two-day CycleRisk selection and previous source snapshot
+!user_data/config_cycle_risk_nine_assets.json
+!user_data/strategies/OFFICIAL.json
+!user_data/archive/cycle_risk_two_day_official_20261008/

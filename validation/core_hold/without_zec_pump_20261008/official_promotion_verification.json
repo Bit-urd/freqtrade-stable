@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "AST identical to validated candidate except documented BTC exit constant",
+    "Freqtrade config and strategy resolve successfully",
+    "nine assets and nine budget slots; dry-run spot",
+    "indicator frame matches validated candidate for all nine assets",
+    "official manifest source and configuration hashes match"
+  ],
+  "running_service_changed": false
+}

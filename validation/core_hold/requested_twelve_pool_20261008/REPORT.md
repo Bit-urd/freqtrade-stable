@@ -336,3 +336,5 @@ PUMP与其他币的预算、复利及账户风控存在交互，加入它的总�
 - 冻结行情及原版/候选/正式策略哈希一致，日线连续性、各窗口实际起止日期及初始钱包均检查。
 - [全部105窗口三组CSV](all_comparisons.csv)、[96组合单币矩阵](single_phase_matrix.csv)、[原始指标](summary.csv)、[逐币盈亏](profit_attribution.csv)、[规则检查](verification.json)、[权益审计](audit_verification.json)。
 - 原始成交和每日权益在 results/；现货冻结数据与 SHA256 在 data_audit.json；API下载来源在 download_sources.json；raw/futures 是口径确认前探查数据，未用于本轮回测。
+
+进一步诊断：[为什么跑不过持有：逐币数量、过滤、冷却与收益差归因](hold_gap_analysis/REPORT.md)。

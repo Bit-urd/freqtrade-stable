@@ -1,6 +1,6 @@
-"""正式版 CycleRisk：直接继承 IStrategy，BTC采用连续两天弱势确认退出。
+"""正式版 CycleRisk：直接继承 IStrategy，保留原有交易规则。
 
-日线只做多；BTC与个币MA150/EMA10共同允许入场；BTC连续弱势两日退出，
+日线只做多；BTC与个币MA150/EMA10共同允许入场；BTC弱势一日退出，
 个币弱势两日退出；BTC未站上MA150时，同币平仓后等待14日。
 按币独立复利预算，账户回撤25%/35%降至75%/50%；恢复规则不变。
 BTC新一轮连续两日站上MA200时，可重启内部风险峰值，间隔至少14日。
@@ -35,7 +35,7 @@ class BtcCoinGuardCycleRiskStrategy(IStrategy):
     BTC_PAIR = "BTC/USDT"
     TREND_MA_DAYS = 150
     RECOVERY_EMA_DAYS = 10
-    TREND_EXIT_DAYS = 2
+    TREND_EXIT_DAYS = 1
     COIN_EXIT_DAYS = 2
     RECOVERY_COOLDOWN_DAYS = 14
     REARM_COOLDOWN_DAYS = 14

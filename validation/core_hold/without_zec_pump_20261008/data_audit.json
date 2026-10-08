@@ -1,0 +1,102 @@
+[
+  {
+    "asset": "BTC",
+    "file": "BTC_USDT-1d.feather",
+    "rows": 3338,
+    "first": "2017-08-17",
+    "last": "2026-10-06",
+    "warm_start": "2017-10-17",
+    "ma150_start": "2018-01-14",
+    "sha256": "6c41ae9ba15f0610409a890526269f910f517f293eff26d3927b3e03d53f5c6c"
+  },
+  {
+    "asset": "ETH",
+    "file": "ETH_USDT-1d.feather",
+    "rows": 3338,
+    "first": "2017-08-17",
+    "last": "2026-10-06",
+    "warm_start": "2017-10-17",
+    "ma150_start": "2018-01-14",
+    "sha256": "90fae0c3354a3a24bb86708518ad0e97dd7451716a464b9c54d2ecb1fdb92f3c"
+  },
+  {
+    "asset": "BNB",
+    "file": "BNB_USDT-1d.feather",
+    "rows": 3257,
+    "first": "2017-11-06",
+    "last": "2026-10-06",
+    "warm_start": "2018-01-06",
+    "ma150_start": "2018-04-05",
+    "sha256": "f0028da25b76b0049f59c414bf0243642d3dc34feec9a13e2b38f51abe868706"
+  },
+  {
+    "asset": "LINK",
+    "file": "LINK_USDT-1d.feather",
+    "rows": 2821,
+    "first": "2019-01-16",
+    "last": "2026-10-06",
+    "warm_start": "2019-03-18",
+    "ma150_start": "2019-06-15",
+    "sha256": "75f6c4e16a3a49662dccb9f8acbf4da34e98e591ef0611d928b05aa53217d961"
+  },
+  {
+    "asset": "XRP",
+    "file": "XRP_USDT-1d.feather",
+    "rows": 3078,
+    "first": "2018-05-04",
+    "last": "2026-10-06",
+    "warm_start": "2018-07-04",
+    "ma150_start": "2018-10-01",
+    "sha256": "9a9c0b281ea25d9e3cea676d453f98d048821a4c07a7e20bbd48765d7571b8b6"
+  },
+  {
+    "asset": "UNI",
+    "file": "UNI_USDT-1d.feather",
+    "rows": 2211,
+    "first": "2020-09-17",
+    "last": "2026-10-06",
+    "warm_start": "2020-11-17",
+    "ma150_start": "2021-02-14",
+    "sha256": "97d544669f7616de05c5162ab47b6d8dd564c89f9f57b38c71ecd2c0c1be5299"
+  },
+  {
+    "asset": "DOGE",
+    "file": "DOGE_USDT-1d.feather",
+    "rows": 2651,
+    "first": "2019-07-05",
+    "last": "2026-10-06",
+    "warm_start": "2019-09-04",
+    "ma150_start": "2019-12-02",
+    "sha256": "e8a33485f883d02a52f7ea3bd7851617920ff8c90544314e724ed12c061fe103"
+  },
+  {
+    "asset": "SOL",
+    "file": "SOL_USDT-1d.feather",
+    "rows": 2248,
+    "first": "2020-08-11",
+    "last": "2026-10-06",
+    "warm_start": "2020-10-11",
+    "ma150_start": "2021-01-08",
+    "sha256": "6a09b615d5e370b9452a5316318cbe234705ae6dfca45cc91a7f85454d45635d"
+  },
+  {
+    "asset": "ARB",
+    "file": "ARB_USDT-1d.feather",
+    "rows": 1294,
+    "first": "2023-03-23",
+    "last": "2026-10-06",
+    "warm_start": "2023-05-23",
+    "ma150_start": "2023-08-20",
+    "sha256": "273dd421b2039a249d6625d3ccf63b076eba283a8adb0d986a95732c056558ae"
+  },
+  {
+    "asset": "HYPE",
+    "file": "HYPE_USDT-1d.feather",
+    "rows": 13,
+    "first": "2026-09-24",
+    "last": "2026-10-06",
+    "warm_start": null,
+    "ma150_start": null,
+    "sha256": "b439bb38784731b641939b73ff761c1c5f54f7a9d91f9b2247ce7493c99f0dd4"
+  }
+]

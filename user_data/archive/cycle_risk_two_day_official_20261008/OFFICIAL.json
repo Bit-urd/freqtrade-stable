@@ -1,0 +1,29 @@
+{
+  "status": "official_selected",
+  "approved_date": "2026-10-08",
+  "strategy": "BtcCoinGuardCycleRiskStrategy",
+  "revision": "btc_two_day_exit_nine_assets",
+  "scope": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "BNB/USDT",
+    "LINK/USDT",
+    "XRP/USDT",
+    "UNI/USDT",
+    "DOGE/USDT",
+    "SOL/USDT",
+    "ARB/USDT"
+  ],
+  "btc_exit_days": 2,
+  "coin_exit_days": 2,
+  "recovery_cooldown_days": 14,
+  "active_entry_file": "user_data/strategies/cycle_risk_strategy.py",
+  "active_config": "user_data/config_cycle_risk_nine_assets.json",
+  "running_service_changed": false,
+  "live_restart_persistence_implemented": false,
+  "previous_source_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "active_source_sha256": "5c04d309088a5f94238ed2ae4bdfb57fff5374b74f7f942c11ca65df6680de2b",
+  "config_sha256": "649edbf77c446e39f4a117b1965e7d378f0f631a03955cb12559ab33f52a50cf",
+  "evidence": "validation/core_hold/without_zec_pump_20261008/REPORT.md",
+  "hype_status": "excluded: insufficient spot history in frozen validation data"
+}

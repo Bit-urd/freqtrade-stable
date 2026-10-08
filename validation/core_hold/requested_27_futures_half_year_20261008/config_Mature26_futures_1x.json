@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schema.freqtrade.io/schema.json",
+  "bot_name": "requested27_futures_research",
+  "strategy": "BtcTwoDayExitCycleRiskStrategy",
+  "initial_state": "running",
+  "dry_run": true,
+  "dry_run_wallet": 10000,
+  "trading_mode": "futures",
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "tradable_balance_ratio": 1.0,
+  "max_open_trades": 26,
+  "timeframe": "1d",
+  "cancel_open_orders_on_exit": false,
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "exit_timeout_count": 0,
+    "unit": "minutes"
+  },
+  "order_types": {
+    "entry": "market",
+    "exit": "market",
+    "emergency_exit": "market",
+    "force_entry": "market",
+    "force_exit": "market",
+    "stoploss": "market",
+    "stoploss_on_exchange": false
+  },
+  "entry_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exit_pricing": {
+    "price_side": "other",
+    "use_order_book": true,
+    "order_book_top": 1
+  },
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "enable_ws": false,
+    "ccxt_config": {},
+    "pair_whitelist": [
+      "0G/USDT:USDT",
+      "1000BONK/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AERO/USDT:USDT",
+      "APT/USDT:USDT",
+      "ARB/USDT:USDT",
+      "BOME/USDT:USDT",
+      "BTC/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ETH/USDT:USDT",
+      "FIL/USDT:USDT",
+      "JUP/USDT:USDT",
+      "LDO/USDT:USDT",
+      "LINK/USDT:USDT",
+      "MON/USDT:USDT",
+      "OP/USDT:USDT",
+      "POL/USDT:USDT",
+      "PUMP/USDT:USDT",
+      "SKY/USDT:USDT",
+      "SOL/USDT:USDT",
+      "STRK/USDT:USDT",
+      "SUI/USDT:USDT",
+      "UNI/USDT:USDT",
+      "WCT/USDT:USDT",
+      "XRP/USDT:USDT"
+    ],
+    "pair_blacklist": []
+  },
+  "pairlists": [
+    {
+      "method": "StaticPairList"
+    }
+  ],
+  "internals": {
+    "process_throttle_secs": 5
+  },
+  "datadir": "/research/requested_27_futures_half_year_20261008/data",
+  "margin_mode": "isolated",
+  "fee": 0.0005,
+  "strategy_path": "/research/requested_27_futures_half_year_20261008/strategies"
+}

@@ -1,0 +1,8 @@
+{
+  "start": "2026-09-24",
+  "end": "2026-10-06",
+  "days": 13,
+  "return_pct": -0.14333492594362784,
+  "wallet_drawdown_pct": 7.010153380859796,
+  "strategy_status": "Unavailable: only13 own completed candles, no60-day warmup orMA150; hold result is descriptive only"
+}

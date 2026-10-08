@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "assets": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "LINK",
+    "XRP",
+    "UNI",
+    "DOGE",
+    "SOL",
+    "ARB",
+    "HYPE"
+  ],
+  "active_assets": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "LINK",
+    "XRP",
+    "UNI",
+    "DOGE",
+    "SOL",
+    "ARB"
+  ],
+  "removed_assets": [
+    "ZEC",
+    "PUMP"
+  ],
+  "total_windows": 6,
+  "native_tests_expected": 12,
+  "equity_curves_expected": 18,
+  "fee_per_side": 0.001,
+  "initial_wallet": 1000,
+  "slippage": 0,
+  "mode": "spot",
+  "production_sha256": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "criteria": "Recompute budgets and risk state; compare returns and DD with holding, no fixed DD gate",
+  "hype_status": "Only13 daily spot candles; untradeable pending warmup; 10-slot control reserves initial10% budget as cash",
+  "source_data": "requested_twelve_pool_20261008 frozen spot snapshot; unchanged hashes",
+  "native_tests_completed": 12,
+  "equity_curves_completed": 18,
+  "production_hash_verified": true
+}

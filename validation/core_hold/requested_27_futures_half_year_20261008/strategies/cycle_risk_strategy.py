@@ -1,6 +1,6 @@
-"""正式版 CycleRisk：直接继承 IStrategy，BTC采用连续两天弱势确认退出。
+"""正式版 CycleRisk：直接继承 IStrategy，保留原有交易规则。
 
-日线只做多；BTC与个币MA150/EMA10共同允许入场；BTC连续弱势两日退出，
+日线只做多；BTC与个币MA150/EMA10共同允许入场；BTC弱势一日退出，
 个币弱势两日退出；BTC未站上MA150时，同币平仓后等待14日。
 按币独立复利预算，账户回撤25%/35%降至75%/50%；恢复规则不变。
 BTC新一轮连续两日站上MA200时，可重启内部风险峰值，间隔至少14日。
@@ -32,10 +32,10 @@ class BtcCoinGuardCycleRiskStrategy(IStrategy):
     exit_profit_only = False
     position_adjustment_enable = True
     max_entry_position_adjustment = -1
-    BTC_PAIR = "BTC/USDT"
+    BTC_PAIR = "BTC/USDT:USDT"
     TREND_MA_DAYS = 150
     RECOVERY_EMA_DAYS = 10
-    TREND_EXIT_DAYS = 2
+    TREND_EXIT_DAYS = 1
     COIN_EXIT_DAYS = 2
     RECOVERY_COOLDOWN_DAYS = 14
     REARM_COOLDOWN_DAYS = 14
@@ -66,7 +66,7 @@ class BtcCoinGuardCycleRiskStrategy(IStrategy):
                 pair=pair, timeframe=timeframe,
                 datadir=Path(self.config["datadir"]),
                 data_format=self.config.get("dataformat_ohlcv"),
-                candle_type=CandleType.SPOT,
+                candle_type=CandleType.FUTURES,
             )
         return self._history_cache[key].copy()
 
@@ -180,22 +180,20 @@ class BtcCoinGuardCycleRiskStrategy(IStrategy):
         closed = history.loc[history['date'] < self._executing_candle_start(current_time)]
         return None if closed.empty else float(closed.iloc[-1]['close'])
 
+    def leverage(self, pair, current_time, current_rate, proposed_leverage, max_leverage, entry_tag, side, **kwargs):
+        return 1.0
+
     def _update_equity_risk(self, current_time, **kwargs):
         candle = self._executing_candle_start(current_time)
         if candle == self._risk_candle:
             return
-        self.wallets.update()
-        equity = float(self.wallets.get_free(self.config['stake_currency']))
-        equity += float(self.wallets.get_used(self.config['stake_currency']))
-        for trade in Trade.get_trades_proxy(is_open=True):
-            price = self._closed_price(trade.pair, current_time)
-            if price is None:
-                return
-            # 模拟钱包在退出交易时结算剩余的开仓手续费。
-            # 先扣除尚未结算的费用，使权益与实际成交现金账本一致。
-            if self.config.get('dry_run', False):
-                equity -= float(trade.stake_amount) * float(trade.fee_open)
-            equity += float(trade.amount) * price
+        from futures_accounting import live_equity
+        try:
+            equity = live_equity(self, current_time)
+        except Exception:
+            import traceback
+            traceback.print_exc()
+            raise SystemExit(2)
         if self._risk_peak is None:
             self._risk_peak = float(self.wallets.get_starting_balance())
         self._risk_peak = max(self._risk_peak, equity)

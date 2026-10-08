@@ -1,0 +1,600 @@
+[
+  {
+    "label": "Requested27",
+    "universe": "Requested27",
+    "pairs": [
+      "0G/USDT:USDT",
+      "1000BONK/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AERO/USDT:USDT",
+      "APT/USDT:USDT",
+      "ARB/USDT:USDT",
+      "BOME/USDT:USDT",
+      "BTC/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ETH/USDT:USDT",
+      "FIL/USDT:USDT",
+      "GRAM/USDT:USDT",
+      "JUP/USDT:USDT",
+      "LDO/USDT:USDT",
+      "LINK/USDT:USDT",
+      "MON/USDT:USDT",
+      "OP/USDT:USDT",
+      "POL/USDT:USDT",
+      "PUMP/USDT:USDT",
+      "SKY/USDT:USDT",
+      "SOL/USDT:USDT",
+      "STRK/USDT:USDT",
+      "SUI/USDT:USDT",
+      "UNI/USDT:USDT",
+      "WCT/USDT:USDT",
+      "XRP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "0G/USDT:USDT",
+      "1000BONK/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AERO/USDT:USDT",
+      "APT/USDT:USDT",
+      "ARB/USDT:USDT",
+      "BOME/USDT:USDT",
+      "BTC/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ETH/USDT:USDT",
+      "FIL/USDT:USDT",
+      "GRAM/USDT:USDT",
+      "JUP/USDT:USDT",
+      "LDO/USDT:USDT",
+      "LINK/USDT:USDT",
+      "MON/USDT:USDT",
+      "OP/USDT:USDT",
+      "POL/USDT:USDT",
+      "PUMP/USDT:USDT",
+      "SKY/USDT:USDT",
+      "SOL/USDT:USDT",
+      "STRK/USDT:USDT",
+      "SUI/USDT:USDT",
+      "UNI/USDT:USDT",
+      "WCT/USDT:USDT",
+      "XRP/USDT:USDT"
+    ],
+    "slots": 27,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "Mature26",
+    "universe": "Mature26",
+    "pairs": [
+      "0G/USDT:USDT",
+      "1000BONK/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AERO/USDT:USDT",
+      "APT/USDT:USDT",
+      "ARB/USDT:USDT",
+      "BOME/USDT:USDT",
+      "BTC/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ETH/USDT:USDT",
+      "FIL/USDT:USDT",
+      "JUP/USDT:USDT",
+      "LDO/USDT:USDT",
+      "LINK/USDT:USDT",
+      "MON/USDT:USDT",
+      "OP/USDT:USDT",
+      "POL/USDT:USDT",
+      "PUMP/USDT:USDT",
+      "SKY/USDT:USDT",
+      "SOL/USDT:USDT",
+      "STRK/USDT:USDT",
+      "SUI/USDT:USDT",
+      "UNI/USDT:USDT",
+      "WCT/USDT:USDT",
+      "XRP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "0G/USDT:USDT",
+      "1000BONK/USDT:USDT",
+      "AAVE/USDT:USDT",
+      "ADA/USDT:USDT",
+      "AERO/USDT:USDT",
+      "APT/USDT:USDT",
+      "ARB/USDT:USDT",
+      "BOME/USDT:USDT",
+      "BTC/USDT:USDT",
+      "DOT/USDT:USDT",
+      "ETH/USDT:USDT",
+      "FIL/USDT:USDT",
+      "JUP/USDT:USDT",
+      "LDO/USDT:USDT",
+      "LINK/USDT:USDT",
+      "MON/USDT:USDT",
+      "OP/USDT:USDT",
+      "POL/USDT:USDT",
+      "PUMP/USDT:USDT",
+      "SKY/USDT:USDT",
+      "SOL/USDT:USDT",
+      "STRK/USDT:USDT",
+      "SUI/USDT:USDT",
+      "UNI/USDT:USDT",
+      "WCT/USDT:USDT",
+      "XRP/USDT:USDT"
+    ],
+    "slots": 26,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "0G",
+    "universe": "0G",
+    "pairs": [
+      "0G/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "0G/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "1000BONK",
+    "universe": "1000BONK",
+    "pairs": [
+      "1000BONK/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "1000BONK/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "AAVE",
+    "universe": "AAVE",
+    "pairs": [
+      "AAVE/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "AAVE/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "ADA",
+    "universe": "ADA",
+    "pairs": [
+      "ADA/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "ADA/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "AERO",
+    "universe": "AERO",
+    "pairs": [
+      "AERO/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "AERO/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "APT",
+    "universe": "APT",
+    "pairs": [
+      "APT/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "APT/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "ARB",
+    "universe": "ARB",
+    "pairs": [
+      "ARB/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "ARB/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "BOME",
+    "universe": "BOME",
+    "pairs": [
+      "BOME/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "BOME/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "BTC",
+    "universe": "BTC",
+    "pairs": [
+      "BTC/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "DOT",
+    "universe": "DOT",
+    "pairs": [
+      "DOT/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "DOT/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "ETH",
+    "universe": "ETH",
+    "pairs": [
+      "ETH/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "ETH/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "FIL",
+    "universe": "FIL",
+    "pairs": [
+      "FIL/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "FIL/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "GRAM",
+    "universe": "GRAM",
+    "pairs": [
+      "GRAM/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "GRAM/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "partial_new_listing",
+    "phase": "",
+    "start": "2026-09-01",
+    "end": "2026-10-07",
+    "timerange": "20260901-20261007"
+  },
+  {
+    "label": "JUP",
+    "universe": "JUP",
+    "pairs": [
+      "JUP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "JUP/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "LDO",
+    "universe": "LDO",
+    "pairs": [
+      "LDO/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "LDO/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "LINK",
+    "universe": "LINK",
+    "pairs": [
+      "LINK/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "LINK/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "MON",
+    "universe": "MON",
+    "pairs": [
+      "MON/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "MON/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "OP",
+    "universe": "OP",
+    "pairs": [
+      "OP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "OP/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "POL",
+    "universe": "POL",
+    "pairs": [
+      "POL/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "POL/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "PUMP",
+    "universe": "PUMP",
+    "pairs": [
+      "PUMP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "PUMP/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "SKY",
+    "universe": "SKY",
+    "pairs": [
+      "SKY/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "SKY/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "SOL",
+    "universe": "SOL",
+    "pairs": [
+      "SOL/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "SOL/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "STRK",
+    "universe": "STRK",
+    "pairs": [
+      "STRK/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "STRK/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "SUI",
+    "universe": "SUI",
+    "pairs": [
+      "SUI/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "SUI/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "UNI",
+    "universe": "UNI",
+    "pairs": [
+      "UNI/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "UNI/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "WCT",
+    "universe": "WCT",
+    "pairs": [
+      "WCT/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "WCT/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "XRP",
+    "universe": "XRP",
+    "pairs": [
+      "XRP/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "XRP/USDT:USDT"
+    ],
+    "slots": 1,
+    "scope": "half_year_futures",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  },
+  {
+    "label": "Official9",
+    "universe": "Official9",
+    "pairs": [
+      "BTC/USDT:USDT",
+      "ETH/USDT:USDT",
+      "BNB/USDT:USDT",
+      "LINK/USDT:USDT",
+      "XRP/USDT:USDT",
+      "UNI/USDT:USDT",
+      "DOGE/USDT:USDT",
+      "SOL/USDT:USDT",
+      "ARB/USDT:USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT:USDT",
+      "ETH/USDT:USDT",
+      "BNB/USDT:USDT",
+      "LINK/USDT:USDT",
+      "XRP/USDT:USDT",
+      "UNI/USDT:USDT",
+      "DOGE/USDT:USDT",
+      "SOL/USDT:USDT",
+      "ARB/USDT:USDT"
+    ],
+    "slots": 9,
+    "scope": "official_pool_control",
+    "phase": "",
+    "start": "2026-04-08",
+    "end": "2026-10-07",
+    "timerange": "20260408-20261007"
+  }
+]

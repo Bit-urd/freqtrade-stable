@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "coin_pnl_reconstructions": 84,
+  "maximum_pnl_error": 1.7621459846850485e-12,
+  "state_gap_sums_verified": true,
+  "signal_classification": "Completed prior-day indicators; trading days separate. Descriptive attribution, not rule-removal counterfactual."
+}

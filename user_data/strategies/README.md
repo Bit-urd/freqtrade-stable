@@ -2,6 +2,8 @@
 
 正式版为 `BtcCoinGuardCycleRiskStrategy`，位于 `cycle_risk_strategy.py`。它直接继承 Freqtrade 的 `IStrategy`，不再引用其他自定义策略文件。旧版四文件、八策略类的实现已经冻结归档。
 
+2026-10-08 用户选定 BTC 连续两天弱势退出为正式版，个币两天退出、14天冷却和账户风控不变。正式九币现货配置为 [config_cycle_risk_nine_assets.json](../config_cycle_risk_nine_assets.json)，包括 BTC、ETH、BNB、LINK、XRP、UNI、DOGE、SOL、ARB，九个预算槽位。ZEC/PUMP移除，HYPE现货验证历史不足暂不纳入。[当前正式记录](OFFICIAL.json)保存源码和配置哈希。
+
 | 文件 | 用途 |
 |---|---|
 | `cycle_risk_strategy.py` | 当前正式版，日线BTC与个币趋势保护、独立复利预算、账户回撤降仓及BTC恢复时风险重启 |
@@ -21,4 +23,4 @@ CoreHold、FullCycle、冷却、分阶段、FastExit、CoinGuard、EquityRisk，
 
 [迁移报告](../../validation/core_hold/cycle_risk_flatten_verification/REPORT.md)核对了六个既有周期的收益、最大回撤、逐日权益、完整交易订单及风险轨迹，并检查缺失数据、冷却边界、退出优先级和已收盘数据因果性。
 
-本次只整理代码结构，不调整交易规则或参数，不切换、重启运行服务。正式版账户风控状态的重启持久化缺口仍存在。
+上述迁移报告记录的是此前代码结构整理。最新两天退出升级依据见[九币验证报告](../../validation/core_hold/without_zec_pump_20261008/REPORT.md)。本次正式升级未切换、重启运行服务。正式版账户风控状态的重启持久化缺口仍存在。

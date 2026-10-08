@@ -1,0 +1,202 @@
+[
+  {
+    "label": "Active9_long",
+    "universe": "Active9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "slots": 9,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2023-08-20",
+    "end": "2026-10-06",
+    "timerange": "20230820-20261006",
+    "reference_window": "Main10_full_cycle"
+  },
+  {
+    "label": "Active9_same_period",
+    "universe": "Active9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "slots": 9,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "reference_window": "Main10_mature11_control"
+  },
+  {
+    "label": "Requested10_long",
+    "universe": "Requested10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "HYPE/USDT"
+    ],
+    "slots": 10,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2023-08-20",
+    "end": "2026-10-06",
+    "timerange": "20230820-20261006",
+    "reference_window": "Main10_full_cycle"
+  },
+  {
+    "label": "Requested10_same_period",
+    "universe": "Requested10",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT",
+      "HYPE/USDT"
+    ],
+    "slots": 10,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2026-02-08",
+    "end": "2026-10-06",
+    "timerange": "20260208-20261006",
+    "reference_window": "Requested12_mature11_cash"
+  },
+  {
+    "label": "Active9_year_2025",
+    "universe": "Active9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "slots": 9,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "timerange": "20250101-20251231",
+    "reference_window": "Main10_year_2025"
+  },
+  {
+    "label": "Active9_year_2026",
+    "universe": "Active9",
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "valuation_pairs": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "LINK/USDT",
+      "XRP/USDT",
+      "UNI/USDT",
+      "DOGE/USDT",
+      "SOL/USDT",
+      "ARB/USDT"
+    ],
+    "slots": 9,
+    "scope": "without_zec_pump",
+    "phase": "",
+    "start": "2026-01-01",
+    "end": "2026-10-06",
+    "timerange": "20260101-20261006",
+    "reference_window": "Main10_year_2026"
+  }
+]

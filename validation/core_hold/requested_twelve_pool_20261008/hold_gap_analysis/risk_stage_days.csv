@@ -1,0 +1,9 @@
+window,strategy,observed_risk_days,days_at_100,days_at_75,days_at_50
+Main10_full_cycle,BtcCoinGuardCycleRiskStrategy,1143,773,243,127
+Main10_full_cycle,BtcTwoDayExitCycleRiskStrategy,1143,771,360,12
+Main10_mature11_control,BtcCoinGuardCycleRiskStrategy,240,240,0,0
+Main10_mature11_control,BtcTwoDayExitCycleRiskStrategy,240,240,0,0
+Mature11_full_cycle,BtcCoinGuardCycleRiskStrategy,240,240,0,0
+Mature11_full_cycle,BtcTwoDayExitCycleRiskStrategy,240,240,0,0
+Requested12_mature11_cash,BtcCoinGuardCycleRiskStrategy,240,240,0,0
+Requested12_mature11_cash,BtcTwoDayExitCycleRiskStrategy,240,240,0,0

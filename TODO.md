@@ -1,10 +1,34 @@
-## Current official selection (2026-10-07)
+## Current official selection (2026-10-08)
 
-- **BtcCoinGuardCycleRiskStrategy, corrected v2**: explicitly selected by the user as the official BTC/SOL/ETH version. Frozen source hashes: [OFFICIAL.json](validation/core_hold/archive/portfolio_cycle_risk_v2/OFFICIAL.json).
-- Original Portfolio remains the unchanged comparison baseline. Running service has not been switched. Live restart-state persistence remains required before deployment.
-- Historical decisions below describe their status at the time; this selection supersedes earlier official-profile labels.
+- **BtcCoinGuardCycleRiskStrategy, BTC two-day exit**: user selected as official. BTC exit now requires two consecutive weak completed daily candles; other trading and account risk rules unchanged. Nine spot assets: BTC/ETH/BNB/LINK/XRP/UNI/DOGE/SOL/ARB. ZEC/PUMP removed; HYPE excluded pending sufficient history.
+- Official configuration: [config_cycle_risk_nine_assets.json](user_data/config_cycle_risk_nine_assets.json); current selection and hashes: [OFFICIAL.json](user_data/strategies/OFFICIAL.json). Previous one-day source archived before editing.
+- Running fast-test service has not been switched or restarted. Live restart-state persistence remains required before deployment. Historical decisions below retain their original meaning; this selection supersedes earlier official-profile labels.
 
 # TODO
+
+## 指定27币近半年1倍合约（2026-10-08）
+
+- [x] 用户将本轮改为USDT永续合约、1倍做多，冻结2026-04-08—2026-10-07日线、实际资金费率和结算标记价。1000BONK/MON使用对应合约原代码。手续费假设单边0.05%，滑点0；10000USDT模拟本金避免27币分配低于BTC最低订单金额。
+- [x] 原正式现货代码及服务不变。研究目录适配期货历史和账户权益，1倍保证金不重复计入持币市值。GRAM仅98根日线、MA150未就绪，27槽位保留其预算，另设成熟26币对照。
+- [x] 完成27币组合、26币组合、原正式九币同日期合约对照及27单币窗口的原版/两天版/持有对照，包含资金费。
+- [x] 独立重建成交现金、持仓与逐次资金费，核对原生最终余额、每日风险权益和退出/冷却，生成报告与逐币对比。
+
+
+- 结果：27币两天版51.28%/13.80%回撤，原版38.33%/14.86%，持有37.04%/37.10%；成熟26币两天版53.15%/14.24%，九币合约对照48.66%/12.24%。60次原生策略回测、30条持有、62项规则检查、90条独立权益重建和10628日风险权益核验通过。逐币两天版21改善、5下降、GRAM无交易；PUMP独立行情差距仍存在。正式现货配置和运行服务未改。[完整报告](validation/core_hold/requested_27_futures_half_year_20261008/REPORT.md)。
+
+## 两天退出正式升级（2026-10-08）
+
+- [x] 用户明确批准升级正式策略。保留BtcCoinGuardCycleRiskStrategy类名，TREND_EXIT_DAYS从1改为2，其他规则不变。升级前源码已归档。
+- [x] 新增九币现货正式配置：BTC/ETH/BNB/LINK/XRP/UNI/DOGE/SOL/ARB，max_open_trades=9，1000 USDT模拟资金、0.1%单边手续费。移除ZEC/PUMP，暂不纳入HYPE。
+- [x] Freqtrade正式配置及策略加载通过；去文档AST与已验证两天候选一致，九币完整指标逐帧相等，正式记录哈希核验通过。[核验记录](validation/core_hold/without_zec_pump_20261008/official_promotion_verification.json)。未切换或重启当前短周期测试服务。
+
+## 去掉 ZEC、PUMP 的同日期对照（2026-10-08）
+
+- [x] 冻结上一轮现货数据、资金、费用及策略，只移除ZEC/PUMP；剩九个可交易币及HYPE（尚未暖机）。保留九币充分分配与十槽位HYPE预算现金两个口径。
+- [x] 重新运行六个组合窗口、12次原生回测与6条持有：长窗口2023-08-20至今、近期共同窗口2026-02-08至今、2025和2026。重新计算预算与账户风险，不能直接从原组合减去单币盈亏。
+- [x] 核对所有成交、风险权益、BTC退出/冷却及数据/策略哈希，与删除前同日期组合比较收益和回撤；解释这是事后固定排除实验，不修改正式策略。
+
+- 结果：九币长周期两天版205.02%/44.98%回撤，持有150.28%/66.84%；近期44.61%/12.35%对41.71%/31.34%。策略绝对收益较原币池下降，持有下降更多；属于事后排除实验。[完整报告](validation/core_hold/without_zec_pump_20261008/REPORT.md)。39项规则检查与18条曲线重建通过。
 
 ## 指定新币池与正式升级依据（2026-10-08）
 
@@ -15,6 +39,8 @@
 - [x] 核对规则、实际退出/冷却、每日风险权益和成交现金，生成完整三组收益/回撤报告及图表，更新正式升级建议；本轮不修改正式策略或运行服务。
 
 结果：九币最长原版1473.31%/61.77%，两天版2162.18%/61.04%，持有291.73%/86.83%；十币连续原版177.63%/48.26%，两天版210.52%/44.13%，持有673.78%/56.75%；同日期十一币原版44.75%/13.15%，两天版53.62%/12.54%，持有94.34%/32.63%。支持成熟十/十一币组合采用两天确认；PUMP单币退步，HYPE仅13根现货日线尚无法验证。十币持有领先主要来自ZEC，不把相对原版改善当作普遍胜过持有。45项规则检查、315条权益重建、4227次实际BTC退出、3925次弱BTC入场冷却和51488日风险权益核验通过；正式源文件与运行服务未修改。[完整报告](validation/core_hold/requested_twelve_pool_20261008/REPORT.md)、[组合CSV](validation/core_hold/requested_twelve_pool_20261008/all_comparisons.csv)。
+
+- [x] 新币池相对持有差距诊断：重建84条逐币盈亏路径，最大误差1.8e-12 USDT；十币长窗口两天版落后持有4632.57，ZEC单币差5139.32，其他币合计补回506.75。近期十一币差407.13主要来自ZEC321.47、PUMP109.29。ZEC长窗口期末币数仅持有基准6.3%；近期240风控日全部100%档，现金并非账户减仓造成。条件分类是实际路径归因，不等于删除规则可得同等收益；正式策略未修改。[归因报告](validation/core_hold/requested_twelve_pool_20261008/hold_gap_analysis/REPORT.md)。
 
 ## 用户指定 P1–P8 × 12 标的验证（2026-10-08）
 

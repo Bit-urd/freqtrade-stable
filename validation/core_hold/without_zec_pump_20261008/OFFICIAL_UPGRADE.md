@@ -1,0 +1,7 @@
+# 正式升级记录
+
+2026-10-08用户明确批准将两天退出改为正式策略。正式源码user_data/strategies/cycle_risk_strategy.py保留原类名BtcCoinGuardCycleRiskStrategy，唯一交易逻辑变化为TREND_EXIT_DAYS=2。正式九币现货配置为user_data/config_cycle_risk_nine_assets.json。
+
+原一天退出源文件归档在user_data/archive/cycle_risk_two_day_official_20261008/cycle_risk_strategy_before.py，上一轮冻结回测与原始报告保持原样。当前选择和哈希记录在user_data/strategies/OFFICIAL.json。正式版本AST与已验证候选一致，九币全历史指标相等，Freqtrade配置及策略解析成功。核验见official_promotion_verification.json。
+
+报告中“正式策略未修改”描述的是回测完成时状态；本次是随后按用户明确指令执行的升级。现有freqtrade-fast-test服务没有切换或重启，仍使用原短周期策略。
