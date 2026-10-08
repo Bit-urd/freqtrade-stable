@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "period": [
+    "2020-10-08",
+    "2026-10-07"
+  ],
+  "common_start": "2021-02-11",
+  "assets": [
+    "BTC",
+    "ETH",
+    "SOL"
+  ],
+  "native_backtests": 6,
+  "curves": 12,
+  "capital": 10000,
+  "spot_fee": 0.001,
+  "futures_fee": 0.0005,
+  "leverage": 1,
+  "official_spot_sha256": "5c04d309088a5f94238ed2ae4bdfb57fff5374b74f7f942c11ca65df6680de2b",
+  "early_settlement_mark_proxy_counts": {
+    "BTC": 3355,
+    "ETH": 3355,
+    "SOL": 3430
+  }
+}

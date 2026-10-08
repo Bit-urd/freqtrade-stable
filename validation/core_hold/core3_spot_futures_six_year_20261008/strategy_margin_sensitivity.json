@@ -1,0 +1,6 @@
+{
+  "checked_hour_positions": 191400,
+  "max_positive_funding_cost_to_hourly_low_ratio": 0.2852020213989125,
+  "breaches_at_98pct": [],
+  "method": "All positive funding costs since trade open charged to isolated margin; credits and free wallet ignored; compare to hourly low with2pct maintenance allowance. Conservative diagnostic, not historical venue tier reconstruction."
+}

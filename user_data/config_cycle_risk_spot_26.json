@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schema.freqtrade.io/schema.json",
+  "bot_name": "cycle_risk_spot_26",
+  "strategy": "BtcCoinGuardCycleRiskStrategy",
+  "initial_state": "running",
+  "dry_run": true,
+  "dry_run_wallet": 10000,
+  "trading_mode": "spot",
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "tradable_balance_ratio": 1.0,
+  "max_open_trades": 26,
+  "timeframe": "1d",
+  "cancel_open_orders_on_exit": false,
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "exit_timeout_count": 0,
+    "unit": "minutes"
+  },
+  "order_types": {
+    "entry": "market",
+    "exit": "market",
+    "emergency_exit": "market",
+    "force_entry": "market",
+    "force_exit": "market",
+    "stoploss": "market",
+    "stoploss_on_exchange": false
+  },
+  "entry_pricing": {
+    "price_side": "other",
+    "use_order_book": false
+  },
+  "exit_pricing": {
+    "price_side": "other",
+    "use_order_book": false
+  },
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "enable_ws": false,
+    "ccxt_config": {},
+    "pair_whitelist": [
+      "0G/USDT",
+      "BONK/USDT",
+      "AAVE/USDT",
+      "ADA/USDT",
+      "AERO/USDT",
+      "APT/USDT",
+      "ARB/USDT",
+      "BOME/USDT",
+      "BTC/USDT",
+      "DOT/USDT",
+      "ETH/USDT",
+      "FIL/USDT",
+      "GRAM/USDT",
+      "JUP/USDT",
+      "LDO/USDT",
+      "LINK/USDT",
+      "OP/USDT",
+      "POL/USDT",
+      "PUMP/USDT",
+      "SKY/USDT",
+      "SOL/USDT",
+      "STRK/USDT",
+      "SUI/USDT",
+      "UNI/USDT",
+      "WCT/USDT",
+      "XRP/USDT"
+    ],
+    "pair_blacklist": []
+  },
+  "pairlists": [
+    {
+      "method": "StaticPairList"
+    }
+  ],
+  "internals": {
+    "process_throttle_secs": 5
+  },
+  "datadir": "/research/requested_26_spot_half_year_20261008/data",
+  "strategy_path": "/freqtrade/user_data/strategies",
+  "fee": 0.001
+}

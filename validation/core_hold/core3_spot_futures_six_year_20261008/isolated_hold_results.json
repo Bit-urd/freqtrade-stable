@@ -1,0 +1,61 @@
+[
+  {
+    "case": "Futures_full",
+    "start": "2020-10-08",
+    "end": "2026-10-07",
+    "return_pct": -95.21348453172803,
+    "drawdown_pct": 99.89078445423353,
+    "liquidations": [
+      {
+        "asset": "ETH",
+        "hour_utc": "2022-06-18T20:00:00+00:00",
+        "approx_liquidation_price": 885.8883539187927,
+        "remaining_equity_before_clearance_fee": 34.57894015594593,
+        "clearance_fee": 34.57894015594593
+      },
+      {
+        "asset": "SOL",
+        "hour_utc": "2022-11-08T19:00:00+00:00",
+        "approx_liquidation_price": 20.025022822113126,
+        "remaining_equity_before_clearance_fee": 158.54374363513853,
+        "clearance_fee": 158.54374363513853
+      },
+      {
+        "asset": "BTC",
+        "hour_utc": "2022-11-09T21:00:00+00:00",
+        "approx_liquidation_price": 15932.990899683053,
+        "remaining_equity_before_clearance_fee": 19.921070651486616,
+        "clearance_fee": 19.921070651486616
+      }
+    ],
+    "ending_positions": [],
+    "funding_pnl": -44778.060072215376,
+    "entry_fees": 4.929533261070232,
+    "clearance_fees": 213.04375444257107,
+    "assumptions": "current cached maintenance tiers and clearance fee, hourly mark bars, fees debit free wallet then isolated margin, no external topup/no reentry; liquidation hour approximate"
+  },
+  {
+    "case": "Futures_common",
+    "start": "2021-02-11",
+    "end": "2026-10-07",
+    "return_pct": -38.424463991497944,
+    "drawdown_pct": 98.86150695307371,
+    "liquidations": [
+      {
+        "asset": "SOL",
+        "hour_utc": "2022-11-08T19:00:00+00:00",
+        "approx_liquidation_price": 19.563058207030707,
+        "remaining_equity_before_clearance_fee": 35.77334585875951,
+        "clearance_fee": 35.77334585875951
+      }
+    ],
+    "ending_positions": [
+      "BTC",
+      "ETH"
+    ],
+    "funding_pnl": -12065.010917816153,
+    "entry_fees": 4.997501249375313,
+    "clearance_fees": 35.77334585875951,
+    "assumptions": "current cached maintenance tiers and clearance fee, hourly mark bars, fees debit free wallet then isolated margin, no external topup/no reentry; liquidation hour approximate"
+  }
+]

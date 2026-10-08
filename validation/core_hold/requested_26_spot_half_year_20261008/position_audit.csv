@@ -1,0 +1,7 @@
+scope,window,strategy,max_single_coin_weight_pct,mean_cash_pct
+portfolio,Requested26,BtcCoinGuardCycleRiskStrategy,9.9880294983515,61.25435130254062
+portfolio,Requested26,BtcTwoDayExitCycleRiskStrategy,9.713665424069982,53.48042658721038
+portfolio,Requested26,BuyAndHold,11.421840732754493,6.969304387621538
+portfolio,Mature24,BtcCoinGuardCycleRiskStrategy,10.583372156884309,58.38002915007954
+portfolio,Mature24,BtcTwoDayExitCycleRiskStrategy,10.235556714692736,50.23407259548806
+portfolio,Mature24,BuyAndHold,12.391919986394274,0.0

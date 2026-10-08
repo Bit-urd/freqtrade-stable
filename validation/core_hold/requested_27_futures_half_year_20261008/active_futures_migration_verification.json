@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "strategy": "BtcCoinGuardCycleRiskFuturesStrategy",
+  "indicators_matched_assets": 27,
+  "replayed_daily_equity_checks": 546,
+  "max_equity_error": 3.092281986027956e-11,
+  "trading_methods_unchanged": true,
+  "spot_official_source_unchanged": true,
+  "live_mode_rejected": true
+}

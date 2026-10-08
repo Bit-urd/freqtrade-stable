@@ -1,0 +1,18 @@
+{
+  "BtcCoinGuardCycleRiskStrategy": {
+    "entries": 213,
+    "real_exit_fills": 189,
+    "active_dates": 66,
+    "mean_active_date_interval": 2.6923076923076925,
+    "min_active_date_interval": 1,
+    "ending_positions": 24
+  },
+  "BtcTwoDayExitCycleRiskStrategy": {
+    "entries": 188,
+    "real_exit_fills": 164,
+    "active_dates": 78,
+    "mean_active_date_interval": 2.272727272727273,
+    "min_active_date_interval": 1,
+    "ending_positions": 24
+  }
+}

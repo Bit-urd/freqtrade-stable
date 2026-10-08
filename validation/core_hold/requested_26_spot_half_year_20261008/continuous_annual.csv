@@ -1,0 +1,7 @@
+scope,window,year,strategy,return_pct,drawdown_pct
+portfolio,Requested26,2026,BtcCoinGuardCycleRiskStrategy,36.81019897251125,14.744410170621968
+portfolio,Requested26,2026,BtcTwoDayExitCycleRiskStrategy,50.38322467153389,12.257392179997629
+portfolio,Requested26,2026,BuyAndHold,36.8043945781908,35.88065672326528
+portfolio,Mature24,2026,BtcCoinGuardCycleRiskStrategy,39.876878219858945,15.860345315277735
+portfolio,Mature24,2026,BtcTwoDayExitCycleRiskStrategy,54.582997101983246,13.116576847732741
+portfolio,Mature24,2026,BuyAndHold,37.57461760129295,38.31682792194232

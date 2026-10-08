@@ -24,3 +24,9 @@ CoreHold、FullCycle、冷却、分阶段、FastExit、CoinGuard、EquityRisk，
 [迁移报告](../../validation/core_hold/cycle_risk_flatten_verification/REPORT.md)核对了六个既有周期的收益、最大回撤、逐日权益、完整交易订单及风险轨迹，并检查缺失数据、冷却边界、退出优先级和已收盘数据因果性。
 
 上述迁移报告记录的是此前代码结构整理。最新两天退出升级依据见[九币验证报告](../../validation/core_hold/without_zec_pump_20261008/REPORT.md)。本次正式升级未切换、重启运行服务。正式版账户风控状态的重启持久化缺口仍存在。
+
+## 合约回测入口（2026-10-08）
+
+[cycle_risk_futures_strategy.py](cycle_risk_futures_strategy.py) 提供独立类 `BtcCoinGuardCycleRiskFuturesStrategy`：USDT逐仓、1倍做多、BTC两天退出，其余信号与账户风控规则沿用已验证版本。文件独立继承IStrategy，不再从研究目录导入自定义Python模块。27币配置为 [config_cycle_risk_futures_27.json](../config_cycle_risk_futures_27.json)。
+
+`cycle_risk_funding_data_dir` 指向冻结资金费raw目录，`datadir`指向相同快照的合约feather数据。配置默认按此前Docker研究挂载 `/research/requested_27_futures_half_year_20261008` 读取。本版本仍需同目录 `run.py` 的资金费结算边界适配才能精确复现此前收益，单独用原生CLI会采用引擎默认边界。本入口只支持回测，实时模拟盘/实盘需要另行接入资金费账本；现货正式选择和现有服务不变。原研究源文件保留用于复现历史报告。

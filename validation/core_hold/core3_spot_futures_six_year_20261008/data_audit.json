@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "spot",
+    "asset": "BTC",
+    "file": "data/BTC_USDT-1d.feather",
+    "rows": 2837,
+    "first": "2019-01-01",
+    "ma150_start": "2019-05-31",
+    "warm_start": "2019-03-03",
+    "sha256": "f4af85dcdc7f5bf397920cfc3c0a3483177483d6d98634243db60de3e42890ef"
+  },
+  {
+    "mode": "spot",
+    "asset": "ETH",
+    "file": "data/ETH_USDT-1d.feather",
+    "rows": 2837,
+    "first": "2019-01-01",
+    "ma150_start": "2019-05-31",
+    "warm_start": "2019-03-03",
+    "sha256": "9dce58a102dd54dca806558530e2dab18f362cbb66d929ea16e40024cd17b3a3"
+  },
+  {
+    "mode": "spot",
+    "asset": "SOL",
+    "file": "data/SOL_USDT-1d.feather",
+    "rows": 2249,
+    "first": "2020-08-11",
+    "ma150_start": "2021-01-08",
+    "warm_start": "2020-10-11",
+    "sha256": "3f0d91d50f13fb1bda722ef5622718531f3af2a7afe8c8cf4c028c6d2f8fe323"
+  },
+  {
+    "mode": "futures",
+    "asset": "BTC",
+    "file": "data/futures/BTC_USDT_USDT-1d-futures.feather",
+    "rows": 2587,
+    "first": "2019-09-08",
+    "ma150_start": "2020-02-05",
+    "warm_start": "2019-11-08",
+    "sha256": "74364304503b1a2f953051e7c80b16fecb80fe48a29505e3b824e3c206ae835c"
+  },
+  {
+    "mode": "futures",
+    "asset": "ETH",
+    "file": "data/futures/ETH_USDT_USDT-1d-futures.feather",
+    "rows": 2507,
+    "first": "2019-11-27",
+    "ma150_start": "2020-04-25",
+    "warm_start": "2020-01-27",
+    "sha256": "33b36cddb633e6a78dbf8c7d6b407af2b0431803dbffee8cbde99e3d5ed66dbe"
+  },
+  {
+    "mode": "futures",
+    "asset": "SOL",
+    "file": "data/futures/SOL_USDT_USDT-1d-futures.feather",
+    "rows": 2215,
+    "first": "2020-09-14",
+    "ma150_start": "2021-02-11",
+    "warm_start": "2020-11-14",
+    "sha256": "e7cdf1aac35d467d75b0b248c8cd96e8fa24d35e0f1a392f513049bc66334241"
+  }
+]

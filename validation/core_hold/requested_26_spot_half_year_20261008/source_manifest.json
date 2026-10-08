@@ -1,0 +1,9 @@
+{
+  "run.py": "154b951acd0f17f3ca7ad453bf7fd833b96ab8a189476cf9d32ae298a5f972a0",
+  "analyze.py": "2bf108bf1e3f6a90bf3a97c8361aaa1b89c48614e481d7c32cb9e99de5c0d738",
+  "audit.py": "b4e089d4e3df55b783b04f8f0c71f9ae943f36efbb7ef68c805570a04839afe5",
+  "config.json": "7986dba3a94e38cf33752d643387586b52539eda282176e9807087cbba4874c3",
+  "windows.json": "f38c56fcee016423b461b4055d144db3ef4ac1490bb8f6037a73704d9d0e499f",
+  "strategies/cycle_risk_strategy.py": "b63da0e3ccc0f2b63815c530490bae1c483ada8a78d7a9e6dd6e164ea93e883a",
+  "strategies/btc_exit_confirmation_strategy.py": "4b6a543da28339b0e885d882251a11fe34521d36f1b3ae9e025665a44bd6fdf1"
+}

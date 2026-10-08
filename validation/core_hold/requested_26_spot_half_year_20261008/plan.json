@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "start": "2026-04-08",
+  "end": "2026-10-07",
+  "wallet": 10000,
+  "fee": 0.001,
+  "slippage": 0,
+  "trading_mode": "spot",
+  "requested_pair_count": 26,
+  "mature_pair_count": 24,
+  "native_runs": 4,
+  "curves": 6,
+  "production_sha256": "5c04d309088a5f94238ed2ae4bdfb57fff5374b74f7f942c11ca65df6680de2b"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "curve_checks": 12,
+  "funding_trade_checks": 942,
+  "daily_risk_equity_checks": 12762,
+  "max_equity_error": 4.656612873077393e-10,
+  "max_cash_error": 3.172317519783974e-08
+}

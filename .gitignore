@@ -155,3 +155,13 @@ user_data/archive/*
 !user_data/config_cycle_risk_nine_assets.json
 !user_data/strategies/OFFICIAL.json
 !user_data/archive/cycle_risk_two_day_official_20261008/
+
+!user_data/strategies/cycle_risk_futures_strategy.py
+!user_data/config_cycle_risk_futures_27.json
+
+!/user_data/config_cycle_risk_spot_26.json
+
+# Frozen research configurations (no credentials)
+!/validation/core_hold/core3_spot_futures_six_year_20261008/config_futures.json
+!/validation/core_hold/core3_spot_futures_six_year_20261008/config_spot.json
+!/validation/core_hold/requested_26_spot_half_year_20261008/config.json
