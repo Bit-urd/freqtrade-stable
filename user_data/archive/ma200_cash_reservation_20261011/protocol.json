@@ -1,0 +1,22 @@
+{
+  "capital": 1000,
+  "fee": 0.001,
+  "windows": {
+    "start_2021": "20210101-20261007",
+    "start_2022": "20220101-20261007",
+    "start_2023": "20230101-20261007",
+    "start_2024": "20240101-20261007",
+    "start_2025": "20250101-20261007"
+  },
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "LINK/USDT",
+    "XRP/USDT",
+    "ADA/USDT"
+  ],
+  "baseline": "../ma200_cash_supplement_20261010/results",
+  "candidate_sha256": "8a736e05c264b7b9b51361af1614fe0973ae707aeb85318b6e9fd71eb47584d4",
+  "external_deposits": false,
+  "deployed": false
+}

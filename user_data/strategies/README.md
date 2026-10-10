@@ -30,3 +30,21 @@ CoreHold、FullCycle、冷却、分阶段、FastExit、CoinGuard、EquityRisk，
 [cycle_risk_futures_strategy.py](cycle_risk_futures_strategy.py) 提供独立类 `BtcCoinGuardCycleRiskFuturesStrategy`：USDT逐仓、1倍做多、BTC两天退出，其余信号与账户风控规则沿用已验证版本。文件独立继承IStrategy，不再从研究目录导入自定义Python模块。27币配置为 [config_cycle_risk_futures_27.json](../config_cycle_risk_futures_27.json)。
 
 `cycle_risk_funding_data_dir` 指向冻结资金费raw目录，`datadir`指向相同快照的合约feather数据。配置默认按此前Docker研究挂载 `/research/requested_27_futures_half_year_20261008` 读取。本版本仍需同目录 `run.py` 的资金费结算边界适配才能精确复现此前收益，单独用原生CLI会采用引擎默认边界。本入口只支持回测，实时模拟盘/实盘需要另行接入资金费账本；现货正式选择和现有服务不变。原研究源文件保留用于复现历史报告。
+
+## MA200 补仓版单文件入口（2026-10-11）
+
+[ma200_cash_supplement.py](ma200_cash_supplement.py) 提供 `Ma200CashSupplementStrategy`，已将 MA200 父策略和趋势确认交接逻辑内置，不再依赖其他自定义策略文件。合并保持原交易逻辑及资金阻塞条件；未切换运行服务。类与函数 AST 等价核对通过，33 项补仓功能检查通过。配置选择 `"strategy": "Ma200CashSupplementStrategy"`；`cash_supplement_enabled` 默认为 true。
+
+### 挂单只暂停本币补仓（2026-10-11）
+
+单文件补仓版已取消“任一币挂单就暂停整个组合”的限制。有挂单的交易不参与额外补仓分配，其他合格交易使用钱包剩余可用现金，并仍受引擎 max_stake、手续费及目标缺口限制。原调仓、转档、新开仓预算及数据检查仍保留。历史归档对应修改前版本，本次没有重新计算历史收益或切换运行服务。
+
+### 新开仓预算预留（2026-10-11）
+
+单文件版遇到未持有币潜在入场信号时，改为预留所有空槽位的完整预算及手续费（熊市候选预算合计更大时采用更大值），仅将剩余现金用于补仓。未持有币数据未知时仍保留全部现金；原调仓、交接和持仓数据缺失保护保留。每日计划键升级为 v2，避免恢复旧版预算计划；每日请求防重标记保留。本次没有重新计算历史收益或切换运行服务。
+
+挂单隔离与新开仓预留调整已完成五币、2021—2025五起点回测：[完整报告](../archive/ma200_cash_reservation_20261011/REPORT.md)。完整交易记录与旧版一致，未发现此次修改新增的收益或回撤变化；历史账本现金存在相同的小额负值，已单列说明。无充值，未部署。
+
+### 买入手续费预算修正（2026-10-11）
+
+单文件补仓版为模拟钱包保留剩余持仓买入手续费，实盘不重复扣历史费用；买单上限预留当笔手续费。父策略信号、档位、退出及目标公式未修改。43项功能检查及五币五起点回测通过：每日重建现金转正，收益差−0.013至−0.520个百分点，回撤略降。[完整修复对照](../archive/ma200_fee_budget_20261011/REPORT.md)。未切换服务。

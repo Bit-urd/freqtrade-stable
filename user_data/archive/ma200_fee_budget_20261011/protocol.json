@@ -1,0 +1,23 @@
+{
+  "capital": 1000,
+  "fee": 0.001,
+  "windows": {
+    "start_2021": "20210101-20261007",
+    "start_2022": "20220101-20261007",
+    "start_2023": "20230101-20261007",
+    "start_2024": "20240101-20261007",
+    "start_2025": "20250101-20261007"
+  },
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "LINK/USDT",
+    "XRP/USDT",
+    "ADA/USDT"
+  ],
+  "baseline": "../ma200_cash_reservation_20261011/results",
+  "candidate_sha256": "a9364dc3c5e614277b3f7402a62343e55cb9c0d528bfa23f9afd6473aef23ce9",
+  "external_deposits": false,
+  "deployed": false,
+  "change": "buy budget only; synthetic outstanding entry fees reserve; entry fee headroom; parent signal/target formulas unchanged"
+}

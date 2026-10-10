@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2021,
+    "version": "before",
+    "ledger_error": 2.2206222638487816e-08,
+    "minimum_daily_cash": -6.0420541330963715,
+    "extra_buys": 61
+  },
+  {
+    "year": 2021,
+    "version": "after",
+    "ledger_error": 3.250897862017155e-08,
+    "minimum_daily_cash": 0.008466450201467524,
+    "extra_buys": 60
+  },
+  {
+    "year": 2022,
+    "version": "before",
+    "ledger_error": 8.500819603796117e-09,
+    "minimum_daily_cash": -1.6901719412983311,
+    "extra_buys": 18
+  },
+  {
+    "year": 2022,
+    "version": "after",
+    "ledger_error": 1.2001692084595561e-08,
+    "minimum_daily_cash": 0.0037445418000743302,
+    "extra_buys": 17
+  },
+  {
+    "year": 2023,
+    "version": "before",
+    "ledger_error": -1.1598331184359267e-08,
+    "minimum_daily_cash": -2.227326483698562,
+    "extra_buys": 22
+  },
+  {
+    "year": 2023,
+    "version": "after",
+    "ledger_error": -1.679882188909687e-08,
+    "minimum_daily_cash": 0.004592611701355054,
+    "extra_buys": 22
+  },
+  {
+    "year": 2024,
+    "version": "before",
+    "ledger_error": 6.800746632507071e-09,
+    "minimum_daily_cash": -1.4962288948991045,
+    "extra_buys": 10
+  },
+  {
+    "year": 2024,
+    "version": "after",
+    "ledger_error": 1.9015260477317497e-09,
+    "minimum_daily_cash": 0.00261561399997845,
+    "extra_buys": 10
+  },
+  {
+    "year": 2025,
+    "version": "before",
+    "ledger_error": -1.299986251979135e-08,
+    "minimum_daily_cash": -0.9335389052998835,
+    "extra_buys": 4
+  },
+  {
+    "year": 2025,
+    "version": "after",
+    "ledger_error": -8.2998212747043e-09,
+    "minimum_daily_cash": 0.0066002947000924905,
+    "extra_buys": 3
+  }
+]
