@@ -1,0 +1,18 @@
+{
+  "requested_scope_complete": true,
+  "main_report_native_runs": 35,
+  "retained_2020_single_native_runs": 6,
+  "user_cancelled_2020_portfolio": true,
+  "deployed": false,
+  "source_unchanged": true,
+  "external_deposits": false,
+  "report_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "raw_evidence_directory": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010",
+  "independent_hold_crosscheck_max_delta_pp": 1.4210854715202004e-14
+}

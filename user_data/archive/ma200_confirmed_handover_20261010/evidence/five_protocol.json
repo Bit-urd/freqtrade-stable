@@ -1,0 +1,49 @@
+{
+  "status": "prepared_not_backtested",
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "LINK/USDT",
+    "XRP/USDT",
+    "ADA/USDT"
+  ],
+  "capital": 1000,
+  "fee": 0.001,
+  "end_inclusive": "2026-10-06",
+  "windows": {
+    "start_2025": "20250101-20261007",
+    "start_2024": "20240101-20261007",
+    "start_2023": "20230101-20261007",
+    "start_2022": "20220101-20261007",
+    "start_2021": "20210101-20261007",
+    "start_2020": "20200101-20261007"
+  },
+  "single_change": "enable existing handover top-up only after BTC bullish two closed days and existing coin bull entry alignment; other signals and parameters inherited",
+  "comparators": [
+    "unchanged MA200 fresh rerun",
+    "original frozen five-coin results",
+    "equal-weight five-coin hold",
+    "BTC hold"
+  ],
+  "promotion_gate": {
+    "return_wins_at_least": 4,
+    "positive_baseline_profit_retention_min": 0.75,
+    "negative_baseline_not_worse": true,
+    "max_drawdown_worsening_pp": 2,
+    "median_positive_calmar_delta_min": 0,
+    "recent_2022_2025_return_wins_min": 2
+  },
+  "future_steps": "Only if five-coin gate passes: ten-coin frozen test, then independent asset validation. No 26-coin test upfront.",
+  "execution_limitations": [
+    "Docker socket inaccessible in current environment",
+    "host lacks pandas and Freqtrade backtest dependencies",
+    "inherits base top-up custom-data timing; cancelled/rejected orders require separate live reliability validation"
+  ],
+  "source_sha256": {
+    "relative_borrow.py": "119a051fb69eda9ca6d8956ab9dcfba7df11a680ce17acd436eefb170ae2faaf",
+    "ma200_confirmed_handover.py": "7077455d37cfac680bdd51598179cfff31d9554da91bc8eb6b2e8c8b516722c4",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+    "cycle_risk_strategy.py": "471bb44d6617be4a5efb7862ef44dbc2f1be499e757f72666ee821893b416228",
+    "profit_pool.py": "178acd1a7e9f32d04e1ab8bd483d553952f4f8113caa3b4cd468dd0b4a685928"
+  }
+}

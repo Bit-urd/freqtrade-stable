@@ -1,0 +1,16 @@
+{
+  "native_runs": 41,
+  "main_comparison_runs": 35,
+  "previous_2020_single_runs": 6,
+  "complete_requested_scope": true,
+  "cancelled_by_user": [
+    "six_portfolio/start_2020"
+  ],
+  "report_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

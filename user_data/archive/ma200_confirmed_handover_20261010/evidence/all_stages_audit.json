@@ -1,0 +1,260 @@
+{
+  "all_passed": true,
+  "native_runs_audited": 36,
+  "official_sources_unchanged": true,
+  "max_error": 2.9103830456733704e-11,
+  "checks": [
+    {
+      "file": "results/start_2020/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 1.4551915228366852e-11,
+      "end_equity": 31996.074138423235,
+      "trades": 115,
+      "mean_exposure_pct": 63.559188010830916
+    },
+    {
+      "file": "results/start_2020/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 35765.81860051255,
+      "trades": 115,
+      "mean_exposure_pct": 65.2502464855053
+    },
+    {
+      "file": "results/start_2021/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 7199.709783717308,
+      "trades": 97,
+      "mean_exposure_pct": 61.67240535033503
+    },
+    {
+      "file": "results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 7494.806561531606,
+      "trades": 97,
+      "mean_exposure_pct": 62.64832498272534
+    },
+    {
+      "file": "results/start_2022/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 1.3642420526593924e-12,
+      "end_equity": 1945.3019923528018,
+      "trades": 72,
+      "mean_exposure_pct": 60.01880462497966
+    },
+    {
+      "file": "results/start_2022/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.3642420526593924e-12,
+      "end_equity": 1967.9032811139025,
+      "trades": 72,
+      "mean_exposure_pct": 61.05591144407357
+    },
+    {
+      "file": "results/start_2023/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 1.3642420526593924e-12,
+      "end_equity": 2439.5910063001015,
+      "trades": 72,
+      "mean_exposure_pct": 53.29067231254928
+    },
+    {
+      "file": "results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 2647.418779313303,
+      "trades": 72,
+      "mean_exposure_pct": 57.35344282402479
+    },
+    {
+      "file": "results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 1770.3510515715006,
+      "trades": 55,
+      "mean_exposure_pct": 53.65827410404045
+    },
+    {
+      "file": "results/start_2024/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 1790.1607928334015,
+      "trades": 55,
+      "mean_exposure_pct": 55.44111877553473
+    },
+    {
+      "file": "results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 909.4966459761004,
+      "trades": 29,
+      "mean_exposure_pct": 53.20972563543945
+    },
+    {
+      "file": "results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 980.2171471849005,
+      "trades": 29,
+      "mean_exposure_pct": 55.56096600985189
+    },
+    {
+      "file": "single_assets/ADA/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-12,
+      "end_equity": 11536.166650400015,
+      "trades": 17,
+      "mean_exposure_pct": 52.98057360217721
+    },
+    {
+      "file": "single_assets/ADA/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1836.3141263200018,
+      "trades": 13,
+      "mean_exposure_pct": 46.07058341452977
+    },
+    {
+      "file": "single_assets/ADA/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.1368683772161603e-13,
+      "end_equity": 500.8837330900003,
+      "trades": 6,
+      "mean_exposure_pct": 49.48907434149058
+    },
+    {
+      "file": "single_assets/BTC/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-12,
+      "end_equity": 3909.105342848703,
+      "trades": 18,
+      "mean_exposure_pct": 69.74476726189503
+    },
+    {
+      "file": "single_assets/BTC/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 3336.553417956602,
+      "trades": 13,
+      "mean_exposure_pct": 67.09808465377724
+    },
+    {
+      "file": "single_assets/BTC/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1137.2314506833998,
+      "trades": 6,
+      "mean_exposure_pct": 61.474473663283256
+    },
+    {
+      "file": "single_assets/ETH/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 9784.068882756006,
+      "trades": 18,
+      "mean_exposure_pct": 66.20602767007036
+    },
+    {
+      "file": "single_assets/ETH/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 3085.942211593002,
+      "trades": 13,
+      "mean_exposure_pct": 60.609708981230106
+    },
+    {
+      "file": "single_assets/ETH/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1570.766995079,
+      "trades": 4,
+      "mean_exposure_pct": 55.88787423961196
+    },
+    {
+      "file": "single_assets/FIL/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 986.3608921600037,
+      "trades": 24,
+      "mean_exposure_pct": 45.333791679865236
+    },
+    {
+      "file": "single_assets/FIL/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 978.5198611700025,
+      "trades": 19,
+      "mean_exposure_pct": 38.21111634867567
+    },
+    {
+      "file": "single_assets/FIL/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.1368683772161603e-13,
+      "end_equity": 545.4036556840003,
+      "trades": 8,
+      "mean_exposure_pct": 31.754456796205904
+    },
+    {
+      "file": "single_assets/LINK/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 2127.826688701002,
+      "trades": 21,
+      "mean_exposure_pct": 60.39039620261659
+    },
+    {
+      "file": "single_assets/LINK/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 2394.714880200001,
+      "trades": 15,
+      "mean_exposure_pct": 54.313387691722994
+    },
+    {
+      "file": "single_assets/LINK/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1033.6205821100004,
+      "trades": 5,
+      "mean_exposure_pct": 52.515036875055216
+    },
+    {
+      "file": "single_assets/SOL/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 92742.29706031163,
+      "trades": 19,
+      "mean_exposure_pct": 63.95228369898951
+    },
+    {
+      "file": "single_assets/SOL/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 4552.3659609800025,
+      "trades": 14,
+      "mean_exposure_pct": 58.181567376477545
+    },
+    {
+      "file": "single_assets/SOL/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1058.7337583900003,
+      "trades": 5,
+      "mean_exposure_pct": 54.25562526911974
+    },
+    {
+      "file": "ten/results/start_2020/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.4551915228366852e-11,
+      "end_equity": 29861.344638171635,
+      "trades": 212,
+      "mean_exposure_pct": 59.548362006747105
+    },
+    {
+      "file": "ten/results/start_2021/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.000444171950221e-11,
+      "end_equity": 10548.125765176004,
+      "trades": 194,
+      "mean_exposure_pct": 60.77080430404078
+    },
+    {
+      "file": "ten/results/start_2022/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 1859.2376629876017,
+      "trades": 144,
+      "mean_exposure_pct": 59.001377366420236
+    },
+    {
+      "file": "ten/results/start_2023/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 1.3642420526593924e-12,
+      "end_equity": 2704.2167947743023,
+      "trades": 145,
+      "mean_exposure_pct": 54.836827516965684
+    },
+    {
+      "file": "ten/results/start_2024/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1454.0251936475008,
+      "trades": 112,
+      "mean_exposure_pct": 53.86295899659773
+    },
+    {
+      "file": "ten/results/start_2025/Ma200ConfirmedHandoverStrategy_trades.json.gz",
+      "max_daily_error": 7.958078640513122e-13,
+      "end_equity": 1007.8951918839,
+      "trades": 57,
+      "mean_exposure_pct": 52.23614371167168
+    }
+  ]
+}

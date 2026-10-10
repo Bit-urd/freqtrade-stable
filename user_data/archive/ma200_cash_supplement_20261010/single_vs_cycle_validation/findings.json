@@ -1,0 +1,32 @@
+{
+  "BTC": {
+    "return_wins": 1,
+    "dd_lower": 0,
+    "calmar_wins": 1,
+    "worst_positive_profit_retention": 0.5738245315016826
+  },
+  "ETH": {
+    "return_wins": 1,
+    "dd_lower": 3,
+    "calmar_wins": 2,
+    "worst_positive_profit_retention": 0.4863154005050655
+  },
+  "LINK": {
+    "return_wins": 5,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "worst_positive_profit_retention": 7.545054880523262
+  },
+  "XRP": {
+    "return_wins": 2,
+    "dd_lower": 3,
+    "calmar_wins": 2,
+    "worst_positive_profit_retention": -0.03555245510644273
+  },
+  "ADA": {
+    "return_wins": 5,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "worst_positive_profit_retention": 1.4386427400316109
+  }
+}

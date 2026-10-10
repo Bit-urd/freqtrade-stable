@@ -1,0 +1,48 @@
+{
+  "status": "retained_research_candidate",
+  "retained_at_utc": "2026-10-10T02:48:02.612507+00:00",
+  "user_instruction": "好的 这个优化帮我保留下来",
+  "strategy_class": "Ma200ConfirmedHandoverStrategy",
+  "strategy_file": "strategies/ma200_confirmed_handover.py",
+  "frozen_parent_file": "strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py",
+  "mechanism": "BTC bullish two closed candles and existing coin bullish alignment before enabling handover top-up; thereafter existing weekly position rules",
+  "native_backtests": 36,
+  "portfolio_return_wins_vs_ma200": {
+    "five": 6,
+    "ten": 6
+  },
+  "single_results_vs_ma200": {
+    "higher": 11,
+    "lower": 4,
+    "same": 3,
+    "strict_passed_assets": 3
+  },
+  "end_inclusive": "2026-10-06",
+  "official_strategy_changed": false,
+  "running_service_changed": false,
+  "deployed": false,
+  "full_reproduction_study": "validation/core_hold/ma200_confirmed_handover_20261010",
+  "live_limitations": "Inherited handover state is recorded before fill confirmation; cancellation, failed order, and restart behavior require separate validation. No direct live deployment validation.",
+  "sha256": {
+    "evidence/candidate_checks.json": "6b1cc4586bd6ea4afaa6c3675d1ab55fabeaedd98fa194387c49c963fd3e6b86",
+    "evidence/SINGLE_REPORT.md": "c5455332225df23c33e97907407da30b5ce184917e4b4a6af0cefd704fdaf39c",
+    "evidence/single_decision.json": "ffcca613c048754911a2cdc01d337b97d619f3322330c37a13053293226f8787",
+    "evidence/final_summary.json": "78c68ccff1e7b921aa015e62b6fa41402fb4b921c8719d56834b4cf1753f53c6",
+    "evidence/FIVE_REPORT.md": "833a7b2e4fcd167d81e157a41590ab7cd9fd056073de41a428619b1012d457b8",
+    "evidence/five_protocol.json": "2eee2eb3009ce9d8b84168458b5b54c8ede3939f032108c12c4cdf678f5e0032",
+    "evidence/FINAL_REPORT.md": "21cc556bf4ad090a776d4a265f71d09e473a086c24ee3eb4a01710090178ad10",
+    "evidence/ten_decision.json": "5a66ba97a9a630001f49e75af7ed3f307757794c751195377f194fddb2969a90",
+    "evidence/ten_protocol.json": "4e098e74095798a52802dc84675559dfd9c83cd9a51d698735c5f42fafb81be8",
+    "evidence/all_stages_contributions.csv": "76cb9aada1960a34141a087bebfaaa2fe50564d450af4e5b190afce158391cc3",
+    "evidence/single_summary.csv": "24353f7acad24ee9c5dab4d7e96593aaef68d7a94cc2b80619313c4c98acc0f5",
+    "evidence/single_protocol.json": "db41a8472c128cbc1903b599353f625b8384b0d24423ee118710f66bcfa7a422",
+    "evidence/OTHER_ASSETS_AND_COUNTEREXAMPLES.md": "fce363a3380afae15f9193eba2d9545412152b740d7c16d0f43a96cc02ffa5ef",
+    "evidence/five_summary.csv": "eabd23abf3ce77477a7ce773bde5f4e0de6e29865af494f0995e83ba2ac520d0",
+    "evidence/five_decision.json": "02b229ba49028e0b93a541abb05a4074a855ebe97975b00f0041a2039479dfdb",
+    "evidence/TEN_REPORT.md": "d809c0f0f2633f5abbb6740af2ee2d3513462a6f7757a0ae1b9b658e8a6c664c",
+    "evidence/ten_summary.csv": "96787036061ed021575447549dbeb9a407dd0cbc367b194631eac95bb353b298",
+    "evidence/all_stages_audit.json": "75c339e5794632da5a27c02e12ef251a81175087eab348a0098f64f9d9031b87",
+    "strategies/ma200_confirmed_handover.py": "7077455d37cfac680bdd51598179cfff31d9554da91bc8eb6b2e8c8b516722c4",
+    "strategies/ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc"
+  }
+}

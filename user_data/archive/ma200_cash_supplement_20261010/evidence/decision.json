@@ -1,0 +1,52 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "window": "start_2025",
+      "return_delta_pp": -0.8527837273100025,
+      "profit_ok": false,
+      "dd_delta_pp": 0.10882011169475447,
+      "calmar_delta": null
+    },
+    {
+      "window": "start_2024",
+      "return_delta_pp": -6.052611402830024,
+      "profit_ok": true,
+      "dd_delta_pp": 0.11070308777975413,
+      "calmar_delta": -0.03524283472799239
+    },
+    {
+      "window": "start_2023",
+      "return_delta_pp": -10.529856239600093,
+      "profit_ok": true,
+      "dd_delta_pp": 0.11424968139050407,
+      "calmar_delta": -0.03257264770480783
+    },
+    {
+      "window": "start_2022",
+      "return_delta_pp": -6.13771759984003,
+      "profit_ok": true,
+      "dd_delta_pp": 0.11035630115465267,
+      "calmar_delta": -0.017841371294073538
+    },
+    {
+      "window": "start_2021",
+      "return_delta_pp": -86.9510672152403,
+      "profit_ok": true,
+      "dd_delta_pp": 0.6775191806555796,
+      "calmar_delta": -0.06271260074145979
+    },
+    {
+      "window": "start_2020",
+      "return_delta_pp": 178.9607368339407,
+      "profit_ok": true,
+      "dd_delta_pp": 0.44109867433430594,
+      "calmar_delta": 0.012075081904776352
+    }
+  ],
+  "disabled_parity_passed": [
+    "start_2025",
+    "start_2020"
+  ],
+  "native_runs": 8
+}

@@ -1,0 +1,5 @@
+{
+  "tests": 33,
+  "passed": true,
+  "scope": "actual callbacks, parent delegation and unchanged states, mocked wallet/trades"
+}

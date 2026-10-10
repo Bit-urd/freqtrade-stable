@@ -1,0 +1,72 @@
+[
+  {
+    "asset": "BTC",
+    "year": "2025",
+    "first_equity_difference": "2026-08-21",
+    "base_drawdown_peak_day": "2025-08-13",
+    "base_drawdown_trough_day": "2026-06-30"
+  },
+  {
+    "asset": "BTC",
+    "year": "2024",
+    "first_equity_difference": "2024-09-28",
+    "base_drawdown_peak_day": "2025-08-13",
+    "base_drawdown_trough_day": "2026-06-30"
+  },
+  {
+    "asset": "ETH",
+    "year": "2025",
+    "first_equity_difference": "2026-08-21",
+    "base_drawdown_peak_day": "2025-08-22",
+    "base_drawdown_trough_day": "2026-06-25"
+  },
+  {
+    "asset": "ETH",
+    "year": "2024",
+    "first_equity_difference": "2026-08-21",
+    "base_drawdown_peak_day": "2025-08-22",
+    "base_drawdown_trough_day": "2026-06-25"
+  },
+  {
+    "asset": "LINK",
+    "year": "2025",
+    "first_equity_difference": "2026-08-21",
+    "base_drawdown_peak_day": "2025-08-22",
+    "base_drawdown_trough_day": "2026-06-30"
+  },
+  {
+    "asset": "LINK",
+    "year": "2024",
+    "first_equity_difference": "2024-09-28",
+    "base_drawdown_peak_day": "2025-08-22",
+    "base_drawdown_trough_day": "2026-06-30"
+  },
+  {
+    "asset": "XRP",
+    "year": "2025",
+    "first_equity_difference": null,
+    "base_drawdown_peak_day": "2025-01-17",
+    "base_drawdown_trough_day": "2026-09-15"
+  },
+  {
+    "asset": "XRP",
+    "year": "2024",
+    "first_equity_difference": "2024-08-25",
+    "base_drawdown_peak_day": "2025-01-17",
+    "base_drawdown_trough_day": "2026-09-15"
+  },
+  {
+    "asset": "ADA",
+    "year": "2025",
+    "first_equity_difference": "2026-08-21",
+    "base_drawdown_peak_day": "2025-01-17",
+    "base_drawdown_trough_day": "2026-06-25"
+  },
+  {
+    "asset": "ADA",
+    "year": "2024",
+    "first_equity_difference": "2024-09-28",
+    "base_drawdown_peak_day": "2024-12-06",
+    "base_drawdown_trough_day": "2026-06-25"
+  }
+]

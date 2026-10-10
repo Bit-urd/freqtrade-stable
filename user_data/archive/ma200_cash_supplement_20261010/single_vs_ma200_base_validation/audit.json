@@ -1,0 +1,206 @@
+{
+  "all_passed": true,
+  "equity_curves_audited": 20,
+  "new_native_runs": 6,
+  "reused_baseline_runs": 4,
+  "reused_current_runs": 10,
+  "checks": [
+    {
+      "asset": "BTC",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/BTC/results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 0.0,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "BTC",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/BTC/results/start_2024/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "BTC",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/cycle_ten_ma200_years_20261009/single_assets/BTC/results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "BTC",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/BTC/results/start_2025/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ETH",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/ETH/results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ETH",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/ETH/results/start_2024/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ETH",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/cycle_ten_ma200_years_20261009/single_assets/ETH/results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ETH",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/ETH/results/start_2025/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "LINK",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/LINK/results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "LINK",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/LINK/results/start_2024/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "LINK",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/cycle_ten_ma200_years_20261009/single_assets/LINK/results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "LINK",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/LINK/results/start_2025/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "XRP",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/XRP/results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 9.094947017729282e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "XRP",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/XRP/results/start_2024/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 4.547473508864641e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "XRP",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/XRP/results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 0.0,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "XRP",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/XRP/results/start_2025/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 0.0,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ADA",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_single_base_vs_supplement_20261010/ADA/results/start_2024/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 2.2737367544323206e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ADA",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2024-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/ADA/results/start_2024/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 0.0,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ADA",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/cycle_ten_ma200_years_20261009/single_assets/ADA/results/start_2025/Ma200BtcRegimeFullCyclePortfolioStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 1.1368683772161603e-13,
+      "supplemental_orders": 0
+    },
+    {
+      "asset": "ADA",
+      "strategy": "Ma200CashSupplementStrategy",
+      "start": "2025-01-01",
+      "curve_file": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010/ADA/results/start_2025/Ma200CashSupplementStrategy_equity.csv",
+      "max_reconstruction_error_usdt": 1.1368683772161603e-13,
+      "supplemental_orders": 0
+    }
+  ],
+  "sources": {
+    "BTC": {
+      "base_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "data_sha256": {
+        "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d"
+      }
+    },
+    "ETH": {
+      "base_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "data_sha256": {
+        "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d",
+        "ETH_USDT-1d.feather": "f6de4e3f7d8e4849ed497e387631d3c8618308935f0f72b23a31d503591d10e7"
+      }
+    },
+    "LINK": {
+      "base_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "data_sha256": {
+        "LINK_USDT-1d.feather": "cce79e73927b34f32d17d22fb1adbc9ecb66d22112da38063208beb8f47ea500",
+        "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d"
+      }
+    },
+    "XRP": {
+      "base_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "data_sha256": {
+        "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d",
+        "XRP_USDT-1d.feather": "bf322fe40d7e2c94c4b37eef280ad42c91f55469428b7098db9d489eeb01385c"
+      }
+    },
+    "ADA": {
+      "base_sha256": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+      "data_sha256": {
+        "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d",
+        "ADA_USDT-1d.feather": "7b5b83346a46133c2f97fe5cf1176869a4ef73f5a5ec969c623379d436f4c625"
+      }
+    }
+  },
+  "max_error_usdt": 9.094947017729282e-13
+}

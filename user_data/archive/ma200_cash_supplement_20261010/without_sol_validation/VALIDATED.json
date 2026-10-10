@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "native_results_reused": 5,
+  "new_native_backtests": 0,
+  "five_native_audit_passed": true,
+  "source_and_market_hashes_identical": true,
+  "hold_crosscheck_passed": true,
+  "deployed": false,
+  "counts": {
+    "return_wins_vs_hold": 4,
+    "dd_lower_vs_hold": 5,
+    "calmar_wins_vs_hold": 5,
+    "five_return_lower_than_six": 4
+  },
+  "native_evidence": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_20261010",
+  "six_evidence": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_six_hold_20261010"
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "asset": "AVAX",
+    "window": "start_2024",
+    "example": {
+      "Ma200BtcRegimeFullCyclePortfolioStrategy": {
+        "open_date": "2024-09-02 00:00:00+00:00",
+        "close_date": "2024-10-02 00:00:00+00:00",
+        "profit_abs": 36.6067116,
+        "orders": [
+          {
+            "date": "2024-09-02",
+            "amount": 8.41,
+            "price": 21.42,
+            "entry": true,
+            "tag": "bear_accumulate"
+          },
+          {
+            "date": "2024-10-02",
+            "amount": 8.41,
+            "price": 25.82,
+            "entry": false,
+            "tag": "handover_btc_regime_or_alignment_lost"
+          }
+        ]
+      },
+      "Ma200CashSupplementStrategy": {
+        "open_date": "2024-09-02 00:00:00+00:00",
+        "close_date": "2024-10-02 00:00:00+00:00",
+        "profit_abs": -74.0803626,
+        "orders": [
+          {
+            "date": "2024-09-02",
+            "amount": 8.41,
+            "price": 21.42,
+            "entry": true,
+            "tag": "bear_accumulate"
+          },
+          {
+            "date": "2024-09-28",
+            "amount": 23.67,
+            "price": 30.44,
+            "entry": true,
+            "tag": "bull_btc_regime_ema_alignment"
+          },
+          {
+            "date": "2024-10-02",
+            "amount": 32.08,
+            "price": 25.82,
+            "entry": false,
+            "tag": "handover_btc_regime_or_alignment_lost"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "asset": "LTC",
+    "window": "start_2024",
+    "example": {
+      "Ma200BtcRegimeFullCyclePortfolioStrategy": {
+        "open_date": "2024-09-02 00:00:00+00:00",
+        "close_date": "2024-10-02 00:00:00+00:00",
+        "profit_abs": -1.01058891,
+        "orders": [
+          {
+            "date": "2024-09-02",
+            "amount": 3.403,
+            "price": 63.57,
+            "entry": true,
+            "tag": "bear_accumulate"
+          },
+          {
+            "date": "2024-10-02",
+            "amount": 3.403,
+            "price": 63.4,
+            "entry": false,
+            "tag": "handover_btc_regime_or_alignment_lost"
+          }
+        ]
+      },
+      "Ma200CashSupplementStrategy": {
+        "open_date": "2024-09-02 00:00:00+00:00",
+        "close_date": "2024-10-02 00:00:00+00:00",
+        "profit_abs": -96.70618995,
+        "orders": [
+          {
+            "date": "2024-09-02",
+            "amount": 3.403,
+            "price": 63.57,
+            "entry": true,
+            "tag": "bear_accumulate"
+          },
+          {
+            "date": "2024-09-28",
+            "amount": 12.168,
+            "price": 71.13,
+            "entry": true,
+            "tag": "bull_btc_regime_ema_alignment"
+          },
+          {
+            "date": "2024-10-02",
+            "amount": 15.571,
+            "price": 63.4,
+            "entry": false,
+            "tag": "handover_btc_regime_or_alignment_lost"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "strategy": "Ma200CashSupplementStrategy",
+  "groups": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "LINK",
+    "XRP",
+    "ADA",
+    "six_portfolio"
+  ],
+  "windows": {
+    "start_2025": "20250101-20261007",
+    "start_2024": "20240101-20261007",
+    "start_2023": "20230101-20261007",
+    "start_2022": "20220101-20261007",
+    "start_2021": "20210101-20261007",
+    "start_2020": "20200101-20261007"
+  },
+  "capital_usdt": 1000,
+  "external_deposits": false,
+  "fee": 0.001,
+  "source_sha256": {
+    "ma200_confirmed_handover.py": "7077455d37cfac680bdd51598179cfff31d9554da91bc8eb6b2e8c8b516722c4",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+    "ma200_cash_supplement.py": "e5d68f5417f240f527df987f840015066f750b940a0e7c1af275fb424aa8d509"
+  },
+  "no_parameter_optimization": true,
+  "primary_hold": "buy first available daily open on/after start, no indicator warmup; prelisting share remains cash",
+  "secondary_hold": "equal initial shares, no rebalance; first available own daily bar after 61-bar warmup; same as earlier benchmark",
+  "user_scope_update": "2020 starting point no longer needed; stop running 2020 portfolio; report years2021-2025 only",
+  "main_report_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ]
+}

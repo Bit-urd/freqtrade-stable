@@ -1,0 +1,64 @@
+{
+  "all_passed": true,
+  "native_runs_audited": 8,
+  "official_sources_unchanged": true,
+  "max_error": 2.9103830456733704e-11,
+  "checks": [
+    {
+      "file": "results/start_2020/Ma200CashSupplementDisabled_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 35765.81860051255,
+      "trades": 115,
+      "mean_exposure_pct": 65.2502464855053
+    },
+    {
+      "file": "results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 37555.42596885194,
+      "trades": 114,
+      "mean_exposure_pct": 65.85525316427344
+    },
+    {
+      "file": "results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 6625.295889379207,
+      "trades": 97,
+      "mean_exposure_pct": 63.24279197052413
+    },
+    {
+      "file": "results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-12,
+      "end_equity": 1906.5261051154996,
+      "trades": 72,
+      "mean_exposure_pct": 61.51889230900166
+    },
+    {
+      "file": "results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.3642420526593924e-12,
+      "end_equity": 2542.120216917301,
+      "trades": 72,
+      "mean_exposure_pct": 57.93155818898976
+    },
+    {
+      "file": "results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 1729.6346788051003,
+      "trades": 55,
+      "mean_exposure_pct": 56.024328609509546
+    },
+    {
+      "file": "results/start_2025/Ma200CashSupplementDisabled_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 980.2171471849005,
+      "trades": 29,
+      "mean_exposure_pct": 55.56096600985189
+    },
+    {
+      "file": "results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 971.6893099118006,
+      "trades": 29,
+      "mean_exposure_pct": 55.913708399995194
+    }
+  ]
+}

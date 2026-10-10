@@ -1,0 +1,5 @@
+{
+  "tests": 8,
+  "passed": true,
+  "scope": "candidate branch checks with stub parent, NOT native Freqtrade execution"
+}

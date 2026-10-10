@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "ma200_confirmed_handover.py": "7077455d37cfac680bdd51598179cfff31d9554da91bc8eb6b2e8c8b516722c4",
+    "ma200_btc_regime_full_cycle_portfolio_strategy.py": "b08519edb1883e469a59514e7c4d2e68c26203be31f044fcfd77c0057fced9fc",
+    "ma200_cash_supplement.py": "e5d68f5417f240f527df987f840015066f750b940a0e7c1af275fb424aa8d509"
+  },
+  "market_data": {
+    "BTC_USDT-1d.feather": "0fa656fc9212630f55aab7b4b2266ad8edfb7393e18edac850125cb02c4ca17d",
+    "ETH_USDT-1d.feather": "f6de4e3f7d8e4849ed497e387631d3c8618308935f0f72b23a31d503591d10e7",
+    "LINK_USDT-1d.feather": "cce79e73927b34f32d17d22fb1adbc9ecb66d22112da38063208beb8f47ea500",
+    "XRP_USDT-1d.feather": "bf322fe40d7e2c94c4b37eef280ad42c91f55469428b7098db9d489eeb01385c",
+    "ADA_USDT-1d.feather": "7b5b83346a46133c2f97fe5cf1176869a4ef73f5a5ec969c623379d436f4c625"
+  }
+}

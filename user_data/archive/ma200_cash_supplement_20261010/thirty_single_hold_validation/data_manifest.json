@@ -1,0 +1,212 @@
+[
+  {
+    "asset": "0G",
+    "rows": 381,
+    "first": "2025-09-22",
+    "last": "2026-10-07",
+    "raw_sha256": "2f9fc6345a719021f6d63d9e5f537a43763dfac8478c8bf60ac16fb25733c8ff"
+  },
+  {
+    "asset": "BONK",
+    "rows": 1028,
+    "first": "2023-12-15",
+    "last": "2026-10-07",
+    "raw_sha256": "d790e8a3255da80a4dec9cef092503418e5ca5d29f15ec16df483c6bcc5476f8"
+  },
+  {
+    "asset": "AAVE",
+    "rows": 2184,
+    "first": "2020-10-15",
+    "last": "2026-10-07",
+    "raw_sha256": "9d3a2edb13e3997366e39795821c0398ee936cdb6733e27b0e90d0fdbb2d6366"
+  },
+  {
+    "asset": "ADA",
+    "rows": 3096,
+    "first": "2018-04-17",
+    "last": "2026-10-07",
+    "raw_sha256": "ac375b0d6db649c2eee12904ab4660792d28521ac8c94eaeea34cc60994260f9"
+  },
+  {
+    "asset": "AERO",
+    "rows": 83,
+    "first": "2026-07-17",
+    "last": "2026-10-07",
+    "raw_sha256": "585b50d8726801fff9ba4a1b1a3cd42495584e85280dd6cc1c2e492359d3cc40"
+  },
+  {
+    "asset": "APT",
+    "rows": 1450,
+    "first": "2022-10-19",
+    "last": "2026-10-07",
+    "raw_sha256": "ed2025dd2337bff03173d71524d60e7851726f5badd2913f76fd6114ca0c4078"
+  },
+  {
+    "asset": "ARB",
+    "rows": 1295,
+    "first": "2023-03-23",
+    "last": "2026-10-07",
+    "raw_sha256": "3e2ae9c67d75d20b3afb439cc6c72fc3f95f540c887c778f2d43a6dfc427d826"
+  },
+  {
+    "asset": "BOME",
+    "rows": 936,
+    "first": "2024-03-16",
+    "last": "2026-10-07",
+    "raw_sha256": "b8688a5b99c911cff87c70766541454766c6a602baa376b4fbedcb3d822a9d98"
+  },
+  {
+    "asset": "BTC",
+    "rows": 3339,
+    "first": "2017-08-17",
+    "last": "2026-10-07",
+    "raw_sha256": "1819c76de1501d3a2ada05a7be5c25553a28a751fa074126bc7ddf39087760d2"
+  },
+  {
+    "asset": "DOT",
+    "rows": 2242,
+    "first": "2020-08-18",
+    "last": "2026-10-07",
+    "raw_sha256": "79499b123804eb2bf187bbeb670b966b82d1fb6c5bc8de008c3be405e836d473"
+  },
+  {
+    "asset": "ETH",
+    "rows": 3339,
+    "first": "2017-08-17",
+    "last": "2026-10-07",
+    "raw_sha256": "172623127aeb55fa09a1ea94e665ed6b6f9fb76a9ec08c128e689d7d08d231e5"
+  },
+  {
+    "asset": "FIL",
+    "rows": 2184,
+    "first": "2020-10-15",
+    "last": "2026-10-07",
+    "raw_sha256": "9a164f46018575bf5e40d033fccfaeb8d826e798417d906e218d5b98ad1a1edb"
+  },
+  {
+    "asset": "GRAM",
+    "rows": 98,
+    "first": "2026-07-02",
+    "last": "2026-10-07",
+    "raw_sha256": "9e44559f1ca45aefe3797d7acb44784099da7b66448a0e71374ae2ea63656951"
+  },
+  {
+    "asset": "JUP",
+    "rows": 981,
+    "first": "2024-01-31",
+    "last": "2026-10-07",
+    "raw_sha256": "ee348cd926c74dd8d8be793e0ba1598d0d30f7c56486fcab3575ca44e225920c"
+  },
+  {
+    "asset": "LDO",
+    "rows": 1613,
+    "first": "2022-05-09",
+    "last": "2026-10-07",
+    "raw_sha256": "dffa0a5d9e0103f6d18f2a11e3356cdfd7c437ae2ba0a94bd7139935248da1b1"
+  },
+  {
+    "asset": "LINK",
+    "rows": 2822,
+    "first": "2019-01-16",
+    "last": "2026-10-07",
+    "raw_sha256": "8ab0a1f14f7f66752576786e5a7a730b6e7c8adc11af93bd69199299165eb9af"
+  },
+  {
+    "asset": "OP",
+    "rows": 1590,
+    "first": "2022-06-01",
+    "last": "2026-10-07",
+    "raw_sha256": "3ae3a3779c7e2c2b009fba0bdf377f9b840778c9f9e214398c670d341c757f22"
+  },
+  {
+    "asset": "POL",
+    "rows": 755,
+    "first": "2024-09-13",
+    "last": "2026-10-07",
+    "raw_sha256": "d6273685d086591abfbf9b55d99d403e365403d831217b3a73266d4db248a421"
+  },
+  {
+    "asset": "PUMP",
+    "rows": 392,
+    "first": "2025-09-11",
+    "last": "2026-10-07",
+    "raw_sha256": "dd1767fb46d753a2d3af85a79a0c9b0200ec903d9d43a72eb405d7c4bdbbf17c"
+  },
+  {
+    "asset": "SKY",
+    "rows": 386,
+    "first": "2025-09-17",
+    "last": "2026-10-07",
+    "raw_sha256": "e9a778eea0a159f3a051bd206faa91b8c9767d5dd1b4860600a4acf181c099f5"
+  },
+  {
+    "asset": "SOL",
+    "rows": 2249,
+    "first": "2020-08-11",
+    "last": "2026-10-07",
+    "raw_sha256": "b443c03d2688d05f975523597b94a8742a77140b0cc41a09e9a1f6006dd3def4"
+  },
+  {
+    "asset": "STRK",
+    "rows": 961,
+    "first": "2024-02-20",
+    "last": "2026-10-07",
+    "raw_sha256": "86f37cd335163f27a8ab8dc9201459be90fff7ab9d37015b25e92d9e811526fc"
+  },
+  {
+    "asset": "SUI",
+    "rows": 1254,
+    "first": "2023-05-03",
+    "last": "2026-10-07",
+    "raw_sha256": "1f49f8c142e0c322b9d66cf21a0e1eaf0b25f7f3aae11d6c37334c9debc9c612"
+  },
+  {
+    "asset": "UNI",
+    "rows": 2212,
+    "first": "2020-09-17",
+    "last": "2026-10-07",
+    "raw_sha256": "54dd0f87fae0b78dd314ddd5b079c38fe27f04c4b093f45e2e7cfa3a86141ed9"
+  },
+  {
+    "asset": "WCT",
+    "rows": 541,
+    "first": "2025-04-15",
+    "last": "2026-10-07",
+    "raw_sha256": "fd2d253c09acaddb977b0f78f2dc05588b9994a31fc90c10b4de9a3255631ec9"
+  },
+  {
+    "asset": "XRP",
+    "rows": 3079,
+    "first": "2018-05-04",
+    "last": "2026-10-07",
+    "raw_sha256": "4a0974e10bbb979a7423399af5cb8567207ba865766402ccaa1c7f1f4b795711"
+  },
+  {
+    "asset": "BNB",
+    "rows": 3258,
+    "first": "2017-11-06",
+    "last": "2026-10-07",
+    "raw_sha256": "be28b913678a09fc93e9bcba579d7cfa0f4e1f366e3b3e1060fb0e84b61902f9"
+  },
+  {
+    "asset": "DOGE",
+    "rows": 2652,
+    "first": "2019-07-05",
+    "last": "2026-10-07",
+    "raw_sha256": "f726e8b84fa79f717a6d9734d916fc005413c7488c8a5ff59ca049fa340b9321"
+  },
+  {
+    "asset": "AVAX",
+    "rows": 2206,
+    "first": "2020-09-22",
+    "last": "2026-10-06",
+    "raw_sha256": "b89001cdf8539014f2ea16a80a3eaa9b2397379f016ccd27a15f723581e9e7c5"
+  },
+  {
+    "asset": "LTC",
+    "rows": 3220,
+    "first": "2017-12-13",
+    "last": "2026-10-06",
+    "raw_sha256": "02698fe53d1af002b04629a014136f75fd215bad4a39212cbd28dd39eaa3253f"
+  }
+]

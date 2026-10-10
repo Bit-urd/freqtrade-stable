@@ -1,0 +1,181 @@
+{
+  "single_counts": {
+    "return_higher": 11,
+    "return_lower": 4,
+    "return_same": 3,
+    "dd_increases_over_2pp": 1,
+    "beats_original_return": 10,
+    "beats_own_hold_return": 15,
+    "per_asset_equal_weight_median_wealth_ratio": 1.0596013001853497
+  },
+  "single_cases": [
+    {
+      "asset": "BTC",
+      "year": 2021,
+      "return_delta_pp": -2.863795769320177,
+      "dd_delta_pp": 0.0004141885777499965,
+      "wealth_ratio": 0.9927273172709707,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "BTC",
+      "year": 2023,
+      "return_delta_pp": 57.13452700463,
+      "dd_delta_pp": 0.0041561950303403705,
+      "wealth_ratio": 1.2066192631748434,
+      "beats_original_return": false,
+      "beats_hold_return": false
+    },
+    {
+      "asset": "BTC",
+      "year": 2025,
+      "return_delta_pp": 6.934584819859979,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.064937525178018,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ETH",
+      "year": 2021,
+      "return_delta_pp": 42.6550431314995,
+      "dd_delta_pp": 0.5125111864904,
+      "wealth_ratio": 1.045583712554615,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ETH",
+      "year": 2023,
+      "return_delta_pp": 48.16486368799997,
+      "dd_delta_pp": 0.0008249468402183879,
+      "wealth_ratio": 1.1849440637402326,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ETH",
+      "year": 2025,
+      "return_delta_pp": 8.865779401899985,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.0598186651534125,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "SOL",
+      "year": 2021,
+      "return_delta_pp": 1812.0267096806047,
+      "dd_delta_pp": 1.018154254950332e-05,
+      "wealth_ratio": 1.2428273139402384,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "SOL",
+      "year": 2023,
+      "return_delta_pp": -59.69310723200027,
+      "dd_delta_pp": 2.8082297808772694,
+      "wealth_ratio": 0.8840752303742225,
+      "beats_original_return": false,
+      "beats_hold_return": false
+    },
+    {
+      "asset": "SOL",
+      "year": 2025,
+      "return_delta_pp": 13.13948147499998,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.1416901723486856,
+      "beats_original_return": false,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "LINK",
+      "year": 2021,
+      "return_delta_pp": -0.26690078199997913,
+      "dd_delta_pp": -0.1769699698250946,
+      "wealth_ratio": 0.9987472362303486,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "LINK",
+      "year": 2023,
+      "return_delta_pp": -2.7198959949999164,
+      "dd_delta_pp": -0.0007699086207821892,
+      "wealth_ratio": 0.9887696418018261,
+      "beats_original_return": true,
+      "beats_hold_return": false
+    },
+    {
+      "asset": "LINK",
+      "year": 2025,
+      "return_delta_pp": 9.743133850999975,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.104072268695739,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ADA",
+      "year": 2021,
+      "return_delta_pp": 64.66616589599994,
+      "dd_delta_pp": -8.800894491400868e-06,
+      "wealth_ratio": 1.0593839352172871,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ADA",
+      "year": 2023,
+      "return_delta_pp": 8.126803932999863,
+      "dd_delta_pp": 0.0001828184038714653,
+      "wealth_ratio": 1.0463053591198723,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "ADA",
+      "year": 2025,
+      "return_delta_pp": 6.968096170000003,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.1615967389898274,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "FIL",
+      "year": 2021,
+      "return_delta_pp": 0.0,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.0,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "FIL",
+      "year": 2023,
+      "return_delta_pp": 0.0,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.0,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    },
+    {
+      "asset": "FIL",
+      "year": 2025,
+      "return_delta_pp": 0.0,
+      "dd_delta_pp": 0.0,
+      "wealth_ratio": 1.0,
+      "beats_original_return": true,
+      "beats_hold_return": true
+    }
+  ],
+  "native_runs": 36,
+  "five_gate_passed": true,
+  "ten_gate_passed": true,
+  "single_strict_passed_assets": 3,
+  "run_26": false,
+  "official_sources_unchanged": true
+}

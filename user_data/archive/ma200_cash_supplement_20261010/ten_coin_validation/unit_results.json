@@ -1,0 +1,5 @@
+{
+  "tests": 3,
+  "passed": true,
+  "scope": "actual unchanged callbacks with ten held trades and refreshed mock wallet"
+}

@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "year": 2020,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.1788772043163761,
+      "cash_usdt": -15.731175869588242,
+      "date": "2022-12-30 00:00:00+00:00"
+    },
+    {
+      "year": 2020,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.17761845774934887,
+      "cash_usdt": -13.72948465518948,
+      "date": "2022-12-30 00:00:00+00:00"
+    },
+    {
+      "year": 2021,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.172625740530584,
+      "cash_usdt": -5.3625944828961565,
+      "date": "2022-12-30 00:00:00+00:00"
+    },
+    {
+      "year": 2021,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.17081721044134288,
+      "cash_usdt": -5.107074849699529,
+      "date": "2022-12-30 00:00:00+00:00"
+    },
+    {
+      "year": 2022,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.10513983691758261,
+      "cash_usdt": -1.59804434189914,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2022,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.10398758032058536,
+      "cash_usdt": -0.7690030087997002,
+      "date": "2023-02-10 00:00:00+00:00"
+    },
+    {
+      "year": 2023,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.10408149262991005,
+      "cash_usdt": -2.301486624798258,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2023,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.10583382410280552,
+      "cash_usdt": -2.2491881381989742,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2024,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.10591873990763244,
+      "cash_usdt": -1.2588714052991463,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2024,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.10213155945265912,
+      "cash_usdt": -1.1956810529997028,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2025,
+      "strategy": "Ma200ConfirmedHandoverStrategy",
+      "min_cash_fraction_pct": -0.1023184994839625,
+      "cash_usdt": -0.842420129899665,
+      "date": "2025-05-30 00:00:00+00:00"
+    },
+    {
+      "year": 2025,
+      "strategy": "Ma200CashSupplementStrategy",
+      "min_cash_fraction_pct": -0.10570389506622369,
+      "cash_usdt": -0.8669162888995743,
+      "date": "2025-05-30 00:00:00+00:00"
+    }
+  ],
+  "interpretation": "audit charges opening fees immediately in quote; dry-run wallet free formula defers them until realized profit; inherited original full-cash orders can leave a small negative audit cash balance; no source or fee parameters adjusted"
+}

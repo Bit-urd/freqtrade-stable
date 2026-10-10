@@ -1,0 +1,44 @@
+{
+  "BTC": {
+    "return_wins": 3,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "median_wealth_ratio": 1.2451674454833448
+  },
+  "ETH": {
+    "return_wins": 5,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "median_wealth_ratio": 1.945555881762535
+  },
+  "SOL": {
+    "return_wins": 4,
+    "dd_lower": 5,
+    "calmar_wins": 4,
+    "median_wealth_ratio": 1.1603803113445676
+  },
+  "LINK": {
+    "return_wins": 4,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "median_wealth_ratio": 1.6954215282498348
+  },
+  "XRP": {
+    "return_wins": 1,
+    "dd_lower": 4,
+    "calmar_wins": 0,
+    "median_wealth_ratio": 0.5329523035765146
+  },
+  "ADA": {
+    "return_wins": 5,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "median_wealth_ratio": 1.8633669451373542
+  },
+  "six_portfolio": {
+    "return_wins": 4,
+    "dd_lower": 5,
+    "calmar_wins": 5,
+    "median_wealth_ratio": 1.161862396191022
+  }
+}

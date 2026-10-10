@@ -1,0 +1,1676 @@
+{
+  "disabled_full_fill_parity": [
+    2020,
+    2025
+  ],
+  "supplemental_orders": [
+    {
+      "year": 2020,
+      "extra_filled_orders": 86,
+      "extra_cumulative_stake": 18217.4931047,
+      "plan_days": 1101,
+      "parent_busy_days": 181,
+      "allocation_days": 525,
+      "fills": [
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1590883200000,
+          "quantity": 0.00103,
+          "price": 9697.72,
+          "stake": 9.9886516,
+          "opening_fee": 0.0099886516
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1592870400000,
+          "quantity": 0.00157,
+          "price": 9685.69,
+          "stake": 15.2065333,
+          "opening_fee": 0.0152065333
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1592956800000,
+          "quantity": 0.0009,
+          "price": 9624.33,
+          "stake": 8.661897,
+          "opening_fee": 0.008661897
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1594080000000,
+          "quantity": 0.0066,
+          "price": 9342.47,
+          "stake": 61.660301999999994,
+          "opening_fee": 0.06166030199999999
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1594166400000,
+          "quantity": 0.0035,
+          "price": 9257.4,
+          "stake": 32.4009,
+          "opening_fee": 0.0324009
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1594252800000,
+          "quantity": 0.00352,
+          "price": 9436.06,
+          "stake": 33.2149312,
+          "opening_fee": 0.033214931200000006
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1594598400000,
+          "quantity": 0.00177,
+          "price": 9303.31,
+          "stake": 16.4668587,
+          "opening_fee": 0.0164668587
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1590883200000,
+          "quantity": 3.9,
+          "price": 4.178,
+          "stake": 16.2942,
+          "opening_fee": 0.016294200000000002
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1592438400000,
+          "quantity": 0.0462,
+          "price": 233.82,
+          "stake": 10.802484,
+          "opening_fee": 0.010802484
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1593043200000,
+          "quantity": 0.0335,
+          "price": 234.57,
+          "stake": 7.8580950000000005,
+          "opening_fee": 0.007858095
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1593648000000,
+          "quantity": 0.1263,
+          "price": 230.99,
+          "stake": 29.174037,
+          "opening_fee": 0.029174037
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1594080000000,
+          "quantity": 0.0464,
+          "price": 241.6,
+          "stake": 11.210239999999999,
+          "opening_fee": 0.01121024
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1594166400000,
+          "quantity": 0.135,
+          "price": 239.39,
+          "stake": 32.31765,
+          "opening_fee": 0.03231765
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1594252800000,
+          "quantity": 0.1056,
+          "price": 246.94,
+          "stake": 26.076864,
+          "opening_fee": 0.026076864
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1594598400000,
+          "quantity": 0.074,
+          "price": 242.76,
+          "stake": 17.96424,
+          "opening_fee": 0.01796424
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1603324800000,
+          "quantity": 294.7,
+          "price": 0.10585,
+          "stake": 31.193994999999997,
+          "opening_fee": 0.031193995
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1604188800000,
+          "quantity": 3.44,
+          "price": 11.2259,
+          "stake": 38.617096,
+          "opening_fee": 0.038617096
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1602806400000,
+          "quantity": 0.0163,
+          "price": 377.63,
+          "stake": 6.155368999999999,
+          "opening_fee": 0.006155369
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1602892800000,
+          "quantity": 0.0435,
+          "price": 365.5,
+          "stake": 15.899249999999999,
+          "opening_fee": 0.01589925
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1609113600000,
+          "quantity": 2713.7,
+          "price": 0.15467,
+          "stake": 419.727979,
+          "opening_fee": 0.41972797900000003
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 0.00322,
+          "price": 45510.67,
+          "stake": 146.5443574,
+          "opening_fee": 0.1465443574
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 0.0427,
+          "price": 3160.4,
+          "stake": 134.94908,
+          "opening_fee": 0.13494908
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 1.86,
+          "price": 25.902,
+          "stake": 48.17772000000001,
+          "opening_fee": 0.04817772000000001
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634083200000,
+          "quantity": 234.7,
+          "price": 1.1017,
+          "stake": 258.56899,
+          "opening_fee": 0.25856899
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634342400000,
+          "quantity": 94.4,
+          "price": 1.1415,
+          "stake": 107.7576,
+          "opening_fee": 0.1077576
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634428800000,
+          "quantity": 5.8,
+          "price": 1.1343,
+          "stake": 6.57894,
+          "opening_fee": 0.00657894
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634515200000,
+          "quantity": 105.4,
+          "price": 1.0943,
+          "stake": 115.33922000000001,
+          "opening_fee": 0.11533922000000002
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634688000000,
+          "quantity": 40.1,
+          "price": 1.0911,
+          "stake": 43.75311,
+          "opening_fee": 0.04375311
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1635033600000,
+          "quantity": 174.3,
+          "price": 1.0935,
+          "stake": 190.59705,
+          "opening_fee": 0.19059705
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1635206400000,
+          "quantity": 65.4,
+          "price": 1.0951,
+          "stake": 71.61954,
+          "opening_fee": 0.07161954
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1635552000000,
+          "quantity": 27.2,
+          "price": 1.0825,
+          "stake": 29.444,
+          "opening_fee": 0.029443999999999998
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1634342400000,
+          "quantity": 2.19,
+          "price": 27.01,
+          "stake": 59.151900000000005,
+          "opening_fee": 0.05915190000000001
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1634515200000,
+          "quantity": 0.65,
+          "price": 26.54,
+          "stake": 17.251,
+          "opening_fee": 0.017251000000000002
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1634774400000,
+          "quantity": 2.48,
+          "price": 27.48,
+          "stake": 68.1504,
+          "opening_fee": 0.0681504
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1673913600000,
+          "quantity": 64.3,
+          "price": 0.3505,
+          "stake": 22.537149999999997,
+          "opening_fee": 0.02253715
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674000000000,
+          "quantity": 83.2,
+          "price": 0.3455,
+          "stake": 28.7456,
+          "opening_fee": 0.0287456
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674086400000,
+          "quantity": 299.4,
+          "price": 0.3264,
+          "stake": 97.72416,
+          "opening_fee": 0.09772416
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679702400000,
+          "quantity": 8.42,
+          "price": 7.191,
+          "stake": 60.54822,
+          "opening_fee": 0.06054822
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679788800000,
+          "quantity": 8.81,
+          "price": 7.074,
+          "stake": 62.321940000000005,
+          "opening_fee": 0.062321940000000006
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1679529600000,
+          "quantity": 503.4,
+          "price": 0.4213,
+          "stake": 212.08241999999998,
+          "opening_fee": 0.21208242
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1673913600000,
+          "quantity": 0.0025,
+          "price": 21185.65,
+          "stake": 52.964125,
+          "opening_fee": 0.052964125
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1685491200000,
+          "quantity": 0.0121,
+          "price": 1900.58,
+          "stake": 22.997017999999997,
+          "opening_fee": 0.022997017999999998
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1685577600000,
+          "quantity": 0.0165,
+          "price": 1873.63,
+          "stake": 30.914895000000005,
+          "opening_fee": 0.030914895000000005
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1687996800000,
+          "quantity": 0.0235,
+          "price": 1828.03,
+          "stake": 42.958705,
+          "opening_fee": 0.042958705
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1689552000000,
+          "quantity": 11.82,
+          "price": 6.608,
+          "stake": 78.10656,
+          "opening_fee": 0.07810656
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1689379200000,
+          "quantity": 330.5,
+          "price": 0.7178,
+          "stake": 237.2329,
+          "opening_fee": 0.2372329
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1690243200000,
+          "quantity": 81.6,
+          "price": 0.702,
+          "stake": 57.283199999999994,
+          "opening_fee": 0.05728319999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1690848000000,
+          "quantity": 21.4,
+          "price": 0.6976,
+          "stake": 14.92864,
+          "opening_fee": 0.01492864
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 280.5,
+          "price": 0.5415,
+          "stake": 151.89075,
+          "opening_fee": 0.15189075
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707868800000,
+          "quantity": 63.0,
+          "price": 0.5448,
+          "stake": 34.322399999999995,
+          "opening_fee": 0.034322399999999996
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1697846400000,
+          "quantity": 1.18,
+          "price": 7.57,
+          "stake": 8.932599999999999,
+          "opening_fee": 0.008932599999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1712620800000,
+          "quantity": 5757.9,
+          "price": 0.6146,
+          "stake": 3538.80534,
+          "opening_fee": 3.53880534
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1704758400000,
+          "quantity": 0.1226,
+          "price": 2330.43,
+          "stake": 285.710718,
+          "opening_fee": 0.285710718
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1707264000000,
+          "quantity": 0.0149,
+          "price": 2372.63,
+          "stake": 35.352187,
+          "opening_fee": 0.035352187
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 0.0096,
+          "price": 2507.22,
+          "stake": 24.069311999999996,
+          "opening_fee": 0.024069311999999995
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1698019200000,
+          "quantity": 0.00254,
+          "price": 29992.46,
+          "stake": 76.1808484,
+          "opening_fee": 0.0761808484
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1705017600000,
+          "quantity": 0.00072,
+          "price": 46339.16,
+          "stake": 33.364195200000005,
+          "opening_fee": 0.0333641952
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706832000000,
+          "quantity": 0.00184,
+          "price": 43082.95,
+          "stake": 79.272628,
+          "opening_fee": 0.079272628
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706918400000,
+          "quantity": 0.00086,
+          "price": 43199.99,
+          "stake": 37.1519914,
+          "opening_fee": 0.0371519914
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707091200000,
+          "quantity": 0.0015,
+          "price": 42582.88,
+          "stake": 63.87432,
+          "opening_fee": 0.06387432
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707177600000,
+          "quantity": 0.00152,
+          "price": 42708.7,
+          "stake": 64.917224,
+          "opening_fee": 0.06491722400000001
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1716768000000,
+          "quantity": 5.52,
+          "price": 17.042,
+          "stake": 94.07184,
+          "opening_fee": 0.09407183999999999
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1716163200000,
+          "quantity": 0.00054,
+          "price": 66274.0,
+          "stake": 35.78796,
+          "opening_fee": 0.03578796
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1717113600000,
+          "quantity": 0.0017,
+          "price": 3747.9,
+          "stake": 6.37143,
+          "opening_fee": 0.00637143
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1721347200000,
+          "quantity": 553.4,
+          "price": 0.5697,
+          "stake": 315.27198,
+          "opening_fee": 0.31527198
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1721865600000,
+          "quantity": 0.00093,
+          "price": 65376.01,
+          "stake": 60.799689300000004,
+          "opening_fee": 0.06079968930000001
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1724630400000,
+          "quantity": 119.6,
+          "price": 0.6,
+          "stake": 71.75999999999999,
+          "opening_fee": 0.07175999999999999
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1727568000000,
+          "quantity": 0.00084,
+          "price": 65858.0,
+          "stake": 55.32072,
+          "opening_fee": 0.055320720000000004
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 0.00021,
+          "price": 65602.01,
+          "stake": 13.7764221,
+          "opening_fee": 0.0137764221
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 9.44,
+          "price": 12.47,
+          "stake": 117.7168,
+          "opening_fee": 0.11771680000000001
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1727568000000,
+          "quantity": 167.9,
+          "price": 0.4006,
+          "stake": 67.26074,
+          "opening_fee": 0.06726074
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 74.8,
+          "price": 0.3976,
+          "stake": 29.740479999999998,
+          "opening_fee": 0.02974048
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1729641600000,
+          "quantity": 0.0281,
+          "price": 2622.81,
+          "stake": 73.70096099999999,
+          "opening_fee": 0.073700961
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1731283200000,
+          "quantity": 0.0349,
+          "price": 3183.2,
+          "stake": 111.09367999999999,
+          "opening_fee": 0.11109368
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 74.55,
+          "price": 22.1,
+          "stake": 1647.555,
+          "opening_fee": 1.647555
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 0.02425,
+          "price": 100497.35,
+          "stake": 2437.0607375000004,
+          "opening_fee": 2.4370607375000004
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 0.00235,
+          "price": 99987.3,
+          "stake": 234.970155,
+          "opening_fee": 0.234970155
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1745798400000,
+          "quantity": 0.00015,
+          "price": 93749.29,
+          "stake": 14.062393499999997,
+          "opening_fee": 0.014062393499999997
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1757721600000,
+          "quantity": 32.0,
+          "price": 3.1054,
+          "stake": 99.3728,
+          "opening_fee": 0.0993728
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 5278.1,
+          "price": 0.8651,
+          "stake": 4566.08431,
+          "opening_fee": 4.56608431
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757721600000,
+          "quantity": 56.1,
+          "price": 0.917,
+          "stake": 51.44370000000001,
+          "opening_fee": 0.05144370000000001
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757894400000,
+          "quantity": 33.4,
+          "price": 0.8878,
+          "stake": 29.65252,
+          "opening_fee": 0.029652519999999998
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1752537600000,
+          "quantity": 4.22,
+          "price": 15.76,
+          "stake": 66.5072,
+          "opening_fee": 0.0665072
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1759536000000,
+          "quantity": 63.7,
+          "price": 0.8655,
+          "stake": 55.13235,
+          "opening_fee": 0.055132350000000004
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.00287,
+          "price": 78338.03,
+          "stake": 224.8301461,
+          "opening_fee": 0.22483014610000002
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0573,
+          "price": 2516.31,
+          "stake": 144.184563,
+          "opening_fee": 0.144184563
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "extra_filled_orders": 61,
+      "extra_cumulative_stake": 3588.6280909,
+      "plan_days": 864,
+      "parent_busy_days": 57,
+      "allocation_days": 476,
+      "fills": [
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1609804800000,
+          "quantity": 0.00044,
+          "price": 31989.75,
+          "stake": 14.07549,
+          "opening_fee": 0.014075490000000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1609977600000,
+          "quantity": 0.00042,
+          "price": 36769.36,
+          "stake": 15.443131200000002,
+          "opening_fee": 0.015443131200000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1610841600000,
+          "quantity": 0.00057,
+          "price": 35994.98,
+          "stake": 20.517138600000003,
+          "opening_fee": 0.020517138600000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1610928000000,
+          "quantity": 0.00055,
+          "price": 35824.99,
+          "stake": 19.7037445,
+          "opening_fee": 0.0197037445
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1611878400000,
+          "quantity": 0.0004,
+          "price": 33368.18,
+          "stake": 13.347272,
+          "opening_fee": 0.013347272
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1612224000000,
+          "quantity": 0.00047,
+          "price": 33517.09,
+          "stake": 15.753032299999997,
+          "opening_fee": 0.015753032299999997
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1610150400000,
+          "quantity": 1.1,
+          "price": 15.2395,
+          "stake": 16.763450000000002,
+          "opening_fee": 0.016763450000000003
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1621123200000,
+          "quantity": 302.1,
+          "price": 1.4911,
+          "stake": 450.4613100000001,
+          "opening_fee": 0.4504613100000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 0.00057,
+          "price": 45510.67,
+          "stake": 25.941081899999997,
+          "opening_fee": 0.025941081899999996
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 0.0076,
+          "price": 3160.4,
+          "stake": 24.01904,
+          "opening_fee": 0.024019040000000002
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1628726400000,
+          "quantity": 0.33,
+          "price": 25.902,
+          "stake": 8.54766,
+          "opening_fee": 0.00854766
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634083200000,
+          "quantity": 40.6,
+          "price": 1.1017,
+          "stake": 44.72902,
+          "opening_fee": 0.04472902
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634342400000,
+          "quantity": 16.6,
+          "price": 1.1415,
+          "stake": 18.948900000000002,
+          "opening_fee": 0.0189489
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634515200000,
+          "quantity": 19.7,
+          "price": 1.0943,
+          "stake": 21.55771,
+          "opening_fee": 0.02155771
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1634688000000,
+          "quantity": 7.0,
+          "price": 1.0911,
+          "stake": 7.6377,
+          "opening_fee": 0.0076377
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1635033600000,
+          "quantity": 30.7,
+          "price": 1.0935,
+          "stake": 33.570449999999994,
+          "opening_fee": 0.033570449999999995
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1635206400000,
+          "quantity": 11.6,
+          "price": 1.0951,
+          "stake": 12.703159999999999,
+          "opening_fee": 0.01270316
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1634342400000,
+          "quantity": 0.38,
+          "price": 27.01,
+          "stake": 10.263800000000002,
+          "opening_fee": 0.010263800000000002
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1634774400000,
+          "quantity": 0.55,
+          "price": 27.48,
+          "stake": 15.114,
+          "opening_fee": 0.015114
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674000000000,
+          "quantity": 26.0,
+          "price": 0.3455,
+          "stake": 8.982999999999999,
+          "opening_fee": 0.008983
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674086400000,
+          "quantity": 52.8,
+          "price": 0.3264,
+          "stake": 17.23392,
+          "opening_fee": 0.017233920000000003
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679702400000,
+          "quantity": 1.49,
+          "price": 7.191,
+          "stake": 10.71459,
+          "opening_fee": 0.01071459
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679788800000,
+          "quantity": 1.55,
+          "price": 7.074,
+          "stake": 10.9647,
+          "opening_fee": 0.0109647
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1679529600000,
+          "quantity": 88.8,
+          "price": 0.4213,
+          "stake": 37.41144,
+          "opening_fee": 0.03741144
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1673913600000,
+          "quantity": 0.00044,
+          "price": 21185.65,
+          "stake": 9.321686000000001,
+          "opening_fee": 0.009321686000000001
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1685577600000,
+          "quantity": 0.0051,
+          "price": 1873.63,
+          "stake": 9.555513000000001,
+          "opening_fee": 0.009555513000000002
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1687996800000,
+          "quantity": 0.0042,
+          "price": 1828.03,
+          "stake": 7.677726,
+          "opening_fee": 0.007677726
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1689552000000,
+          "quantity": 2.08,
+          "price": 6.608,
+          "stake": 13.74464,
+          "opening_fee": 0.01374464
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1689379200000,
+          "quantity": 58.3,
+          "price": 0.7178,
+          "stake": 41.847739999999995,
+          "opening_fee": 0.041847739999999994
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1690243200000,
+          "quantity": 14.4,
+          "price": 0.702,
+          "stake": 10.1088,
+          "opening_fee": 0.010108800000000001
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 49.4,
+          "price": 0.5415,
+          "stake": 26.7501,
+          "opening_fee": 0.0267501
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707868800000,
+          "quantity": 11.0,
+          "price": 0.5448,
+          "stake": 5.992799999999999,
+          "opening_fee": 0.0059927999999999995
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1712620800000,
+          "quantity": 1001.6,
+          "price": 0.6146,
+          "stake": 615.5833600000001,
+          "opening_fee": 0.6155833600000001
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1704758400000,
+          "quantity": 0.0216,
+          "price": 2330.43,
+          "stake": 50.337288,
+          "opening_fee": 0.050337288
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1707264000000,
+          "quantity": 0.0025,
+          "price": 2372.63,
+          "stake": 5.9315750000000005,
+          "opening_fee": 0.0059315750000000006
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1698019200000,
+          "quantity": 0.00044,
+          "price": 29992.46,
+          "stake": 13.1966824,
+          "opening_fee": 0.013196682400000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1705017600000,
+          "quantity": 0.00012,
+          "price": 46339.16,
+          "stake": 5.5606992,
+          "opening_fee": 0.005560699200000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706832000000,
+          "quantity": 0.00033,
+          "price": 43082.95,
+          "stake": 14.217373499999999,
+          "opening_fee": 0.0142173735
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706918400000,
+          "quantity": 0.00015,
+          "price": 43199.99,
+          "stake": 6.479998499999999,
+          "opening_fee": 0.006479998499999999
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707091200000,
+          "quantity": 0.00026,
+          "price": 42582.88,
+          "stake": 11.071548799999999,
+          "opening_fee": 0.011071548799999999
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707177600000,
+          "quantity": 0.00027,
+          "price": 42708.7,
+          "stake": 11.531348999999999,
+          "opening_fee": 0.011531349
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1716768000000,
+          "quantity": 0.97,
+          "price": 17.042,
+          "stake": 16.53074,
+          "opening_fee": 0.016530740000000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1716163200000,
+          "quantity": 9e-05,
+          "price": 66274.0,
+          "stake": 5.96466,
+          "opening_fee": 0.00596466
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1721347200000,
+          "quantity": 97.5,
+          "price": 0.5697,
+          "stake": 55.54575,
+          "opening_fee": 0.05554575
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1721865600000,
+          "quantity": 0.00017,
+          "price": 65376.01,
+          "stake": 11.1139217,
+          "opening_fee": 0.011113921700000001
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1724630400000,
+          "quantity": 21.1,
+          "price": 0.6,
+          "stake": 12.66,
+          "opening_fee": 0.012660000000000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1727568000000,
+          "quantity": 0.00015,
+          "price": 65858.0,
+          "stake": 9.878699999999998,
+          "opening_fee": 0.009878699999999999
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 1.66,
+          "price": 12.47,
+          "stake": 20.7002,
+          "opening_fee": 0.0207002
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1727568000000,
+          "quantity": 29.6,
+          "price": 0.4006,
+          "stake": 11.85776,
+          "opening_fee": 0.01185776
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1729641600000,
+          "quantity": 0.0049,
+          "price": 2622.81,
+          "stake": 12.851768999999999,
+          "opening_fee": 0.012851768999999999
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1731283200000,
+          "quantity": 0.0062,
+          "price": 3183.2,
+          "stake": 19.73584,
+          "opening_fee": 0.01973584
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 13.16,
+          "price": 22.1,
+          "stake": 290.836,
+          "opening_fee": 0.29083600000000004
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 0.00428,
+          "price": 100497.35,
+          "stake": 430.12865800000003,
+          "opening_fee": 0.43012865800000005
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 0.00042,
+          "price": 99987.3,
+          "stake": 41.994666,
+          "opening_fee": 0.041994666
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1757721600000,
+          "quantity": 5.7,
+          "price": 3.1054,
+          "stake": 17.70078,
+          "opening_fee": 0.017700780000000003
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 927.0,
+          "price": 0.8651,
+          "stake": 801.9476999999999,
+          "opening_fee": 0.8019476999999999
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757721600000,
+          "quantity": 9.8,
+          "price": 0.917,
+          "stake": 8.986600000000001,
+          "opening_fee": 0.0089866
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1752537600000,
+          "quantity": 0.75,
+          "price": 15.76,
+          "stake": 11.82,
+          "opening_fee": 0.01182
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1759536000000,
+          "quantity": 11.2,
+          "price": 0.8655,
+          "stake": 9.6936,
+          "opening_fee": 0.0096936
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.00051,
+          "price": 78338.03,
+          "stake": 39.9523953,
+          "opening_fee": 0.0399523953
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0101,
+          "price": 2516.31,
+          "stake": 25.414731,
+          "opening_fee": 0.025414731
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "extra_filled_orders": 18,
+      "extra_cumulative_stake": 738.7121018,
+      "plan_days": 650,
+      "parent_busy_days": 47,
+      "allocation_days": 357,
+      "fills": [
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674086400000,
+          "quantity": 22.6,
+          "price": 0.3264,
+          "stake": 7.376640000000001,
+          "opening_fee": 0.007376640000000001
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679788800000,
+          "quantity": 0.87,
+          "price": 7.074,
+          "stake": 6.15438,
+          "opening_fee": 0.00615438
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1679529600000,
+          "quantity": 25.3,
+          "price": 0.4213,
+          "stake": 10.658890000000001,
+          "opening_fee": 0.01065889
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1689379200000,
+          "quantity": 16.6,
+          "price": 0.7178,
+          "stake": 11.91548,
+          "opening_fee": 0.01191548
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 14.1,
+          "price": 0.5415,
+          "stake": 7.635149999999999,
+          "opening_fee": 0.007635149999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1712620800000,
+          "quantity": 279.6,
+          "price": 0.6146,
+          "stake": 171.84216000000004,
+          "opening_fee": 0.17184216000000005
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1704758400000,
+          "quantity": 0.0061,
+          "price": 2330.43,
+          "stake": 14.215623,
+          "opening_fee": 0.014215623000000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1705017600000,
+          "quantity": 0.00016,
+          "price": 46339.16,
+          "stake": 7.414265600000001,
+          "opening_fee": 0.007414265600000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706918400000,
+          "quantity": 0.00013,
+          "price": 43199.99,
+          "stake": 5.6159987,
+          "opening_fee": 0.0056159986999999995
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707177600000,
+          "quantity": 0.00015,
+          "price": 42708.7,
+          "stake": 6.406304999999999,
+          "opening_fee": 0.006406304999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1721347200000,
+          "quantity": 27.8,
+          "price": 0.5697,
+          "stake": 15.83766,
+          "opening_fee": 0.01583766
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 0.48,
+          "price": 12.47,
+          "stake": 5.9856,
+          "opening_fee": 0.0059856
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 3.99,
+          "price": 22.1,
+          "stake": 88.17900000000002,
+          "opening_fee": 0.08817900000000002
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 0.00128,
+          "price": 100497.35,
+          "stake": 128.63660800000002,
+          "opening_fee": 0.128636608
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 6e-05,
+          "price": 99987.3,
+          "stake": 5.999238,
+          "opening_fee": 0.0059992380000000005
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 261.0,
+          "price": 0.8651,
+          "stake": 225.7911,
+          "opening_fee": 0.2257911
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.00015,
+          "price": 78338.03,
+          "stake": 11.7507045,
+          "opening_fee": 0.0117507045
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0029,
+          "price": 2516.31,
+          "stake": 7.297299,
+          "opening_fee": 0.007297299
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "extra_filled_orders": 22,
+      "extra_cumulative_stake": 1013.3264807,
+      "plan_days": 650,
+      "parent_busy_days": 47,
+      "allocation_days": 358,
+      "fills": [
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1674086400000,
+          "quantity": 31.3,
+          "price": 0.3264,
+          "stake": 10.216320000000001,
+          "opening_fee": 0.010216320000000001
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1679788800000,
+          "quantity": 1.21,
+          "price": 7.074,
+          "stake": 8.55954,
+          "opening_fee": 0.008559540000000001
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1679529600000,
+          "quantity": 34.8,
+          "price": 0.4213,
+          "stake": 14.66124,
+          "opening_fee": 0.014661239999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1689379200000,
+          "quantity": 22.4,
+          "price": 0.7178,
+          "stake": 16.07872,
+          "opening_fee": 0.01607872
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 19.0,
+          "price": 0.5415,
+          "stake": 10.288499999999999,
+          "opening_fee": 0.010288499999999999
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1712620800000,
+          "quantity": 376.7,
+          "price": 0.6146,
+          "stake": 231.51982,
+          "opening_fee": 0.23151982000000002
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1704758400000,
+          "quantity": 0.0081,
+          "price": 2330.43,
+          "stake": 18.876482999999997,
+          "opening_fee": 0.018876482999999996
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1705017600000,
+          "quantity": 0.0002,
+          "price": 46339.16,
+          "stake": 9.267832,
+          "opening_fee": 0.009267832
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1706918400000,
+          "quantity": 0.00018,
+          "price": 43199.99,
+          "stake": 7.7759982,
+          "opening_fee": 0.0077759982
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1707177600000,
+          "quantity": 0.00021,
+          "price": 42708.7,
+          "stake": 8.968827,
+          "opening_fee": 0.008968826999999999
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1716768000000,
+          "quantity": 0.37,
+          "price": 17.042,
+          "stake": 6.305540000000001,
+          "opening_fee": 0.006305540000000001
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1721347200000,
+          "quantity": 37.4,
+          "price": 0.5697,
+          "stake": 21.30678,
+          "opening_fee": 0.02130678
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 0.64,
+          "price": 12.47,
+          "stake": 7.9808,
+          "opening_fee": 0.0079808
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1727654400000,
+          "quantity": 16.5,
+          "price": 0.3976,
+          "stake": 6.5604000000000005,
+          "opening_fee": 0.006560400000000001
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1731283200000,
+          "quantity": 0.0024,
+          "price": 3183.2,
+          "stake": 7.6396799999999985,
+          "opening_fee": 0.0076396799999999985
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 5.07,
+          "price": 22.1,
+          "stake": 112.04700000000001,
+          "opening_fee": 0.11204700000000001
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 0.00165,
+          "price": 100497.35,
+          "stake": 165.8206275,
+          "opening_fee": 0.1658206275
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 0.00016,
+          "price": 99987.3,
+          "stake": 15.997968000000002,
+          "opening_fee": 0.015997968
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1757721600000,
+          "quantity": 2.2,
+          "price": 3.1054,
+          "stake": 6.831880000000001,
+          "opening_fee": 0.006831880000000001
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 348.1,
+          "price": 0.8651,
+          "stake": 301.14131000000003,
+          "opening_fee": 0.30114131000000005
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0002,
+          "price": 78338.03,
+          "stake": 15.667606000000001,
+          "opening_fee": 0.015667606
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0039,
+          "price": 2516.31,
+          "stake": 9.813609,
+          "opening_fee": 0.009813609
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "extra_filled_orders": 10,
+      "extra_cumulative_stake": 570.7062534,
+      "plan_days": 421,
+      "parent_busy_days": 35,
+      "allocation_days": 201,
+      "fills": [
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1704931200000,
+          "quantity": 27.6,
+          "price": 0.5662,
+          "stake": 15.627120000000001,
+          "opening_fee": 0.01562712
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1707696000000,
+          "quantity": 11.6,
+          "price": 0.5415,
+          "stake": 6.2814,
+          "opening_fee": 0.0062813999999999995
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1712620800000,
+          "quantity": 179.6,
+          "price": 0.6146,
+          "stake": 110.38216,
+          "opening_fee": 0.11038216
+        },
+        {
+          "pair": "XRP/USDT",
+          "timestamp": 1721347200000,
+          "quantity": 25.2,
+          "price": 0.5697,
+          "stake": 14.35644,
+          "opening_fee": 0.01435644
+        },
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 3.6,
+          "price": 22.1,
+          "stake": 79.56,
+          "opening_fee": 0.07956
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 0.00115,
+          "price": 100497.35,
+          "stake": 115.57195250000001,
+          "opening_fee": 0.1155719525
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 7e-05,
+          "price": 99987.3,
+          "stake": 6.999110999999999,
+          "opening_fee": 0.006999111
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 237.2,
+          "price": 0.8651,
+          "stake": 205.20172,
+          "opening_fee": 0.20520172
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.00013,
+          "price": 78338.03,
+          "stake": 10.1839439,
+          "opening_fee": 0.010183943899999999
+        },
+        {
+          "pair": "ETH/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 0.0026,
+          "price": 2516.31,
+          "stake": 6.542406,
+          "opening_fee": 0.006542406
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "extra_filled_orders": 4,
+      "extra_cumulative_stake": 164.1901221,
+      "plan_days": 217,
+      "parent_busy_days": 18,
+      "allocation_days": 110,
+      "fills": [
+        {
+          "pair": "LINK/USDT",
+          "timestamp": 1736985600000,
+          "quantity": 1.55,
+          "price": 22.1,
+          "stake": 34.255,
+          "opening_fee": 0.034255
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1737072000000,
+          "quantity": 0.0001,
+          "price": 99987.3,
+          "stake": 9.99873,
+          "opening_fee": 0.00999873
+        },
+        {
+          "pair": "ADA/USDT",
+          "timestamp": 1757376000000,
+          "quantity": 132.3,
+          "price": 0.8651,
+          "stake": 114.45273,
+          "opening_fee": 0.11445273
+        },
+        {
+          "pair": "BTC/USDT",
+          "timestamp": 1787356800000,
+          "quantity": 7e-05,
+          "price": 78338.03,
+          "stake": 5.483662099999999,
+          "opening_fee": 0.005483662099999999
+        }
+      ]
+    }
+  ]
+}

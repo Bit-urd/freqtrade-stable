@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "window": "start_2025",
+      "return_delta_pp": 10.169732646480002,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.0,
+      "calmar_delta": null
+    },
+    {
+      "window": "start_2024",
+      "return_delta_pp": 5.529565995689964,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": -0.008902957716450999,
+      "calmar_delta": 0.03436670322155411
+    },
+    {
+      "window": "start_2023",
+      "return_delta_pp": 10.17133758242008,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": -0.0013636264958876154,
+      "calmar_delta": 0.028420504687238668
+    },
+    {
+      "window": "start_2022",
+      "return_delta_pp": 6.074503309310032,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.0,
+      "calmar_delta": 0.016722010438738333
+    },
+    {
+      "window": "start_2021",
+      "return_delta_pp": 71.6281245907602,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.2144580040993631,
+      "calmar_delta": 0.02691516730406729
+    },
+    {
+      "window": "start_2020",
+      "return_delta_pp": 258.6897578853418,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.2164935249280262,
+      "calmar_delta": 0.032126985086293525
+    }
+  ],
+  "native_runs": 6,
+  "controls_reused": 30,
+  "sources_unchanged": true
+}

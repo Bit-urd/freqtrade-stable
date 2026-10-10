@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "native_results_reused": 10,
+  "new_native_backtests": 0,
+  "official_cycle_source_sha256": "471bb44d6617be4a5efb7862ef44dbc2f1be499e757f72666ee821893b416228",
+  "deployed": false,
+  "evidence_directory": "/root/freqtrade-stable/validation/core_hold/ma200_cash_supplement_20261010",
+  "native_audit_passed": true,
+  "external_deposits": false
+}

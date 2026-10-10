@@ -1,0 +1,847 @@
+{
+  "all_passed": true,
+  "native_curves_audited": 120,
+  "max_error_usdt": 9.094947017729282e-13,
+  "checks": [
+    {
+      "asset": "0G",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 2
+    },
+    {
+      "asset": "0G",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 2
+    },
+    {
+      "asset": "0G",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 2
+    },
+    {
+      "asset": "0G",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 2
+    },
+    {
+      "asset": "BONK",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 14
+    },
+    {
+      "asset": "BONK",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 14
+    },
+    {
+      "asset": "BONK",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "BONK",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "AAVE",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 12
+    },
+    {
+      "asset": "AAVE",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 12
+    },
+    {
+      "asset": "AAVE",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "AAVE",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "ADA",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 10
+    },
+    {
+      "asset": "ADA",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 10
+    },
+    {
+      "asset": "ADA",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 6
+    },
+    {
+      "asset": "ADA",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 6
+    },
+    {
+      "asset": "AERO",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "AERO",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "AERO",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "AERO",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "APT",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 11
+    },
+    {
+      "asset": "APT",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 11
+    },
+    {
+      "asset": "APT",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 7
+    },
+    {
+      "asset": "APT",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 7
+    },
+    {
+      "asset": "ARB",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 12
+    },
+    {
+      "asset": "ARB",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 12
+    },
+    {
+      "asset": "ARB",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 7
+    },
+    {
+      "asset": "ARB",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 7
+    },
+    {
+      "asset": "BOME",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 8
+    },
+    {
+      "asset": "BOME",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 8
+    },
+    {
+      "asset": "BOME",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 4
+    },
+    {
+      "asset": "BOME",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 4
+    },
+    {
+      "asset": "BTC",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 11
+    },
+    {
+      "asset": "BTC",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 11
+    },
+    {
+      "asset": "BTC",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "BTC",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "DOT",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 12
+    },
+    {
+      "asset": "DOT",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 12
+    },
+    {
+      "asset": "DOT",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 8
+    },
+    {
+      "asset": "DOT",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 8
+    },
+    {
+      "asset": "ETH",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 10
+    },
+    {
+      "asset": "ETH",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 10
+    },
+    {
+      "asset": "ETH",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 4
+    },
+    {
+      "asset": "ETH",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 4
+    },
+    {
+      "asset": "FIL",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 3.410605131648481e-13,
+      "trades": 15
+    },
+    {
+      "asset": "FIL",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 3.410605131648481e-13,
+      "trades": 15
+    },
+    {
+      "asset": "FIL",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 8
+    },
+    {
+      "asset": "FIL",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 8
+    },
+    {
+      "asset": "GRAM",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "GRAM",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "GRAM",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "GRAM",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 1
+    },
+    {
+      "asset": "JUP",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.8421709430404007e-13,
+      "trades": 13
+    },
+    {
+      "asset": "JUP",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.8421709430404007e-13,
+      "trades": 13
+    },
+    {
+      "asset": "JUP",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 7
+    },
+    {
+      "asset": "JUP",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 7
+    },
+    {
+      "asset": "LDO",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 12
+    },
+    {
+      "asset": "LDO",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 12
+    },
+    {
+      "asset": "LDO",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 5.684341886080802e-14,
+      "trades": 7
+    },
+    {
+      "asset": "LDO",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 5.684341886080802e-14,
+      "trades": 7
+    },
+    {
+      "asset": "LINK",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 11
+    },
+    {
+      "asset": "LINK",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 11
+    },
+    {
+      "asset": "LINK",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "LINK",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "OP",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 10
+    },
+    {
+      "asset": "OP",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 10
+    },
+    {
+      "asset": "OP",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 5
+    },
+    {
+      "asset": "OP",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 5
+    },
+    {
+      "asset": "POL",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 6
+    },
+    {
+      "asset": "POL",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 6
+    },
+    {
+      "asset": "POL",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 3.410605131648481e-13,
+      "trades": 5
+    },
+    {
+      "asset": "POL",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 3.410605131648481e-13,
+      "trades": 5
+    },
+    {
+      "asset": "PUMP",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 1
+    },
+    {
+      "asset": "PUMP",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 1
+    },
+    {
+      "asset": "PUMP",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 1
+    },
+    {
+      "asset": "PUMP",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 1
+    },
+    {
+      "asset": "SKY",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 2
+    },
+    {
+      "asset": "SKY",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 2
+    },
+    {
+      "asset": "SKY",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 2
+    },
+    {
+      "asset": "SKY",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 2
+    },
+    {
+      "asset": "SOL",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 11
+    },
+    {
+      "asset": "SOL",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 11
+    },
+    {
+      "asset": "SOL",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "SOL",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "STRK",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 10
+    },
+    {
+      "asset": "STRK",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 10
+    },
+    {
+      "asset": "STRK",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 7
+    },
+    {
+      "asset": "STRK",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 1.7053025658242404e-13,
+      "trades": 7
+    },
+    {
+      "asset": "SUI",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 9.094947017729282e-13,
+      "trades": 11
+    },
+    {
+      "asset": "SUI",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 11
+    },
+    {
+      "asset": "SUI",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 8
+    },
+    {
+      "asset": "SUI",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 8
+    },
+    {
+      "asset": "UNI",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 9
+    },
+    {
+      "asset": "UNI",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 9
+    },
+    {
+      "asset": "UNI",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 4
+    },
+    {
+      "asset": "UNI",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 4
+    },
+    {
+      "asset": "WCT",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 2
+    },
+    {
+      "asset": "WCT",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 2
+    },
+    {
+      "asset": "WCT",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 2
+    },
+    {
+      "asset": "WCT",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 2
+    },
+    {
+      "asset": "XRP",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 9.094947017729282e-13,
+      "trades": 13
+    },
+    {
+      "asset": "XRP",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 13
+    },
+    {
+      "asset": "XRP",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 8
+    },
+    {
+      "asset": "XRP",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 8
+    },
+    {
+      "asset": "BNB",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 9.094947017729282e-13,
+      "trades": 9
+    },
+    {
+      "asset": "BNB",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 9
+    },
+    {
+      "asset": "BNB",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "BNB",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 5
+    },
+    {
+      "asset": "DOGE",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 9.094947017729282e-13,
+      "trades": 11
+    },
+    {
+      "asset": "DOGE",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 9.094947017729282e-13,
+      "trades": 11
+    },
+    {
+      "asset": "DOGE",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 6
+    },
+    {
+      "asset": "DOGE",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 6
+    },
+    {
+      "asset": "AVAX",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 1.1368683772161603e-13,
+      "trades": 11
+    },
+    {
+      "asset": "AVAX",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 11
+    },
+    {
+      "asset": "AVAX",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "AVAX",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 2.2737367544323206e-13,
+      "trades": 6
+    },
+    {
+      "asset": "LTC",
+      "window": "start_2024",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 11
+    },
+    {
+      "asset": "LTC",
+      "window": "start_2024",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 4.547473508864641e-13,
+      "trades": 11
+    },
+    {
+      "asset": "LTC",
+      "window": "start_2025",
+      "strategy": "Ma200BtcRegimeFullCyclePortfolioStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 7
+    },
+    {
+      "asset": "LTC",
+      "window": "start_2025",
+      "strategy": "Ma200CashSupplementStrategy",
+      "max_error_usdt": 0.0,
+      "trades": 7
+    }
+  ]
+}

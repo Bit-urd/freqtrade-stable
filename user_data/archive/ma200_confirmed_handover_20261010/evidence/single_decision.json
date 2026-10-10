@@ -1,0 +1,206 @@
+{
+  "passed_assets": 3,
+  "assets": [
+    {
+      "asset": "BTC",
+      "passed": true,
+      "return_wins": 2,
+      "drawdown_wins": 0,
+      "positive_window_validation": true,
+      "checks": [
+        {
+          "asset": "BTC",
+          "window": "start_2025",
+          "return_delta_pp": 6.934584819859979,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": 0.1040394137116342
+        },
+        {
+          "asset": "BTC",
+          "window": "start_2023",
+          "return_delta_pp": 57.13452700463,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0041561950303403705,
+          "calmar_delta": 0.18472054229076895
+        },
+        {
+          "asset": "BTC",
+          "window": "start_2021",
+          "return_delta_pp": -2.863795769320177,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0004141885777499965,
+          "calmar_delta": -0.0027469975596064455
+        }
+      ]
+    },
+    {
+      "asset": "ETH",
+      "passed": true,
+      "return_wins": 3,
+      "drawdown_wins": 0,
+      "positive_window_validation": true,
+      "checks": [
+        {
+          "asset": "ETH",
+          "window": "start_2025",
+          "return_delta_pp": 8.865779401899985,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": 0.11315536135683268
+        },
+        {
+          "asset": "ETH",
+          "window": "start_2023",
+          "return_delta_pp": 48.16486368799997,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0008249468402183879,
+          "calmar_delta": 0.16064456161235163
+        },
+        {
+          "asset": "ETH",
+          "window": "start_2021",
+          "return_delta_pp": 42.6550431314995,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.5125111864904,
+          "calmar_delta": 0.01204888377881963
+        }
+      ]
+    },
+    {
+      "asset": "SOL",
+      "passed": false,
+      "return_wins": 2,
+      "drawdown_wins": 0,
+      "positive_window_validation": true,
+      "checks": [
+        {
+          "asset": "SOL",
+          "window": "start_2025",
+          "return_delta_pp": 13.13948147499998,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        },
+        {
+          "asset": "SOL",
+          "window": "start_2023",
+          "return_delta_pp": -59.69310723200027,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 2.8082297808772694,
+          "calmar_delta": -0.13202078107513726
+        },
+        {
+          "asset": "SOL",
+          "window": "start_2021",
+          "return_delta_pp": 1812.0267096806047,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 1.018154254950332e-05,
+          "calmar_delta": 0.09288162396144028
+        }
+      ]
+    },
+    {
+      "asset": "LINK",
+      "passed": false,
+      "return_wins": 1,
+      "drawdown_wins": 2,
+      "positive_window_validation": true,
+      "checks": [
+        {
+          "asset": "LINK",
+          "window": "start_2025",
+          "return_delta_pp": 9.743133850999975,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        },
+        {
+          "asset": "LINK",
+          "window": "start_2023",
+          "return_delta_pp": -2.7198959949999164,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": -0.0007699086207821892,
+          "calmar_delta": -0.007738774957239181
+        },
+        {
+          "asset": "LINK",
+          "window": "start_2021",
+          "return_delta_pp": -0.26690078199997913,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": -0.1769699698250946,
+          "calmar_delta": 6.340399759954818e-05
+        }
+      ]
+    },
+    {
+      "asset": "ADA",
+      "passed": true,
+      "return_wins": 3,
+      "drawdown_wins": 1,
+      "positive_window_validation": true,
+      "checks": [
+        {
+          "asset": "ADA",
+          "window": "start_2025",
+          "return_delta_pp": 6.968096170000003,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        },
+        {
+          "asset": "ADA",
+          "window": "start_2023",
+          "return_delta_pp": 8.126803932999863,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0001828184038714653,
+          "calmar_delta": 0.018860102164386744
+        },
+        {
+          "asset": "ADA",
+          "window": "start_2021",
+          "return_delta_pp": 64.66616589599994,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": -8.800894491400868e-06,
+          "calmar_delta": 0.02044234464243544
+        }
+      ]
+    },
+    {
+      "asset": "FIL",
+      "passed": false,
+      "return_wins": 0,
+      "drawdown_wins": 0,
+      "positive_window_validation": false,
+      "checks": [
+        {
+          "asset": "FIL",
+          "window": "start_2025",
+          "return_delta_pp": 0.0,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        },
+        {
+          "asset": "FIL",
+          "window": "start_2023",
+          "return_delta_pp": 0.0,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        },
+        {
+          "asset": "FIL",
+          "window": "start_2021",
+          "return_delta_pp": 0.0,
+          "profit_retention_ok": true,
+          "drawdown_delta_pp": 0.0,
+          "calmar_delta": null
+        }
+      ]
+    }
+  ],
+  "native_runs": 18,
+  "controls_reused": 54,
+  "sources_unchanged": true
+}

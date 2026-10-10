@@ -1,0 +1,57 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "window": "start_2025",
+      "return_delta_pp": -0.1801100355700136,
+      "profit_retention": 0.7718737704940654,
+      "profit_ok": true,
+      "dd_delta_pp": 0.06863999594299486,
+      "calmar_delta": -0.0022863400047366342
+    },
+    {
+      "window": "start_2024",
+      "return_delta_pp": -1.535584722290011,
+      "profit_retention": 0.9661784248148525,
+      "profit_ok": true,
+      "dd_delta_pp": -0.061778723679580594,
+      "calmar_delta": -0.009041337439564423
+    },
+    {
+      "window": "start_2023",
+      "return_delta_pp": -10.217219577880002,
+      "profit_retention": 0.9400474187954877,
+      "profit_ok": true,
+      "dd_delta_pp": 0.10717237318152684,
+      "calmar_delta": -0.029964501712397618
+    },
+    {
+      "window": "start_2022",
+      "return_delta_pp": -6.436296149570012,
+      "profit_retention": 0.9250929466104784,
+      "profit_ok": true,
+      "dd_delta_pp": 0.0,
+      "calmar_delta": -0.017731963445736243
+    },
+    {
+      "window": "start_2021",
+      "return_delta_pp": -77.7032109294604,
+      "profit_retention": 0.9186194098816125,
+      "profit_ok": true,
+      "dd_delta_pp": 0.3068208896514619,
+      "calmar_delta": -0.036203491786367725
+    },
+    {
+      "window": "start_2020",
+      "return_delta_pp": -453.5394689675595,
+      "profit_retention": 0.8428557384787561,
+      "profit_ok": true,
+      "dd_delta_pp": 0.3121854321112494,
+      "calmar_delta": -0.06966551817037103
+    }
+  ],
+  "disabled_full_fill_parity_passed": true,
+  "native_runs": 7,
+  "source_identical_to_five_coin": true,
+  "user_authorized_ten_despite_five_gate": true
+}

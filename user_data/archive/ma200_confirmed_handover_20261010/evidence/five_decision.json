@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "window": "start_2025",
+      "return_delta_pp": 7.0720501208800135,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.0,
+      "calmar_delta": null
+    },
+    {
+      "window": "start_2024",
+      "return_delta_pp": 1.9809741261900342,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.005715266789508178,
+      "calmar_delta": 0.010993318939871322
+    },
+    {
+      "window": "start_2023",
+      "return_delta_pp": 20.78277730132001,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": -0.0016973430745537144,
+      "calmar_delta": 0.06208305040568929
+    },
+    {
+      "window": "start_2022",
+      "return_delta_pp": 2.2601288761101017,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": -0.001113331105344173,
+      "calmar_delta": 0.006235998752938454
+    },
+    {
+      "window": "start_2021",
+      "return_delta_pp": 29.509677781430014,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": -0.14476628341884634,
+      "calmar_delta": 0.019718128811832658
+    },
+    {
+      "window": "start_2020",
+      "return_delta_pp": 376.9744462089302,
+      "profit_retention_ok": true,
+      "drawdown_delta_pp": 0.4998090393822068,
+      "calmar_delta": 0.03903033260175248
+    }
+  ],
+  "native_runs": 12,
+  "baseline_parity": true,
+  "sources_unchanged": true
+}

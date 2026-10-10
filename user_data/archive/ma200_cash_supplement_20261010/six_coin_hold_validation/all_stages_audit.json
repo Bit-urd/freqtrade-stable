@@ -1,0 +1,295 @@
+{
+  "all_passed": true,
+  "native_runs_audited": 41,
+  "official_sources_unchanged": true,
+  "max_error": 2.9103830456733704e-11,
+  "checks": [
+    {
+      "file": "ADA/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 65572.8696509391,
+      "trades": 20,
+      "mean_exposure_pct": 56.153793705727615
+    },
+    {
+      "file": "ADA/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-12,
+      "end_equity": 11536.166650400015,
+      "trades": 17,
+      "mean_exposure_pct": 52.98057360217721
+    },
+    {
+      "file": "ADA/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 918.7827590400013,
+      "trades": 13,
+      "mean_exposure_pct": 51.82808154673604
+    },
+    {
+      "file": "ADA/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1836.3141263200018,
+      "trades": 13,
+      "mean_exposure_pct": 46.07058341452977
+    },
+    {
+      "file": "ADA/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 0.0,
+      "end_equity": 838.1319322700008,
+      "trades": 10,
+      "mean_exposure_pct": 46.272925755804756
+    },
+    {
+      "file": "ADA/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.1368683772161603e-13,
+      "end_equity": 500.8837330900003,
+      "trades": 6,
+      "mean_exposure_pct": 49.48907434149058
+    },
+    {
+      "file": "BTC/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 7.275957614183426e-12,
+      "end_equity": 20428.51929564622,
+      "trades": 20,
+      "mean_exposure_pct": 71.63319438512117
+    },
+    {
+      "file": "BTC/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-12,
+      "end_equity": 3909.105342848703,
+      "trades": 18,
+      "mean_exposure_pct": 69.74476726189503
+    },
+    {
+      "file": "BTC/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 2405.9140012060025,
+      "trades": 13,
+      "mean_exposure_pct": 68.9595652895035
+    },
+    {
+      "file": "BTC/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 3336.553417956602,
+      "trades": 13,
+      "mean_exposure_pct": 67.09808465377724
+    },
+    {
+      "file": "BTC/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1820.8222919839018,
+      "trades": 11,
+      "mean_exposure_pct": 65.31149932286668
+    },
+    {
+      "file": "BTC/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1137.2314506833998,
+      "trades": 6,
+      "mean_exposure_pct": 61.474473663283256
+    },
+    {
+      "file": "ETH/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 7.275957614183426e-12,
+      "end_equity": 64887.406449465045,
+      "trades": 21,
+      "mean_exposure_pct": 69.2339328368864
+    },
+    {
+      "file": "ETH/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 9784.068882756006,
+      "trades": 18,
+      "mean_exposure_pct": 66.20602767007036
+    },
+    {
+      "file": "ETH/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 2678.502310273003,
+      "trades": 13,
+      "mean_exposure_pct": 63.666731986697506
+    },
+    {
+      "file": "ETH/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 3085.942211593002,
+      "trades": 13,
+      "mean_exposure_pct": 60.609708981230106
+    },
+    {
+      "file": "ETH/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 2138.4404258690006,
+      "trades": 10,
+      "mean_exposure_pct": 57.65990744709445
+    },
+    {
+      "file": "ETH/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1570.766995079,
+      "trades": 4,
+      "mean_exposure_pct": 55.88787423961196
+    },
+    {
+      "file": "LINK/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 3.637978807091713e-12,
+      "end_equity": 13939.62014086702,
+      "trades": 25,
+      "mean_exposure_pct": 63.52487881344446
+    },
+    {
+      "file": "LINK/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 2127.826688701002,
+      "trades": 21,
+      "mean_exposure_pct": 60.39039620261659
+    },
+    {
+      "file": "LINK/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1753.8922304000012,
+      "trades": 15,
+      "mean_exposure_pct": 58.105935563341745
+    },
+    {
+      "file": "LINK/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 2394.714880200001,
+      "trades": 15,
+      "mean_exposure_pct": 54.313387691722994
+    },
+    {
+      "file": "LINK/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1582.3013228800007,
+      "trades": 11,
+      "mean_exposure_pct": 53.55705145855194
+    },
+    {
+      "file": "LINK/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1033.6205821100004,
+      "trades": 5,
+      "mean_exposure_pct": 52.515036875055216
+    },
+    {
+      "file": "SOL/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 92742.29706031163,
+      "trades": 19,
+      "mean_exposure_pct": 54.47978842022377
+    },
+    {
+      "file": "SOL/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.9103830456733704e-11,
+      "end_equity": 92742.29706031163,
+      "trades": 19,
+      "mean_exposure_pct": 63.95228369898951
+    },
+    {
+      "file": "SOL/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1677.145103060002,
+      "trades": 14,
+      "mean_exposure_pct": 61.144816403523
+    },
+    {
+      "file": "SOL/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 4552.3659609800025,
+      "trades": 14,
+      "mean_exposure_pct": 58.181567376477545
+    },
+    {
+      "file": "SOL/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1249.2099197300008,
+      "trades": 11,
+      "mean_exposure_pct": 58.84109461806742
+    },
+    {
+      "file": "SOL/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1058.7337583900003,
+      "trades": 5,
+      "mean_exposure_pct": 54.25562526911974
+    },
+    {
+      "file": "XRP/results/start_2020/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-12,
+      "end_equity": 3943.782236175006,
+      "trades": 29,
+      "mean_exposure_pct": 58.45525788709251
+    },
+    {
+      "file": "XRP/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 2572.2045648600033,
+      "trades": 23,
+      "mean_exposure_pct": 57.38662840029965
+    },
+    {
+      "file": "XRP/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.1368683772161603e-12,
+      "end_equity": 960.5758108900023,
+      "trades": 18,
+      "mean_exposure_pct": 56.72666608689429
+    },
+    {
+      "file": "XRP/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 2.2737367544323206e-13,
+      "end_equity": 1106.3867718400015,
+      "trades": 18,
+      "mean_exposure_pct": 51.73201347841913
+    },
+    {
+      "file": "XRP/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 1872.5945233000016,
+      "trades": 13,
+      "mean_exposure_pct": 47.267138436617465
+    },
+    {
+      "file": "XRP/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 0.0,
+      "end_equity": 778.2478131300007,
+      "trades": 8,
+      "mean_exposure_pct": 53.04450992813411
+    },
+    {
+      "file": "six_portfolio/results/start_2021/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.8189894035458565e-11,
+      "end_equity": 17649.522241186714,
+      "trades": 116,
+      "mean_exposure_pct": 64.2542662795819
+    },
+    {
+      "file": "six_portfolio/results/start_2022/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 2129.2680447468024,
+      "trades": 86,
+      "mean_exposure_pct": 62.3523086255488
+    },
+    {
+      "file": "six_portfolio/results/start_2023/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 9.094947017729282e-13,
+      "end_equity": 3115.502423218301,
+      "trades": 86,
+      "mean_exposure_pct": 58.94211512251973
+    },
+    {
+      "file": "six_portfolio/results/start_2024/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 1.5916157281026244e-12,
+      "end_equity": 1588.0061434521022,
+      "trades": 66,
+      "mean_exposure_pct": 56.81660601651898
+    },
+    {
+      "file": "six_portfolio/results/start_2025/Ma200CashSupplementStrategy_trades.json.gz",
+      "max_daily_error": 4.547473508864641e-13,
+      "end_equity": 981.0272133340004,
+      "trades": 34,
+      "mean_exposure_pct": 55.74140325493628
+    }
+  ]
+}
